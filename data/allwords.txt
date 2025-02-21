@@ -8461,6 +8461,7 @@ en biglogji
 en bigygau
 en bi'i
 en bi'in zei uanta
+en bi'i'u
 en bijgri
 en bijyjbu
 en biki'o
@@ -8477,8 +8478,10 @@ en bilma
 en bilmrtuberkulosi
 en bilni
 en bilnomu
+en bilpre
 en bilpulji
 en bilske
+en bilvedeve
 en bimei
 en bimkemnipyple
 en bimoi
@@ -8788,6 +8791,7 @@ en brapatxu
 en braplu
 en brarafsi
 en brarai
+en brarapa
 en braro'i
 en braronvoimabru
 en brasa'o
@@ -11246,6 +11250,8 @@ en dzixe'a
 en dzixejbo'u
 en dzizani
 en dzoli
+en dzubilni
+en dzubilsoi
 en dzucpi
 en dzudagypli
 en dzu'enba
@@ -12369,6 +12375,7 @@ en glipre
 en glixi'o
 en glokesi
 en glosa
+en gluli
 en glumamela
 en glupreselkei
 en gluta
@@ -12916,6 +12923,7 @@ en ientrau
 en ie'o
 en ierbamate
 en ierbamatei
+en iersini'a
 en ierucaly'im
 en ieRUcaly'im
 en iesys
@@ -13198,6 +13206,7 @@ en janco
 en jangalgau
 en janguru
 en janjaknyxa'i
+en janka
 en janli
 en jansu
 en janta
@@ -13284,6 +13293,7 @@ en jaxyvlile
 en jaxyxai
 en jaxyxaksu
 en jbabaji
+en jbagu'arana
 en jbakiui
 en jbama
 en jbari
@@ -15979,6 +15989,7 @@ en mei zei ni'orsu
 en meizma
 en mejgu'e
 en mejru'u
+en mekca
 en mekfancu
 en mekna'u
 en meko'es
@@ -20304,6 +20315,7 @@ en sfataba
 en sfaxili
 en sfecmaci
 en sfe'ero
+en sfefa'e
 en sfero
 en sfirnidai
 en sfiseteroi
@@ -21204,6 +21216,7 @@ en sralybau
 en sralygu'e
 en sralytu'a
 en srana
+en srarapa
 en sraseldau
 en srasramofila
 en srasrofi'opogo
@@ -21542,6 +21555,7 @@ en taksi
 en takside
 en talgaka
 en talko
+en talno
 en talpide
 en talsa
 en tamca
