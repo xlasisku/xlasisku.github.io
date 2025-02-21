@@ -162,7 +162,7 @@ fn main() {
         let mut reader = EventReader::new(Cursor::new(xml));
         loop {
             match reader.next().unwrap() {
-                XmlEvent::EndDocument { .. } => {
+                XmlEvent::EndDocument => {
                     break;
                 }
                 XmlEvent::StartElement {
