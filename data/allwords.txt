@@ -11212,6 +11212,7 @@ en dusyda'eblubi'a
 en dusyjvejboselterspukezycni
 en dutcinse
 en dutkai
+en dutmai
 en dutpamcinse
 en dutpi'i
 en dutsinso
@@ -11436,6 +11437,7 @@ en e'ucu'i
 en e'ujbo
 en e'unai
 en e'unde
+en exlesxe
 en e'y
 en ezga
 en ezli
@@ -13508,6 +13510,7 @@ en jerxa'u
 en jerxo
 en jeske'a
 en jesni
+en jespambe
 en jespezli
 en jestu'u
 en jesycilta
@@ -17614,6 +17617,7 @@ en paludizm
 en palxima
 en pamai
 en pambe
+en pambyse'a
 en pamcinse
 en pamcro
 en pamcta
