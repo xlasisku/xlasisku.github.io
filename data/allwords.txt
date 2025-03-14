@@ -8744,6 +8744,7 @@ en bonta
 en bo'o
 en bo'oi
 en bordelo
+en borma
 en borxes
 en boske
 en bosnan
@@ -14164,6 +14165,7 @@ en kalke'a
 en kalke'asrumu'a
 en kalmari
 en kalmebykre
+en kalpi
 en kalpupila
 en kalri
 en kalsa
@@ -16206,6 +16208,7 @@ en mirlanxe
 en mirli
 en mirlyre'u
 en mirlyxarju
+en mirpi'e
 en mirsarxe
 en mirsi'o
 en mirsna
@@ -18734,6 +18737,7 @@ en relpamcinse
 en relpezvi'ospa
 en relpi'i
 en relpi'irna'u
+en relpijne
 en relplin
 en relplini
 en relselba'e

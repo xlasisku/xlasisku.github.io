@@ -184,10 +184,10 @@ $x_1$ is lightly colored with color $x_2$ [ka]
 -n
 In general, lighter colors, i.e. colors with a high brightness in an HSB color model.  In general, use the rafsi "lab" (from {blabi}) or {blabi} as a seltau + a color to form a light version of that color.  E.g. {labybla} is light blue.
 ---
-lelxe gismu vesrul 2 (en)
+lelxe gismu vesrul 4 (en)
 $x_1$ is a lily [Lilium] of species/strain $x_2$
 -n
-cf. {rozgu}. lel- is short rafsi
+cf. {rozgu}. -lel- is short rafsi
 ---
 lesrplatono fu'ivla krtisfranks 1 (en)
 $x_1$ is Platonic/a Platonistic ideal/philosophy about topic $x_2$ characterized by thoughts/ideals $x_3$ and methodology $x_4$, according to thinker/user/standard $x_5$
