@@ -1,15 +1,15 @@
 [package]
 name = "scripts"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [dependencies]
-latkerlo-jvotci = "2.0.0"
-notoize = "2.12.2"
-regex = "1.10.2"
-reqwest = { version = "0.11.22", features = ["blocking"] }
-serde = { version = "1.0.193", features = ["derive"] }
-serde_json = "1.0.108"
-xml-rs = "0.8.19"
+latkerlo-jvotci = "2.1.0"
+notoize = "2.14.0"
+regex = "1.11.1"
+reqwest = { version = "0.12.14", features = ["blocking"] }
+serde = { version = "1.0.219", features = ["derive"] }
+serde_json = "1.0.140"
+xml-rs = "0.8.25"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

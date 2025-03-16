@@ -1,3 +1,5 @@
+#![allow(clippy::format_push_string)]
+
 use latkerlo_jvotci::{get_veljvo, rafsi, Settings};
 use notoize::NotoizeClient;
 use regex::Regex;
