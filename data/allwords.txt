@@ -7420,6 +7420,7 @@ en bargu
 en barja
 en barjygu'a
 en barjyja'a
+en barjymabla
 en barjyse'u
 en barkalri
 en barkalyle'o
@@ -8743,6 +8744,7 @@ en bonta
 en bo'o
 en bo'oi
 en bordelo
+en borma
 en borxes
 en boske
 en bosnan
@@ -10634,6 +10636,7 @@ en datrytcika
 en datxlaborfripu'a
 en datxlagei
 en datxlakempukfri
+en datygu'e
 en datygugvi'e
 en datyto'aku'e
 en datytracinse
@@ -10962,6 +10965,8 @@ en djakartas
 en djaka'u
 en djakebaba
 en djalazani
+en djalekmi'i
+en djalekta'e
 en djalitki
 en djamila
 en djankixadas
@@ -11021,6 +11026,7 @@ en djonstiuetMIL
 en djordj
 en djucpe
 en djugei
+en djukemdatygu'e
 en djukra
 en djuliio
 en djumxuri'a
@@ -11207,6 +11213,7 @@ en dusyda'eblubi'a
 en dusyjvejboselterspukezycni
 en dutcinse
 en dutkai
+en dutmai
 en dutpamcinse
 en dutpi'i
 en dutsinso
@@ -11431,6 +11438,7 @@ en e'ucu'i
 en e'ujbo
 en e'unai
 en e'unde
+en exlesxe
 en e'y
 en ezga
 en ezli
@@ -12049,6 +12057,7 @@ en fuzme
 en fuzrai
 en fuzraikamni
 en fuzypai
+en fuzysi'u
 en fy
 en fy'ai
 en fy'au
@@ -13502,7 +13511,9 @@ en jerxa'u
 en jerxo
 en jeske'a
 en jesni
+en jespambe
 en jespezli
+en jestu'u
 en jesycilta
 en jesymabru
 en jesyratcu
@@ -14154,6 +14165,7 @@ en kalke'a
 en kalke'asrumu'a
 en kalmari
 en kalmebykre
+en kalpi
 en kalpupila
 en kalri
 en kalsa
@@ -14877,6 +14889,7 @@ en krodenmikce
 en krogarna
 en krokete
 en krokinole
+en krokodili
 en krokodilo
 en krokuta
 en kro'oke
@@ -16195,6 +16208,7 @@ en mirlanxe
 en mirli
 en mirlyre'u
 en mirlyxarju
+en mirpi'e
 en mirsarxe
 en mirsi'o
 en mirsna
@@ -16981,6 +16995,7 @@ en nektara
 en nelci
 en nelcymau
 en nelrai
+en nelsi'u
 en nelti'i
 en nemdu'a
 en nemtoda
@@ -17061,6 +17076,7 @@ en nildumu
 en nildzau
 en nilga'u
 en nilgla
+en nilglasto
 en nilglatro
 en nilguskli
 en nilji'a
@@ -17604,6 +17620,7 @@ en paludizm
 en palxima
 en pamai
 en pambe
+en pambyse'a
 en pamcinse
 en pamcro
 en pamcta
@@ -18110,6 +18127,7 @@ en placazgau
 en plageni
 en plaina
 en plai'o
+en plajamna
 en plajva
 en plana
 en planemo
@@ -18149,6 +18167,7 @@ en plicu'a
 en plijaspu
 en plika'e
 en plikai
+en pliki'u
 en plikra
 en plini
 en plinybinsenta
@@ -18281,6 +18300,7 @@ en potcindu
 en potsmo
 en potybau
 en po'u
+en praci
 en pracmu
 en prali
 en prama'eru
@@ -18717,6 +18737,7 @@ en relpamcinse
 en relpezvi'ospa
 en relpi'i
 en relpi'irna'u
+en relpijne
 en relplin
 en relplini
 en relselba'e
@@ -19898,6 +19919,7 @@ en selda'ergau
 en seldansu
 en seldapma
 en seldasysudri'ami'i
+en seldatygu'e
 en seldau
 en seldaumupli
 en seldei
@@ -19907,6 +19929,7 @@ en seldikca
 en seldimna
 en seldirba
 en seldji
+en seldjukemdatygu'e
 en seldo'o
 en seldri
 en seldu'a
@@ -19930,6 +19953,7 @@ en selfityjbu
 en selfri
 en selfu
 en selfu'a
+en selfu'esi'u
 en selgau
 en selgenxu
 en selgi'a
@@ -19974,6 +19998,7 @@ en selke'i
 en selkensa
 en selki'a
 en selkicrypoi
+en selki'o
 en selkla
 en selklosamseltcana
 en selklu
@@ -20006,7 +20031,9 @@ en selne'i
 en selnei
 en selneimau
 en selneirai
+en selniglasto
 en selni'i
+en selnilglasto
 en selnordji
 en selnu'e
 en selnuti
@@ -20025,6 +20052,7 @@ en selpiljy'efku
 en selpinxe
 en selpla
 en selplabau
+en selplajamna
 en selpli
 en selplibre
 en selplibregau
@@ -20122,6 +20150,7 @@ en seltenfa
 en selteptce
 en selterselbenjy'utka
 en selterselcple'ijdy'utka
+en seltictra
 en selti'i
 en selti'ifla
 en seltinynalka'e
@@ -22034,6 +22063,7 @@ en terdejni
 en terderske
 en terdi
 en terdji
+en terdjukemdatygu'e
 en terdlun
 en terdrata
 en terdu'a
@@ -22092,6 +22122,7 @@ en termu'eske
 en termu'i
 en termu'igau
 en terna'a
+en ternilglasto
 en ternoi
 en ternrorci
 en ternupcpe
@@ -22105,6 +22136,7 @@ en terpemci
 en terpikta
 en terpinxe
 en terpla
+en terplajamna
 en terpli
 en terporcmi
 en terpra
@@ -22172,6 +22204,7 @@ en tibli'u
 en ticpre
 en ticprije
 en ticta'u
+en tictra
 en ticyja'o
 en ticysku
 en ticyve'u
@@ -23031,6 +23064,7 @@ en varganu
 en varjau
 en varjaumi'i
 en varkiclaflo'i
+en varlekmi'i
 en varmebri
 en varmuvgau
 en varmuvmi'i
@@ -23133,6 +23167,8 @@ en velkla
 en velmikce
 en velmresri
 en velmri
+en velnilglasto
+en velri'e
 en velri'ekempintu'a
 en velripyzbe
 en velsau
@@ -23985,6 +24021,7 @@ en xrapoi
 en xrarucyca'a
 en xraselci'a
 en xrasni
+en xrata
 en xratai
 en xrebau
 en xrejvejdikybau
