@@ -5,7 +5,6 @@ edition = "2024"
 
 [dependencies]
 latkerlo-jvotci = "2.1.0"
-notoize = "2.14.0"
 regex = "1.11.1"
 reqwest = { version = "0.12.14", features = ["blocking"] }
 serde = { version = "1.0.219", features = ["derive"] }

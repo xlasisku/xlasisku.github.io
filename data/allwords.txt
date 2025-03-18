@@ -10178,6 +10178,7 @@ en creti'i
 en cretro
 en cre'udingar
 en crexalbo
+en creze
 en crezenzu'e
 en cribe
 en cribyjba
@@ -10304,7 +10305,6 @@ en cukli'u
 en cukmakyvelvei
 en cukmirvelvei
 en cukmu'o
-en cukna'u
 en cukpabna'u
 en cukplita
 en cukre
@@ -18789,6 +18789,7 @@ en remvisyska
 en remxeb
 en remxei
 en remyladru
+en renfu'e
 en rengarna
 en reno
 en renomei

@@ -1,24 +1,24 @@
 /* fonts */
 @font-face {
-    font-family: "Noto Sans";
-    src: url("fonts/NotoSans-Regular.ttf");
+    font-family: "Fira Sans";
+    src: url("fonts/FiraSans-Regular.ttf");
     font-display: swap;
 }
 @font-face {
-    font-family: "Noto Sans";
-    src: url("fonts/NotoSans-Italic.ttf");
+    font-family: "Fira Sans";
+    src: url("fonts/FiraSans-Italic.ttf");
     font-display: swap;
     font-style: italic;
 }
 @font-face {
-    font-family: "Noto Sans";
-    src: url("fonts/NotoSans-Bold.ttf");
+    font-family: "Fira Sans";
+    src: url("fonts/FiraSans-Bold.ttf");
     font-display: swap;
     font-weight: bold;
 }
 @font-face {
-    font-family: "Noto Sans";
-    src: url("fonts/NotoSans-BoldItalic.ttf");
+    font-family: "Fira Sans";
+    src: url("fonts/FiraSans-BoldItalic.ttf");
     font-display: swap;
     font-weight: bold;
     font-style: italic;
@@ -83,6 +83,7 @@ H:
     --link: 0, 105, 204;
     --err: 200, 41, 41;
     --focus: 255, 174, 12;
+    --sans: "Fira Sans", ui-sans-serif, sans-serif;
     --mono: "Iosevka", ui-monospace, monospace;
     background: rgb(var(--bg));
     color: rgb(var(--fg));
@@ -220,6 +221,9 @@ summary {
 }
 ul li {
     list-style-type: disc;
+}
+math {
+    font-family: "Fira Math";
 }
 /* links/buttons */
 a {

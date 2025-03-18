@@ -1,12 +1,11 @@
 #![allow(clippy::format_push_string)]
 
-use latkerlo_jvotci::{get_veljvo, rafsi, Settings};
-use notoize::NotoizeClient;
+use latkerlo_jvotci::{Settings, get_veljvo, rafsi};
 use regex::Regex;
 use reqwest::blocking;
 use serde::{Deserialize, Serialize};
 use std::{collections::HashSet, fs, io::Cursor, sync::LazyLock, time::Instant};
-use xml::{attribute::OwnedAttribute, reader::XmlEvent, EventReader};
+use xml::{EventReader, attribute::OwnedAttribute, reader::XmlEvent};
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 struct Entry {
@@ -302,44 +301,6 @@ fn main() {
         v.into_iter().collect()
     };
     fs::write("data/chars.txt", &chars).unwrap();
-    println!("fonts");
-    for font in fs::read_dir("fonts/").unwrap() {
-        let font = font.unwrap();
-        if let Some(name) = font.file_name().to_str() {
-            if !["NotoSans-", "Iosevka-"]
-                .iter()
-                .any(|x| name.starts_with(x))
-            {
-                fs::remove_file(font.path()).unwrap();
-            }
-        }
-    }
-    let mut client = NotoizeClient::new();
-    let mut fonts = client.notoize(chars.as_str()).files();
-    fonts.retain(|f| {
-        !["Noto Fangsong KSS Rotated", "Noto Sans", "Noto Color Emoji"]
-            .contains(&f.fontname.as_str())
-    });
-    drop(client);
-    println!("css");
-    let mut css = String::new();
-    for font in fonts.clone() {
-        fs::write(format!("fonts/{}", font.filename), font.bytes).unwrap();
-        css += &format!(
-            "@font-face {{\r\n    font-family: \"{}\";\r\n    src: url(\"fonts/{}\");\r\n    \
-             font-display: swap;\r\n}}\r\n",
-            font.fontname, font.filename
-        );
-    }
-    css += &format!(
-        ":root {{\r\n    --sans: \"Noto Sans\", {}, ui-sans-serif, sans-serif;\r\n}}",
-        fonts
-            .iter()
-            .map(|f| format!("\"{}\"", f.fontname))
-            .collect::<Vec<_>>()
-            .join(", ")
-    );
-    fs::write("noto.css", css).unwrap();
     // naljvo.txt
     println!("naljvo");
     let mut naljvo_string = String::new();
