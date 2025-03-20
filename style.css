@@ -230,6 +230,9 @@ ul li {
 math {
     font-family: "Fira Math";
 }
+b, h1, summary {
+    letter-spacing: 0.05ch;
+}
 /* links/buttons */
 a {
     color: rgb(var(--link));
