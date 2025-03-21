@@ -209,6 +209,11 @@ $x_1$ is a $x_2$y, a $x_2$boo, a $x_2$ums (diminutive)
 -n
 Proposed rafsi -le, -li or -ke. See {mabla}, {zabna}, {cmalu}
 ---
+loglo gismu selpahi 6 (en)
+$x_1$ pertains to Loglan language/culture in aspect $x_2$
+-n
+Proposed rafsi -log- and -glo-
+---
 malglixlu lujvo spheniscine 2 (en)
 $x_1=m_1=g_1=xl_3$ is an inappropriate anglicism made by $x_2=xl_2$, inappropriate according to $x_3=m_3$
 -n
@@ -419,6 +424,11 @@ $x_1$ is darkly colored with color $x_2$ [ka]
 -n
 In general, darker colors, i.e. colors with a low brightness in an HSB color model.  In general, use the rafsi "xek" (from {xekri}) or {xekri} as a seltau + a color to form a light version of that color.  E.g. {xekri'o} is dark green.
 ---
+xexto gismu merrybot 1 (en)
+$x_1$ pertains to Xextan in aspect $x_2$
+-n
+Proposed rafsi -xto-
+---
 xoi'ei'a cmavo XOIhEIhA krtisfranks 1 (en)
 Toggles grammar so that every mention of a number $n$ is interpreted as "at least $n$".
 -n
@@ -479,7 +489,7 @@ $x_1$ denmi $x_2$ $x_3$ [...].
 -n
 dunselvla zo "{denmi}" .i ra'oi "-dem-" rafsi ti
 ---
-xekto gismu krtisfranks 1 (jbo)
+xekto gismu krtisfranks 0 (jbo)
 $x_1$ xecto $x_2$ $x_3$
 -n
 zo "xekto" {smumi'u} zo "{xecto}" .i ra'oi "-xet-" rafsi ti
