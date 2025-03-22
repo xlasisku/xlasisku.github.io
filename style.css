@@ -60,21 +60,6 @@
 *:not(body), input, button {
     transition: background 0.2s;
 }
-/*
-for oklch:
-L:
-    bg       95
-    bright   75
-    fg        0
-    inv     100
-C:
-    enabled    0.15
-    disabled   0.05
-H:
-    normal   15
-    regex   180
-    rhyme   330
-*/
 :root {
     --bg: 255, 224, 241;
     --fg: 0, 0, 0;
