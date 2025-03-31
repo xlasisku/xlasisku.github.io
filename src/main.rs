@@ -30,7 +30,7 @@ pub static TRIM: LazyLock<Regex> = LazyLock::new(|| Regex::new("^_|_$").unwrap()
 pub static MULTIPLE: LazyLock<Regex> = LazyLock::new(|| Regex::new("_+").unwrap());
 pub static NONWORD: LazyLock<Regex> = LazyLock::new(|| Regex::new("[^a-z0-9]").unwrap());
 impl Entry {
-    fn new() -> Self {
+    const fn new() -> Self {
         Self {
             word: String::new(),
             rafsi: Vec::new(),
@@ -329,5 +329,5 @@ fn attr(v: &[OwnedAttribute], n: &str) -> String {
         .find(|&x| x.name.local_name == n)
         .unwrap()
         .value
-        .to_string()
+        .clone()
 }
