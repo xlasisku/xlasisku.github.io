@@ -11266,6 +11266,7 @@ en dzuga'a
 en dzukicau
 en dzukla
 en dzuklaji
+en dzuli
 en dzuma
 en dzumlo
 en dzupoi
@@ -11567,6 +11568,7 @@ en farmu'u
 en farna
 en farnadu
 en farnxilbrti
+en farpanra
 en farsni
 en fartci
 en fartra
@@ -11885,6 +11887,9 @@ en flacfatrugri
 en flaci'e
 en fladju
 en fladra
+en flaka'i
+en flaka'idjupre
+en flaka'ipre
 en flalu
 en flama'u
 en flamingo
@@ -20711,6 +20716,7 @@ en snafu
 en snafu'ivla
 en snajalra
 en snalubma
+en snami'i
 en snanu
 en snapisa
 en snasni
@@ -23004,12 +23010,15 @@ en va'ei
 en va'ei'a
 en va'i
 en vai
+en vaicme
 en vaicni
 en va'icu'i
 en va'inai
 en vairsoi
 en va'islinku'i
 en vajlani
+en vajme'ejdika
+en vajme'eze'a
 en vajmli
 en vajni
 en vajrai
@@ -23104,6 +23113,7 @@ en vaxtu'u
 en vaxydicra
 en vaxydjuca'a
 en vaxyju'e
+en vaxykevgai
 en ve
 en ve'a
 en ve'ai
@@ -24278,6 +24288,7 @@ en zbatadji
 en zbepi
 en zbibo'u
 en zbibu'u
+en zbijoimolpunli
 en zbike'a
 en zbikre
 en zbipe'u
