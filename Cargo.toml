@@ -4,7 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+htmlentity = "1.3.2"
 latkerlo-jvotci = "2.1.0"
+quick-xml = "0.37.4"
 regex = "1.11.1"
 reqwest = { version = "0.12.14", features = ["blocking"] }
 serde = { version = "1.0.219", features = ["derive"] }

@@ -1,11 +1,17 @@
 #![allow(clippy::format_push_string)]
 
-use latkerlo_jvotci::{Settings, get_veljvo, rafsi};
+use htmlentity::entity::{ICodedDataTrait as _, decode};
+use latkerlo_jvotci::{Settings, get_veljvo, rafsi::RAFSI};
+use quick_xml::{Reader, events::Event};
 use regex::Regex;
 use reqwest::blocking;
 use serde::{Deserialize, Serialize};
-use std::{collections::HashSet, fs, io::Cursor, sync::LazyLock, time::Instant};
-use xml::{EventReader, attribute::OwnedAttribute, reader::XmlEvent};
+use std::{
+    collections::{HashMap, HashSet},
+    fs,
+    sync::LazyLock,
+    time::Instant,
+};
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 struct Entry {
@@ -69,6 +75,10 @@ impl Entry {
         }
         s
     }
+}
+
+fn deëntity(t: &str) -> String {
+    decode(t.as_bytes()).to_string().unwrap()
 }
 
 #[allow(clippy::too_many_lines)]
@@ -154,27 +164,36 @@ fn main() {
     let mut naljvo = Vec::<String>::new();
     for lang in langs {
         println!("`{lang}`");
-        let xml = client
+        let xml = String::from_utf8(client
             .get(format!(
                 "https://jbovlaste.lojban.org/export/xml-export.html?lang={lang}&positive_scores_only=0&bot_key=z2BsnKYJhAB0VNsl"
             ))
             .send().unwrap()
-            .bytes().unwrap();
-        let mut reader = EventReader::new(Cursor::new(xml));
+            .bytes().unwrap().to_vec()).unwrap();
+        let mut reader = Reader::from_str(&xml);
         loop {
-            match reader.next().unwrap() {
-                XmlEvent::EndDocument => {
+            match reader.read_event() {
+                Err(e) => panic!("xml problem!: {e}"),
+                Ok(Event::Eof) => {
                     break;
                 }
-                XmlEvent::StartElement {
-                    name, attributes, ..
-                } => {
-                    let tagname = name.local_name;
-                    match tagname.as_str() {
+                Ok(Event::Start(e)) => {
+                    let tag = String::from_utf8(e.name().as_ref().to_vec()).unwrap();
+                    let attrs = e
+                        .html_attributes()
+                        .map(|attr| attr.unwrap())
+                        .map(|attr| {
+                            (
+                                String::from_utf8(attr.key.as_ref().to_vec()).unwrap(),
+                                attr.unescape_value().unwrap().to_string(),
+                            )
+                        })
+                        .collect::<HashMap<_, _>>();
+                    match tag.as_str() {
                         "valsi" => {
                             entry = Entry::new();
                             entry.lang = lang.to_string();
-                            if !attr(&attributes, "type").starts_with('o')
+                            if !attrs.get("type").unwrap().starts_with('o')
                                 && ![
                                     ".i",
                                     ".iklkitu",
@@ -188,34 +207,35 @@ fn main() {
                                     "datru",
                                     "li'anmi",
                                 ]
-                                .contains(&attr(&attributes, "word").as_str())
+                                .contains(&attrs.get("word").unwrap().as_str())
                             {
-                                entry.word = attr(&attributes, "word");
-                                entry.pos = attr(&attributes, "type");
+                                entry.word.clone_from(attrs.get("word").unwrap());
+                                entry.pos.clone_from(attrs.get("type").unwrap());
                                 skip = false;
-                                if attr(&attributes, "type").starts_with('l')
+                                if attrs.get("type").unwrap().clone().starts_with('l')
                                     && get_veljvo(&entry.word, &Settings::default()).is_err()
                                 {
                                     naljvo.push(entry.clone().word);
                                 }
                             } else {
                                 current_tag.clear();
-                                reader.skip().unwrap();
+                                reader.read_to_end(e.name()).unwrap();
                                 skip = true;
                             }
                         }
                         "score" | "selmaho" | "definition" | "notes" | "username" => {
-                            current_tag = tagname;
+                            current_tag = tag;
                         }
                         "dictionary" | "direction" | "user" => {
                             // go inside
                         }
                         _ => {
-                            reader.skip().unwrap();
+                            reader.read_to_end(e.name()).unwrap();
                         }
                     }
                 }
-                XmlEvent::Characters(text) => {
+                Ok(Event::Text(e)) => {
+                    let text = deëntity(str::from_utf8(&e.into_inner()).unwrap());
                     match current_tag.as_str() {
                         "score" => {
                             let int = text.parse::<i32>().unwrap();
@@ -241,10 +261,10 @@ fn main() {
                     }
                     current_tag.clear();
                 }
-                XmlEvent::EndElement { name } => {
-                    let tagname = name.local_name;
-                    if tagname == "valsi" && !skip {
-                        entry.rafsi = rafsi::RAFSI
+                Ok(Event::End(e)) => {
+                    let tag = String::from_utf8(e.name().as_ref().to_vec()).unwrap();
+                    if tag == "valsi" && !skip {
+                        entry.rafsi = RAFSI
                             .get(entry.word.as_str())
                             .unwrap_or(&vec![])
                             .iter()
@@ -267,8 +287,8 @@ fn main() {
         .iter()
         .filter(|word| {
             (word.notes.contains("rafsi") || word.notes.contains("ra'oi"))
-                && (!rafsi::RAFSI.contains_key(word.word.as_str())
-                    || rafsi::RAFSI.get(word.word.as_str()).unwrap().is_empty())
+                && (!RAFSI.contains_key(word.word.as_str())
+                    || RAFSI.get(word.word.as_str()).unwrap().is_empty())
         })
         .cloned()
         .collect::<Vec<_>>();
@@ -322,12 +342,4 @@ fn main() {
     // .i mulno .ui
     let duration = start.elapsed();
     println!("done :3 took {duration:?}");
-}
-
-fn attr(v: &[OwnedAttribute], n: &str) -> String {
-    v.iter()
-        .find(|&x| x.name.local_name == n)
-        .unwrap()
-        .value
-        .clone()
 }
