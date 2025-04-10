@@ -1,4 +1,4 @@
-#![allow(clippy::format_push_string)]
+#![allow(clippy::format_push_string, clippy::cargo)]
 
 use htmlentity::entity::{ICodedDataTrait as _, decode};
 use latkerlo_jvotci::{Settings, get_veljvo, rafsi::RAFSI};

@@ -114,11 +114,6 @@ $x_1$ is a rhythmic conjugation of word $x_2$, rhyming with word $x_3$ in langua
 -n
 This word refers to the uncommon practice of changing the last vowel of a brivla in order to have it rhyme with surrounding words in its spoken context.  This can only be done to gismu and lujvo ending in 5-letter rafsi. x2 should be the orthodox spelling of x1.  Use "{me'o} [vowel]" to describe x5. This word is a {se} {gimrafrimni}, and has the four rhythmic conjugations "{gimrafrimna}", "gimrafrimne", "gimrafrimno", and "gimrafrimnu".  See also {rimni} {abu} {ebu} {ibu} {obu} {ubu}.
 ---
-gomja gismu janbe 3 (en)
-$x_1$ is a gum/resin/glue of composition $x_2$; $x_1$ is gummy/chewy/glutinous
--n
-See also {viknu}, {snipa}, {pruni}. Proposed rafsi -gom-
----
 grafnseljimca fu'ivla krtisfranks 1 (en)
 $x_1$ is a tree graph on nodes $x_2$ (set of points), with edges $x_3$ (set of ordered or unordered 2-tuples), with additional properties $x_4$.
 -n
@@ -184,11 +179,6 @@ $x_1$ is lightly colored with color $x_2$ [ka]
 -n
 In general, lighter colors, i.e. colors with a high brightness in an HSB color model.  In general, use the rafsi "lab" (from {blabi}) or {blabi} as a seltau + a color to form a light version of that color.  E.g. {labybla} is light blue.
 ---
-lelxe gismu vesrul 4 (en)
-$x_1$ is a lily [Lilium] of species/strain $x_2$
--n
-cf. {rozgu}. -lel- is short rafsi
----
 lesrplatono fu'ivla krtisfranks 1 (en)
 $x_1$ is Platonic/a Platonistic ideal/philosophy about topic $x_2$ characterized by thoughts/ideals $x_3$ and methodology $x_4$, according to thinker/user/standard $x_5$
 -n
@@ -208,11 +198,6 @@ likse gismu zozeizeizeizeifaho 2 (en)
 $x_1$ is a $x_2$y, a $x_2$boo, a $x_2$ums (diminutive)
 -n
 Proposed rafsi -le, -li or -ke. See {mabla}, {zabna}, {cmalu}
----
-loglo gismu selpahi 6 (en)
-$x_1$ pertains to Loglan language/culture in aspect $x_2$
--n
-Proposed rafsi -log- and -glo-
 ---
 malglixlu lujvo spheniscine 2 (en)
 $x_1=m_1=g_1=xl_3$ is an inappropriate anglicism made by $x_2=xl_2$, inappropriate according to $x_3=m_3$
@@ -423,11 +408,6 @@ xekska lujvo zirenuovr 1 (en)
 $x_1$ is darkly colored with color $x_2$ [ka]
 -n
 In general, darker colors, i.e. colors with a low brightness in an HSB color model.  In general, use the rafsi "xek" (from {xekri}) or {xekri} as a seltau + a color to form a light version of that color.  E.g. {xekri'o} is dark green.
----
-xexto gismu merrybot 1 (en)
-$x_1$ pertains to Xextan in aspect $x_2$
--n
-Proposed rafsi -xto-
 ---
 xoi'ei'a cmavo XOIhEIhA krtisfranks 1 (en)
 Toggles grammar so that every mention of a number $n$ is interpreted as "at least $n$".

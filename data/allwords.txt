@@ -10984,6 +10984,7 @@ en djasnuji
 en djaspi
 en djata'e
 en djatako
+en djatofu
 en djatsiku'u
 en djaule
 en djaumo
@@ -15845,6 +15846,7 @@ en marbela
 en marbi
 en marce
 en marci'ale
+en marcimalo
 en marcrfi'akre
 en marcynacme'etcita
 en marcytermi'utcita
@@ -24673,6 +24675,7 @@ en zu'i
 en zu'i'a
 en zuKAM
 en zukcfu
+en zukcu'a
 en zukcu'i
 en zukmo'i
 en zukmu'i
@@ -25292,7 +25295,6 @@ jbo zmo'una
 jbo zo'agve
 jbo zo'igve
 jbo zukcpe
-jbo zukcu'a
 jbo zvada'a
 jbo zvadarze'a
 jbo zvailu
