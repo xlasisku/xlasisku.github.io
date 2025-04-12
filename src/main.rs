@@ -1,7 +1,7 @@
 #![allow(clippy::format_push_string, clippy::cargo)]
 
 use htmlentity::entity::{ICodedDataTrait as _, decode};
-use latkerlo_jvotci::{Settings, get_veljvo, rafsi::RAFSI};
+use latkerlo_jvotci::rafsi::RAFSI;
 use quick_xml::{Reader, events::Event};
 use regex::Regex;
 use reqwest::blocking;
@@ -161,7 +161,6 @@ fn main() {
     let mut entry = Entry::new();
     let mut skip = false;
     let client = blocking::Client::new();
-    let mut naljvo = Vec::<String>::new();
     for lang in langs {
         println!("`{lang}`");
         let xml = String::from_utf8(client
@@ -212,11 +211,6 @@ fn main() {
                                 entry.word.clone_from(attrs.get("word").unwrap());
                                 entry.pos.clone_from(attrs.get("type").unwrap());
                                 skip = false;
-                                if attrs.get("type").unwrap().clone().starts_with('l')
-                                    && get_veljvo(&entry.word, &Settings::default()).is_err()
-                                {
-                                    naljvo.push(entry.clone().word);
-                                }
                             } else {
                                 current_tag.clear();
                                 reader.read_to_end(e.name()).unwrap();
@@ -280,8 +274,6 @@ fn main() {
     // remove duplicates
     let mut unique = HashSet::new();
     words.retain(|word| unique.insert(word.word.clone()));
-    unique = HashSet::new();
-    naljvo.retain(|v| unique.insert(v.clone()));
     // prop/exp rafsi
     let unofficial_rafsi = words
         .iter()
@@ -321,17 +313,6 @@ fn main() {
         v.into_iter().collect()
     };
     fs::write("data/chars.txt", &chars).unwrap();
-    // naljvo.txt
-    println!("naljvo");
-    let mut naljvo_string = String::new();
-    let mut naljvo_list = "const naljvo = [".to_string();
-    for v in &naljvo {
-        naljvo_string += &format!("{v}\r\n");
-        naljvo_list += &format!("\"{v}\",");
-    }
-    naljvo_list += "]";
-    fs::write("data/naljvo.txt", &naljvo_string).unwrap();
-    fs::write("data/naljvo.js", naljvo_list).unwrap();
     // unofficial_rafsi.txt
     println!("unofficial rafsi");
     let mut data = "---".to_string();

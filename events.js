@@ -1,5 +1,5 @@
 var worker = {"postMessage": function(a) {}}; // very hack
-var config = {lujvo:{}, rhyme:{}, regex:{}};
+var config = {jvops:"", rhyme:{}, regex:{}};
 let page;
 var q = "";
 var results;
@@ -57,24 +57,25 @@ id("search").addEventListener("input", function() {
     clearResults();
     redirect();
     timer = setTimeout(function() {
+        const JVOPS = str2jvops(config.jvops);
         if (q.length) {
             id("bottom").innerHTML = "loading...";
             if (!config.rhyme.on && !config.regex.on) {
                 // lujvo things
                 try {
                     if (/\s/.test(q)) {
-                        const lujvo = getLujvo(h(q), {generateCmevla: config.lujvo.cmevla});
+                        const lujvo = getLujvo(h(q), JVOPS);
                         id("info").append(createHTMLElement("p", null, [
                             "→\u{a0}",
                             createHTMLElement("a", {"href": "?q=" + encodeURIComponent(lujvo) + jvoptionsUrl()}, [createHTMLElement("i", null, [lujvo])])
                         ]));
                     } else {
-                        const veljvo = getVeljvo(h(q)).join(" ");
+                        const veljvo = getVeljvo(h(q), JVOPS).join(" ");
                         id("info").append(createHTMLElement("p", null, [
                             "↑\u{a0}",
                             createHTMLElement("a", {"href": "?q=" + encodeURIComponent(veljvo) + jvoptionsUrl()}, [createHTMLElement("i", null, [veljvo])])
                         ]));
-                        let the = getLujvo(veljvo, {generateCmevla: config.lujvo.cmevla});
+                        let the = getLujvo(veljvo, JVOPS);
                         if (h(q) != the) {
                             id("info").append(createHTMLElement("p", null, [
                                 "best:\u{a0}",
@@ -83,8 +84,8 @@ id("search").addEventListener("input", function() {
                                     "href": "?q=" + encodeURIComponent(the) + jvoptionsUrl()
                                 }, [])
                             ]));
-                            const best = analyseBrivla(the)[1];
-                            const mabla = analyseBrivla(h(q))[1];
+                            const best = analyseBrivla(the, JVOPS)[1];
+                            const mabla = analyseBrivla(h(q), JVOPS)[1];
                             const hyphens = ["r", "n", "y", "'y", "y'", "'y'"];
                             for (var m = 0, b = 0; m < mabla.length; m++, b++) {
                                 if (hyphens.includes(mabla[m])) {
@@ -112,7 +113,7 @@ id("search").addEventListener("input", function() {
                         }
                     }
                 } catch (e) {
-                    // not lujvo
+                    // not a lujvo
                 }
                 if (isGismu(q) && (VALID.includes(q.slice(0, 2)) || VALID.includes(q.slice(2, 4)))) {
                     id("info").append(createHTMLElement("p", null, [
@@ -136,29 +137,38 @@ id("search").addEventListener("input", function() {
     }, 100);
 });
 // modes
+
 id("sm").addEventListener("click", function() {
-    searchMode(false);
+    searchMode(config.jvops);
 });
-id("jvo-cme").addEventListener("click", function() {
-    searchMode(true);
+let mode = () => {
+    if (config.regex.on) return regexMode;
+    else if (config.rhyme.on) return rhymeMode;
+    else return searchMode;
+};
+id("jvop").addEventListener("input", function() {
+    mode()(id("jvop").value, false, false);
 });
 id("jvo-x").addEventListener("click", function() {
-    searchMode(config.lujvo.cmevla);
+    config.jvops = "A1g";
+    id("jvop").value = config.jvops;
+    id("jvo-x").disabled = false;
+    mode()("A1g", false, false);
 });
 id("rm").addEventListener("click", function() {
-    rhymeMode(false);
+    rhymeMode(config.jvops, false);
 });
 id("rhyme-y").addEventListener("click", function() {
-    rhymeMode(true);
+    rhymeMode(config.jvops, true);
 });
 id("xm").addEventListener("click", function() {
-    regexMode(false, false);
+    regexMode(config.jvops, false, false);
 });
 id("regex-i").addEventListener("click", function() {
-    regexMode(true, false);
+    regexMode(config.jvops, true, false);
 });
 id("regex-tight").addEventListener("click", function() {
-    regexMode(false, true);
+    regexMode(config.jvops, false, true);
 });
 function removeClasses() {
     document.body.classList.remove("rhyme");
@@ -182,7 +192,7 @@ function toggleClassById(_id, className) {
 function dispatchSearchInputEvent() {
     id("search").dispatchEvent(new Event("input", {"bubbles": true}));
 }
-function searchMode(togglecme) {
+function searchMode(jvops) {
     clearTimeout(timer);
     removeClasses();
     removeClassById("rm", "checked");
@@ -190,14 +200,12 @@ function searchMode(togglecme) {
     addClassById("sm", "checked");
     config.rhyme.on = false;
     config.regex.on = false;
-    if (togglecme) {
-        toggleClassById("jvo-cme", "checked");
-        config.lujvo.cmevla = !config.lujvo.cmevla;
-    }
-    id("jvo-x").disabled = !(config.lujvo.cmevla); // will expand later
+    config.jvops = jvops2str(str2jvops(jvops));
+    id("jvop").value = config.jvops;
+    id("jvo-x").disabled = config.jvops == "A1g";
     dispatchSearchInputEvent();
 }
-function regexMode(togglei, toggletight) {
+function regexMode(jvops, togglei, toggletight) {
     clearTimeout(timer);
     removeClasses();
     setBodyClass("regex");
@@ -214,9 +222,12 @@ function regexMode(togglei, toggletight) {
         toggleClassById("regex-tight", "checked");
         config.regex.tight = !config.regex.tight;
     }
+    config.jvops = jvops2str(str2jvops(jvops));
+    id("jvop").value = config.jvops;
+    id("jvo-x").disabled = config.jvops == "A1g";
     dispatchSearchInputEvent();
 }
-function rhymeMode(toggle) {
+function rhymeMode(jvops, toggley) {
     clearTimeout(timer);
     removeClasses();
     setBodyClass("rhyme");
@@ -225,10 +236,13 @@ function rhymeMode(toggle) {
     addClassById("rm", "checked");
     config.rhyme.on = true;
     config.regex.on = false;
-    if (toggle) {
+    if (toggley) {
         toggleClassById("rhyme-y", "checked");
         config.rhyme.ignorey = !config.rhyme.ignorey;
     }
+    config.jvops = jvops2str(str2jvops(jvops));
+    id("jvop").value = config.jvops;
+    id("jvo-x").disabled = config.jvops == "A1g";
     dispatchSearchInputEvent();
 }
 id("clear").addEventListener("click", function() {

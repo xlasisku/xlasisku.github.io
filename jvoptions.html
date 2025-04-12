@@ -8,39 +8,36 @@
         <meta name="description" content="" />
         <link rel="shortcut icon" href="cmaxra.png" type="image/png" />
         <link rel="stylesheet" href="style.css" />
-        <!-- <script defer src="temml/dist/temml.min.js"></script>
-        <script defer src="temml/contrib/auto-render/dist/auto-render.min.js"></script> -->
+        <style>
+            i { text-wrap: nowrap; }
+        </style>
     </head>
     <body>
-        <h1>about the jvoptions</h1>
-        <h2>hyphens</h2>
-        <p>in all options, extra hyphens are permitted when decomposing, as the author of CLL no longer thinks that should be illegal.</p>
-        <p><b>CLL:</b> uses CLL hyphens; -'y- used only for zi'evla.</p>
-        <blockquote>
-            voirli'u &larr; vofli litru<br />
-        </blockquote>
-        <p><b>-'y-:</b> uses -'y- for everything.</p>
-        <blockquote>
-            volyli'u or voi'yli'u &larr; vofli litru<br />(voirli'u is a zi'evla now)
-        </blockquote>
-        <p><b>both:</b> no different than CLL for <i>constructing</i> 'optimal' lujvo, but is maximally permissive for breaking them.</p>
-        <blockquote>
-            voirli'u or volyli'u or voi'yli'u &larr; vofli litru
-        </blockquote>
-        <h2>lo ka cmevla</h2>
-        <p><b>cmevla:</b> makes it end in a consonant. will still split lujvo that don't.</p>
-        <h2>clusters</h2>
-        <p><b>mz:</b> your name is probably James and/or you're one of the -4 people who use eulojban or whatever.</p>
-        <blockquote>
-            kumzda or ku'azda &larr; kumfa zdani
-        </blockquote>
-        <h1>lujvo that aren't</h1>
-        <p>here are the words marked as lujvo in jvs that are invalid per latkerlo-jvotci.</p>
-        <ul id="naljvo"></ul>
-        <script src="data/naljvo.js"></script>
         <script>
             if (localStorage.getItem("theme") == "dark") document.documentElement.classList.add("dark");
-            document.getElementById("naljvo").innerHTML = (naljvo.length ? naljvo : ["there aren't any!"]).map((x) => "<li>" + x + "</li>").join("");
         </script>
+        <h1>about the jvoptions</h1>
+        <p>
+            <b>flags:</b> (multiple allowed)<br />
+            <code>c</code> - generate a cmevla*<br />
+            <code>r</code> - experimental rafsi shapes, e.g. <i>-ia-</i><br />
+            <code>g</code> - treat glides as consonants<br />
+            <code>z</code> - allow <i>mz</i>
+        </p>
+        <p>*this doesn't affect whether it will <i>decompose</i> cmejvo (it still will)</p>
+        <p><code>A1rg</code> will permit lujvo like <i>ia'yia</i> that don't have any actual consonants >:3</p>
+        <p>
+            <b>hyphens:</b><br />
+            <code>A</code> - allow <i>-'y-</i> etc in place of CLL's <i>-r-</i> and <i>-n-</i>.<br />
+            <code>F</code> - <i>force</i> <i>-'y-</i> etc. words with the CLL hyphens are treated as zi'evla<br />
+            <code>S</code> - default if not specified. only allows <i>-'y-</i> to connect zi'evla, but not CVV or CV'V rafsi that would fall off<br />
+        </p>
+        <p>
+            <b>consonants:</b><br />
+            <code>1</code> - require a minimum of 1 consonant<br />
+            <code>2</code> - require a minimum of 2 consonants (not necessarily a cluster)<br />
+            <code>C</code> - default if not specified. require a cluster<br />
+        </p>
+        <p>for the non-flags if you give multiple (e.g. <code>2</code> and <code>1</code>) the one that permits the most lujvo will be used, which is the one closest to the top of these lists</p>
     </body>
 </html>

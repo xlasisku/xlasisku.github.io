@@ -28,29 +28,22 @@
                 <button id="theme">theme</button>
             </span>
             <br />
-            <span class="normalonly">
-                <span class="nobr opt">
-                    <button id="jvo-rn" disabled>CLL</button><button id="jvo-y" disabled>allow -'y-</button>
-                </span>
-                <span class="nobr opt">
-                    <button id="jvo-cme">cmevla</button>
-                </span>
-                <span class="nobr opt">
-                    <button id="jvo-mz" disabled>-mz-</button>
-                </span>
-                <button class="nopad" id="jvo-x" disabled>reset</button>
-                <b><a href="jvoptions.html" target="_blank">?</a></b>
-            </span>
             <span class="regexonly">
                 <span class="nobr opt">
                     <button id="regex-tight">wrap in ^( )$</button><button id="regex-i">ignore case</button>
                 </span>
+                <br />
             </span>
             <span class="rhymeonly">
                 <span class="nobr opt">
                     <button id="rhyme-y">ignore y</button>
                 </span>
+                <br />
             </span>
+            <label for="jvop">lujvo settings:</label>
+            <input name="jvop" id="jvop" type="text" value="A1g" size="6" />
+            <button class="nopad" id="jvo-x" disabled>reset</button>
+            <a href="jvoptions.html" target="_blank">help</a>
         </p>
         <div id="fakebox">
             <input type="text" id="search" name="search" autocomplete="off" spellcheck="false" autocapitalize="off" autocorrect="off" placeholder="loading" disabled size="1" />&nbsp;<span id="clear-wrap"><button class="clear nopad" id="clear">×</button></span>
@@ -109,9 +102,8 @@
                     if (config.regex.i) options.push("i");
                     if (config.regex.tight) options.push("tight");
                     vars += "&regex=" + options.join(",");
-                } else {
-                    vars += jvoptionsUrl();
                 }
+                vars += jvoptionsUrl();
                 vars = vars.replace(/\?&/g, "?").replace(/=&/g, "&").replace(/[&=?]$/, "");
                 window.history.pushState(null, null, window.location.href.split("?")[0] + vars);
             }
@@ -124,15 +116,15 @@
                     const gcq = getConflictRegex(params.get("gc"));
                     hardRedirect("?q=" + encodeURIComponent(gcq) + "&regex=tight");
                 } else {
+                    var jvop = params.get("lujvo") || "A1g";
                     const qpar = params.get("q");
                     if (params.has("rhyme")) {
-                        rhymeMode(params.get("rhyme") == "y");
+                        rhymeMode(jvop, params.get("rhyme") == "y");
                     } else if (params.has("regex")) {
                         var options = params.get("regex").split(",");
-                        regexMode(options.includes("i"), options.includes("tight"));
+                        regexMode(jvop, options.includes("i"), options.includes("tight"));
                     } else {
-                        var options = (params.get("lujvo") || "").split(",");
-                        searchMode(options.includes("cme"));
+                        searchMode(jvop);
                     }
                     if (qpar) {
                         id("search").value = qpar;

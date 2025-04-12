@@ -11,20 +11,61 @@ function createHTMLElement(tag, props, children) {
 }
 function jvoptionsUrl() {
     var vars = "";
-    var options = [];
-    if (config.lujvo.cmevla) options.push("cme");
-    if (options.length) vars += "&lujvo=" + options.join(",");
+    if (config.jvops != "A1g") vars = "&lujvo=" + config.jvops;
     return vars;
 }
-function isLujvo(s) {
-    try {
-        return ["LUJVO", "EXTENDED_LUJVO"].includes(analyseBrivla(s)[0])
-    } catch (e) {
-        return false;
+function jvops2str(jvops) {
+    let str = "";
+    if (jvops.generateCmevla) str += "c";
+         if (jvops.yHyphens   == YHyphenSetting.FORCE_Y)          str += "F"
+    else if (jvops.yHyphens   == YHyphenSetting.ALLOW_Y)          str += "A";
+         if (jvops.consonants == ConsonantSetting.ONE_CONSONANT)  str += "1"
+    else if (jvops.consonants == ConsonantSetting.TWO_CONSONANTS) str += "2";
+    if (jvops.expRafsiShapes) str += "r";
+    if (jvops.glides)         str += "g";
+    if (jvops.allowMZ)        str += "z";
+    return str;
+}
+function str2jvops(str) {
+    let jvops = {};
+    const procd = procjvopstr(str);
+    if (procd.includes("c")) jvops.generateCmevla = true;
+    if (procd.includes("r")) jvops.expRafsiShapes = true;
+    if (procd.includes("g")) jvops.glides         = true;
+    if (procd.includes("z")) jvops.allowMZ        = true;
+    jvops.consonants =
+      procd.includes("1") ? ConsonantSetting.ONE_CONSONANT
+    : procd.includes("2") ? ConsonantSetting.TWO_CONSONANTS : ConsonantSetting.CLUSTER;
+    jvops.yHyphens =
+      procd.includes("A") ? YHyphenSetting.ALLOW_Y
+    : procd.includes("F") ? YHyphenSetting.FORCE_Y : YHyphenSetting.STANDARD;
+    return jvops;
+}
+function procjvopstr(str) {
+    // kıjı hóı míru Lucı <5
+    let set = new Set();
+    for (const c of str) {
+        if ("crgzAF12".includes(c)) {
+            set = set.symmetricDifference(new Set([c]));
+        }
+        switch (c) {
+            case "A": set.delete("F"); break;
+            case "F": set.delete("A"); break;
+            case "1": set.delete("2"); break;
+            case "2": set.delete("1"); break;
+            case "S": set.delete("A"); set.delete("F"); break;
+            case "C": set.delete("1"); set.delete("2"); break;
+        }
     }
+    return Array.from(set).join("");
+}
+
+function isLujvo(s) {
+    try {return analyseBrivla(s, str2jvops(config.jvops))[1].length > 1;} catch {return false;}
 }
 function convertJSONToHTMLElement(json) {
     const r = RAFSI_LIST.get(json.word) ?? [];
+    const JVOPS = str2jvops(config.jvops);
     const entry = createHTMLElement("div", {"className": "entry"}, [
         createHTMLElement("p", null, [
             createHTMLElement("a", {
@@ -38,8 +79,8 @@ function convertJSONToHTMLElement(json) {
                 r.join(" ") || [
                     createHTMLElement("span", {}, ["→ "]),
                     createHTMLElement("a", {
-                        "href": "?q=" + encodeURIComponent(getVeljvo(json.word).join(" ")) + jvoptionsUrl()
-                    }, [getVeljvo(json.word).join(" ")])
+                        "href": "?q=" + encodeURIComponent(getVeljvo(json.word, JVOPS).join(" ")) + jvoptionsUrl()
+                    }, [getVeljvo(json.word, JVOPS).join(" ")])
             ]].flat()) : null,
             " ",
             json.selmaho ? createHTMLElement("a", {"href": "?q=" + encodeURIComponent(json.selmaho) + jvoptionsUrl()}, [

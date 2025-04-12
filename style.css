@@ -281,6 +281,16 @@ body:not([class^=re]) .regexonly {
 body:not([class^=rh]) .rhymeonly {
     display: none;
 }
+#jvop {
+    font-family: var(--sans);
+    font-size: inherit;
+    border: 1px solid rgb(var(--fg));
+    background: rgb(var(--inv));
+    padding: 4px 8px;
+    margin-top: 4px;
+    display: inline-block;
+    color: rgb(var(--fg));
+}
 /* misc 2 */
 math {
     font-size: 1.1em;
@@ -288,7 +298,7 @@ math {
 hr {
     border: 1px solid rgb(var(--fg));
 }
-:not(hr, br, #fakebox *):empty {
+:not(hr, br, #fakebox *, #jvop):empty {
     display: none;
 }
 h1, h1 + p.sub {
