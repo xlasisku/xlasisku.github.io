@@ -1,7 +1,7 @@
 #![allow(clippy::format_push_string, clippy::cargo)]
 
 use htmlentity::entity::{ICodedDataTrait as _, decode};
-use latkerlo_jvotci::rafsi::RAFSI;
+use latkerlo_jvotci::RAFSI;
 use quick_xml::{Reader, events::Event};
 use regex::Regex;
 use reqwest::blocking;
