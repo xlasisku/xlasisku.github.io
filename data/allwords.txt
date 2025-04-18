@@ -12992,6 +12992,7 @@ en impofu
 en importe
 en imposta
 en impute
+en imsa
 en imxu
 en in
 en inaja
@@ -13231,6 +13232,7 @@ en ja'onai
 en ja'orca'o
 en ja'orzu'e
 en japkla
+en japtapla
 en japyvla
 en jarbu
 en jarcindu
@@ -15905,6 +15907,7 @@ en masyce'u
 en masyTCUsyts
 en matce'u
 en matci
+en matfrili
 en matkarozipcpi
 en matklu
 en matli
@@ -16695,6 +16698,7 @@ en nabysko
 en nabysle
 en nabyspi
 en nabysu'a
+en nabzai
 en nabzba
 en nacfa'i
 en nackai
@@ -17236,6 +17240,7 @@ en nonjavycimni
 en nonjdi
 en nonka
 en nonkansa
+en nonlingeni
 en nonmajga
 en nonmau
 en nonme'a
