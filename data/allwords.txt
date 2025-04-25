@@ -17613,6 +17613,7 @@ en pairtruci'e
 en pajni
 en pakfiko
 en paki'o
+en paksmo
 en palbi'o
 en palcau
 en palci
@@ -19443,6 +19444,7 @@ en sagdraci
 en sagjalra
 en sagjvetavdraci
 en sagypemci
+en sagzgi
 en sa'i
 en sai
 en saibu
@@ -21572,6 +21574,7 @@ en taibeis
 en tai da'i
 en tai da'inai
 en ta'idzu
+en tai'e
 en tai'e'i
 en taifnu
 en tai'i
