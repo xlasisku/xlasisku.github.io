@@ -13139,6 +13139,7 @@ en ja'arkemnatsydo'oborgu'e
 en ja'aru'e
 en ja'au
 en jabre
+en jabrybu'u
 en jabyselsna
 en jabytu'u
 en jacfalstu
@@ -13642,6 +13643,7 @@ en jijgi
 en jijnu
 en jijyji'i
 en jikca
+en jikce'u
 en jikfanta
 en jikfi
 en jikfytsa
@@ -13800,6 +13802,8 @@ en jivgau
 en jivna
 en jivnlragbi
 en jivnrfarzu'e
+en jivnrgolfo
+en jivnrpinpongo
 en jivyfrica
 en jizyselpre
 en jmacidni
@@ -15460,6 +15464,7 @@ en lilmudri
 en lilneia
 en lilneia zei cmene
 en lilrkerozine
+en limbirka
 en limfa
 en limla'u
 en limna
@@ -18008,7 +18013,6 @@ en piji'i
 en pijne
 en pijyske
 en pikci
-en pikcu
 en pikcyba'o
 en pikcyve'a
 en pikmipri
@@ -23336,6 +23340,7 @@ en vi'olni
 en vi'olta
 en vi'onri'ozgu
 en vi'orbisloi
+en vi'orxai
 en vipci'e
 en vipkagni
 en vipnoltru
@@ -23421,21 +23426,33 @@ en vliraitru
 en vlixlu
 en vo
 en vo'a
+en vo'a'e
+en vo'a'e'i
+en vo'a'ei
 en vo'ai
+en vo'a'o'e
 en vo'au'u
 en vob
 en vobmipri
 en vocpi'e
 en vo'e
+en vo'e'e
+en vo'e'e'i
+en vo'e'ei
 en vo'ei'a
+en vo'e'o'e
 en vofli
 en vo'i
 en voi
 en voi'a
+en vo'i'e
 en voi'e
+en vo'i'e'i
+en vo'i'ei
 en voi'i
 en voikla
 en voinci
+en vo'i'o'e
 en voiple
 en voisne
 en vokcinje
@@ -23487,7 +23504,11 @@ en vonseltu'e
 en vonvanci
 en vonynundansu
 en vo'o
+en vo'o'e
+en vo'o'e'i
+en vo'o'ei
 en vo'oi
+en vo'o'o'e
 en vo'otka
 en vorbiku
 en vorgreku
@@ -23499,6 +23520,10 @@ en votcan
 en votkil
 en votkilo
 en vo'u
+en vo'u'e
+en vo'u'e'i
+en vo'u'ei
+en vo'u'o'e
 en vo zei sumtika
 en vo zei zgabube
 en vozmau
