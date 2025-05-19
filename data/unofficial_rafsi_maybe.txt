@@ -684,18 +684,143 @@ $x_1$ (quote) is the non-categorizer and non-hyphen remainder of zi'evla/fu'ivla
 -n
 Quotation may be improper. This is the part of the zi'evla that carries the specific meaning of the word; in stage-4 fu'ivla, the entirety of the word is this remainder; the categorizer rafsi and hyphen letter(s) are not included. See also: {zifyvlaklerafsi}
 ---
+fukyvlarafsi lujvo wuzzy 1 (de)
+$r_1$ ist das rafsi-Präfix im cibyfu'ivla $v_1=f_1$, rafsi basierend auf Wort $r_2$.
+-n
+»rafsi-Präfix« ist ein lojbanspezifisches Wort und bezeichnet den initialen Teil eines {cibyfu'ivla}, welcher ein {rafsi} ist. $x_2$ ist das Wort, in welchem das rafsi verwendet wurde, $x_3$ das Wort, von dem das rafsi abgeleitet wurde. Siehe auch: {fu'ivla}.
+---
+jisrxananase fu'ivla wuzzy -1 (de)
+$x_1$ ist etwas Ananassaft gemacht aus Ananas/Ananassen $x_2$.
+-n
+Fehlgeformtes fu'ivla, das ein kurzes rafsi benutzt. Es ist zusammengesetzt aus »jis« (rafsi von »jinsa«, nicht »jisra!«) und »xananase«. Benutzen Sie {jisrnxananase} stattdessen.
+---
+ra'oi cmavo RAhOI gusnikantu 1 (en-simple)
+tag of rafsi; it makes one following rafsi a sumti.
+-n
+Note that sometimes a space or a pause is necessary before and/or after the rafsi. The parser zantufa-0.14 and later will parse ra'oi as in selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Examples: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
+---
+ra'oi cmavo RAhOI gusnikantu 1 (eo)
+markilo de rafsi ; ŝanĝas unu rafsi al sumti.
+-n
+Notu ke unu spaco aŭ unu paŭzo fojfoje necesas antaŭ kaj/aŭ post la rafsi. La analizilo sintaksa zantufa-0.14 kaj posto analizos ra'oi kiel en selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Ekzemploj: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
+---
+ra'oi cmavo RAhOI gusnikantu 1 (fr-facile)
+marqueur de rafsi ; il convertit un rafsi en sumti.
+-n
+Notez qu'une espace ou une pause est parfois nécessaire avant et/ou après le rafsi. L'analyseur syntaxique zantufa-0.14 et supérieur analyseront ra'oi comme en selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Exemples: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
+---
+kibyse'u lujvo gusnikantu 2 (fr)
+$x_1=k_1=s_1$ est un serveur d'Internet pour un client $x_2=k_1=s_2$ d'un service $x_3=s_3$.
+-n
+-kib- est un rafsi court du gismu expérimental {kibro}. Voir ${samseltcana}_2$ pour des nodes de réseau, {kibro} {selfu}, {kibdu'a}, {kibycpa}, {kibyca'o}
+---
+ra'oi cmavo RAhOI gusnikantu 1 (fr)
+marqueur de rafsi ; il convertit un rafsi en sumti.
+-n
+Notez qu'une espace ou une pause est parfois nécessaire avant et/ou après le rafsi. L'analyseur syntaxique zantufa-0.14 et supérieur analyseront ra'oi comme en selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Exemples: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
+---
+kibyse'u lujvo gusnikantu 1 (ja)
+$x_1=k_1=s_1$ はインターネットでクライアント $x_2=k_1=s_2$ にサービス $x_3=s_3$ を提供するサーバ
+-n
+-kib- は試験的 gismu {kibro} の3文字 rafsi. ネットワークのノードは {samseltcana}_2. 関連語 : {kibro} {selfu}; {kibdu'a}, {kibycpa}, {kibyca'o}.
+---
+ra'oi cmavo RAhOI gusnikantu 1 (ja)
+rafsi 標識。 rafsi を sumti に変える。
+-n
+その rafsi の前後に空白やポーズを置く必要がしばしばあることに注意。 構文解析器 zantufa-0.14 以上では ra'oi を selma'o RAhOI として解析する ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html )。 例： ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu
+---
+almapamla fu'ivla gusnikantu 1 (jbo)
+$x_1$ spati zi'o gi'e sinxa lo si'o prami ku $x_2$ noi skicu ja te skicu vo'a
+-n
+i krasi zoi zoi amapola zoi noi valsi la papaver lo bansupu'a zi'e noi cmene lo selsa'a noi se finti la'o zoi José María Lacalle García zoi i ji'a se pagbu zoi zoi pam zoi noi rafsi zo prami i srana zo {prami} e zo {makpapi}
+---
+au'unmro fu'ivla lalxu 1 (jbo)
+$x_1$ tcetce au'unmo $x_2$ ja'e lo nu vo'a morsi pe'a
+-n
+{u'ivla} fo tu'a zo {au'unmo} joi ra'oi -mro- ne zo {morsi}
+---
 demni gismu krtisfranks -1 (jbo)
 $x_1$ denmi $x_2$ $x_3$ [...].
 -n
 dunselvla zo "{denmi}" .i ra'oi "-dem-" rafsi ti
+---
+ecre fu'ivla selckiku 2 (jbo)
+lo nu $x_1$ crezenzu'e $x_2$ cu se tadji $x_3$
+-n
+ra'i ru'e ra'oi -cre-
+---
+jbobo gismu danr 2 (jbo)
+$x_1$ lojbo $x_2$
+-n
+.i ko pilno va'o lo nu do ji'a jinvi lo du'u zoi jy. loj jy. .a zo lojbo .a zo .lojban. tolmletce ni'o li'a ra'oi jbo rafsi zo jbobo
+---
+kibyse'u lujvo gusnikantu 0 (jbo)
+$x_1$ selfu $x_2$ boi $x_3$ .ije $x_1$ .e $x_2$ kibro
+-n
+.i lo'u kib le'u cu rafsi zo kibro noi cipra gismu .i $x_1$ .e $x_2$ cmima lo'i se {samseltcana} .i {kibro} {selfu} .i {kibdu'a} .i {kibycpa} .i {kibyca'o}
+---
+nalvai lujvo djeikyb 1 (jbo)
+.i lo ka ce'u nalvai ce'u ce'u cu ka ce'u goi $x_1$ na'e vajni ce'u goi $x_2$ ce'u goi $x_3$
+-n
+.i .e'u ko catlu zo {na'e} .e zo {vajni} noi se rafsi zo vai
+---
+ra'oi cmavo RAhOI gusnikantu 1 (jbo)
+tcita lo pa rafsi noi se li'erla'i ku'o lo du'u vo'e rafsi
+-n
+.i .a'e so'o roi ku canlu bu .a denpa bu cu .ei lidne ja se lidne lo rafsi .i la zantufa xi pipavo .e lo balvi cu genturfa'i zo ra'oi poi cmavo ma'oi RAhOI to zoi zoi http://guskant.github.io/gerna_cipra/zantufa-0.14.html zoi toi .i mupli fa lu ra'oi.cra li'u .e lu ra'oi.cac li'u .e lu ra'oicai li'u .e lu ra'oicacy li'u .e lu ra'oi.gismy li'u .e lu ra'oigismu li'u
+---
+sefsi gismu xorxes 2 (jbo)
+$x_1$ ckini $x_1$ boi $x_2$
+-n
+ko karbi fi zo {sevzi} .e zo {simxu} .i .ei zo'oi se'i rafsi zo sefsi .i zo sevzi na nitcu lo fanmo rafsi .i {djuse'i} .i {spose'i} .i {lacyse'i} .i {trose'i} .i {truse'i} .i {sazyse'i} .i {lumse'i} .i {lebyse'i} .i {catryse'i} .i {sajyse'i}
+---
+skuna gismu ractu 2 (jbo)
+$x_1$ boi $x_2$ boi $x_3$ boi $x_4$ cusku
+-n
+panra zo {cusku} lo ka claxu lo me zo cy. sance noi so'i da jinvi lo du'u ke'a jai cafnydu'e fai tu'a lo bangu mu'u lu {cu} {cusku} li'u .i lo rafsi be zo skuna cu mintu lo me zo {cusku} moi .i za'a za'a dai lo se skicu valsi cu pu co'a cafne banzu fi lo nu jmina fi jyvysy .i ja'o kukte ko
+---
+smusu gismu spheniscine 1 (jbo)
+$x_1$ zukte $x_4$ lo nu $x_3$ djuno lo du'u $x_1$ xusra $x_2$
+-n
+smudu'i zo {smusku} .i stidi lo nu ra'oi -sus- co'a rafsi zo smusu
+---
+u'ivla fu'ivla selpahi 1 (jbo)
+$x_1$ xajmi ja zdile ja xalbo valsi $x_2$ boi $x_3$
+-n
+zo .u'ivla si'a .u'ivla ki'u lo nu na'e fadni lujvo fo zo .u'i jo'u ra'oi -vla- gi'e ji'a klamburi zo fu'ivla .i zo {u'imla} drata mupli lo .u'ivla
 ---
 xekto gismu krtisfranks 0 (jbo)
 $x_1$ xecto $x_2$ $x_3$
 -n
 zo "xekto" {smumi'u} zo "{xecto}" .i ra'oi "-xet-" rafsi ti
 ---
+zancari fu'ivla cogas 1 (jbo)
+$x_1$ gasnu lo nu $x_2$ sampu $x_3$ kei noi ke'a zabna
+-n
+zo'o zei valsi .i valsi krasi fa ra'oi zan joi zoi py. 断捨離(dancari) py.
+---
 zmo'una fu'ivla selckiku 1 (jbo)
 $x_1$ pilno $x_2$ lo nu lifri $x_3$
 -n
 ra'oi -zmo- noi la .telselkik. finti cu ca'e rafsi zo zmo'una noi la cirko cu mapti finti ba lo nu TSK finti lo rafsi lo nu plixau lujvo zbasu kei lo se cuxna be fi lo'i na'e selpli rafsi
+---
+ma'oi cmavo ZO gleki 1 (ru)
+цитирование selma'o (класса ложбанских cmavo); цитирует слово (cmavo) и использует его, чтобы обозначить selma'o, к которому это cmavo относится.
+-n
+Пример: ma'oi coi эквивалентно COI. См. также {ra'oi}. 
+---
+ra'oi cmavo ZOhOI gleki -1 (ru)
+цитирование rafsi; цитирует одно слово, отделённое паузами (в речи) или пробелами (на письме) и использует его как rafsi
+-n
+Удобно для цитирования rafsi, которые не являются легальными словами сами по себе. За подробностями см. http://www.lojban.org/tiki/Unspeakable+rafsi+gotcha
+---
+kibyse'u lujvo gusnikantu 1 (zh)
+$x_1=k_1=s_1$ 是互联网的服务器, 为客户端 $x_2=k_1=s_2$, 提供服务 $x_3=s_3$.
+-n
+-kib- 是试验的gismu {kibro} 的短 rafsi. 网络节点是 {samseltcana}_2. 查看 {kibro} {selfu}; {kibdu'a}, {kibycpa}, {kibyca'o}.
+---
+ra'oi cmavo RAhOI gusnikantu 1 (zh)
+rafsi的标记. 把rafsi变为sumti.
+-n
+要注意在这个rafsi的前后时常需要留出空白或休止. 語法分析器zantufa-0.14和更高版本分析ra'oi作为selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). 例: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
 ---

@@ -94,7 +94,9 @@ function convertJSONToHTMLElement(json) {
                 json.score >= 1000 ? "official" :
                 json.score == -1 ? json.score : "+" + json.score,
                 "\u{a0}↗"
-            ])
+            ]),
+            " ",
+            createHTMLElement("code", {}, [json.lang || ""])
         ]),
         createHTMLElement("p", null, replaceLinks(json.definition).els),
         json.notes ? createHTMLElement("details", null, [

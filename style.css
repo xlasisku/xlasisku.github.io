@@ -52,6 +52,10 @@
     font-weight: bold;
     font-style: italic;
 }
+@font-face {
+    font-family: "Nokia Pure HL KLGN";
+    src: url("fonts/nokiapiqad.ttf");
+}
 /* main */
 *, input, button {
     box-sizing: border-box;
@@ -73,7 +77,7 @@
     --link: 0, 105, 204;
     --err: 200, 41, 41;
     --focus: 255, 174, 12;
-    --sans: "Fira Sans", ui-sans-serif, sans-serif;
+    --sans: "Fira Sans", "Nokia Pure HL KLGN", ui-sans-serif, sans-serif;
     --mono: "Iosevka", ui-monospace, monospace;
     background: rgb(var(--bg));
     color: rgb(var(--fg));

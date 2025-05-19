@@ -89,9 +89,9 @@ function search(query) {
         }
         // exact matches
         for (const w of query.split(/[\s.]+/)) {
-            const exact = jbo.find(entry => entry.word.toLowerCase().replace(/\./g, "") == h(w));
-            if (exact) {
-                results.push([exact, 10]);
+            const exact = jbo.filter(entry => entry.word.toLowerCase().replace(/\./g, "") == h(w));
+            for (const e of exact) {
+                results.push([e, 10]);
             }
         }
         for (const entry of jbo) {
@@ -114,18 +114,7 @@ function search(query) {
             }
         }
     }
-    results = removeDuplicates(results);
-    return results;
-}
-function removeDuplicates(list) {
-    var sortedList = list.sort((a, b) => b[1] - a[1]);
-    const logged = {};
-    sortedList = sortedList.filter(entry => {
-      if (logged[entry[0].word]) return false;
-      logged[entry[0].word] = true;
-      return true;
-    });
-    return sortedList;
+    return results.sort((a, b) => b[1] - a[1]);
 }
 onmessage = function(e) {
     const query = e.data.query;

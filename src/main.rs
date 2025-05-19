@@ -4,14 +4,9 @@ use htmlentity::entity::{ICodedDataTrait as _, decode};
 use latkerlo_jvotci::RAFSI;
 use quick_xml::{Reader, events::Event};
 use regex::Regex;
-use reqwest::blocking;
+use reqwest::blocking::Client;
 use serde::{Deserialize, Serialize};
-use std::{
-    collections::{HashMap, HashSet},
-    fs,
-    sync::LazyLock,
-    time::Instant,
-};
+use std::{collections::HashMap, fs, sync::LazyLock, time::Instant};
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 struct Entry {
@@ -28,8 +23,12 @@ struct Entry {
     pos: String,
     #[serde(skip)]
     author: String,
-    #[serde(skip)]
+    #[serde(skip_serializing_if = "is_en")]
     lang: String,
+}
+#[allow(clippy::must_use_candidate)]
+pub fn is_en(l: &String) -> bool {
+    l == "en"
 }
 pub static PAUSE: LazyLock<Regex> = LazyLock::new(|| Regex::new("[. ]").unwrap());
 pub static TRIM: LazyLock<Regex> = LazyLock::new(|| Regex::new("^_|_$").unwrap());
@@ -160,15 +159,22 @@ fn main() {
     let mut current_tag = String::new();
     let mut entry = Entry::new();
     let mut skip = false;
-    let client = blocking::Client::new();
+    let client = Client::new();
     for lang in langs {
         println!("`{lang}`");
-        let xml = String::from_utf8(client
-            .get(format!(
-                "https://jbovlaste.lojban.org/export/xml-export.html?lang={lang}&positive_scores_only=0&bot_key=z2BsnKYJhAB0VNsl"
-            ))
-            .send().unwrap()
-            .bytes().unwrap().to_vec()).unwrap();
+        let xml = String::from_utf8(
+            client
+                .get(format!(
+                    "https://jbovlaste.lojban.org/export/xml-export.html\
+                    ?lang={lang}&positive_scores_only=0&bot_key=z2BsnKYJhAB0VNsl"
+                ))
+                .send()
+                .unwrap()
+                .bytes()
+                .unwrap()
+                .to_vec(),
+        )
+        .unwrap();
         let mut reader = Reader::from_str(&xml);
         loop {
             match reader.read_event() {
@@ -271,9 +277,6 @@ fn main() {
             }
         }
     }
-    // remove duplicates
-    let mut unique = HashSet::new();
-    words.retain(|word| unique.insert(word.word.clone()));
     // prop/exp rafsi
     let unofficial_rafsi = words
         .iter()
