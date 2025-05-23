@@ -10155,6 +10155,7 @@ en cplancu
 en cple'ijdu
 en cpolinomi'a
 en cpubakni
+en cpuca'a
 en cpudalcarce
 en cpuga'ablo
 en cpuga'ali'u
@@ -13213,6 +13214,7 @@ en jaicpu
 en jai'e
 en jaigau
 en jai'i
+en jairca'a
 en jairxa'e
 en jaitci
 en jaivi
@@ -19268,6 +19270,7 @@ en rulnakyganti
 en rulpezli
 en rulpurdi
 en rulralpezli
+en rulralumu
 en rulrlantana
 en rulsantyspa
 en rulspa
@@ -21298,6 +21301,7 @@ en spatrxardenberga
 en spatrxokroma
 en spatrxorki
 en spatrxosta
+en spatrxukera
 en spatsina
 en spatumo
 en spaune
@@ -21597,6 +21601,7 @@ en sutyjai
 en sutyta'asre
 en sutyterjvi
 en sutyze'a
+en sutyzu'e
 en su'u
 en su'umdu
 en su'u'u'u'u'u'u'u
@@ -22357,6 +22362,7 @@ en tigytsina
 en ti'i
 en ti'ivni
 en tijdzu
+en tijlafmi'i
 en tijyfa'u
 en tijyjinme
 en tikpa
