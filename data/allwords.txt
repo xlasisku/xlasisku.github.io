@@ -8951,6 +8951,7 @@ en ca'abna
 en ca'arcadgau
 en ca'arcando
 en ca'arcau
+en ca'arsacki
 en ca'arxe
 en ca'au
 en caba'o
@@ -10718,6 +10719,7 @@ en degygai
 en degygutci
 en degypri
 en degysni
+en degysrasu
 en degzbe
 en de'i
 en dei
@@ -11629,6 +11631,7 @@ en fau'au
 en faubganke
 en faucne
 en fau'e
+en fa'u'i
 en fau'i
 en faukne
 en faumji
@@ -13170,6 +13173,7 @@ en jabre
 en jabrybu'u
 en jabyselsna
 en jabytu'u
+en jabyxrula
 en jacfalstu
 en jacfebmatra
 en jackalri
@@ -14321,6 +14325,7 @@ en ka'o zei namcu
 en ka'ozeino zei namcu
 en kapcikna
 en kapkevna
+en kapkruji
 en kapsi
 en kapsiku
 en kapxra
@@ -14575,6 +14580,7 @@ en ki'inmau
 en ki'inmoi
 en ki'irgau
 en ki'irgrafu
+en ki'irmapti
 en ki'irpoi
 en ki'irsi
 en ki'irxu'a
@@ -15316,6 +15322,7 @@ en latrbirmani
 en latrnorgo
 en latrtai
 en latxli
+en latybonta
 en latydja
 en latyrebla
 en la'u
@@ -15757,6 +15764,7 @@ en magyxre
 en ma'i
 en mai
 en mai'a
+en mai'ai
 en maiaimit
 en maiamis
 en mai'e
@@ -18248,6 +18256,7 @@ en plesiio
 en pleta'e
 en pletomino
 en pletu'u
+en pli'aje
 en plibu
 en plicme
 en plicru
@@ -18268,6 +18277,7 @@ en plinyxabykoi
 en plinyxadba
 en plipe
 en plipovypo'e
+en plipu'ija'e
 en pliri'a
 en plise
 en plisesumu
@@ -18354,6 +18364,8 @@ en popkurmo'a
 en poplu
 en popsna
 en poptono
+en popxra
+en popxrata'o
 en popygau
 en porci'u
 en porcnegau
@@ -19271,6 +19283,7 @@ en rulpezli
 en rulpurdi
 en rulralpezli
 en rulralumu
+en rulrflaksa
 en rulrlantana
 en rulsantyspa
 en rulspa
@@ -20312,6 +20325,7 @@ en selziltercla
 en sema'ai
 en sema'e
 en sema'i
+en semai'ai
 en semau
 en semaunai
 en seme'a
@@ -20933,8 +20947,10 @@ en soldei
 en solgu'i
 en solgu'idicyborprami'i
 en solgusli'i
+en soljelca
 en solji
 en soljunla
+en solkruji
 en solmapku
 en solminli
 en solnavni
@@ -22061,6 +22077,7 @@ en teli'e
 en tema'ai
 en tema'e
 en tema'i
+en temai'ai
 en temau
 en tembalvi
 en tembi'i
@@ -23344,6 +23361,7 @@ en velventerzu'e
 en velve'u
 en velvi'u
 en velylumxu'i
+en vemai'ai
 en vemau
 en veme'a
 en venci'e
@@ -24611,6 +24629,7 @@ en zerzu'e
 en zetro
 en ze'u
 en ze'u zei seldejni
+en zevblutu'u
 en zevla
 en zevle'o
 en zevlyjvo
@@ -24830,6 +24849,7 @@ en zo'oi
 en zo'ombi
 en zo'onai
 en zo'oro'u
+en zorblutu'u
 en zorkru
 en zorle'o
 en zorpinji
@@ -24861,6 +24881,7 @@ en zukmu'i
 en zukpei
 en zukselpla
 en zuksi'a
+en zuksmi
 en zuksutra
 en zuktadji
 en zuktce
