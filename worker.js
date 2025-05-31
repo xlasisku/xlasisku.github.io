@@ -114,6 +114,10 @@ function search(query) {
             }
         }
     }
+    results = (a => {
+        let seen = new Set();
+        return a.filter(e => !seen.has(e[0]) && seen.add(e[0]));
+    })(results);
     return results.sort((a, b) => b[1] - a[1]);
 }
 onmessage = function(e) {
