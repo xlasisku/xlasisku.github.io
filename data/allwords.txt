@@ -7441,6 +7441,7 @@ en basklepli
 en basme'e
 en basna
 en basnce
+en basnypau
 en basti
 en basxarfri
 en basygau
@@ -8309,6 +8310,7 @@ en baxso
 en baxydinkarda
 en baze'e
 en bazroi
+en bazycuxlanli
 en bazyjvesa'u
 en bazypru
 en bazysa'u
@@ -10081,11 +10083,13 @@ en cocybau
 en cocyborcidytse
 en cocyci'ekei
 en co'e
+en co'e'i
 en co'e'i'au'i
 en co'e'o'e
 en co'i
 en coi
 en coico'o
+en co'i'e
 en coi'e
 en co'i'e'au'i
 en coilojban
@@ -11294,6 +11298,7 @@ en dzuklaji
 en dzuli
 en dzuma
 en dzumlo
+en dzununsla
 en dzupoi
 en dzusoi
 en e
@@ -12232,9 +12237,11 @@ en gau'i'o
 en gauncri
 en gau'o
 en gaupli
+en gaurcando
 en ga'u re'o
 en gaurki'u
 en gaurtcini
+en gaurtolcando
 en gaurzu'e
 en gaxlumple
 en gaxmolgle
@@ -13084,6 +13091,8 @@ en iocre
 en iodle
 en io'e
 en i'oi
+en i'oi'a
+en i'oi'a'o
 en io'imbe
 en iokais
 en iolna
@@ -14359,6 +14368,7 @@ en karmo
 en karna'ano
 en karnauba
 en karnavali
+en karncau
 en karni
 en karnivora
 en karnyke'u
@@ -14703,6 +14713,7 @@ en kleide
 en kleinzu
 en kleivmu
 en kleivmykai
+en klematisi
 en klenilbra
 en klesi
 en klesnregnu
@@ -15583,6 +15594,7 @@ en livla
 en livyxrukla
 en lixfarci'a
 en lixtci
+en lixycna
 en lizdu'o
 en lo
 en lo'a
@@ -15654,6 +15666,8 @@ en lotlei
 en lo'u
 en lu
 en lu'a
+en lu'a'au
+en lu'a'ei
 en lu'au
 en lubjvezbibarskapi
 en lubma
@@ -15686,6 +15700,7 @@ en lunra
 en lunraj
 en lunsa
 en lu'o
+en lu'o'au
 en lu'odna
 en lu'oi
 en lu'onru'u
@@ -17375,6 +17390,7 @@ en norvudzvi
 en norvu'e
 en norxagji
 en norxau
+en norykarncau
 en noryraclyte'a
 en norzau
 en norzilyle'o
@@ -17402,6 +17418,7 @@ en nukni
 en nuktu
 en nukyxu'e
 en nukyzilska
+en nulcni
 en nuljarso'a
 en nulpa
 en nulpa'a
@@ -22386,6 +22403,7 @@ en tikpa
 en tiktaki
 en tikygau
 en tilcfu
+en tildenmi
 en tilju
 en tilminski
 en tilnipa
@@ -22633,6 +22651,7 @@ en tolsisti
 en tolsnuti
 en tolspe
 en tolspofu
+en tolsra
 en tolsraseldau
 en tolstace
 en tolsti
@@ -22642,6 +22661,7 @@ en tolta'i
 en toltankomo
 en toltaske
 en toltce
+en toltcila
 en tolte'igau
 en toltelgau
 en toltende
@@ -22663,6 +22683,7 @@ en tolxanka
 en tolxarna'u
 en tolxregau
 en tolxu'a
+en tolykarncau
 en tolylau
 en tolylaxygau
 en tolylazni
@@ -23279,6 +23300,7 @@ en vaxyju'e
 en vaxykevgai
 en ve
 en ve'a
+en ve'a'ai
 en ve'ai
 en ve'arda
 en vebe'i
@@ -23300,6 +23322,7 @@ en vega'a
 en vegei'ai
 en ve'i
 en vei
+en ve'i'ai
 en veibu
 en vei'e
 en vei'i
@@ -23385,6 +23408,7 @@ en venynoicu'u
 en venzmi
 en venzula
 en ve'o
+en ve'o'ai
 en ve'obu
 en ve'oi
 en vepa'a
@@ -23411,6 +23435,7 @@ en veslelxe
 en vetai
 en veti'u
 en ve'u
+en ve'u'ai
 en ve'urzvocma
 en vi
 en vi'a
@@ -24186,6 +24211,7 @@ en xod
 en xodnocono
 en xo'e
 en xo'ei
+en xo'e'o
 en xo'e'o'e
 en xo'e'o'ei
 en xo'i

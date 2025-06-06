@@ -164,6 +164,11 @@ $k_1$ separates affix compound $k_2$ into its constituent affixes $k_3$; $k_1$ d
 -n
 Cf. {lujvo}, {katna}, {rafsi}, {lanli}, {rafske}, {genturfa'i}
 ---
+karncau fu'ivla bairyn 1 (en)
+$x_1=c_1=k_1$ is separate from / not with $x_2=c_2=k_2$ in state/condition/enterprise $x_3=k_3$; $x_1$ is individual / alone / separate.
+-n
+A fu'ivla synonym variant of {kancau}, specialized for the purpose of specifying individuality and application of singular logic with {lu'a'ei} and denying/excluding massness (see {loi}) for this sumti or, similarly, plurality and application of plural logic (or visa versa with {to'e} (or {no'e} for either singular or plural)).  «lu'a'ei karncau le prenu cu bevri le pipno» means ‘Each person individually carried the piano’, closer to pre-xorlo CLL {lo} - it may sound odd if the 3 persons carried the piano at the same time, since it was a statement with explicit individuality.  «{lu'a'au}» makes a sumti individualistic, and is equivalent to «{lu'a'ei} {karncau}».  For less rigorous shortcuts to express (non-)individuality, the modal {koi'au} can be used (e.g. «le {koi'au} prenu»), as well as {terle'o} to express ‘as individuals’ (see {le'oi} for more information on this idiom); {karncau} especially with {lu'a'ei} is meant to be fully explicit (alias: {lu'a'au}).  See also: {tolykarncau}, {norykarncau}.  Note: this word is a fu'ivla and not a lujvo in morphology, since ‘n’ would not be needed to hyphenate 2 rafsi ‘kar’ and ‘cau’.
+---
 kibyse'u lujvo gusnikantu 3 (en)
 $x_1=k_1=s_1$ is a server on the Internet for a client $x_2=k_1=s_2$ of service $x_3=s_3$.
 -n
