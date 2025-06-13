@@ -11072,7 +11072,11 @@ en do'ai
 en do'anai
 en do'au
 en do'e
+en do'e'e
+en do'e'e'au'i
 en do'ei
+en do'e'o
+en do'e'o'au'i
 en do'i
 en doi
 en doi'a
@@ -11089,6 +11093,7 @@ en donma'o
 en donri
 en donta'a
 en do'o
+en do'o'e
 en do'oi
 en do'o'o
 en dorcte
@@ -16818,6 +16823,7 @@ en naglatna
 en nago'i
 en na'i
 en nai
+en na'i'a
 en na'icmo
 en nai'i
 en naijgi
@@ -16981,6 +16987,7 @@ en na'oi
 en na'onai
 en narbanzu
 en narbanzuni
+en narbilga
 en narca'acadgau
 en narca'acando
 en narcando
@@ -17918,6 +17925,7 @@ en paxlai
 en paxra
 en paxrmari
 en paxrykacma
+en paxryzga
 en paze
 en pa zei brinefa
 en pa zei funseia
@@ -20737,6 +20745,7 @@ en skuxai
 en slabu
 en slac bu
 en sladu'a
+en sladzu
 en slagei
 en slaka
 en slaka bu
@@ -20747,6 +20756,7 @@ en slakypaucibmei
 en slakypaupavmei
 en slakypaurelmei
 en slakypevgra
+en slali'edzu
 en slami
 en slamrmiristika
 en slamycarvi
@@ -22198,12 +22208,14 @@ en terbo'u
 en terbra
 en terbradi
 en terbri
+en terbricnetau
 en terbriju
 en terbrikazmi
 en terbrimei
 en terbrimoi
 en terbripaubri
 en terbrisni
+en terbristotau
 en terbrisu'a
 en terbru
 en terbu'a
