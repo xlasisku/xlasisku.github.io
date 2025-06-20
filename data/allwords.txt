@@ -108,6 +108,7 @@ en amble
 en amblipigi
 en ambuci
 en ambulance
+en amfeta
 en amfite'atro
 en amfora
 en amgidala
@@ -8354,6 +8355,7 @@ en bei'oi
 en beipre
 en beircarce
 en beirce'i
+en beirsai
 en beitlaxum
 en beitrau
 en bei'u'i
@@ -11054,6 +11056,7 @@ en djordj
 en djubakfu
 en djucpe
 en djugei
+en djugri
 en djukemdatygu'e
 en djukra
 en djuliio
@@ -14482,6 +14485,7 @@ en kelpa'i
 en kelpanka
 en kelproga
 en kelrslinki
+en kelskami
 en kelto
 en keltrmanvano
 en kelvo
@@ -14869,6 +14873,7 @@ en kordu
 en korfaipletomino
 en korgretro
 en korka
+en korle
 en korliiande
 en korlma
 en korlu'a
@@ -18180,6 +18185,7 @@ en pinselba'e
 en pinseljupso'a
 en pinsi
 en pinsi'a
+en pinspi
 en pinta
 en pintada
 en pintu'a
@@ -18255,6 +18261,7 @@ en planemo
 en planeta
 en plank
 en plankexu
+en plankona
 en plantago
 en plargoni
 en plasema
