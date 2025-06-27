@@ -8467,6 +8467,7 @@ en bifyjanbe
 en bigji'i
 en biglogji
 en bigygau
+en bigysoi
 en bi'i
 en bi'in zei uanta
 en bi'i'u
@@ -8568,7 +8569,6 @@ en bi'u
 en bi'umra
 en bi'unai
 en bivjetka'u
-en bivli'itai
 en bivma'i
 en bivmast
 en bivmasti
@@ -11242,6 +11242,7 @@ en durna
 en dusfri
 en duskemsezlacri
 en duslirpai
+en duspei
 en dusroi
 en dusta'i
 en dusxasnybi'a
@@ -12156,7 +12157,6 @@ en gairvau
 en gajnafauke
 en galbirka
 en galcatlu
-en galckule
 en galcpare
 en galfi
 en galgau
@@ -12299,6 +12299,7 @@ en gerdja
 en gerkene
 en gerki'a
 en gerkrtciuaua
+en gerkrxaski
 en gerku
 en gerkuuono
 en gerkyzda
@@ -12913,6 +12914,7 @@ en gustci
 en gusybatke
 en gusybi'o
 en gusycai
+en gusycfine
 en gusycinki
 en gusydicra
 en gusygutci
@@ -13330,6 +13332,7 @@ en ja'urjuknis
 en jaurjunla
 en jaursabji
 en jaursabypatxu
+en jaursanra
 en jaursfeblo
 en jaurskiji
 en jaursrasu
@@ -14650,6 +14653,7 @@ en ki'otre
 en kipsi
 en kirbibaitni
 en kirbibitni
+en kirbosu
 en kircaiu
 en kirdei
 en kirilits
@@ -14881,6 +14885,7 @@ en korpora
 en korporalo
 en korsari
 en korsenta
+en korsova
 en korvo
 en korzeti
 en kosmu
@@ -16920,6 +16925,7 @@ en nalremda'u
 en nalre'ucti
 en nalri'i
 en nalsanji
+en nalsa'u
 en nalsa'uslakyskute'a
 en nalselci'i
 en nalseljukpa
@@ -18714,6 +18720,7 @@ en ramymei
 en ranbo'u
 en ranbu'u
 en rancara
+en rance
 en randa
 en randetumla
 en rango
@@ -19670,6 +19677,7 @@ en samka'u
 en samkei
 en samki'o
 en samlat
+en samlu
 en samnarca'igau
 en sampetso
 en sampinsi
@@ -20579,6 +20587,7 @@ en si'i'oi
 en si'irja'i
 en si'irvelne'u
 en si'irzbaprali
+en sijge'u
 en sijypi'e
 en sikcurnu
 en sikta
@@ -22906,6 +22915,7 @@ en tsina
 en tsipi'u
 en tsirkuso
 en tsirmiristika
+en tsirnagova
 en tsirvanila
 en tsiselcigla
 en tsisifo
@@ -22984,6 +22994,7 @@ en turbaro
 en turdida
 en turing zei sucyskami
 en turko
+en turkrkirbo
 en turne'i
 en turnela
 en turnersei
