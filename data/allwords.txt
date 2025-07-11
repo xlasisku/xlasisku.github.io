@@ -9079,6 +9079,7 @@ en caldectre
 en caljvetei
 en calku
 en calkyguzme
+en calsamxra
 en calse
 en calsle
 en caltai
@@ -15499,6 +15500,7 @@ en li'au
 en li'avro
 en libjo
 en libru'u
+en licne
 en lidgusyjinme
 en lidne
 en lidvilti'a
