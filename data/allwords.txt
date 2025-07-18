@@ -188,6 +188,7 @@ en arde
 en ardolfo
 en arkada
 en arkadi'u
+en arkasa
 en arkeke
 en arko
 en arktik
@@ -10498,6 +10499,7 @@ en dalku'i
 en dalma'e
 en dalmasi
 en dalmikce
+en dalmra
 en dalmustela
 en dalpe'o
 en dalpe'odja
@@ -10507,6 +10509,7 @@ en dalremnei
 en dalrodente
 en dalroktopoda
 en dalsauia
+en dalselxa'u
 en dalske
 en daltrixe
 en daltsi
@@ -14441,7 +14444,6 @@ en kavzi
 en kaxyje'u
 en kaxykemlojvro
 en kazmi
-en kazra
 en kazrybitnrkrati
 en ke
 en ke'a
@@ -14708,7 +14710,6 @@ en kla'ongo
 en klapri
 en klasazri
 en klasiko
-en klaso
 en klasta
 en klasti
 en klasutra
@@ -18787,6 +18788,7 @@ en ratypo'i
 en ra'u
 en rau
 en ra'ucu'i
+en rau'e
 en raumei
 en raumoi
 en ra'unai
@@ -19187,6 +19189,7 @@ en ro'enje
 en rogjinme
 en ro'i
 en roi
+en roi'e
 en roi'i
 en ro'inai
 en ro'inre'o
@@ -20240,6 +20243,7 @@ en selpu'a
 en selpu'o
 en selratni
 en selre'e
+en selreli
 en selrespa
 en selre'u
 en selri'a
@@ -24818,6 +24822,7 @@ en zilska
 en zilsno
 en zilsutra
 en ziltau
+en zilterju'o
 en zilterle'u
 en ziltida
 en ziltodi
