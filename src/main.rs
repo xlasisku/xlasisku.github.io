@@ -1,8 +1,8 @@
 #![allow(clippy::format_push_string, clippy::cargo)]
 
-use htmlentity::entity::{ICodedDataTrait as _, decode};
+use htmlentity::entity::{decode, ICodedDataTrait as _};
 use latkerlo_jvotci::RAFSI;
-use quick_xml::{Reader, events::Event};
+use quick_xml::{events::Event, Reader};
 use regex::Regex;
 use reqwest::blocking::Client;
 use serde::{Deserialize, Serialize};

@@ -1,393 +1,487 @@
 /* fonts */
 @font-face {
-    font-family: "Fira Sans";
-    src: url("fonts/FiraSans-Regular.ttf");
-    font-display: swap;
+  font-family: "Fira Sans";
+  src: url("fonts/FiraSans-Regular.ttf");
+  font-display: swap;
 }
+
 @font-face {
-    font-family: "Fira Math";
-    src: url("fonts/FiraMath-Regular.otf");
-    font-display: swap;
+  font-family: "Fira Math";
+  src: url("fonts/FiraMath-Regular.otf");
+  font-display: swap;
 }
+
 @font-face {
-    font-family: "Fira Sans";
-    src: url("fonts/FiraSans-Italic.ttf");
-    font-display: swap;
-    font-style: italic;
+  font-family: "Fira Sans";
+  src: url("fonts/FiraSans-Italic.ttf");
+  font-display: swap;
+  font-style: italic;
 }
+
 @font-face {
-    font-family: "Fira Sans";
-    src: url("fonts/FiraSans-Bold.ttf");
-    font-display: swap;
-    font-weight: bold;
+  font-family: "Fira Sans";
+  src: url("fonts/FiraSans-Bold.ttf");
+  font-display: swap;
+  font-weight: bold;
 }
+
 @font-face {
-    font-family: "Fira Sans";
-    src: url("fonts/FiraSans-BoldItalic.ttf");
-    font-display: swap;
-    font-weight: bold;
-    font-style: italic;
+  font-family: "Fira Sans";
+  src: url("fonts/FiraSans-BoldItalic.ttf");
+  font-display: swap;
+  font-weight: bold;
+  font-style: italic;
 }
+
 @font-face {
-    font-family: "Iosevka";
-    src: url("fonts/Iosevka-Regular.ttf");
-    font-display: swap;
+  font-family: "Iosevka";
+  src: url("fonts/Iosevka-Regular.ttf");
+  font-display: swap;
 }
+
 @font-face {
-    font-family: "Iosevka";
-    src: url("fonts/Iosevka-Italic.ttf");
-    font-display: swap;
-    font-style: italic;
+  font-family: "Iosevka";
+  src: url("fonts/Iosevka-Italic.ttf");
+  font-display: swap;
+  font-style: italic;
 }
+
 @font-face {
-    font-family: "Iosevka";
-    src: url("fonts/Iosevka-Bold.ttf");
-    font-display: swap;
-    font-weight: bold;
+  font-family: "Iosevka";
+  src: url("fonts/Iosevka-Bold.ttf");
+  font-display: swap;
+  font-weight: bold;
 }
+
 @font-face {
-    font-family: "Iosevka";
-    src: url("fonts/Iosevka-BoldItalic.ttf");
-    font-display: swap;
-    font-weight: bold;
-    font-style: italic;
+  font-family: "Iosevka";
+  src: url("fonts/Iosevka-BoldItalic.ttf");
+  font-display: swap;
+  font-weight: bold;
+  font-style: italic;
 }
+
 @font-face {
-    font-family: "Nokia Pure HL KLGN";
-    src: url("fonts/nokiapiqad.ttf");
+  font-family: "Nokia Pure HL KLGN";
+  src: url("fonts/nokiapiqad.ttf");
 }
+
 /* main */
-*, input, button {
-    box-sizing: border-box;
-    -webkit-text-size-adjust: 100%;
+*,
+input,
+button {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
 }
-*:not(body), input, button {
-    transition: background 0.2s;
+
+*:not(body),
+input,
+button {
+  transition: background 0.2s;
 }
+
 :root {
-    --bg: 255, 224, 241;
-    --fg: 0, 0, 0;
-    --inv: 255, 255, 255;
-    --checked: 255, 20, 146;
-    --op-c: 0.8;
-    --op-a: calc(2/3);
-    --op-8: calc(8/15);
-    --op-4: calc(4/15);
-    --op-2: calc(2/15);
-    --link: 0, 105, 204;
-    --err: 200, 41, 41;
-    --focus: 255, 174, 12;
-    --sans: "Fira Sans", "Nokia Pure HL KLGN", ui-sans-serif, sans-serif;
-    --mono: "Iosevka", ui-monospace, monospace;
-    background: rgb(var(--bg));
-    color: rgb(var(--fg));
+  --bg: 255, 224, 241;
+  --fg: 0, 0, 0;
+  --inv: 255, 255, 255;
+  --checked: 255, 20, 146;
+  --op-c: 0.8;
+  --op-a: calc(2/3);
+  --op-8: calc(8/15);
+  --op-4: calc(4/15);
+  --op-2: calc(2/15);
+  --link: 0, 105, 204;
+  --err: 200, 41, 41;
+  --focus: 255, 174, 12;
+  --sans: "Fira Sans", "Nokia Pure HL KLGN", ui-sans-serif, sans-serif;
+  --mono: "Iosevka", ui-monospace, monospace;
+  background: rgb(var(--bg));
+  color: rgb(var(--fg));
 }
+
 :root:has(> body.regex) {
-    --bg: 224, 242, 240;
-    --checked: 12, 147, 129;
+  --bg: 224, 242, 240;
+  --checked: 12, 147, 129;
 }
+
 :root:has(> body.rhyme) {
-    --bg: 236, 230, 245;
-    --checked: 113, 44, 232;
+  --bg: 236, 230, 245;
+  --checked: 113, 44, 232;
 }
+
 body {
-    font-family: var(--sans);
-    margin: 0 auto;
-    max-width: 600px;
-    padding: 8px;
-    line-height: 1.4;
-    word-break: break-word;
+  font-family: var(--sans);
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 8px;
+  line-height: 1.4;
+  word-break: break-word;
 }
+
 /* searchbar */
 #fakebox {
-    display: flex;
-    border-radius: 16px;
-    background: rgb(var(--inv));
-    border: 2px solid rgb(var(--fg));
-    box-shadow: rgb(var(--fg)) 0 3px;
-    padding: 4px 12px;
-    align-items: baseline;
-    height: 1lh;
-    font-size: 1.5em;
-    box-sizing: content-box;
+  display: flex;
+  border-radius: 16px;
+  background: rgb(var(--inv));
+  border: 2px solid rgb(var(--fg));
+  box-shadow: rgb(var(--fg)) 0 3px;
+  padding: 4px 12px;
+  align-items: baseline;
+  height: 1lh;
+  font-size: 1.5em;
+  box-sizing: content-box;
 }
+
 #search {
-    display: block;
-    padding: 0;
-    margin: 0;
-    flex: 1;
-    border-radius: 0;
-    font-family: var(--sans);
-    font-size: inherit;
-    background: transparent;
-    border: none;
-    color: rgb(var(--fg)) !important;
-    height: 1lh;
-    box-sizing: content-box;
-    caret-color: rgb(var(--fg));
+  display: block;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  border-radius: 0;
+  font-family: var(--sans);
+  font-size: inherit;
+  background: transparent;
+  border: none;
+  color: rgb(var(--fg)) !important;
+  height: 1lh;
+  box-sizing: content-box;
+  caret-color: rgb(var(--fg));
 }
+
 #fakebox:has(> #search:disabled) {
-    opacity: 1;
-    border-color: rgba(var(--fg), var(--op-8));
-    background-color: rgba(var(--inv), var(--op-8));
-    box-shadow: rgba(var(--fg), var(--op-8)) 0 3px;
+  opacity: 1;
+  border-color: rgba(var(--fg), var(--op-8));
+  background-color: rgba(var(--inv), var(--op-8));
+  box-shadow: rgba(var(--fg), var(--op-8)) 0 3px;
 }
+
 #search:disabled {
-    opacity: 1;
+  opacity: 1;
 }
+
 #search::placeholder {
-    color: rgba(var(--fg), var(--op-c));
-    opacity: 1;
+  color: rgba(var(--fg), var(--op-c));
+  opacity: 1;
 }
+
 #search:disabled::placeholder {
-    color: rgba(var(--fg), var(--op-8));
-    opacity: 1;
+  color: rgba(var(--fg), var(--op-8));
+  opacity: 1;
 }
+
 /* #fakebox * {
     color: rgba(var(--fg), var(--op-c));
     padding: 0;
 } */
 #clear-wrap {
-    display: none;
+  display: none;
 }
+
 #clear-wrap.show {
-    display: inline;
+  display: inline;
 }
+
 .clear {
-    color: rgb(var(--err));
+  color: rgb(var(--err));
 }
+
 .nopad {
-    padding: 0;
+  padding: 0;
 }
+
 :disabled {
-    color: rgba(var(--fg), var(--op-c));
+  color: rgba(var(--fg), var(--op-c));
 }
+
 /* lujvo things / regex errors */
 #info {
-    font-size: 1.25em;
-    margin-top: 8px;
-    color: rgba(var(--fg), var(--op-c));
+  font-size: 1.25em;
+  margin-top: 8px;
+  color: rgba(var(--fg), var(--op-c));
 }
+
 #info p {
-    margin: 6px 0;
+  margin: 6px 0;
 }
-#info :not(.err), .rafsi a {
-    color: rgba(var(--fg), var(--op-c));
+
+#info :not(.err),
+.rafsi a {
+  color: rgba(var(--fg), var(--op-c));
 }
+
 /* results */
 .entry {
-    display: block;
-    margin: 8px 0;
-    padding: 4px 16px;
-    background: rgba(var(--inv), var(--op-8));
-    border-radius: 16px;
-    color: rgb(var(--fg));
+  display: block;
+  margin: 8px 0;
+  padding: 4px 16px;
+  background: rgba(var(--inv), var(--op-8));
+  border-radius: 16px;
+  color: rgb(var(--fg));
 }
+
 .entry :is(p:first-child, summary) {
-    font-family: var(--sans);
+  font-family: var(--sans);
 }
+
 .entry p:first-child a.w {
-    color: rgb(var(--fg));
+  color: rgb(var(--fg));
 }
-.entry .selmaho, code, pre {
-    font-family: var(--mono);
+
+.entry .selmaho,
+code,
+pre {
+  font-family: var(--mono);
 }
+
 .entry :is(.selmaho, .rafsi) {
-    color: rgba(var(--fg), var(--op-c));
+  color: rgba(var(--fg), var(--op-c));
 }
+
 .entry details {
-    color: rgba(var(--fg), var(--op-c));
-    margin: 16px 0;
+  color: rgba(var(--fg), var(--op-c));
+  margin: 16px 0;
 }
+
 summary {
-    font-weight: bold;
-    cursor: pointer;
+  font-weight: bold;
+  cursor: pointer;
 }
-:not([open]) > summary span {
-    display: none;
+
+:not([open])>summary span {
+  display: none;
 }
+
 .entry .glosswords {
-    font-style: italic;
+  font-style: italic;
 }
+
 /* misc */
 .nobr {
-    white-space: nowrap;
+  white-space: nowrap;
 }
+
 ul li {
-    list-style-type: disc;
+  list-style-type: disc;
 }
+
 math {
-    font-family: "Fira Math";
+  font-family: "Fira Math";
 }
-b, h1, summary {
-    letter-spacing: 0.05ch;
+
+b,
+h1,
+summary {
+  letter-spacing: 0.05ch;
 }
+
 /* links/buttons */
 a {
-    color: rgb(var(--link));
-    text-decoration: none;
+  color: rgb(var(--link));
+  text-decoration: none;
 }
+
 .opt {
-    color: rgb(var(--fg));
-    border: 1px solid rgb(var(--fg));
-    border-radius: 16px;
-    display: inline-block;
-    margin-top: 4px;
+  color: rgb(var(--fg));
+  border: 1px solid rgb(var(--fg));
+  border-radius: 16px;
+  display: inline-block;
+  margin-top: 4px;
 }
+
 p:has(.opt) {
-    text-align: center;
+  text-align: center;
 }
+
 button {
-    cursor: pointer;
-    background: rgb(var(--checked), 0);
-    border: none;
-    color: rgb(var(--fg));
-    font-size: 1em;
-    font-family: var(--sans);
-    position: relative;
+  cursor: pointer;
+  background: rgb(var(--checked), 0);
+  border: none;
+  color: rgb(var(--fg));
+  font-size: 1em;
+  font-family: var(--sans);
+  position: relative;
 }
+
 .opt button {
-    padding: 4px 8px;
-    display: inline-block;
-    border-radius: 16px;
-    transition: background 0.2s, border-radius 0.2s, padding 0.2s, margin 0.2s;
+  padding: 4px 8px;
+  display: inline-block;
+  border-radius: 16px;
+  transition: background 0.2s, border-radius 0.2s, padding 0.2s, margin 0.2s;
 }
+
 .opt button:not(:last-child) {
-    margin-right: -4px;
+  margin-right: -4px;
 }
+
 .opt .checked {
-    background: rgb(var(--checked));
-    color: white;
+  background: rgb(var(--checked));
+  color: white;
 }
+
 .opt .checked:has(+ .checked) {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    padding-right: 6px;
-    margin-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding-right: 6px;
+  margin-right: 0;
 }
-.opt .checked + .checked {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    padding-left: 6px;
+
+.opt .checked+.checked {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding-left: 6px;
 }
+
 .opt .checked:disabled {
-    color: #fffd;
+  color: #fffd;
 }
+
 .opt:not(:has(:not([disabled]))) {
-    border-color: rgba(var(--fg), var(--op-c));
+  border-color: rgba(var(--fg), var(--op-c));
 }
+
 body[class^=r] .normalonly {
-    display: none;
+  display: none;
 }
+
 body:not([class^=re]) .regexonly {
-    display: none;
+  display: none;
 }
+
 body:not([class^=rh]) .rhymeonly {
-    display: none;
+  display: none;
 }
+
 #jvop {
-    font-family: var(--sans);
-    font-size: inherit;
-    border: 1px solid rgb(var(--fg));
-    background: rgb(var(--inv));
-    padding: 4px 8px;
-    margin-top: 4px;
-    display: inline-block;
-    color: rgb(var(--fg));
+  font-family: var(--sans);
+  font-size: inherit;
+  border: 1px solid rgb(var(--fg));
+  background: rgb(var(--inv));
+  padding: 4px 8px;
+  margin-top: 4px;
+  display: inline-block;
+  color: rgb(var(--fg));
 }
+
 /* misc 2 */
 math {
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
+
 hr {
-    border: 1px solid rgb(var(--fg));
+  border: 1px solid rgb(var(--fg));
 }
+
 :not(hr, br, #fakebox *, #jvop):empty {
-    display: none;
+  display: none;
 }
-h1, h1 + p.sub {
-    margin: 0;
-    text-align: center;
+
+h1,
+h1+p.sub {
+  margin: 0;
+  text-align: center;
 }
+
 h2 {
-    border-top: 3px solid rgba(var(--fg), var(--op-c));
+  border-top: 3px solid rgba(var(--fg), var(--op-c));
 }
+
 .temml-error {
-    color: rgb(var(--err)) !important;
-    white-space: pre-wrap !important;
-    font-family: var(--mono);
-    display: block;
+  color: rgb(var(--err)) !important;
+  white-space: pre-wrap !important;
+  font-family: var(--mono);
+  display: block;
 }
+
 .err {
-    color: rgb(var(--err));
+  color: rgb(var(--err));
 }
-#length, #bottom {
-    text-align: center;
-    margin: 8px 0;
-    font-size: 1.25em;
+
+#length,
+#bottom {
+  text-align: center;
+  margin: 8px 0;
+  font-size: 1.25em;
 }
+
 :is(#length, #bottom) small {
-    font-size: 1rem;
+  font-size: 1rem;
 }
+
 i span {
-    font-style: normal;
+  font-style: normal;
 }
+
 /* hover/focus */
-:is(a, summary, :not(.opt) > button):is(:hover, :focus-visible), #fakebox:is(:hover, :focus-within) {
-    outline: 2px solid rgb(var(--focus));
-    background-color: rgba(var(--focus), var(--op-2));
+:is(a, summary, :not(.opt) > button):is(:hover, :focus-visible),
+#fakebox:is(:hover, :focus-within) {
+  outline: 2px solid rgb(var(--focus));
+  background-color: rgba(var(--focus), var(--op-2));
 }
-#search:focus-visible, summary:has(a:hover):hover {
-    outline: none;
-    background: none;
+
+#search:focus-visible,
+summary:has(a:hover):hover {
+  outline: none;
+  background: none;
 }
+
 .opt ::after {
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    border-radius: 16px;
-    background-color: transparent;
-    transition: background-color 0.2s;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  border-radius: 16px;
+  background-color: transparent;
+  transition: background-color 0.2s;
 }
+
 .opt :is(:hover, :focus-visible) {
-    outline: none;
+  outline: none;
 }
+
 .opt :is(:hover, :focus-visible)::after {
-    z-index: 1;
-    outline: 2px solid rgb(var(--focus));
-    background-color: rgba(var(--focus), var(--op-2));
+  z-index: 1;
+  outline: 2px solid rgb(var(--focus));
+  background-color: rgba(var(--focus), var(--op-2));
 }
+
 /* dark mode */
 :root.dark {
-    --bg: 38, 3, 22;
-    --fg: 255, 255, 255;
-    --inv: 0, 0, 0;
-    --link: 153, 204, 255;
-    --err: 255, 153, 153;
+  --bg: 38, 3, 22;
+  --fg: 255, 255, 255;
+  --inv: 0, 0, 0;
+  --link: 153, 204, 255;
+  --err: 255, 153, 153;
 }
+
 :root.dark:has(> body.regex) {
-    --bg: 3, 23, 20;
+  --bg: 3, 23, 20;
 }
+
 :root.dark:has(> body.rhyme) {
-    --bg: 22, 10, 36;
-    --checked: 143, 72, 224;
+  --bg: 22, 10, 36;
+  --checked: 143, 72, 224;
 }
+
 /* other media queries */
 @media (prefers-contrast: more) {
-    a, button, summary {
-        text-decoration: underline;
-    }
+
+  a,
+  button,
+  summary {
+    text-decoration: underline;
+  }
 }
+
 @media (forced-colors: active) {
-    .opt button.checked::before {
-        content: "✓ ";
-    }
+  .opt button.checked::before {
+    content: "✓ ";
+  }
 }
+
 @media (prefers-reduced-motion: reduce) {
-    * {
-        transition: none;
-    }
+  * {
+    transition: none;
+  }
 }

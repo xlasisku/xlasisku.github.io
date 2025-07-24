@@ -1,42 +1,48 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>la xlasisku | jvoptions</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="description" content="" />
-        <link rel="shortcut icon" href="cmaxra.png" type="image/png" />
-        <link rel="stylesheet" href="style.css" />
-        <style>
-            i { text-wrap: nowrap; }
-        </style>
-    </head>
-    <body>
-        <script>
-            if (localStorage.getItem("theme") == "dark") document.documentElement.classList.add("dark");
-        </script>
-        <h1>about the jvoptions</h1>
-        <p>
-            <b>flags:</b> (multiple allowed)<br />
-            <code>c</code> - generate a cmevla*<br />
-            <code>r</code> - experimental rafsi shapes, e.g. <i>-ia-</i><br />
-            <code>g</code> - treat glides as consonants<br />
-            <code>z</code> - allow <i>mz</i>
-        </p>
-        <p>*this doesn't affect whether it will <i>decompose</i> cmejvo (it still will)</p>
-        <p><code>A1rg</code> will permit lujvo like <i>ia'yia</i> that don't have any actual consonants >:3</p>
-        <p>
-            <b>hyphens:</b><br />
-            <code>A</code> - allow <i>-'y-</i> etc in place of CLL's <i>-r-</i> and <i>-n-</i>.<br />
-            <code>F</code> - <i>force</i> <i>-'y-</i> etc. words with the CLL hyphens are treated as zi'evla<br />
-            <code>S</code> - default if not specified. only allows <i>-'y-</i> to connect zi'evla, but not CVV or CV'V rafsi that would fall off<br />
-        </p>
-        <p>
-            <b>consonants:</b><br />
-            <code>1</code> - require a minimum of 1 consonant<br />
-            <code>2</code> - require a minimum of 2 consonants (not necessarily a cluster)<br />
-            <code>C</code> - default if not specified. require a cluster<br />
-        </p>
-    </body>
+
+<head>
+  <meta charset="utf-8" />
+  <title>la xlasisku | jvoptions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="description" content="" />
+  <link rel="shortcut icon" href="cmaxra.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    i {
+      text-wrap: nowrap;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    if (localStorage.getItem("theme") == "dark") document.documentElement.classList.add("dark");
+  </script>
+  <h1>about the jvoptions</h1>
+  <p>
+    <b>flags:</b> (multiple allowed)<br />
+    <code>c</code> - generate a cmevla*<br />
+    <code>r</code> - experimental rafsi shapes, e.g. <i>-ia-</i><br />
+    <code>g</code> - treat glides as consonants<br />
+    <code>z</code> - allow <i>mz</i>
+  </p>
+  <p>*this doesn't affect whether it will <i>decompose</i> cmejvo (it still will)</p>
+  <p><code>A1rg</code> will permit lujvo like <i>ia'yia</i> that don't have any actual consonants >:3</p>
+  <p>
+    <b>hyphens:</b><br />
+    <code>A</code> - allow <i>-'y-</i> etc in place of CLL's <i>-r-</i> and <i>-n-</i>.<br />
+    <code>F</code> - <i>force</i> <i>-'y-</i> etc. words with the CLL hyphens are treated as zi'evla<br />
+    <code>S</code> - default if not specified. only allows <i>-'y-</i> to connect zi'evla, but not CVV or CV'V rafsi
+    that would fall off<br />
+  </p>
+  <p>
+    <b>consonants:</b><br />
+    <code>1</code> - require a minimum of 1 consonant<br />
+    <code>2</code> - require a minimum of 2 consonants (not necessarily a cluster)<br />
+    <code>C</code> - default if not specified. require a cluster<br />
+  </p>
+</body>
+
 </html>
