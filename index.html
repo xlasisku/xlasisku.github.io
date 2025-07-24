@@ -1,139 +1,146 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>la xlasisku</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="format-detection" content="telephone=no" />
-        <meta name="description" content="lojban dictionary searcher :3" />
-        <link rel="shortcut icon" href="cmaxra.png" type="image/png" />
-        <link rel="stylesheet" href="style.css" />
-        <script defer src="temml/dist/temml.min.js"></script>
-        <script defer src="latkerlo-jvotci/js/docs/data.js"></script>
-        <script defer src="latkerlo-jvotci/js/docs/exceptions.js"></script>
-        <script defer src="latkerlo-jvotci/js/docs/rafsi.js"></script>
-        <script defer src="latkerlo-jvotci/js/docs/tarmi.js"></script>
-        <script defer src="latkerlo-jvotci/js/docs/tools.js"></script>
-        <script defer src="latkerlo-jvotci/js/docs/jvozba.js"></script>
-        <script defer src="latkerlo-jvotci/js/docs/katna.js"></script>
-    </head>
-    <body id="main">
-        <h1>la xlasisku</h1>
-        <p class="sub"><a href="https://github.com/mi2ebi/xlasisku" target="_blank">github repo</a></p>
-        <p>this is a readonly frontend for jbovlaste. also check out <a href="https://nalvai.github.io">nalvai's descriptive dictionary</a>!</p>
-        <p>
-            <span class="nobr opt">
-                <button id="sm" disabled>normal</button><button id="xm" disabled>regex</button><button id="rm" disabled>rhyme</button>
-            </span>
-            <span class="nobr opt">
-                <button id="theme">theme</button>
-            </span>
-            <br />
-            <span class="regexonly">
-                <span class="nobr opt">
-                    <button id="regex-tight">wrap in ^( )$</button><button id="regex-i">ignore case</button>
-                </span>
-                <br />
-            </span>
-            <span class="rhymeonly">
-                <span class="nobr opt">
-                    <button id="rhyme-y">ignore y</button>
-                </span>
-                <br />
-            </span>
-            <label for="jvop">lujvo settings:</label>
-            <input name="jvop" id="jvop" type="text" value="A1g" size="6" />
-            <button class="nopad" id="jvo-x" disabled>reset</button>
-            <a href="jvoptions.html" target="_blank">help</a>
-        </p>
-        <div id="fakebox">
-            <input type="text" id="search" name="search" autocomplete="off" spellcheck="false" autocapitalize="off" autocorrect="off" placeholder="loading" disabled size="1" />&nbsp;<span id="clear-wrap"><button class="clear nopad" id="clear">×</button></span>
-        </div>
-        <div id="info"></div>
-        <div id="length"></div>
-        <div id="results"></div>
-        <div id="bottom"></div>
-        <script>
-            // theme (mi lebna ti la lalxu)
-            function setTheme(dark) {
-                document.documentElement.className = dark ? "dark" : "";
-                try {
-                    localStorage.setItem("theme", dark ? "dark" : "light");
-                } catch (e) {
-                    //
-                }
-            }
-            var theme = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)") ? "dark" : "light";
-            try {
-                theme = localStorage.getItem("theme") || theme;
-            } catch (e) {
-                //
-            }
-            setTheme(theme == "dark");
-            setTimeout(() => {document.body.style.transition = "background 0.2s"}, 0);
-        </script>
-        <script src="data/jbo.js"></script>
-        <script src="helper.js"></script>
-        <script src="events.js"></script>
-        <script>
-            // ready for stuff to happen
-            worker = new Worker("worker.js");
-            worker.addEventListener("message", function(e) {
-                results = e.data;
-                id("results").innerHTML = "";
-                id("length").innerHTML = results.length + " result" + (results.length == 1 ? "" : "s");
-                page = 0;
-                load(results, page);
-                checkLength();
-            });
-            id("sm").removeAttribute("disabled");
-            id("rm").removeAttribute("disabled");
-            id("xm").removeAttribute("disabled");
-            id("search").removeAttribute("disabled");
-            id("search").setAttribute("placeholder", "search");
-            // url things
-            function redirect() {
-                var vars = "?";
-                if (q)
-                    vars += "&q=" + encodeURIComponent(q);
-                if (config.rhyme.on)
-                    vars += "&rhyme=" + (config.rhyme.ignorey ? "y" : "");
-                else if (config.regex.on) {
-                    var options = [];
-                    if (config.regex.i) options.push("i");
-                    if (config.regex.tight) options.push("tight");
-                    vars += "&regex=" + options.join(",");
-                }
-                vars += jvoptionsUrl();
-                vars = vars.replace(/\?&/g, "?").replace(/=&/g, "&").replace(/[&=?]$/, "");
-                window.history.pushState(null, null, window.location.href.split("?")[0] + vars);
-            }
-            function hardRedirect(str) {
-                window.location.href = window.location.href.split("?")[0] + str;
-            }
-            window.addEventListener("DOMContentLoaded", (e) => {
-                const params = new URLSearchParams(window.location.search);
-                if (!params.has("q") && params.has("gc")) {
-                    const gcq = getConflictRegex(params.get("gc"));
-                    hardRedirect("?q=" + encodeURIComponent(gcq) + "&regex=tight");
-                } else {
-                    var jvop = params.get("lujvo") || "A1g";
-                    const qpar = params.get("q");
-                    if (params.has("rhyme")) {
-                        rhymeMode(jvop, params.get("rhyme") == "y");
-                    } else if (params.has("regex")) {
-                        var options = params.get("regex").split(",");
-                        regexMode(jvop, options.includes("i"), options.includes("tight"));
-                    } else {
-                        searchMode(jvop);
-                    }
-                    if (qpar) {
-                        id("search").value = qpar;
-                        dispatchSearchInputEvent();
-                    }
-                    id("search").focus();
-                }
-            });
-        </script>
-    </body>
+
+<head>
+  <meta charset="utf-8" />
+  <title>la xlasisku</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="description" content="lojban dictionary searcher :3" />
+  <link rel="shortcut icon" href="cmaxra.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="temml/dist/temml.min.js"></script>
+  <script defer src="latkerlo-jvotci/js/docs/data.js"></script>
+  <script defer src="latkerlo-jvotci/js/docs/exceptions.js"></script>
+  <script defer src="latkerlo-jvotci/js/docs/rafsi.js"></script>
+  <script defer src="latkerlo-jvotci/js/docs/tarmi.js"></script>
+  <script defer src="latkerlo-jvotci/js/docs/tools.js"></script>
+  <script defer src="latkerlo-jvotci/js/docs/jvozba.js"></script>
+  <script defer src="latkerlo-jvotci/js/docs/katna.js"></script>
+</head>
+
+<body id="main">
+  <h1>la xlasisku</h1>
+  <p class="sub"><a href="https://github.com/xlasisku/xlasisku.github.io" target="_blank">github repo</a></p>
+  <p>this is a readonly frontend for jbovlaste. also check out <a href="https://nalvai.github.io">nalvai's descriptive
+      dictionary</a>!</p>
+  <p>
+    <span class="nobr opt">
+      <button id="sm" disabled>normal</button><button id="xm" disabled>regex</button><button id="rm"
+        disabled>rhyme</button>
+    </span>
+    <span class="nobr opt">
+      <button id="theme">theme</button>
+    </span>
+    <br />
+    <span class="regexonly">
+      <span class="nobr opt">
+        <button id="regex-tight">wrap in ^( )$</button><button id="regex-i">ignore case</button>
+      </span>
+      <br />
+    </span>
+    <span class="rhymeonly">
+      <span class="nobr opt">
+        <button id="rhyme-y">ignore y</button>
+      </span>
+      <br />
+    </span>
+    <label for="jvop">lujvo settings:</label>
+    <input name="jvop" id="jvop" type="text" value="A1g" size="6" />
+    <button class="nopad" id="jvo-x" disabled>reset</button>
+    <a href="jvoptions.html" target="_blank">help</a>
+  </p>
+  <div id="fakebox">
+    <input type="text" id="search" name="search" autocomplete="off" spellcheck="false" autocapitalize="off"
+      autocorrect="off" placeholder="loading" disabled size="1" />&nbsp;<span id="clear-wrap"><button
+        class="clear nopad" id="clear">×</button></span>
+  </div>
+  <div id="info"></div>
+  <div id="length"></div>
+  <div id="results"></div>
+  <div id="bottom"></div>
+  <script>
+    // theme (mi lebna ti la lalxu)
+    function setTheme(dark) {
+      document.documentElement.className = dark ? "dark" : "";
+      try {
+        localStorage.setItem("theme", dark ? "dark" : "light");
+      } catch (e) {
+        //
+      }
+    }
+    var theme = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)") ? "dark" : "light";
+    try {
+      theme = localStorage.getItem("theme") || theme;
+    } catch (e) {
+      //
+    }
+    setTheme(theme == "dark");
+    setTimeout(() => {document.body.style.transition = "background 0.2s"}, 0);
+  </script>
+  <script src="data/jbo.js"></script>
+  <script src="helper.js"></script>
+  <script src="events.js"></script>
+  <script>
+    // ready for stuff to happen
+    worker = new Worker("worker.js");
+    worker.addEventListener("message", function (e) {
+      results = e.data;
+      id("results").innerHTML = "";
+      id("length").innerHTML = results.length + " result" + (results.length == 1 ? "" : "s");
+      page = 0;
+      load(results, page);
+      checkLength();
+    });
+    id("sm").removeAttribute("disabled");
+    id("rm").removeAttribute("disabled");
+    id("xm").removeAttribute("disabled");
+    id("search").removeAttribute("disabled");
+    id("search").setAttribute("placeholder", "search");
+    // url things
+    function redirect() {
+      var vars = "?";
+      if (q)
+        vars += "&q=" + encodeURIComponent(q);
+      if (config.rhyme.on)
+        vars += "&rhyme=" + (config.rhyme.ignorey ? "y" : "");
+      else if (config.regex.on) {
+        var options = [];
+        if (config.regex.i) options.push("i");
+        if (config.regex.tight) options.push("tight");
+        vars += "&regex=" + options.join(",");
+      }
+      vars += jvoptionsUrl();
+      vars = vars.replace(/\?&/g, "?").replace(/=&/g, "&").replace(/[&=?]$/, "");
+      window.history.pushState(null, null, window.location.href.split("?")[0] + vars);
+    }
+    function hardRedirect(str) {
+      window.location.href = window.location.href.split("?")[0] + str;
+    }
+    window.addEventListener("DOMContentLoaded", (e) => {
+      const params = new URLSearchParams(window.location.search);
+      if (!params.has("q") && params.has("gc")) {
+        const gcq = getConflictRegex(params.get("gc"));
+        hardRedirect("?q=" + encodeURIComponent(gcq) + "&regex=tight");
+      } else {
+        var jvop = params.get("lujvo") || "A1g";
+        const qpar = params.get("q");
+        if (params.has("rhyme")) {
+          rhymeMode(jvop, params.get("rhyme") == "y");
+        } else if (params.has("regex")) {
+          var options = params.get("regex").split(",");
+          regexMode(jvop, options.includes("i"), options.includes("tight"));
+        } else {
+          searchMode(jvop);
+        }
+        if (qpar) {
+          id("search").value = qpar;
+          dispatchSearchInputEvent();
+        }
+        id("search").focus();
+      }
+    });
+  </script>
+</body>
+
 </html>
