@@ -1,8 +1,8 @@
-#![allow(clippy::format_push_string, clippy::cargo)]
+#![allow(clippy::format_push_string)]
 
-use htmlentity::entity::{decode, ICodedDataTrait as _};
+use htmlentity::entity::{ICodedDataTrait as _, decode};
 use latkerlo_jvotci::RAFSI;
-use quick_xml::{events::Event, Reader};
+use quick_xml::{Reader, events::Event};
 use regex::Regex;
 use reqwest::blocking::Client;
 use serde::{Deserialize, Serialize};
@@ -64,13 +64,13 @@ impl Entry {
         }
         s += &format!(" {}", NONWORD.replace_all(&self.author.to_lowercase(), ""));
         s += &format!(
-            " {} ({})\r\n{}",
+            " {} ({})\n{}",
             self.score.to_string().as_str(),
             self.lang,
             self.definition
         );
         if !self.notes.is_empty() {
-            s += &format!("\r\n-n\r\n{}", self.notes);
+            s += &format!("\n-n\n{}", self.notes);
         }
         s
     }
@@ -198,29 +198,14 @@ fn main() {
                         "valsi" => {
                             entry = Entry::new();
                             entry.lang = lang.to_string();
-                            if !attrs.get("type").unwrap().starts_with('o')
-                                && ![
-                                    ".i",
-                                    ".iklkitu",
-                                    "madagasikara",
-                                    "kamro",
-                                    "lacpa",
-                                    "matce",
-                                    "burseldamri",
-                                    "ka'ei'u",
-                                    "lo'ei",
-                                    "datru",
-                                    "li'anmi",
-                                ]
-                                .contains(&attrs.get("word").unwrap().as_str())
-                            {
-                                entry.word.clone_from(attrs.get("word").unwrap());
-                                entry.pos.clone_from(attrs.get("type").unwrap());
-                                skip = false;
-                            } else {
+                            if attrs.get("type").unwrap().starts_with('o') {
                                 current_tag.clear();
                                 reader.read_to_end(e.name()).unwrap();
                                 skip = true;
+                            } else {
+                                entry.word.clone_from(attrs.get("word").unwrap());
+                                entry.pos.clone_from(attrs.get("type").unwrap());
+                                skip = false;
                             }
                         }
                         "score" | "selmaho" | "definition" | "notes" | "username" => {
@@ -293,7 +278,7 @@ fn main() {
     println!("all words");
     let mut all = String::new();
     for word in &words {
-        all += &format!("{} {}\r\n", word.lang, word.word);
+        all += &format!("{} {}\n", word.lang, word.word);
     }
     fs::write("data/allwords.txt", all).unwrap();
     // jbo.js
@@ -304,7 +289,7 @@ fn main() {
     println!("plaintext");
     let mut data = "---".to_string();
     for word in words {
-        data += &format!("\r\n{}\r\n---", word.to_datastring());
+        data += &format!("\n{}\n---", word.to_datastring());
     }
     fs::write("data/data.txt", &data).unwrap();
     // chars.txt, fonts, noto.css
@@ -320,7 +305,7 @@ fn main() {
     println!("unofficial rafsi");
     let mut data = "---".to_string();
     for word in unofficial_rafsi {
-        data += &format!("\r\n{}\r\n---", word.to_datastring());
+        data += &format!("\n{}\n---", word.to_datastring());
     }
     fs::write("data/unofficial_rafsi_maybe.txt", &data).unwrap();
     // .i mulno .ui

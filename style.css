@@ -412,7 +412,7 @@ i span {
 }
 
 /* hover/focus */
-:is(a, summary, :not(.opt) > button):is(:hover, :focus-visible),
+:is(a, summary, :not(.opt) > button, #jvop):is(:hover, :focus-visible),
 #fakebox:is(:hover, :focus-within) {
   outline: 2px solid rgb(var(--focus));
   background-color: rgba(var(--focus), var(--op-2));

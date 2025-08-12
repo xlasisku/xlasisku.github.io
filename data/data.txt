@@ -136,6 +136,9 @@ attitudinal: alertness - exhaustion.
 -n
 See also {sanji}, {cikna}, {tatpi}.
 ---
+a'ebu bu-letteral BY* qazw5414 1 (en)
+letteral for ash (æ) 
+---
 a'ei cmavo UI1 gleki 0 (en)
 attitudinal: appeal/call/invocation/summoning
 -n
@@ -1190,7 +1193,7 @@ Synonymous with the original CLL definition of .{abu}.
 azarbaiDJAN cmevla xabju 1 (en)
 Azerbaijan
 ---
-a_zei_u zei-lujvo krtisfranks 2 (en)
+a_zei_u zei-lujvo krtisfranks 1 (en)
 ($x_1$; undefined grammatical construction: a connective of some sort, but possibly acting as a brivla).
 -n
 An example of a "{zei}"-lujvo involving only cmavo and not involving any pro-sumti, pro-bridi, or numerals. It is not clear whether this word should be a brivla (because it is a lujvo) or a cmavo (because its veljvo solely consist of cmavo).
@@ -1435,6 +1438,11 @@ bafcolkercrakre lujvo gusnikantu 2 (en)
 $x_1=b_1$ are sideboards/sideburns/tufts of hair under temple of $x_2=kerf_2=kerl_2=c_3$.
 -n
 {bakfu} {co} {kerlo} {crane} {kerfa}. The length of bafcolkercrakre is not that of a hair but that of a tuft of hair.
+---
+bagDAD cmevla xabju 2 (en)
+Baghdad
+-n
+See also: {rakso}, {gugde'ike} and {raksygu'e} for Iraq; {xrabo}, {mespo}, {bangacumu}, {rancara}.
 ---
 bagyce'a lujvo arj 3 (en)
 $c_1=b_1$ is a bow that shoots arrow $c_2$ from string $c_3$, and is made of material $b_3$.
@@ -1783,7 +1791,7 @@ $x_1$ is a supermarket selling $x_2$ operated by $x_3$
 -n
 from {banli} + {zarci}
 ---
-balzgibe'e lujvo arj 3 (en)
+balzgibe'e lujvo arj 6 (en)
 $ba_1=be_1$ is an orchestra, consisting of performers $be_2$, and conducted by $be_3$, performing music $z_1=be_4$.
 -n
 Cf. {cibjgataidamri}, {bikydamri}, {jgita}.
@@ -13354,6 +13362,11 @@ from {bangu} and 'Portugal'. Cf. {porto}, {potybau}, {razbau}.
 ---
 bangrsfe'enska fu'ivla jongausib 2 (en)
 $x_1$ is the Swedish language used by $x_2$.
+---
+bangrsomali fu'ivla xabju 2 (en)
+$x_1$ is the Somali language.
+-n
+Synonym: {bansu'omu}. See also {kulnrsomali} for Somali culture, {gugdesu'o} or {soMAliias} for the Federal Republic of Somalia; {mugdico} or {mugdicos} for its capital city. Linguists place Somali within the Cushitic branch ({bangrkuciti}) of the Afroasiatic language family ({bangrfrixazo}) (see also {frikoxazdo} 'Afro-Asiatic'). See also {frikojirna} 'Horn of Africa'.
 ---
 bangrsu'omi fu'ivla jongausib 2 (en)
 $x_1$ is the Finnish language used by $x_2$.
@@ -26802,6 +26815,11 @@ $p_1$ is a linguist (scientist).
 -n
 Cf. {banjikske}, {banmenske}, {banpliske}.
 ---
+bansomali fu'ivla xabju -1 (en)
+$x_1$ is the Somali language.
+-n
+Deprecated. Preferred synonyms: {bangrsomali}, {bansu'omu}. Related: {kulnrsomali} for Somali culture, {gugdesu'o} or {soMAliias} for the Federal Republic of Somalia; {mugdico} or {mugdicos} for its capital city. Linguists place Somali within the Cushitic branch ({bangrkuciti}) of the Afroasiatic language family ({bangrfrixazo}) (see also {frikoxazdo} 'Afro-Asiatic'). See also {frikojirna} 'Horn of Africa'.
+---
 bansu'a'a fu'ivla glekizmiku 0 (en)
 $x_1$ is the language with ISO 639-3 code ''saa'' (Saba).
 -n
@@ -33585,7 +33603,7 @@ $x_1$ is the language with ISO 639-3 code ''hat'' (Haitian, Haitian Creole).
 -n
 See also {bangu}
 ---
-banxe'a'u fu'ivla glekizmiku 0 (en)
+banxe'a'u fu'ivla glekizmiku 1 (en)
 $x_1$ is the language with ISO 639-3 code ''hau'' (Hausa).
 -n
 See also {bangu}
@@ -34205,7 +34223,7 @@ $x_1$ is the language with ISO 639-3 code ''hsb'' (Upper Sorbian).
 -n
 See also {bangu}
 ---
-banxesulu fu'ivla glekizmiku 0 (en)
+banxesulu fu'ivla glekizmiku 1 (en)
 $x_1$ is the language with ISO 639-3 code ''hsl'' (Hausa Sign Language).
 -n
 See also {bangu}
@@ -36822,6 +36840,9 @@ $x_1$ is a replacement-dialect replacing words $x_2$ (sequence) with words $x_3$
 ---
 basklepli lujvo suskeyhose 1 (en)
 $x_1$ uses $x_2$ (zo quote) as a replacement for $x_3$ (zo quote) in language $x_4$
+---
+baslu gismu dalgimbehe 2 (en)
+$x_1$ is a slug/snail of species/variety $x_2$
 ---
 basme'e lujvo arj 2 (en)
 $b_1=c_1$ is a pseudonym of $c_2$ to/used-by namer/name-user $c_3$ (person).
@@ -41649,6 +41670,9 @@ $g_1$ is a/the transportation industry/sector for $b_1$ transporting $b_2$ from 
 -n
 Cf. {bevri}, {gundi}.
 ---
+bevjai lujvo janbe 3 (en)
+$x_1$ carries $x_2$ by holding with $x_3$
+---
 bevma'e lujvo sarefo 1 (en)
 $m_1$ is a truck/transporter/cart/sled/mode of transport for carrying $m_2=b_2$ to $b_3$ from $b_4$ over path $b_5$, on surface medium $m_3$, propelled by $m_4$.
 -n
@@ -42850,6 +42874,9 @@ $bi_1$ rolls up under condition $bi_3$.
 -n
 Cf. {bolci}, {binxo}, {krosa'i}, {krobi'o}.
 ---
+bolboba fu'ivla janbe 2 (en)
+$x_1$ is/are boba pearl(s)/tea bubbles made of $x_2$
+---
 bolcartu lujvo k1234567890y 1 (en)
 $x_1=c_1$ is a globe of planet/celestial body $x_2=c_2$ showing formation $x_3=c_3$
 -n
@@ -43880,6 +43907,9 @@ Cf. {labnanba}.
 burnygau lujvo arj 1 (en)
 $g_1$ (agent) embarrasses/disconcerts $b_1$ about/under conditions $b_2$ (abstraction).
 ---
+burseldamri lujvo jongausib 0 (en)
+$$ Moved to {bruseldamri} due to incorrect rafsi.
+---
 burzilska lujvo selgugbad 1 (en)
 $x_1$ is the abstract color brown
 -n
@@ -44337,6 +44367,11 @@ ca'irdi'a lujvo tijlan 1 (en)
 $j_1$ is a charge of service $j_2$ to consumer $j_3=c_2$ set and levied by authority $j_4=c_1$.
 -n
 Cf. {jdima}, {catni}, {selfu}, {pleji}.
+---
+ca'irfanta lujvo qimar 1 (en)
+$f_1$ censors/suppresses event $f_2$ from occurring.
+-n
+cf. {catni} {fanta}
 ---
 ca'irpai lujvo spheniscine 2 (en)
 $x_1$ officially/authoritatively judges $x_2$ (event/abstract)
@@ -45336,6 +45371,9 @@ cemci'eske lujvo nielstron 1 (en)
 $s_1$ is the science of community systems/ societies based on methodology $s_2$
 -n
 $s_1$ refers to sociology in the sense of the study of societies. For the study of social behavior see {jikske}. See also {cemci'e}, {saske}.
+---
+cemjgu lujvo janbe 1 (en)
+$x_1$ is society (collective of social institutions)
 ---
 cemlanzu lujvo arj 2 (en)
 $l_1=c_1$ is a tribe with members including $l_1$ according standard $l_3$.
@@ -46365,6 +46403,9 @@ from {cimnyterjunta} + {sucyxe'idaiseldi'e}
 cimoi cmavo-compound MOI* officialdata 100000 (en)
 quantified selbri: convert 3 to ordinal selbri; $x_{1}$ is third among $x_{2}$ ordered by rule $x_{3}$.
 ---
+cimra gismu dalgimbehe 2 (en)
+$x_1$ is a frog/toad of species/variety $x_2$
+---
 cimri'a lujvo sarefo 1 (en)
 $r_1$ (event/state) moistens $c_1$ with liquid $c_2$ under conditions $r_3$.
 -n
@@ -47272,6 +47313,9 @@ $p_1$ is a diaper (absorbent garment) of material $p_2$.
 -n
 Cf. {cifnu}, {mikce}.
 ---
+ckopi gismu dalgimbehe 2 (en)
+$x_1$ is a scorpion/vinegaroon (stinging arachnid) of species/variety $x_2$
+---
 ckraiji fu'ivla krtisfranks 1 (en)
 $x_1$ has/is property $x_2$ (ka) even amongst/according to/by the standards of/even more than those who are renowned for having/being that same property.
 -n
@@ -47408,6 +47452,9 @@ clafi gismu qazw5414 2 (en)
 $x_1$ is a regular polyhedra/polygon/polytope with the Schläfli symbol $x_2$; $x_1$ is a regular polygon with $x_2$ number of sides.
 -n
 also "x1 is a regular polytope". Polytope is a collective term for polygons, polyhedra and other dimentional shapes. Use a vector to express the Schläfli symbol. For Coxeter's extention, use a matrix. Cf. {kubli}
+---
+clafi'e lujvo janbe 2 (en)
+$x_1$ is an eel/lamprey/oarfish of species/variety $x_2$
 ---
 clagaldi'u lujvo wuzzy 3 (en)
 $d_1=g_1=c_1$ is a tower for purpose $d_2$.
@@ -47584,6 +47631,9 @@ cliva gismu [-liv-li'a-] officialdata 100001 (en)
 $x_{1}$ leaves/goes away/departs/parts/separates from $x_{2}$ via route $x_{3}$.
 -n
 Also: $x_1$ leaves behind/takes leave of $x_2$.  See also {litru}, {canci}, {vimcu}, {lebna}, {muvdu}.
+---
+clizu'e lujvo janbe 2 (en)
+$x_1$ learns how to do $x_2$
 ---
 clugau lujvo arj 2 (en)
 $g_1$ (agent) fills $c_1$ with $c_2$.
@@ -47824,6 +47874,9 @@ Cf. {derxi}, {canre}.
 ---
 cmasai lujvo vensa 1 (en)
 $s_1$ is a snack composed of $s_2=c_1$, small in property $c_2$ by standard $c_3$
+---
+cmaselpre lujvo varikvalefor 1 (en)
+According to $x_4$, in personality metric system $x_3$, $x_1$ is the personality type of $x_2$.
 ---
 cmastani lujvo totus 1 (en)
 $c_1=s_1$ is a/the sprout/shoot of plant/species $s_2$ by standard/norm $c_3$.
@@ -48377,6 +48430,9 @@ cmigau lujvo tijlan 1 (en)
 $g_1$ puts together $c_1$ into group $c_2$.
 -n
 Cf. {cmima}, {girzu}, {jmaji}, {gunma}.
+---
+cmiju gismu dalgimbehe 2 (en)
+$x_1$ is a mite/louse/aphid (tiny arthropod) of species/variety $x_2$
 ---
 cmila gismu [-mi'a-] officialdata 100000 (en)
 $x_{1}$ laughs (emotional expression).
@@ -51300,6 +51356,9 @@ $x_1$ (event) is dated/pertaining to day/occurring on day $x_2$ of month $x_3$ o
 -n
 Moved from {datru} due to conflict with {tatru}. We felt that {detri} just didn't work as a culturally-independent date system. The use of {pi'e} or {joi} as date mechanisms was insufficient and having the date components built into the place structure seems far more elegant. (Cf. {masti}, {djedi}, {nanca}, {nu}, {fasnu}, {purci}, {balvi}, {jeftu})
 ---
+datru gismu lakanro 0 (en)
+$x_{1}$ is a/the breast/mammary/teat [body-part] of $x_{2}$; [metaphor: projection providing liquid].
+---
 datrytcika lujvo ues 1 (en)
 $x_1=d_1=t_1$ occurs on year $x_2$ of month $x_3$ of day $x_4$ of hour $x_5$ of minute $x_6$ of second $x_7$ of date/time system $x_8$
 -n
@@ -53232,6 +53291,11 @@ Quotes a word; the result is a pro-sumti for the most recent utterance containin
 -n
 A useful alternative to {di'u} {de'u} etc. that doesn't make you count utterances.
 ---
+dokcu gismu janbe 3 (en)
+$x_1$ is a document containing text (quote/du'u) $x_2$
+-n
+Could be physical or electronic record. See also {cukta}, {ciska}, {uencu}.  Proposed rafsi -do'u-
+---
 dolmeni fu'ivla glekizmiku 2 (en)
 $x_1$ is a dolmen
 ---
@@ -54957,7 +55021,7 @@ See also .{e'u}, {stidi}
 exlesxe fu'ivla merrybot 1 (en)
 $x_1$ is a spreadsheet/table containing data/etc $x_2$
 ---
-e'y cmavo BY selpahi 4 (en)
+e'y cmavo BY selpahi 5 (en)
 letteral for e.
 -n
 Synonymous with the original CLL definition of .{ebu}.
@@ -56856,7 +56920,7 @@ $g_1$ [person/agent] confuses $c_1$ (event/state) for $c_2$ [observer] due to [c
 fi'u_zei_re_zei_cinse zei-lujvo lakanro 1 (en)
 $c_1$ is demisexual in situation $c_2$ by standard $c_4$.
 ---
-fizbu gismu spheniscine 8 (en)
+fizbu gismu spheniscine 9 (en)
 $x_1$ is excited/feels excitement about $x_2$ (event/property); $x_2$ excites $x_1$
 -n
 See {ue'i}, {entuzi}
@@ -57002,13 +57066,20 @@ $x_{1}$ is a current/flow/river of/in $x_{2}$ flowing in direction to/towards $x
 -n
 [$x_1$ is a stream of $x_2$; $x_2$ is a fluid Gas or liquid. (= {selfle} for reordered places); $x_1$ flushes toward $x_3$; flush (= {caifle}, {sukfle})]; See also {rirxe}, {senta} where no directionality is implied, {rinci}, {xampo}, {dikca}, {sakci}, {gapci}, {litki}, {ciblu}.
 ---
+flefalgau lujvo janbe 1 (en)
+$x_1$ (agent) pours/spills $x_2$ on/to $x_3$ from $x_4$
+-n
+see also {flefa'u}
+---
 flefamtu'u lujvo qimar 1 (en)
 $x_1$ is a faucet made of material $x_2$ with flow rate $x_3$ and water pressure $x_4$
 -n
 see {flecu} {fanmo} {tubnu} For a possible faucet lever use {vrabatke}
 ---
-flefa'u lujvo ilmen 1 (en)
-$x_1$ is a fluid or fluid-like pouring to $x_2$ from $x_3$.
+flefa'u lujvo ilmen 2 (en)
+$x_1$ pours/spills to $x_2$ from $x_3$
+-n
+see also {flefalgau}
 ---
 flese gismu [-les-] krtisfranks 3 (en)
 $x_1$ is (a) philosophy/ideology (one sense) about/of/pertaining to topic/subfield (one sense) $x_2$ with subfield (different sense)/features/details/specifics/specific idea(s) $x_3$, with methodology $x_4$, followed/thought/considered by $x_5$ (thinker/philosopher/individual); philosophy $x_1$ is characterized by values/thoughts/opinions/ruminations $x_3$ about topic/subject $x_2$.
@@ -57336,6 +57407,16 @@ $x_{1}$ reflects African culture/nationality/geography in aspect $x_{2}$.
 -n
 See also {ropno}, {xazdo}.
 ---
+frikojirna fu'ivla xabju 1 (en)
+$x_1$ reflects the culture/nationality/geography of the Horn of Africa in aspect $x_2$.
+-n
+Derived from {friko} 'African' and {jirna} 'horn.' For constituent countries of the Horn of Africa: see {gugdesu'o}/{soMAliias} for Somalia, {gugde'etu}/{itiiopiias} for Ethiopia, {gugde'eru}/{erytras} for Eritrea, {gugdeduju}/{djibutis} for Djibouti, {soMAliland}. See also {semto}, {frikoxazdo}.
+---
+frikoxazdo fu'ivla xabju 1 (en)
+$x_1$ reflects Afroasiatic language/culture/nationality in aspect $x_2$.
+-n
+The Afroasiatic languages are a macrofamily including the Semitic languages as well as others, such as Hausa and Somali. See also {friko}, {xazdo}, {semto}, {xrabo}, {xebro}, {frikojirna}, {bansomali}, {bansu'omu}, {banxe'a'u}, {banxesulu}.
+---
 frikytu'a lujvo totus 1 (en)
 $f_1=t_1$ is Africa
 -n
@@ -57409,13 +57490,13 @@ sumti place tag: tag 5th sumti place.
 fu'a cmavo FUhA officialdata 100000 (en)
 reverse Polish mathematical expression (mex) operator flag.
 ---
-fu'a'ai cmavo PA5 krtisfranks 2 (en)
-digit/number: first Foias' constant; the unique value of $x_1$ such that $x_n$  -> ∞ as n -> ∞ for $x_{n+1}  = (1 + (1/( x_n )))^n$; such $x_1$ = 1.187…
+fu'a'ai cmavo PA5 krtisfranks 3 (en)
+digit/number: first Foias' constant; the unique value of $x_1$ such that $x_n\to\infty$ as $n\to\infty$ for $x_{n+1}  = \left(1 + \frac1{x_n}\right)^n$; such $x_1$ = 1.187…
 -n
 See also: {fu'a'au}
 ---
-fu'a'au cmavo PA5 krtisfranks 2 (en)
-digit/number: second Foias constant; the value x for which $(1/x)(1 + (1/x))^x=1$ is true; ≈ 2.293…
+fu'a'au cmavo PA5 krtisfranks 3 (en)
+digit/number: second Foias constant; the value $x$ for which $\frac1x\left(1 + \frac1x\right)^x=1$; ≈ 2.293…
 -n
 See also:  {fu'a'ai}
 ---
@@ -57693,8 +57774,8 @@ zgana modal, 1st place                            to observer ... ; witnessed by
 ga'abru lujvo jongausib 1 (en)
 $b_1$ is a broom with bristles $b_2$ with long handle $g_1$.
 ---
-ga'ai cmavo VUhU krtisfranks 1 (en)
-unary mekso operator: Lorentz-Einstein gamma factor $+1/((1-(|X|^2))^{(+1/2)})$ for input $X$.
+ga'ai cmavo VUhU krtisfranks 2 (en)
+unary mekso operator: Lorentz-Einstein gamma factor $\frac1{\sqrt{1-|X|^2}}$ for input $X$.
 -n
 Typically, input X can be a scalar (typically between -1 and 1, exclusive of both endpoints except in the limit) or a vector (or a similar mathematical object) with a signed magnitude belonging to the previously mentioned interval; in the former case, "|X|" in the definition refers to its absolute value; in the latter case, "|X|" in the definition refers to the nonnegative magnitude of said vector (or similar object). Typically, the output is a(n extended) real number no less than 1; whether or not positive-infinity exists in the codomain is a matter of convenience, convention, and context. This definition can be extended (such as for tachyons).
 ---
@@ -57898,7 +57979,7 @@ $g_1=j_1$ is the peak/summit of $j_2$ at location $j_3$ in frame of reference $g
 -n
 From la berenstein cribe 2020/11/17 See also {galtu}, {jipno}
 ---
-galki gismu krtisfranks 3 (en)
+galki gismu krtisfranks 4 (en)
 $x_1$ is a galaxy, of contents $x_2$ and other characteristics/parameters $x_3$; $x_1$ is galactic.
 ---
 galkla lujvo vensa -1 (en)
@@ -58240,10 +58321,10 @@ location tense relation/direction; upwards/up from ...
 gau cmavo BAI officialdata 100000 (en)
 gasnu modal, 1st place agent/actor case tag       with active agent ...
 ---
-gau'a cmavo VUhU krtisfranks 1 (en)
-mekso (no-more-than-4-ary) operator: Gaussian function $f(x, a, b, c) = c e^{-((x-a)^2 / (2*b^2))}$.
+gau'a cmavo VUhU krtisfranks 2 (en)
+mekso (no-more-than-4-ary) operator: Gaussian function $f(x, a, b, c) = c e^{-\frac{(x-a)^2}{2b^2}}$.
 -n
-Parameter 'a' is the SECOND operand; x is the first. Defaults: $c = 1/ \sqrt{2 \pi \sigma}$ (normalized), $a = \mu$ (the arithmetic average of the data set), $b = \sigma$ (the standard deviation of the data set). Moreover, by context, $\mu = 0$ (the average is 0) or $\sigma = 1$ (the standard deviation is 1) might be assumed by default.
+Parameter 'a' is the SECOND operand; x is the first. Defaults: $c = 1/ \sqrt{2\pi\sigma}$ (normalized), $a = \mu$ (the arithmetic average of the data set), $b = \sigma$ (the standard deviation of the data set). Moreover, by context, $\mu = 0$ (the average is 0) or $\sigma = 1$ (the standard deviation is 1) might be assumed by default.
 ---
 ga'u'au cmavo GAhUhAU krtisfranks 1 (en)
 mekso n-ary operator: append contravariant (upper) indices to tensor
@@ -60055,7 +60136,7 @@ $x_1$ is the country with the code ISO-3166 DE (Germany) for people $x_2$.
 -n
 Cf. {dotygu'e}.
 ---
-gugdeduju fu'ivla glekizmiku 0 (en)
+gugdeduju fu'ivla glekizmiku 1 (en)
 $x_1$ is the country with the code ISO-3166 ''DJ'' (Djibouti) for people $x_2$.
 -n
 See also {gugde}
@@ -60105,7 +60186,7 @@ $x_1$ is the country with the code ISO-3166 ''ES'' (Spain) for people $x_2$.
 -n
 See also {gugde}
 ---
-gugde'etu fu'ivla glekizmiku 0 (en)
+gugde'etu fu'ivla glekizmiku 1 (en)
 $x_1$ is the country with the code ISO-3166 ''ET'' (Ethiopia) for people $x_2$.
 -n
 See also {gugde}
@@ -60785,7 +60866,7 @@ $x_1$ is the country with the code ISO-3166 ''SN'' (Senegal) for people $x_2$.
 -n
 See also {gugde}
 ---
-gugdesu'o fu'ivla glekizmiku 0 (en)
+gugdesu'o fu'ivla glekizmiku 1 (en)
 $x_1$ is the country with the code ISO-3166 ''SO'' (Somalia) for people $x_2$.
 -n
 See also {gugde}
@@ -61491,6 +61572,11 @@ $x_1$ is a voiced velar stop sound produced by $x_2$.
 -n
 Synonym: {gasnce}.
 ---
+i cmavo I spheniscine 1 (en)
+sentence link/continuation; continuing sentences on same topic; normally elided for new speakers.
+-n
+= {i} . Added due to the habit of wrapping {.i} up as a link whenever discussing it.
+---
 i cmavo I officialdata 100000 (en)
 sentence link/continuation; continuing sentences on same topic; normally elided for new speakers.
 ---
@@ -61831,6 +61917,9 @@ iklki fu'ivla tijlan 3 (en)
 $x_1$ clicks (press and release) button/switch $x_2$ to cause $x_3$ (nu).
 -n
 See also {batke}, {danre}.
+---
+iklkitu fu'ivla zozeizeizeizeifaho -1 (en)
+delete me
 ---
 iklkitu fu'ivla zozeizeizeizeifaho 1 (en)
 $x_1$ secondary-clicks (right-clicks, presses and holds) $x_2$ (UI element)
@@ -62394,6 +62483,11 @@ $x_1$ is now/happens/occurs now.
 -n
 Synonym of {ca'abna}. See also {izva}.
 ---
+itiiopiias cmevla xabju 2 (en)
+Ethiopia
+-n
+Variants: {itiiopiIAS} and {itiIOpiias}. Equivalent to {gugde'etu}. See also {bangamuxe}, {bangorumu}, {bantu'iru}, {bangetuxe}, among others.
+---
 itka fu'ivla suskeyhose 2 (en)
 $x_1$ is not running service/not in operation/not performing function $x_2$; $x_1$ is "turned off", not working, inactive
 -n
@@ -62522,7 +62616,7 @@ $x_1$ (brivla/selbri) is used by place $x_2$ (number/me'o+FA+bu) being filled wi
 ixru fu'ivla ilmen 1 (en)
 $x_1$ is back/returns to satisfying property $x_2$.
 ---
-i'y cmavo BY selpahi 4 (en)
+i'y cmavo BY selpahi 5 (en)
 letteral for i.
 -n
 Synonymous with the original CLL definition of .{ibu}.
@@ -62685,6 +62779,11 @@ $x_1=v_1$ is a floodgate/stop gate between $x_2=v_2=d_1$ and $x_3=v_3$ of struct
 -n
 from {djacu}+{vorme}
 ---
+jadji gismu dalgimbehe 2 (en)
+$x_1$ is a locust/grasshopper/cricket of species/variety $x_2$
+-n
+"locust", any hopping and/or agriculturally destructive arthropod
+---
 jadjukpa lujvo jongausib 2 (en)
 $x_1=ju_1$ garnish/decorates/prepares food-for-eating/garni/cocktail $x_2=ja_2=ju_2$ with garnish/decoration/embellishment $x_3=ja_1$ by recipe/method $ju_3$ (process).
 ---
@@ -62771,6 +62870,9 @@ attitudinal: everything coming together - everything falling apart
 jaica cmavo-compound SE* officialdata 100000 (en)
 convert time tense (tagged) place to 1st place; 1st place moves to extra place (fai).
 ---
+jaicpa lujvo janbe 3 (en)
+$x_1$ picks up $x_2$ from $x_3$
+---
 jaicpu lujvo tijlan 2 (en)
 $l_1=j_1$ picks at $l_2=j_2$ with $l_3=j_3$.
 -n
@@ -62845,6 +62947,9 @@ jakto'a lujvo janbe 2 (en)
 $x_1$ is a note high in frequency/pitch produced by $x_2$
 -n
 cf. {jarki}, {tonga}. See also {ganto'a} for "low-pitched". "narrow" refers to the wavelength of a note high in frequency, as well as the characteristics of an object which produces such a note. Alternative to existing word {brato'a}, which is ambiguous due to the fact that "large" could refer to either the frequency in Hertz (i.e., high pitch) or the wavelength (i.e. low pitch).
+---
+jaktu gismu dalgimbehe 2 (en)
+$x_1$ is an octopus/squid/nautilus of species/variety $x_2$
 ---
 jaldiga fu'ivla danr 3 (en)
 $x_1=g_1$ is a bumper on $x_2=j_1$, decreasing the collision impact with $x_3=j_2$
@@ -62973,7 +63078,7 @@ $x_1$ is a bazooka for use against $x_2$ by $x_3$.
 -n
 Cf. {janco}, {jakne}, {xarci}, {sorjaknykarce}.
 ---
-janka gismu janbe 2 (en)
+janka gismu janbe 3 (en)
 $x_1$ is a spider of species/variety $x_2$
 -n
 Synonym of {ankabuta}. See also {cmiju}, {jadji}, {ckopi}.
@@ -63800,6 +63905,11 @@ $j_1$ is the head of religion $j_2=l_1$ including members $l_2$ sharing common b
 -n
 Cf. {lijda}, {jatna}, {jatnrpapa}, {jdatro}, {jdaca'i}.
 ---
+jdajgu lujvo janbe 1 (en)
+$x_1$ is organized religion; $x_1$ is "the church" (cf. "the state")
+-n
+not necessarily Christian; see also {je'ajgu}
+---
 jdanunza'omro lujvo lamisotanis 1 (en)
 $x_1=n_1$ is the afterlife of $x_2=m_1$ according to religion $x_3=l_1$. (no assumption that $m_1=l_2$)
 -n
@@ -63924,6 +64034,11 @@ Cf. {je'a}, {bo}, {na'ebo}, {no'ebo}, {to'ebo}.
 ---
 je'ai cmavo NAhE djeikyb 2 (en)
 NAhE question.
+---
+je'ajgu lujvo janbe 1 (en)
+$x_1$ is the state (institution of governance) of people $x_2$
+-n
+see also {jdajgu}
 ---
 je'au cmavo UI3 krtisfranks 3 (en)
 discursive: correcting/corrective/correction - inattentive/uncaring/neutral toward the presence of possible errors - permitting (known/likely/plausible) error/incompleteness/approximation
@@ -64627,6 +64742,11 @@ jibybre lujvo wuzzy 1 (en)
 $b_1=j_2$ is ready for the (paid) job/occupation/employment/vocation $j_1$.
 -n
 Cf. {gunbre}
+---
+jibycatra lujvo qimar 1 (en)
+$c_1$ is an assassin, that kills $c_2$ by action/method $c_3$
+-n
+cf. {jibri} {catra}
 ---
 jibycu'e lujvo lindarthebard 2 (en)
 $c_1$ is a trade/vocational school at $c_2$ teaching job skills $c_3=j_1$ to audience/community $c_4=j_2$ operated by $c_5$
@@ -65547,6 +65667,9 @@ Cf. {jmadegji}, {jmani'a}.
 ---
 jmavra lujvo phma 1 (en)
 $v_1$ is a pedal with function $v_2$, fulcrum $x_3$, and lever arm $x_4$.
+---
+jmedu gismu dalgimbehe 2 (en)
+$x_1$ is a jellyfish/sea jelly/medusa/cnidarian of species/variety $x_2$
 ---
 jmeja'i lujvo noralujv -1 (en)
 $x_{1}$ is an adorn-gem with adorned $x_{2}$ with jewel type  $x_{3}$ with jewel source  $x_{4}$.
@@ -66634,6 +66757,11 @@ digit/number: Conway's look-and-say constant λ ≈ 1.303577269…
 -n
 Especially important for Lojban. Assumes decimal counting(?); therefore, not entirely culturally neutral or mathematically important, but it makes sense in the context of typical Lojban.
 ---
+ka'ei'u cmavo NU spheniscine -1 (en)
+moved
+-n
+moved to {kai'ei}
+---
 ka'elre fu'ivla selpahi 3 (en)
 $x_1$ learns how to do/be $x_2$ (ka); $x_1$ acquires ability $x_2$ (ka)
 -n
@@ -67300,6 +67428,11 @@ $x_1$ is a googol [$10^{100}$ ] of $x_2$ in dimension/aspect $x_3$ (default unit
 -n
 See also: {kamre}, {namcrgogolo}
 ---
+kamro gismu lakanro 1 (en)
+*$moved to {karmo}$*
+-n
+don't use this word
+---
 kamsutra lujvo totus 0 (en)
 $k_1$ is the speed of $s_1$ doing/being/bringing about $s_2$.
 -n
@@ -67714,6 +67847,9 @@ $x_1$ is hibiscus of species/variety $x_2$.
 karkaju fu'ivla phma 1 (en)
 $k_1$ is a wolverine of variety $k_2$.
 ---
+karki gismu dalgimbehe 2 (en)
+$x_1$ is a crab of species/variety $x_2$
+---
 karkino fu'ivla spheniscine 3 (en)
 $x_1$ is a crab (type of aquatic crustacean) of type $x_2$
 -n
@@ -67854,6 +67990,9 @@ katcitky'utka lujvo krtisfranks 1 (en)
 $x_1$ predates/preys upon/is a predator of another which  predates/preys upon/is a predator of another which ... which predates/preys upon/is a predator of another which predates/preys upon/is a predator of $x_2$ by intermediate steps $x_3$ (ce'o).
 -n
 Metapredator.
+---
+katcpi lujvo janbe 2 (en)
+$x_1$ is a raptor/bird of prey of species/variety $x_2$
 ---
 katcti lujvo jongausib 2 (en)
 $k_1=c_1$ is a predator that hunts and feeds on prey $k_2=c_2$.
@@ -68124,7 +68263,7 @@ non-logical connective/mekso operator - of arity only 1 xor 2: set (absolute) co
 -n
 Each input must be a set or similar. The definition of the binary case expands to "the set of exactly those elements which are in $X_1$ but not in $X_2$". This word and operator has ordered input: '$X_1$ kei'i $X_2$' is not generally equivalent to '$X_2$ kei'i $X_1$'; in other words, the operator is not commutative. If unary (meaning that $X_1$ is not explicitly specified in a hypothetical expression "${X_1}\setminus{X_2}$"), then $X_1$ is taken to be some universal set $O$ in/of the discourse (of which all other mentioned or relevantly formable sets are subsets, at the least); in this latter case, the word operates as the set (absolute) complement of the explicitly mentioned set here designated as $X_2$ for clarity (id est: the output is $O\setminus{X_2}={X_2}^{C}$, where "$^{C}$" denotes the set absolute complement; in other words, it is the set of all elements which may be under consideration such that they are not elements of the explicitly specified set). When binary with both $X_1$ and $X_2$ explicitly specified, this word/operator is the set relative complement. This word is somewhat analogous to, depending on its arity, logical 'NOT' or 'AND NOT' (just as set intersection is analogous to logical 'AND', set union is analogous to logical '(AND/)OR'  and set symmetric difference is analogous to 'XOR'). The preferred description/name in English is "set (theoretic) exclusion". See also: "{kleivmu}". For reference: https://en.wikipedia.org/wiki/Complement_(set_theory) .
 ---
-keijvi lujvo ilmen 3 (en)
+keijvi lujvo ilmen 4 (en)
 $x_1$ competes/vies with opponent $x_2$ in game $x_3$
 ---
 kei'o cmavo PA5 krtisfranks 1 (en)
@@ -68381,7 +68520,7 @@ $n_1=b_1$ is an eardrum (tympanic membrane) of $n_2=k_2$.
 -n
 The tympanic membrane separates the external ear from the middle ear. Cf. {kerlo}, {tirna}, {sance}.
 ---
-kerni gismu lalxu 4 (en)
+kerni gismu lalxu 5 (en)
 $x_1$ (state/event/fact) is fair/just/righteous to $x_2$ according to $x_3$
 -n
 According to $x_3$, the way $x_2$ is treated in $x_1$ is just (it is "as things should be"). See also {pajni}, {sarxe}, {vrude}, {vudypai}, {nutli}, {pairnu'i}. (Many of those words deal with some judge acting "fairly" or "justly" in some matter, which kerni does not. In fact, a "to'e kerni" (unfair) situation is not necessarily the result of evil, may be considered unfair to all parties, and may be nobody's fault.)
@@ -69495,6 +69634,9 @@ $x_{1}$ is a screw [fastener] for purpose $x_{2}$, threads [pitch, material] $x_
 -n
 Also bolt.  See also {korcu}, {sarlu}, {tutci}.
 ---
+klupefo fu'ivla janbe 2 (en)
+$x_1$ is an anchovy/sardine (family Clupeiformes) of species/variety $x_2$
+---
 klura'a lujvo eyeonus 2 (en)
 $s1$ pertains to culture of $s2=k2$
 -n
@@ -69600,6 +69742,11 @@ pro-sumti: he/she/it/they #3 (specified by goi).
 ---
 koi cmavo BAI officialdata 100000 (en)
 korbi modal, 1st place (bordered by)              bounded by ...
+---
+koi'ai cmavo BAI janbe 1 (en)
+na'e tolki'u modal, first place; despite the reason...
+-n
+contraction of {to'eki'unai}
 ---
 koi'au cmavo BAI bairyn 1 (en)
 karncau modal, 1st place (individually; separately) with individuals …
@@ -69931,6 +70078,9 @@ korgretro lujvo phma 1 (en)
 $t_1$ controls $g_1=t_2$ who crosses $g_2=k_1$ to $g_3=k_2$ from $g_4=k_2$.
 -n
 see also {natmi}, {pagre}, {jaspu}
+---
+korja gismu dalgimbehe 2 (en)
+$x_1$ is a coral/barnacle (hard, sessile marine animal) of species/variety $x_2$
 ---
 korka gismu [-kok-] officialdata 100000 (en)
 $x_{1}$ is a quantity of/contains/is made of cork/bark from tree/species $x_{2}$; [material].
@@ -71360,6 +71510,9 @@ $x_1$ is an optician
 -n
 from {lacni} + {certu}
 ---
+lacpa gismu krtisfranks 0 (en)
+(moved to "{lucpa}")$$.
+---
 lacpu gismu [-lap-cpu-] officialdata 100000 (en)
 $x_{1}$ pulls/tugs/draws/drags $x_{2}$ by handle/at locus $x_{3}$.
 -n
@@ -71598,7 +71751,7 @@ $g_3=l_1$ is a candle/wax light with wax source $l_2$.
 -n
 Cf. {fagytergu'i}, {dictergu'i}.
 ---
-laldo gismu spheniscine 8 (en)
+laldo gismu spheniscine 9 (en)
 $x_1$ is old/aged [relatively long in elapsed duration] by standard $x_2$
 -n
 (= {tolci'o}) See {citno}, {slabu}
@@ -71913,7 +72066,7 @@ $b_1$ is a plastic bottle/jar/urn/flask/closable container made of plastic for $
 lasydakli lujvo wuzzy 1 (en)
 $d_1=s_1$ is a plastic sack/bag with contents $d_2$.
 ---
-latci gismu janbe 2 (en)
+latci gismu janbe 3 (en)
 $x_1$ is a lizard of species/variety $x_2$
 -n
 Not necessarily phylogenetic; most likely reptilian but could theoretically refer loosely to e.g. salamanders, other lizard-shaped animals
@@ -72602,6 +72755,11 @@ Where "la broda brode" is to "la'e lu broda brode" as "li'ai by cy" is to "la'e 
 li'anai cmavo-compound UI*3 officialdata 100000 (en)
 discursive: clearly - obscurely.
 ---
+li'anmi fu'ivla spheniscine -1 (en)
+$x_1$ (du'u - fact/truth) is obvious / clear / self-evident to $x_2$
+-n
+Moved to {li'armi}
+---
 li'ansi fu'ivla gleki 3 (en)
 $x_1$ practices, trains its ability $x_2$ (property of $x_1$)
 -n
@@ -72633,10 +72791,10 @@ See also {friko}, {xrabo}, {muslo}.
 libru'u lujvo jongausib 1 (en)
 $r_1$ is measured in libyan dinar (دينارLYD) as $r_2$ (quantity), in the Libyan monetary system $r_3$.
 ---
-licne gismu janbe 0 (en)
+licne gismu janbe 1 (en)
 $x_1$ is a/the clitoris of $x_2$
 -n
-devised by la velmifra circa 2020 to address the fact that many lojbanists with said anatomy feel that overloading "clitoris" onto a word clearly derived from the word "penis" is both sexist and uninformative
+devised by la velmifra circa 2020
 ---
 lidgusyjinme lujvo lakanro 1 (en)
 $x_1$ is a quantity of/contains/is made of magnesium [Mg]
@@ -73146,6 +73304,11 @@ Post-Xorlo {lo}. Refers collectively to all the things satisfying the descriptio
 ---
 lo'e cmavo LE [-lom-] officialdata 100000 (en)
 veridical descriptor: the typical one(s) who really is(are) ...
+---
+lo'ei cmavo LE spheniscine -1 (en)
+*moved* generalized mass gadri; start a description of a generalization of some mass/group/constituency viewed as a whole
+-n
+*Moved to {loi'e}*
 ---
 logji gismu [-loj-] officialdata 100000 (en)
 $x_{1}$ [rules/methods] is a logic for deducing/concluding/inferring/reasoning to/about $x_{2}$ (du'u).
@@ -73797,6 +73960,11 @@ x1 is the island of Madagascar
 -n
 Word is spelled and pronounced similar to the Malagasy word for Madagascar island, "Madagasikara"
 ---
+madagasikara cmavo-compound suzil 0 (en)
+DELETE
+-n
+DELETE
+---
 madgasikara fu'ivla suzil 2 (en)
 $x_1$ is the island of Madagascar
 -n
@@ -74107,6 +74275,9 @@ makyvelvei lujvo arj 1 (en)
 $v_4=m_1$ is a magnetic storage medium storing $v_2$ (data/facts/du'u) about $v_3$ (object/event) in file(s) $v_1$.
 -n
 Cf. {vreji}, {datni}, {skami}, {cukmakyvelvei}, {srimakyvelvei}
+---
+malbu gismu dalgimbehe 2 (en)
+$x_1$ is an owl (nocturnal bird of prey) of species/variety $x_2$
 ---
 malceisni lujvo jongausib 1 (en)
 $s_1$ is an idol/a sign/symbol representing god/demon/property (perjorative sense) $s_2$ to observer $s_3$.
@@ -74866,6 +75037,9 @@ Massachusetts
 -n
 The U.S. state of Massachusetts. See also {mein}, {nu'ampcr}, {vyrMANT}, {kyNErykyt}/{kyNEtikit}, {nuuinglynd}.
 ---
+matce gismu krtisfranks 2 (en)
+(moved to "{matxe}") $x_1$
+---
 matce'u lujvo eyeonus -1 (en)
 $m1$ corresponds to community $m2=c2$ in aspect $m3$
 -n
@@ -75554,6 +75728,11 @@ mentufa fu'ivla lamisotanis 3 (en)
 $x_1$ (parser) parses text $x_2$ using grammar $x_3$, the parser being mental, in the mind of $x_4$.
 -n
 Place structure based on {gentufa} and other -tufa words.
+---
+menxai lujvo qimar 1 (en)
+$x_1$ psychologically harms/traumatizes $x_2$ in aspect/property $x_3$ resulting in trauma $x_4$
+-n
+cf. {menli} {xrani}
 ---
 menynunda'a lujvo arj 1 (en)
 $n_1$ is psychological warfare on the part of $d_1$.
@@ -76734,6 +76913,9 @@ $ta_1=tr_1=m_1$ is coquettish/flirtatious with $tr_2=m_2$ in aspect $m_3$
 -n
 from {melbi} {trina} {tarti}
 ---
+mlibato fu'ivla janbe 1 (en)
+$x_1$ is a stingray of species/variety $x_2$
+---
 mliba'u lujvo arj 2 (en)
 $x_1=m_1=b_1$ whispers/mumbles/murmurs/coos utterance $x_2=b_2$; $x_1=m_1=b_1$ speaks softly.
 -n
@@ -76915,6 +77097,11 @@ convert number to ordinal selbri; $x_{1}$ is (n)th member of set $x_{2}$ ordered
 ---
 moi'a cmavo LAhE ractu 3 (en)
 shortening of {lo du'u *sumti* mo kau}
+---
+moi'ai cmavo BAI janbe 1 (en)
+na'e tolmu'i modal, first place; despite the motive...
+-n
+contraction of {to'emu'inai}
 ---
 mo'ibe'a cmavo-compound FAhA* officialdata 100000 (en)
 space motion tense: northwardly; to the north directional space motion.
@@ -77827,6 +78014,11 @@ $m_1$ is the marriage of $s_1$ and $s_2$ under convention $s_3$.
 -n
 Probably a misnomer for {nunspe}
 ---
+mugdicos cmevla xabju 2 (en)
+Mogadishu
+-n
+Capital city of Somalia ({soMAliias} or {gugdesu'o}) and largest city therein. Natively spelled "Muqdisho". See also: {kulnrsomali}, {bansomali}, {bansu'omu}.
+---
 mu'i cmavo BAI officialdata 100000 (en)
 mukti modal, 1st place                            because of motive ...
 ---
@@ -78213,6 +78405,11 @@ muvzva lujvo gusnikantu 2 (en)
 $x_1$ wanders within an area $x_2$.
 -n
 {muvdu} {zvati}
+---
+muxne gismu janbe 2 (en)
+$x_1$ is slime/mucus/ooze produced by $x_2$
+-n
+see also {nazbi}, {sakli}, {jduli}. Proposed rafsi -mux-
 ---
 mu_zei_sumtika zei-lujvo glekizmiku 1 (en)
 $x_1$ is a part of Lojban text representing rule 'sumti-5' according to the first edition of the book 'The Complete Lojban Language'.
@@ -78766,7 +78963,7 @@ $x_1$ is invariant/unchanged by/symmetric/symmetrical/unaffected under transform
 $x_1$ and $x_3$ (in different senses) have $x_2$-symmetry/are $x_2$-invariant.
 ---
 nalfo gismu janbe 3 (en)
-$x_1$ is a faucet/spigot/tap of $x_2$ (object/structure)
+$x_1$ is a faucet/spigot/tap made of $x_2$
 ---
 nalgundei lujvo eimi 3 (en)
 $x_1=d_1$ is a period of $x_2=d_2$ non-working days/vacation days/holidays for worker $x_3=g_1$ at job $x_4=g_2$
@@ -79946,8 +80143,8 @@ Cf. {cnici}, {gasnu}, {ganzu}
 ni'e cmavo NIhE officialdata 100000 (en)
 convert selbri to mex operand; used to create new non-numerical quantifiers; e.g. "herd" of oxen.
 ---
-ni'e'ei cmavo PA5 krtisfranks 2 (en)
-digit/number: Niven's greatest-exponent prime factorization constant  $lim_(n->∞) (avg_n (H)) ≈ 1.705211…$
+ni'e'ei cmavo PA5 krtisfranks 3 (en)
+digit/number: Niven's greatest-exponent prime factorization constant  $\lim_{n\to\infty}\mathrm{avg}_n(H) ≈ 1.705211…$
 -n
 This constant is the greatest exponent appearing in the prime factorization of a positive natural number over the ring integers on average. See also: {ni'e'oi}
 ---
@@ -80506,6 +80703,11 @@ noi'a cmavo NOIhA selpahi 4 (en)
 incidental/non-restrictive adverbial: converts selbri to bridi adverbial term. The first place of the converted selbri is claimed to be such that the outer bridi satisfies it, and the outer bridi is claimed. {broda noi'a brode} means {lo nu broda ku goi ko'a cu fasnu .i ko'a brode}.
 -n
 Has rightward scope. Terminator {fe'u}. See also {poi'a}, {poi'o'a}, {noi'o'a}, {soi'a}, {soi}.
+---
+noi'ai cmavo janbe 1 (en)
+na'e tolni'i modal, first place; despite the logically sufficient condition...
+-n
+contraction of {to'eni'inai}
 ---
 noi'a'u cmavo NOIhAhU krtisfranks 1 (en)
 PA nonrestrictive/incidental relative clause; attaches to a PA number/numeral/digit with the ke'a referring to that PA number/numeral/digit.
@@ -82163,8 +82365,8 @@ Cf. {pacna}, {bangu}, {spe'ato}, {lojbo}, {runbau}.
 pa'aseva'u cmavo-compound BAI* tijlan 1 (en)
 among (with a share for each)
 ---
-pa'au'o cmavo PA5 krtisfranks 2 (en)
-digit/number: universal parabolic constant $P = √(2) + Log_e(1 + √(2)) ≈ 2.295587$
+pa'au'o cmavo PA5 krtisfranks 3 (en)
+digit/number: universal parabolic constant $P = \sqrt2 + \ln\left(1 + \sqrt2\right) ≈ 2.295587$
 ---
 pabi cmavo-compound PA* officialdata 100000 (en)
 number/quantity: 18 [eighteen].
@@ -82447,7 +82649,12 @@ $l_1$ (agent) washes dishes $l_2$ of soil/contaminant $l_3$ with cleaning materi
 -n
 Cf. {paltylumca'a}, {zbabu}, {ctitcilu'i}.
 ---
-paltylumca'a lujvo sarefo 2 (en)
+paltylu'imi'i lujvo latkerlo 1 (en)
+$c_1$ is a dishwasher (machine).
+-n
+Intended to replace {paltylumca'a}, parallel to {taflu'imi'i}. See {palta}, {lumci}, {minji}.
+---
+paltylumca'a lujvo sarefo 1 (en)
 $c_1$ is a dishwasher (machine).
 -n
 Cf. {taflumca'a}, {zbabu}, {ctitcilu'i}, {paltylu'i}.
@@ -85834,6 +86041,9 @@ $x_3$ will be a convention like the right-hand rule. No default is assumed by th
 procau lujvo selpahi 2 (en)
 $x_1$ is uncontended/is unchallenged/faces no resistence about $x_2$
 ---
+proda'a lujvo janbe 1 (en)
+$x_1$ struggles against $x_2$
+---
 pro'estanti fu'ivla viktor 2 (en)
 $x_1$ pertains to the Protestant culture/religion/ethos in aspect $x_2$
 -n
@@ -86061,6 +86271,16 @@ pucymapra lujvo krtisfranks 1 (en)
 $x_1$=$m_1$ is a dust-bunny/quantity of dust-bunnies/fluffy clump of various dusts and hair and other things, of composition $x_2$=$m_2$, held together by/with dust settling on surface $x_3$=$p_3$
 -n
 {mapra} is an experimental gismu. x2 arguably includes p2 and p1. x3 includes hairs, etc.
+---
+pudlu'a lujvo xabju 3 (en)
+$pl_1$ is a garden path to $pl_2$ from $pl_3$ through garden $pu_1$.
+-n
+A 'garden path' in the sense of a path, typically unpaved, that winds circuitously through a garden. There is typically a variety of scenery along the path.
+---
+pudlu'avalsi'ipo'ato fu'ivla xabju 2 (en)
+$x_1$ is a garden-path word meaning/causing $x_2$ in language $x_3$.
+-n
+This is a morphologically well-formed word which parses one way right up until the end, at which point it parses another way. The listener or reader of the word realizes after hearing/seeing it that they have been "led down a garden path" (an English idiom meaning something like "to be bamboozled"). There is a corresponding term in linguistics: a "garden-path sentence." {Lojban} is unusual in having the ability to form garden-path *words* as well as sentences. This word itself is an example. It parses as a {lujvo} (compound) of {purdi} 'garden' + {pluta} 'path' + {valsi} 'word' + {sicni} 'coin' + {spoja} 'explosion' up until about the last syllable. At that point, it ceases to parse as a {lujvo} and becomes a {fu'ivla} with a meaning that is totally unclear. See also {pudlu'avalsipatlu}.
 ---
 pudydi'u lujvo gusek 2 (en)
 $d_1$ is a garden building/cabana/gazebo/shed for purpose/storing of $d_2$ in garden/tended/cultivated field $p_1$
@@ -88775,6 +88995,14 @@ See also {cinmo}.
 roi cmavo ROI [-rom-roi-] officialdata 100000 (en)
 converts number to an objectively quantified tense interval modifier; defaults to time tense.
 ---
+roi'a cmavo PA4 qazw5414 1 (en)
+number: as much as possible.
+---
+roi'ai cmavo BAI janbe 1 (en)
+na'e tolri'a modal, first place; despite the cause...
+-n
+contraction of {to'eri'anai}
+---
 roi'e cmavo FAhA3 lalxu 1 (en)
 location tense relation/direction; on the same side as...
 ---
@@ -90910,6 +91138,11 @@ $x_1$ clicks/selects $x_2$.
 -n
 Does not specify the type of device used to select $x_2$. See {kli'iki} and others.
 ---
+samdo'u lujvo janbe 1 (en)
+$x_1$ is a file (electronic document) containing $x_2$
+-n
+see also {skami}, {dokcu}
+---
 samfli lujvo benlubar 2 (en)
 $f_1=s_1$ crashes while doing $f_2$ (state / event)
 -n
@@ -91614,7 +91847,7 @@ Cf. {do'au} {nau'o}. differs from zo do'au in that the listener isn't free to ch
 saupaulos cmevla totus 1 (en)
 Sao Paulo
 ---
-sau'u cmavo SAUhU ilmen 2 (en)
+sau'u cmavo SAUhU ilmen 1 (en)
 erase the current clause.
 ---
 sauzma lujvo lalxu 1 (en)
@@ -94912,6 +95145,11 @@ $x_{1}$ is a portion/quantity of salt from source $x_{2}$, of composition includ
 -n
 See also {sakta}.
 ---
+silnyjau lujvo latkerlo 1 (en)
+$x_1$ is saltwater/saline water/brine. $x_1$ is water with a significant quantity of dissolved salt.
+-n
+See {silna}, {djacu}.
+---
 silru gismu viktor -1 (en)
 $x_1$ is an exoplanet revolving around $x_2$ with planetary characteristics $x_3$, orbital parameters $x_4$
 ---
@@ -96700,6 +96938,11 @@ $g_2=su_1=t_1$ is a sun-dried tomato of species/strain/variety $t_2$, dried by s
 solxrula lujvo phma 1 (en)
 $x_1$ is a sunflower of species/variety $x_2$.
 ---
+soMAliias cmevla xabju 1 (en)
+Somalia
+-n
+Capital city: {mugdicos}. Synonym: {gugdesu'o}. Natively spelled "Soomaaliya." See also: {kulnrsomali}, {bansomali}, {bansu'omu}.
+---
 sombo gismu [-som-so'o-] officialdata 100001 (en)
 $x_{1}$ sows/plants $x_{2}$ [crop/plants] at/in $x_{3}$.
 -n
@@ -98377,6 +98620,11 @@ srito gismu officialdata 99999 (en)
 $x_{1}$ reflects Sanskrit language/Sanskritic/Vedic culture/nationality in aspect $x_{2}$.
 -n
 See also {xindo}, {xurdo}.
+---
+srokajna lujvo qimar 1 (en)
+$x_1$ is a cabinet containing objects $x_2$
+-n
+cf. {sorcu} {kajna}.
 ---
 srubo'u lujvo tijlan 1 (en)
 $s_1=b_1$ is a rib of $s_2=b_2$.
@@ -102389,7 +102637,7 @@ Made from {te} + {vecnu}. Short form: {erve}
 tervi'a lujvo seryf 1 (en)
 Under conditions $x_{1}$, $x_{2}$ is seen by $x_{3}$.
 ---
-tervi'u lujvo lalxu 2 (en)
+tervi'u lujvo lalxu 3 (en)
 $x_1$ has its $x_2$ taken away by $x_3$, and thereby becomes $x_4$. 
 ---
 tervli lujvo noralujv -1 (en)
@@ -103174,10 +103422,7 @@ end UI-applicative metalinguistic UI-parenthetical (elidable terminator)
 -n
 Terminates {toi'e} parenthetical. Inherently functions as {fu'o} (only if abstraction-level and otherwise appropriately accessed) on any internal UI cmavo, with the added functionality of metalinguistic application. See also: {toi'e}.
 ---
-toirsti lujvo bairyn 0 (en)
-$x_1=s_1=t_1$ gives up / abandons / stops trying to do / attain $x_2=s_2=t_2$ by means / actions / method $x_3=t_3$.
----
-toisti lujvo bairyn 1 (en)
+toisti lujvo bairyn 2 (en)
 $x_1=s_1=t_1$ gives up / abandons / stops trying to do / attain $x_2=s_2=t_2$ by means / actions / method $x_3=t_3$.
 ---
 to'itci lujvo qimar 1 (en)
@@ -104066,6 +104311,9 @@ $x_{1}$ is short in dimension/direction $x_{2}$ (default longest dimension) by m
 -n
 See also {cmalu}, {jarki}, {caxno}, {cinla}, {clani}.
 ---
+torka gismu dalgimbehe 2 (en)
+$x_1$ is a turtle/tortoise (shelled reptile) of species/variety $x_2$
+---
 torluznaukosta lujvo selpahi 1 (en)
 $x_1$ is a doublet
 ---
@@ -104485,6 +104733,11 @@ troxeii fu'ivla vudypai2 2 (en)
 $x_1$ is an trochee
 -n
 See also {pemci}, {pemsuua}, {anapesti}, {daktili}
+---
+troxili fu'ivla janbe 2 (en)
+$x_1$ is a hummingbird of species/variety $x_2$
+-n
+shortening of {troxilidai}
 ---
 troxilidai fu'ivla krtisfranks 1 (en)
 $x_1$ is a hummingbird (member of taxon Trochilidae) of subtaxon/breed $x_2$.
@@ -107395,8 +107648,8 @@ $c_1=v_2$ invites $ c_3=v_1$ to $v_2$ (place/event) in manner $c_4$.
 -n
 Cf. {vitke}, {cpedu}, {zvacpe}.
 ---
-vi'ei'e cmavo PA5 krtisfranks 2 (en)
-digit/number: Lévy-Khinchin constant $γ = e^{(π^2)/(12Log_e(2))} ≈ 3.2758…$
+vi'ei'e cmavo PA5 krtisfranks 3 (en)
+digit/number: Lévy-Khinchin constant $γ = e^{\frac{\pi^2}{12\ln2}} ≈ 3.2758…$
 -n
 Some definitions of a constant likewise named are the natural logarithm of this number.
 ---
@@ -109087,6 +109340,16 @@ $x_1=xr_1$ assaults / causes bodily injury / harm / physical damage to the body 
 -n
 Not necessarily non-consensual assault.
 ---
+xadyxau lujvo janbe 2 (en)
+$x_1$ is wholesome/healthy/nutritious for $x_2$
+-n
+e.g. food, exercise, etc.
+---
+xadyxla lujvo janbe 2 (en)
+$x_1$ is unwholesome/unhealthy/non-nutritious for $x_2$
+-n
+e.g. junk food, sedentary lifestyle
+---
 xadzu'i lujvo savrujanbe 2 (en)
 $z_1$ is a disability affecting $z_2$ in manner/form $z_3$
 -n
@@ -109720,6 +109983,9 @@ $x_{1}$ is a pig/hog/swine/[boar] [pork/ham/bacon-producer] of species/breed $x_
 -n
 Sow (= {fetxarju}), boar (= {nakyxarju}), pork (= {xajre'u}), piglet (= {citxarju}).  See also {mabru}, {cange}.
 ---
+xarmi gismu dalgimbehe 2 (en)
+$x_1$ is a starfish/sea star/sand dollar (radially symmetric invertebrate) of species/variety $x_2$
+---
 xarmonika fu'ivla lalxu 2 (en)
 $x_1$ is a harmonica.
 -n
@@ -109805,10 +110071,15 @@ $x_1=m_1$ counteracts sweat odor (deodorant/antiperspirant) due to property $x_2
 -n
 Deodorants hinder body odor (from bacterial breakdown of sweat) in some way (masking/destruction); antiperspirants, a subgroup, reduces actual perspiration.
 ---
+xastorka lujvo latkerlo 1 (en)
+$x_1$ is a sea turtle of species $x_2$.
+-n
+See {xamsi}, {torka}, {xasycakrespa}.
+---
 xasycakrespa lujvo latkerlo 2 (en)
 $x_1$ is a sea turtle of species $x_2$.
 -n
-See {xamsi}, {calku}, {respa}, {cakyrespa}, {tumcakrespa}
+See {xamsi}, {calku}, {respa}, {cakyrespa}, {tumcakrespa}, {xastorka}
 ---
 xasycurnu lujvo totus 1 (en)
 $c_1$ is a sea worm of species $c_2$.                                             
@@ -109824,6 +110095,11 @@ xasydja lujvo viktor 1 (en)
 $x_1$ is seafood of ingredients/contents $x_2$ of variety/type $x_3$ from sea/ocean/gulf/fluid body $x_4$
 -n
 Cf. {xamsi}, {cidja}
+---
+xasyjau lujvo latkerlo 1 (en)
+$x_1$ is seawater from ocean/sea $x_2$.
+-n
+Sea {xamsi}, {djacu}.
 ---
 xasyjbama lujvo totus 1 (en)
 $j_1$ is a sea mine with explosive material/principle $j_2$.
@@ -110111,7 +110387,7 @@ xe'e'u cmavo SEhEhI krtisfranks 1 (en)
 -n
 See also: "{se'e'i}", "{te'e'a}", "{ve'e'u}", "{ze'e'u}", "{xe'e'o}", "{ze'e'e}".
 ---
-xe'i cmavo KOhA7 janbe 2 (en)
+xe'i cmavo KOhA7 janbe 3 (en)
 discourse pronoun: the current situation
 -n
 By extension. See also {xi'o}, {xa'u}
@@ -110862,6 +111138,9 @@ interval endpoint status (exclusive/inclusive) marker: dependent and contrary/co
 -n
 Claims that the bridi is true for either option of endpoint so long as the other endpoint is opposite in status; so, the bridi is claimed to be true for the interval specified so long as both endpoints are the different: one endpoint must be inclusive while the other is exclusive. Neither option for the order of these statuses is "picked"; either may be substituted into the bridi and the truth value is claimed to remain the same (namely, True). No claim is made regarding the case of their being the same (use "{je} {nai} {xei'u'oi}" for exclusion of this case). The other endpoint status may be explicitly be specified to a definitive realization, but the default will be {xoi'u'oi} as well. See also: {xei'u'oi}, {xau'u'oi}, {xai'u'oi}.
 ---
+xoltu gismu dalgimbehe 2 (en)
+$x_1$ is a sea cucumber of species/variety $x_2$
+---
 xomeros cmevla giqtaqisi 1 (en)
 Homer.
 ---
@@ -111063,7 +111342,7 @@ $x_1=xr_1=j_1$ (affectionately) hugs $x_2=xr_2=j_2$ with $x_3=j_3$ on $x_4=j_4$.
 -n
 Uses experimental rafsi -xro- from {xrotu}. Near synonyms: {pamjai}, {dibjai}. See also {xrotu}, {jgari}, {prami}, {se} {dirba}, {pamjai}, {dibjai}.
 ---
-xroma gismu krtisfranks 0 (en)
+xroma gismu krtisfranks -1 (en)
 $x_1$ appears with/to have chroma/chrominance value $x_2$ (may be multi-componented) by standard/convention $x_3$ under conditions $x_4$.
 -n
 $x_3$ can also specify the ordering of the components, if such is relevant. Viewer can be incorporated into $x_3$ or $x_4$. By some definitions $x_3$ of "chroma", $x_4$ may lose some or all facets of its meaning (and may thus be effectively be deleted from the selbri); the optional presence of $x_4$ or any facet thereof is not intended to have any implications about the definitions or standards $x_3$ which may be used for this word and otherwise does not restrict its generally potential scope.
@@ -112094,6 +112373,11 @@ $t_1$ [process] is a method/recipe for crafting/making/assembling/building/manuf
 -n
 Cf. {zbasu}, {tadji}
 ---
+zbazai lujvo qimar 1 (en)
+$x_1$ is a hardware store selling $x_2$ operated by $x_3$
+-n
+cf. {zbasu} {zarci}
+---
 zbepi gismu [-zbe-] officialdata 100000 (en)
 $x_{1}$ is a pedestal/base/stand/pallet supporting $x_{2}$ (object/event), of materials/properties $x_{3}$.
 -n
@@ -112119,6 +112403,9 @@ zbikre lujvo totus 0 (en)
 $k_1$ is a/are whisker(s)/hair on/in the nose of $k_2=n_2$.
 -n
 Cf. {nazbi}, {kerfa}, {gaskre}, {runkre}.
+---
+zbimuxne lujvo janbe 1 (en)
+$x_1$ is snot/nasal mucus produced by $x_2$
 ---
 zbipe'u lujvo spheniscine 1 (en)
 $x_1$ nuzzles/noses $x_2$ at locus $x_3$
@@ -112323,6 +112610,11 @@ zdiraxa fu'ivla phma 2 (en)
 $x_1$ is a chinaberry of variety $x_2$.
 -n
 See also {margosa}.
+---
+zdire'e lujvo janbe 2 (en)
+$x_1$ is a roller coaster
+-n
+shortening of {zdima'ateryre'e}
 ---
 zditeitortei lujvo lalxu 1 (en)
 $x_0$: Time flies when you're having fun. (nullary predicate)
@@ -112821,8 +113113,8 @@ $x_1$ pertains to the Zen Buddhist culture/religion/ethos in aspect $x_2$
 -n
 Cf. {budjo}, {mla'aiana}, {tseravada}, {vajraiana}
 ---
-zgibe'e lujvo wuzzy 1 (en)
-$b_1$ is an orchestra, consisting of performers $b_2$, and conducted by $b_3$, performing music $z_1$.
+zgibe'e lujvo wuzzy 2 (en)
+$b_1$ is a band consisting of performers $b_2$
 -n
 See also {balzgibe'e}.
 ---
@@ -122271,6 +122563,9 @@ $x_1$ is a duck of species $x_2$
 datni gismu gleki 1 (en-simple)
 $x_1$ is information about $x_2$ gathered by method $x_3$
 ---
+datru gismu gleki 0 (en-simple)
+$x_1$ (event) is occurring on day $x_2$ of month $x_3$ of year $x_4$ in calendar $x_5$
+---
 decti gismu [-dec-] gleki 1 (en-simple)
 $x_1$ is a tenth of $x_2$ in dimension or aspect $x_3$
 ---
@@ -123140,6 +123435,9 @@ $x_1$ is a committee with task $x_2$ of body $x_3$
 ---
 kampu gismu [-kau-] gleki 1 (en-simple)
 $x_1$ is common among $x_2$
+---
+kamro gismu gleki 0 (en-simple)
+$x_1$ reflects Welsh language/culture in aspect $x_2$
 ---
 kanba gismu gleki 1 (en-simple)
 $x_1$ is a goat of species $x_2$
@@ -161985,6 +162283,11 @@ $x_1$ は $x_2$ （題目）について $x_3$ （方法）で得たデータ／
 -n
 ・大意： 情報 ・読み方： ダトニ  ・関連語： {fatci}, {saske}, {vreji}
 ---
+datru gismu cogas 0 (ja)
+$x_1$ （事）は $x_2$ （日）・ $x_3$ （月）・ $x_4$ （年）・ $x_5$ （暦） の日付 （に生じる）
+-n
+{detri} は十分に文化中立的な日付システムとして機能していないという声がある。さらに日付の機構に{pi'e}や{joi}を使うのは不十分であり、日・月・年の要素をそれぞれPSに設けたほうがより一層すっきりしているように思われる。　・関連語： {masti}, {djedi}, {nanca}, {nu}, {fasnu}, {purci}, {balvi}, {jeftu}
+---
 da'u cmavo KOhA2 glekizmiku 2 (ja)
 以前言ったこと ： 代詞（sumti）；
 -n
@@ -179624,6 +179927,11 @@ kamrngogolo fu'ivla krtisfranks 1 (jbo)
 $x_1$ kamre li dau te'a dau bi'ete'a re ku to $A^{(A^2)}$ toi $x_2$ ku $x_3$ to lo gradu cu tecycuxskicauzmi $x_3$ toi
 -n
 {kamre}
+---
+kamro gismu xorxes 1 (jbo)
+$x_1$ ckini lo kulnu ja bangu ja cecmu ja natmi pe lo bancujemu $x_2$
+-n
+{kulnu}; {bangu}; {cecmu}; {natmi}; {bancujemu}; {ropno}; {brito}
 ---
 kamymeckezrai lujvo krtisfranks 1 (jbo)
 $x_1$ traji $x_2$ lo ka mleca kei ku $x_3$
@@ -210418,6 +210726,11 @@ $x_1$（du'u）是数据/信息，关于$x_2$，以方法$x_3$收集
 -n
 证据= velji'i datni或只是 {velji'i}, {sidydatni}；参见 {fatci}, {saske}, {vreji}.
 ---
+datru gismu gleki 0 (zh)
+$x_1$（事件）发生在/处于时间日期$x_2$，月份$x_3$，年份$x_4$，以历法$x_5$
+-n
+{detri}是不能够表示某些独立的时间系统的，{pi'e}或{joi}的使用也存在不足，而将时间元素构建到位结构之中又显得非常繁杂；参见 {masti}, {djedi}, {nanca}, {nu}, {fasnu}, {purci}, {balvi}, {jeftu})
+---
 decti gismu [-dec-] gleki 1 (zh)
 $x_1$是十分之一/十的负一次方个/份[$10^{-1}$]$x_2$，在$x_3$方面 （默认是计量单位）
 -n
@@ -211970,6 +212283,9 @@ kampu gismu [-kau-] gleki 1 (zh)
 $x_1$（性质ka）是常见的/普通的/普遍的，在集合$x_2$（完整集合）中
 -n
 只应用于完全的普通意义，性质$x_1$ 必须出现在$x_2$中的每一个成员上；非完全的普通意义见 {fadni} 和 {zilfadni}；参见 {cafne}, {rirci}, {fadni}, {cnano}, {tcaci}, {lakne}, {cmima}, {simxu}.
+---
+kamro gismu glekizmiku 0 (zh)
+$x_1$是关于威尔士的文化/国家/语言等的事物，在$x_2$方面
 ---
 kanba gismu gleki 1 (zh)
 $x_1$是山羊，属于种类/种族$x_2$
