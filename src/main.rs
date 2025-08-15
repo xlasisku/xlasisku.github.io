@@ -15,13 +15,12 @@ struct Entry {
     selmaho: String,
     #[serde(skip)]
     rafsi: Vec<String>,
-    score: i32,
+    score: f32,
     definition: String,
     #[serde(default, skip_serializing_if = "String::is_empty")]
     notes: String,
     #[serde(skip)]
     pos: String,
-    #[serde(skip)]
     author: String,
     #[serde(skip_serializing_if = "is_en")]
     lang: String,
@@ -40,7 +39,7 @@ impl Entry {
             word: String::new(),
             rafsi: Vec::new(),
             selmaho: String::new(),
-            score: 0,
+            score: 0.,
             definition: String::new(),
             notes: String::new(),
             pos: String::new(),
@@ -157,15 +156,16 @@ fn main() {
     ];
     let mut words = Vec::<Entry>::new();
     let mut current_tag = String::new();
-    let mut entry = Entry::new();
-    let mut skip = false;
+    let mut base_entry = Entry::new();
+    let mut current_entry = Entry::new();
+    let mut skip_word = false;
     let client = Client::new();
     for lang in langs {
         println!("`{lang}`");
         let xml = String::from_utf8(
             client
                 .get(format!(
-                    "https://jbovlaste.lojban.org/export/xml-export.html\
+                    "https://jbovlaste.lojban.org/export/full-xml-export.html\
                     ?lang={lang}&positive_scores_only=0&bot_key=z2BsnKYJhAB0VNsl"
                 ))
                 .send()
@@ -173,8 +173,9 @@ fn main() {
                 .bytes()
                 .unwrap()
                 .to_vec(),
-        )
-        .unwrap();
+        );
+        assert!(xml.is_ok(), "invalid utf-8 oh no");
+        let xml = xml.unwrap();
         let mut reader = Reader::from_str(&xml);
         loop {
             match reader.read_event() {
@@ -196,24 +197,34 @@ fn main() {
                         .collect::<HashMap<_, _>>();
                     match tag.as_str() {
                         "valsi" => {
-                            entry = Entry::new();
-                            entry.lang = lang.to_string();
+                            base_entry = Entry::new();
+                            base_entry.lang = lang.to_string();
+                            skip_word = false;
                             if attrs.get("type").unwrap().starts_with('o') {
                                 current_tag.clear();
                                 reader.read_to_end(e.name()).unwrap();
-                                skip = true;
+                                skip_word = true;
                             } else {
-                                entry.word.clone_from(attrs.get("word").unwrap());
-                                entry.pos.clone_from(attrs.get("type").unwrap());
-                                skip = false;
+                                base_entry.word.clone_from(attrs.get("word").unwrap());
+                                base_entry.pos.clone_from(attrs.get("type").unwrap());
+                                base_entry.rafsi = RAFSI
+                                    .get(base_entry.word.as_str())
+                                    .unwrap_or(&vec![])
+                                    .iter()
+                                    .map(ToString::to_string)
+                                    .collect();
                             }
                         }
-                        "score" | "selmaho" | "definition" | "notes" | "username" => {
-                            current_tag = tag;
+                        "selmaho" | "username" | "score" | "text" | "notes" => current_tag = tag,
+                        "definition" => {
+                            if !skip_word {
+                                current_entry = Entry {
+                                    author: current_entry.author,
+                                    ..base_entry.clone()
+                                };
+                            }
                         }
-                        "dictionary" | "direction" | "user" => {
-                            // go inside
-                        }
+                        "dictionary" | "direction" | "definitions" | "user" => (), // go inside
                         _ => {
                             reader.read_to_end(e.name()).unwrap();
                         }
@@ -222,40 +233,23 @@ fn main() {
                 Ok(Event::Text(e)) => {
                     let text = deëntity(str::from_utf8(&e.into_inner()).unwrap());
                     match current_tag.as_str() {
+                        "selmaho" => base_entry.selmaho = text,
                         "score" => {
-                            let int = text.parse::<i32>().unwrap();
-                            if int >= -1 {
-                                entry.score = int;
-                            } else {
-                                skip = true;
-                            }
+                            let score = text.parse::<f32>().unwrap();
+                            current_entry.score = score;
                         }
-                        "selmaho" => {
-                            entry.selmaho = text;
-                        }
-                        "definition" => {
-                            entry.definition = text;
-                        }
-                        "notes" => {
-                            entry.notes = text;
-                        }
-                        "username" => {
-                            entry.author = text;
-                        }
+                        "text" => current_entry.definition = text,
+                        "notes" => current_entry.notes = text,
+                        "username" => current_entry.author = text,
                         _ => (),
                     }
                     current_tag.clear();
                 }
                 Ok(Event::End(e)) => {
                     let tag = String::from_utf8(e.name().as_ref().to_vec()).unwrap();
-                    if tag == "valsi" && !skip {
-                        entry.rafsi = RAFSI
-                            .get(entry.word.as_str())
-                            .unwrap_or(&vec![])
-                            .iter()
-                            .map(ToString::to_string)
-                            .collect();
-                        words.push(entry.clone());
+                    if tag.as_str() == "definition" && !skip_word && current_entry.score >= -1. {
+                        current_entry.selmaho.clone_from(&base_entry.selmaho);
+                        words.push(current_entry.clone());
                     }
                 }
                 _ => (),

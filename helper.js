@@ -91,9 +91,10 @@ function convertJSONToHTMLElement(json) {
         "href": "https://jbovlaste.lojban.org/dict/" + json.word.replace(/ /g, "%20"),
         "target": "_blank",
       }, [
-        json.score >= 1000 ? "official" :
-          json.score == -1 ? json.score : "+" + json.score,
-        "\u{a0}↗"
+        json.author, " ",
+        json.author == "officialdata" ? "" :
+          json.score == -1 ? json.score : "+" + json.score + " ",
+        "↗"
       ]),
       " ",
       createHTMLElement("code", {}, [json.lang || ""])
