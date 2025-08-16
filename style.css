@@ -316,6 +316,7 @@ button {
 .opt .checked {
   background: rgb(var(--checked));
   color: white;
+  font-weight: bold;
 }
 
 .opt .checked:has(+ .checked) {

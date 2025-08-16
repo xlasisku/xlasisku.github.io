@@ -51,10 +51,7 @@ function search(query) {
   } else if (config.regex.on) {
     var rgx;
     try {
-      rgx = new RegExp(
-        config.regex.tight ? "^(" + query + ")$" : query,
-        config.regex.i ? "i" : ""
-      );
+      rgx = new RegExp(config.regex.tight ? "^(" + query + ")$" : query, "i");
     } catch (e) {
       return [];
     }

@@ -162,13 +162,10 @@ id("rhyme-y").addEventListener("click", function() {
   rhymeMode(config.jvops, true);
 });
 id("xm").addEventListener("click", function() {
-  regexMode(config.jvops, false, false);
-});
-id("regex-i").addEventListener("click", function() {
-  regexMode(config.jvops, true, false);
+  regexMode(config.jvops, false);
 });
 id("regex-tight").addEventListener("click", function() {
-  regexMode(config.jvops, false, true);
+  regexMode(config.jvops, true);
 });
 function removeClasses() {
   document.body.classList.remove("rhyme");
@@ -205,7 +202,7 @@ function searchMode(jvops) {
   id("jvo-x").disabled = config.jvops == "A1g";
   dispatchSearchInputEvent();
 }
-function regexMode(jvops, togglei, toggletight) {
+function regexMode(jvops, toggletight) {
   clearTimeout(timer);
   removeClasses();
   setBodyClass("regex");
@@ -214,10 +211,6 @@ function regexMode(jvops, togglei, toggletight) {
   addClassById("xm", "checked");
   config.rhyme.on = false;
   config.regex.on = true;
-  if (togglei) {
-    toggleClassById("regex-i", "checked");
-    config.regex.i = !config.regex.i;
-  }
   if (toggletight) {
     toggleClassById("regex-tight", "checked");
     config.regex.tight = !config.regex.tight;

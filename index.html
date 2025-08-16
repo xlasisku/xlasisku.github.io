@@ -34,28 +34,28 @@
     <span class="nobr opt">
       <button id="theme">theme</button>
     </span>
+    <span class="nobr">
+      <label for="jvop">lujvo settings:</label>
+      <input name="jvop" id="jvop" type="text" value="A1g" size="6" />
+      <button class="nopad" id="jvo-x" disabled>reset</button>
+      <a href="jvoptions.html" target="_blank">help</a>
+    </span>
     <br />
     <span class="regexonly">
       <span class="nobr opt">
-        <button id="regex-tight">wrap in ^( )$</button><button id="regex-i">ignore case</button>
+        <button id="regex-tight">wrap in ^( )$</button>
       </span>
-      <br />
     </span>
     <span class="rhymeonly">
       <span class="nobr opt">
         <button id="rhyme-y">ignore y</button>
       </span>
-      <br />
     </span>
-    <label for="jvop">lujvo settings:</label>
-    <input name="jvop" id="jvop" type="text" value="A1g" size="6" />
-    <button class="nopad" id="jvo-x" disabled>reset</button>
-    <a href="jvoptions.html" target="_blank">help</a>
   </p>
   <div id="fakebox">
     <input type="text" id="search" name="search" autocomplete="off" spellcheck="false" autocapitalize="off"
-      autocorrect="off" placeholder="loading" disabled size="1" />&nbsp;<span id="clear-wrap"><button
-        class="clear nopad" id="clear">×</button></span>
+      autocorrect="off" placeholder="loading" disabled size="1" />
+    <span id="clear-wrap"><button class="clear nopad" id="clear">×</button></span>
   </div>
   <div id="info"></div>
   <div id="length"></div>
@@ -108,7 +108,6 @@
         vars += "&rhyme=" + (config.rhyme.ignorey ? "y" : "");
       else if (config.regex.on) {
         var options = [];
-        if (config.regex.i) options.push("i");
         if (config.regex.tight) options.push("tight");
         vars += "&regex=" + options.join(",");
       }
