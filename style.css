@@ -353,7 +353,7 @@ body:not([class^=rh]) .rhymeonly {
 }
 
 #jvop {
-  font-family: var(--sans);
+  font-family: var(--mono);
   font-size: inherit;
   border: 1px solid rgb(var(--fg));
   background: rgb(var(--inv));
