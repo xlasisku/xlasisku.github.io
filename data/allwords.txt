@@ -15308,6 +15308,7 @@ en jintyke'a
 en jinvi
 en jinxabdakfu
 en jinynanba
+en jinynanba
 en jinzi
 en jinziljivbu
 en ji'o
@@ -30132,6 +30133,7 @@ en zaisle
 en zai'u
 en zajba
 en zajba
+en zajdi'u
 en zajyctu
 en zajyjirsu'u
 en zaky'IL
