@@ -130,7 +130,7 @@
           rhymeMode(jvop, params.get("rhyme") == "y");
         } else if (params.has("regex")) {
           var options = params.get("regex").split(",");
-          regexMode(jvop, options.includes("i"), options.includes("tight"));
+          regexMode(jvop, options.includes("tight"));
         } else {
           searchMode(jvop);
         }

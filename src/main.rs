@@ -165,8 +165,8 @@ fn main() {
         let xml = String::from_utf8(
             client
                 .get(format!(
-                    "https://jbovlaste.lojban.org/export/full-xml-export.html\
-                    ?lang={lang}&positive_scores_only=0&bot_key=z2BsnKYJhAB0VNsl"
+                    "https://jbovlaste.lojban.org/export/xml-export.html\
+                    ?lang={lang}&positive_scores_only=0&all_defs=1&bot_key=z2BsnKYJhAB0VNsl"
                 ))
                 .send()
                 .unwrap()
@@ -218,10 +218,7 @@ fn main() {
                         "selmaho" | "username" | "score" | "text" | "notes" => current_tag = tag,
                         "definition" => {
                             if !skip_word {
-                                current_entry = Entry {
-                                    author: current_entry.author,
-                                    ..base_entry.clone()
-                                };
+                                current_entry = base_entry.clone();
                             }
                         }
                         "dictionary" | "direction" | "definitions" | "user" => (), // go inside
@@ -233,7 +230,7 @@ fn main() {
                 Ok(Event::Text(e)) => {
                     let text = deëntity(str::from_utf8(&e.into_inner()).unwrap());
                     match current_tag.as_str() {
-                        "selmaho" => base_entry.selmaho = text,
+                        "selmaho" => current_entry.selmaho = text,
                         "score" => {
                             let score = text.parse::<f32>().unwrap();
                             current_entry.score = score;
@@ -248,7 +245,6 @@ fn main() {
                 Ok(Event::End(e)) => {
                     let tag = String::from_utf8(e.name().as_ref().to_vec()).unwrap();
                     if tag.as_str() == "definition" && !skip_word && current_entry.score >= -1. {
-                        current_entry.selmaho.clone_from(&base_entry.selmaho);
                         words.push(current_entry.clone());
                     }
                 }
