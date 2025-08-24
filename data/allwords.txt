@@ -15716,6 +15716,7 @@ en kagnyja'a
 en kagycange
 en kagycfagau
 en kagyfu'e
+en kagyfu'e
 en kagypanka
 en kagysamseltcana
 en kagyseldejni
@@ -28514,6 +28515,7 @@ en varbasygauca'a
 en varboi
 en varcavas
 en varganu
+en varglami'i
 en varjau
 en varjaumi'i
 en varjei
@@ -29317,6 +29319,7 @@ en vy.bu
 en vybu
 en VYNTxuk
 en vy'y
+en vy'ybu
 en vy zei sance
 en xa
 en xa!
