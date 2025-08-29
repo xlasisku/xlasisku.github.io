@@ -12658,6 +12658,7 @@ en fanza
 en fanza
 en fa'o
 en fa'oi
+en fa'onai
 en fa'o'o
 en fa'orma'o
 en fapro
@@ -15018,6 +15019,7 @@ en jesni
 en jespambe
 en jespezli
 en jestu'u
+en jesxarmi
 en jesycilta
 en jesycro
 en jesymabru
@@ -18352,6 +18354,7 @@ en mivyslebi'u
 en mivyslerango
 en mivyslerebla
 en mivyvelvicyvauro'i
+en mivyxanka
 en mivyxu'i
 en mivzu'e
 en mixa,IL
@@ -27696,6 +27699,7 @@ en tokmeki
 en toknoma
 en toknu
 en tokpisina
+en tokpo
 en tokpona
 en tokpono
 en toksina
@@ -47848,6 +47852,7 @@ jbo mitcinpa'i
 jbo mitfa'i
 jbo mitre
 jbo mi'u
+jbo mivyxanka
 jbo mivzu'e
 jbo mlana
 jbo mlatu

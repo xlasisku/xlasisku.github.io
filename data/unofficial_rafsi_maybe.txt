@@ -304,15 +304,15 @@ $c_1=r_1$ is a title of $c_2=r_2$ used by $c_3$.
 -n
 Cf. {cmene}, {rafsi}.
 ---
-ra'oi cmavo RAhOI gusnikantu 1 (en)
-tag of rafsi; it makes one following rafsi a sumti.
--n
-Note that sometimes a space or a pause is necessary before and/or after the rafsi. The parser zantufa-0.14 and later will parse ra'oi as in selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Examples: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
----
 ra'oi cmavo ZOhOI eimi 4 (en)
 single-word rafsi quote; quotes a single word delimited by pauses (in speech) or whitespace (in writing) and treats it as a rafsi
 -n
 Useful for quoting rafsi that aren't legal words on their own. See http://mw.lojban.org/papri/unspeakable_rafsi_gotcha for details.
+---
+ra'oi cmavo RAhOI gusnikantu 1 (en)
+tag of rafsi; it makes one following rafsi a sumti.
+-n
+Note that sometimes a space or a pause is necessary before and/or after the rafsi. The parser zantufa-0.14 and later will parse ra'oi as in selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Examples: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
 ---
 ra'oijbo fu'ivla lamisotanis 2 (en)
 $x_1$ is someone who constantly annoyingly reminds other Lojbanists including $x_2$ to not forget about mandatory pauses in speech
@@ -393,6 +393,11 @@ tezyfrinu lujvo krtisfranks 1 (en)
 $x_1$  is a fraction with $x_2$ divided by e (natural exponential base)
 -n
 Experimental rafsi "-tez- (for  {te'o}) is used.
+---
+tokpo gismu qazw5414 2 (en)
+$x_1$ reflects Toki Ponan/Tokiponaic/Toki Pona culture/language/community in aspect $x_2$
+-n
+Proposed rafsi: -top-
 ---
 tokpono fu'ivla krtisfranks 1 (en)
 $x_1$ reflects Toki Pona culture/nationality/language in aspect $x_2$
