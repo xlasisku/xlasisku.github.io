@@ -9059,6 +9059,7 @@ en blikubli
 en blina
 en blita'o
 en blixra
+en blobarmatra
 en bloblobloblo
 en blobonjacta'o
 en bloca'ega'a
@@ -9068,6 +9069,7 @@ en blocra
 en blocripu
 en blofanga'a
 en blofarga'a
+en blogi'adi'u
 en blogre
 en blogre
 en bloibu
@@ -11383,6 +11385,7 @@ en daltsivi'i
 en damba
 en damba
 en damfri
+en damko
 en damri
 en damselzdi
 en damtubnu
@@ -11829,6 +11832,7 @@ en dicra
 en dicre'e
 en dictergu'i
 en dicyba'ogaumi'i
+en dicybo'i
 en dicycau
 en dicycau
 en dicydenmi
@@ -13512,6 +13516,7 @@ en gerku
 en gerkuuono
 en gerkyzda
 en gerkyzdani
+en germo
 en gerna
 en gernciba'inu
 en gerpre
@@ -14152,6 +14157,7 @@ en gu'irnilcarmrmagnitu
 en gu'irsutra
 en gukcanre
 en gukcanre
+en guktci
 en gulpli
 en gulrota
 en gumcatra
@@ -15153,6 +15159,7 @@ en jifsku
 en jifxu'a
 en jifyjovnarje'u
 en jifyjunxu'a
+en jifyzanpei
 en jiglanxe
 en jigycitri
 en ji'i
@@ -16113,6 +16120,7 @@ en kelgrimi'u
 en kelkansa
 en kelkarda
 en kelkarda
+en kelkardygri
 en kelka'u
 en kelkubli
 en kelkubli
@@ -18590,6 +18598,7 @@ en mosriksna
 en mosrnmu
 en mosycpu
 en mosycpu
+en mosyguktci
 en mosyjgita
 en mosysna
 en mosysna
@@ -22579,6 +22588,7 @@ en sedyterjo'e
 en sedyti'ebo'u
 en se'e
 en se'e'i
+en se'ei
 en sefa'e
 en sefi'e
 en sefsi
@@ -28967,6 +28977,7 @@ en vijyja'a
 en vijysazri
 en vijysoi
 en vijytcana
+en vijyzda
 en vikcigla
 en vikmi
 en viknu
@@ -34523,6 +34534,7 @@ eo blabi
 eo blaci
 eo blanu
 eo bliku
+eo blogi'adi'u
 eo blolo
 eo bloti
 eo bo
@@ -45839,6 +45851,8 @@ jbo blaselkanla
 jbo blefa'u
 jbo blemau
 jbo bleme'a
+jbo blobarmatra
+jbo blogi'adi'u
 jbo blokle
 jbo bloti
 jbo blucri
@@ -47540,6 +47554,7 @@ jbo lai'e
 jbo lairka'e
 jbo lairtcinyske
 jbo lai'u
+jbo lajre'e
 jbo lakne
 jbo lakpinsi
 jbo lakse
@@ -49599,6 +49614,7 @@ jbo vi'e
 jbo vifne
 jbo vi'i
 jbo vijli'a
+jbo vijyzda
 jbo vikmi
 jbo viknu
 jbo vilmu'u
@@ -49729,6 +49745,7 @@ jbo xarnu
 jbo xarpe'o
 jbo xarpretra
 jbo xasne
+jbo xastorka
 jbo xatra
 jbo xatsi
 jbo xau

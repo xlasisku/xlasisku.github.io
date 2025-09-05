@@ -119,6 +119,11 @@ $x_1$ feels sensation / qualia $x_2$ via sense $x_3$ (ka) // {ka'e gansetifri} =
 -n
 $x_2$ is a {ganseti}-type. Proposed gismu form: {gelse}, with rafsi -ges- and -ge'e-. See {lifri}, {ganse}.
 ---
+germo gismu mati 2 (en)
+$x_1$ reflects Germanic culture/language in aspect $x_2$.
+-n
+Coined to resolve the ambiguity with {dotco}, which is officially overloaded for both 'German' and 'Germanic'. Proposed rafsi -gem-.
+---
 gimrafrimna lujvo selgugbad 2 (en)
 $x_1$ is a rhythmic conjugation of word $x_2$, rhyming with word $x_3$ in language $x_4$, with changed final vowel/ending $x_5$.
 -n
@@ -394,7 +399,7 @@ $x_1$  is a fraction with $x_2$ divided by e (natural exponential base)
 -n
 Experimental rafsi "-tez- (for  {te'o}) is used.
 ---
-tokpo gismu qazw5414 2 (en)
+tokpo gismu qazw5414 3 (en)
 $x_1$ reflects Toki Ponan/Tokiponaic/Toki Pona culture/language/community in aspect $x_2$
 -n
 Proposed rafsi: -top-
@@ -814,12 +819,12 @@ $x_1$ ckini $x_1$ boi $x_2$
 -n
 ko karbi fi zo {sevzi} .e zo {simxu} .i .ei zo'oi se'i rafsi zo sefsi .i zo sevzi na nitcu lo fanmo rafsi .i {djuse'i} .i {spose'i} .i {lacyse'i} .i {trose'i} .i {truse'i} .i {sazyse'i} .i {lumse'i} .i {lebyse'i} .i {catryse'i} .i {sajyse'i}
 ---
-skuna gismu ractu 0 (jbo)
+skuna gismu ractu 2 (jbo)
 $x_1$ boi $x_2$ boi $x_3$ boi $x_4$ cusku
 -n
 panra zo {cusku} lo ka claxu lo me zo cy. sance noi so'i da jinvi lo du'u ke'a jai cafnydu'e fai tu'a lo bangu mu'u lu {cu} {cusku} li'u .i lo rafsi be zo skuna cu mintu lo me zo {cusku} moi .i za'a za'a dai lo se skicu valsi cu pu co'a cafne banzu fi lo nu jmina fi jyvysy .i ja'o kukte ko
 ---
-skuna gismu ractu 2 (jbo)
+skuna gismu ractu 0 (jbo)
 $x_1$ boi $x_2$ boi $x_3$ boi $x_4$ cusku
 -n
 panra zo {cusku} lo ka claxu lo me zo cy. sance noi so'i da jinvi lo du'u ke'a jai cafnydu'e fai tu'a lo bangu mu'u lu {cu} {cusku} li'u .i lo rafsi be zo skuna cu mintu lo me zo {cusku} moi .i za'a za'a dai lo se skicu valsi cu pu co'a cafne banzu fi lo nu jmina fi jyvysy .i ja'o kukte ko
