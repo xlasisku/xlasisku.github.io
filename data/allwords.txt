@@ -8637,6 +8637,7 @@ en bau'u
 en bavdji
 en bavgaupei
 en bavji'i
+en bavjijnu
 en bavla'i
 en bavla'i
 en bavla'ima'i
@@ -9918,6 +9919,7 @@ en cesri'isi'a
 en cesri'isi'a
 en cestoldapma
 en cestu'a
+en cestuzvi'e
 en cesycku
 en cesycku
 en cesyjvedotla'okemsorgugject
@@ -11895,6 +11897,7 @@ en dimcei
 en dimna
 en dimnu'e
 en dimri'a
+en dimsni
 en dinalit
 en dincfu
 en dincpa
@@ -14814,6 +14817,7 @@ en jbokravla
 en jboku'ile
 en jbolanci
 en jbole'u
+en jbolotomi
 en jbomidju
 en jbomi'u
 en jbonobo
@@ -16415,6 +16419,7 @@ en klesrfilu
 en klesrklasi
 en klesrverlapi
 en kligau
+en kligo
 en kli'ikco'a
 en kli'iki
 en kli'ikmo'u
@@ -17047,6 +17052,7 @@ en lanme
 en lanpanzi
 en lanru
 en lansulbu'u
+en lansulbu'u
 en lante
 en lantro
 en lanxe
@@ -17523,6 +17529,7 @@ en lorsmani
 en lorvera
 en lorxu
 en losanjylys
+en losmo
 en losto
 en losupan
 en lotkle
@@ -17683,6 +17690,7 @@ en mai'u
 en mai'u'au
 en mai'u'e
 en mai'u'ei
+en maixra
 en maixra
 en majbi'o
 en majga
@@ -19305,6 +19313,7 @@ en nerpalku
 en nerta'u
 en ne'u
 en ne'urna
+en ng bu
 en ni
 en ni'a
 en ni'a'au
@@ -20954,6 +20963,7 @@ en prugastcica
 en prugei
 en prujeftu
 en prujungau
+en prukai
 en prula'i
 en prula'i
 en prula'ima'i
@@ -24548,6 +24558,7 @@ en sfecra
 en sfe'ero
 en sfefa'e
 en sfefli
+en sfeno
 en sfero
 en sfesti
 en sfestigau
@@ -27912,6 +27923,7 @@ en tolzi'o
 en tonberi
 en tonga
 en tonsi
+en tonzo
 en to'o
 en to'o'e
 en to'okla

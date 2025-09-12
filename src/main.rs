@@ -1,12 +1,13 @@
 #![allow(clippy::format_push_string)]
 
+use std::{collections::HashMap, fs, sync::LazyLock, time::Instant};
+
 use htmlentity::entity::{ICodedDataTrait as _, decode};
 use latkerlo_jvotci::RAFSI;
 use quick_xml::{Reader, events::Event};
 use regex::Regex;
 use reqwest::blocking::Client;
 use serde::{Deserialize, Serialize};
-use std::{collections::HashMap, fs, sync::LazyLock, time::Instant};
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
 struct Entry {
@@ -26,9 +27,7 @@ struct Entry {
     lang: String,
 }
 #[allow(clippy::must_use_candidate)]
-pub fn is_en(l: &String) -> bool {
-    l == "en"
-}
+pub fn is_en(l: &String) -> bool { l == "en" }
 pub static PAUSE: LazyLock<Regex> = LazyLock::new(|| Regex::new("[. ]").unwrap());
 pub static TRIM: LazyLock<Regex> = LazyLock::new(|| Regex::new("^_|_$").unwrap());
 pub static MULTIPLE: LazyLock<Regex> = LazyLock::new(|| Regex::new("_+").unwrap());
@@ -62,12 +61,7 @@ impl Entry {
             s += &format!(" [-{}-]", self.rafsi.join("-"));
         }
         s += &format!(" {}", NONWORD.replace_all(&self.author.to_lowercase(), ""));
-        s += &format!(
-            " {} ({})\n{}",
-            self.score.to_string().as_str(),
-            self.lang,
-            self.definition
-        );
+        s += &format!(" {} ({})\n{}", self.score.to_string().as_str(), self.lang, self.definition);
         if !self.notes.is_empty() {
             s += &format!("\n-n\n{}", self.notes);
         }
@@ -75,9 +69,7 @@ impl Entry {
     }
 }
 
-fn deëntity(t: &str) -> String {
-    decode(t.as_bytes()).to_string().unwrap()
-}
+fn deëntity(t: &str) -> String { decode(t.as_bytes()).to_string().unwrap() }
 
 #[allow(clippy::too_many_lines)]
 fn main() {

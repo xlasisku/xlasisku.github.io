@@ -601,9 +601,9 @@ dependencies = [
 
 [[package]]
 name = "latkerlo-jvotci"
-version = "2.3.1"
+version = "2.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cc12ab0bbfa8f85bfefaed5614ece1d934adb233464fd8ff35d5ffef308f43ab"
+checksum = "2434b8f077246d6304c1ad9df8daa3fb71eacd359a73be256265a582d0f5b51d"
 dependencies = [
  "indexmap",
  "itertools",
@@ -964,20 +964,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1f29ebaa345f945cec9fbbc532eb307f0fdad8161f281b6369539c8d84876b3d"
 dependencies = [
  "windows-sys 0.59.0",
-]
-
-[[package]]
-name = "scripts"
-version = "0.1.0"
-dependencies = [
- "htmlentity",
- "latkerlo-jvotci",
- "quick-xml",
- "regex",
- "reqwest",
- "serde",
- "serde_json",
- "xml-rs",
 ]
 
 [[package]]
@@ -1633,6 +1619,20 @@ name = "writeable"
 version = "0.5.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1e9df38ee2d2c3c5948ea468a8406ff0db0b29ae1ffde1bcf20ef305bcc95c51"
+
+[[package]]
+name = "xlasisku"
+version = "0.1.0"
+dependencies = [
+ "htmlentity",
+ "latkerlo-jvotci",
+ "quick-xml",
+ "regex",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "xml-rs",
+]
 
 [[package]]
 name = "xml-rs"
