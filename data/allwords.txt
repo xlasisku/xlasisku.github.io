@@ -10304,6 +10304,7 @@ en cirlrstilto
 en cirlrxalumi
 en cirlrxauda
 en cirlydakfu
+en cirlynanba
 en cirmi'o
 en cirmi'o
 en ciroi
@@ -12216,7 +12217,6 @@ en du'i
 en du'inxo
 en dujmi'i
 en dujricyblu
-en dujro'i
 en dujyca'a
 en dujyku'a
 en dujyku'a
@@ -15070,6 +15070,7 @@ en jganu
 en jgarau
 en jgari
 en jgaunla
+en jgauzi
 en jgegau
 en jgena
 en jgenanba
@@ -15634,6 +15635,7 @@ en jvomi'u
 en jvonu'oblo
 en jvopro
 en jvosmicme
+en jvoso
 en jvoste
 en jvotau
 en jvotauborkra
@@ -17797,6 +17799,7 @@ en manbi'o
 en manci
 en mandala
 en mandarina
+en mandi'oka
 en mandoka
 en manfo
 en manfybli
@@ -18619,6 +18622,7 @@ en moxna
 en moxna
 en mradi'u
 en mraigo
+en mrajane
 en mraji
 en mrajymledi
 en mrajymledi
@@ -20000,6 +20004,7 @@ en pagbrjonlapi
 en pagbrkuclapi
 en pagbu
 en pagre
+en pagro
 en pagyca'o
 en pagygu'e
 en pagzai
@@ -20885,7 +20890,6 @@ en precitri
 en precme
 en predatni
 en predenmi
-en predi
 en prefere
 en pregri
 en pregunma
@@ -27524,6 +27528,7 @@ en tetris
 en tetybivysamsle
 en te'u
 en teva'u
+en te'y
 en te'yRON
 en tezda
 en tezu'e
@@ -27788,6 +27793,7 @@ en tolfrinyna'u
 en tolganzu
 en tolgei
 en tolgeitce
+en tolgli
 en tolgurgau
 en tolja'e
 en toljgari
@@ -29183,6 +29189,7 @@ en voki'o
 en vokle'u
 en vokpravelpe'u
 en voksa
+en voksaroido
 en voksli
 en voksli
 en voksna
@@ -30812,6 +30819,7 @@ en zvidiri
 en zvijonse
 en zvijonse
 en zviki
+en zvomo
 en zvuzu
 en zy
 en zy'ei
@@ -49052,6 +49060,7 @@ jbo spatsina
 jbo speli'u
 jbo speni
 jbo spero
+jbo spetunba
 jbo spisa
 jbo spita
 jbo spofu
@@ -49466,6 +49475,7 @@ jbo tsutre
 jbo tu
 jbo tu'a
 jbo tu'ai
+jbo tubyspe
 jbo tu'e
 jbo tugni
 jbo tu'i
@@ -50392,6 +50402,7 @@ pt-br agmasto
 pt-br bloti
 pt-br bloti
 pt-br ckuliki
+pt-br voksaroido
 pt jboia
 pt kurbarile
 ru a
