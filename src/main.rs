@@ -52,7 +52,8 @@ impl Entry {
         s = PAUSE.replace_all(&s, "_").to_string();
         s = TRIM.replace_all(&s, "").to_string();
         s = MULTIPLE.replace_all(&s, "_").to_string();
-        // we get rid of obsolete words and non-experimental words have a vote boost anyway
+        // we get rid of obsolete words and non-experimental words have a vote boost
+        // anyway
         s += &format!(" {}", self.pos.split(' ').nth(1).unwrap_or(&self.pos));
         if !self.selmaho.is_empty() {
             s += &format!(" {}", self.selmaho);
@@ -227,7 +228,16 @@ fn main() {
                             let score = text.parse::<f32>().unwrap();
                             current_entry.score = score;
                         }
-                        "text" => current_entry.definition = text,
+                        "text" => {
+                            if ["with ISO 639-3", "ISO-3166", "ISO-4217"]
+                                .iter()
+                                .any(|a| text.contains(a))
+                            {
+                                skip_word = true;
+                            } else {
+                                current_entry.definition = text;
+                            }
+                        }
                         "notes" => current_entry.notes = text,
                         "username" => current_entry.author = text,
                         _ => (),
