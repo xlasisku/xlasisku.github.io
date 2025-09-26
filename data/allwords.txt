@@ -11430,6 +11430,7 @@ en notci'a
 en notcreka
 en notcrida
 en notcripu
+en notpanci
 en notsku
 en no'u
 en novmbero
@@ -13555,6 +13556,7 @@ en ro'e
 en ro'enai
 en ro'engu'i
 en ro'enje
+en roflma'o
 en rogjinme
 en ro'i
 en roi
@@ -16431,6 +16433,7 @@ en skepre
 en skepre
 en skestu
 en skezu'e
+en skibo
 en skicu
 en skicu zei uidje
 en skicyuidje
@@ -20096,8 +20099,11 @@ en vajyje'ipoi
 en vajyje'ipoitau
 en vajyki'i
 en vajymecyboryraipavmompoi
+en valcrimtu
 en valfa
 en valkra
+en valrfa'a
+en valrmodla
 en valrtosmabru
 en valrxazdomru
 en valsi
