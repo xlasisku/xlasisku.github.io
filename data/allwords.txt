@@ -740,6 +740,7 @@ en be'a
 en be'arna
 en be'aspe
 en be'aspe
+en bebgau
 en bebgei
 en bebgei
 en bebna
@@ -5487,6 +5488,7 @@ en gaspo
 en gaspu'a
 en gasta
 en gastcica
+en gasyga'a
 en gasyju'o
 en gasyjvemu'utcini
 en ga'u
@@ -10030,6 +10032,7 @@ en minde
 en mindy'utka
 en minguuo
 en minji
+en minle'u
 en minli
 en minlytolcacra
 en minra
@@ -14336,6 +14339,7 @@ en selbe'a
 en selbe'a
 en selbebna
 en selbebna
+en selbebna
 en selbe'e
 en selbe'e
 en selbe'i
@@ -14359,6 +14363,7 @@ en selbe'u
 en selbe'u
 en selbi'a
 en selbi'a
+en selbidju
 en selbidju
 en selbidju
 en selbi'e
@@ -14464,6 +14469,7 @@ en selcanci
 en selcanci
 en selcange
 en selcange
+en selcanja
 en selcanja
 en selcanja
 en selcanre
@@ -18291,6 +18297,7 @@ en tercange
 en tercange
 en tercanja
 en tercanja
+en tercanja
 en tercanre
 en tercanre
 en tercarce
@@ -20282,6 +20289,7 @@ en velbo'i
 en velbunda
 en velcange
 en velcange
+en velcanja
 en velcanja
 en velcanja
 en velcaxno

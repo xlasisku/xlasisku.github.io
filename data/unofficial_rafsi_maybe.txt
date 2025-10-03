@@ -364,7 +364,7 @@ $x_1$ is a lujvo consisting of two rafsi, with meaning $x_2$, arguments $x_3$, b
 -n
 See {lujvo}, {rafsi}, {tanru}.
 ---
-roflma'o fu'ivla mati 2 (en)
+roflma'o fu'ivla mati 3 (en)
 $x_1$ is a ridiculous (useless, etc) cmavo of selma'o $x_2$ by standard $x_3$
 -n
 The cmavo doesn't have to be experimental. I'm still mad they wasted monosyllabic cmavo space on a bunch of letteral stuff. Ex.: zo «tei» je zo «foi» cu roflma'o fi mi. Etymology: English ROFL + -ma'o- (rafsi of {cmavo}).
