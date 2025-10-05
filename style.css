@@ -4,27 +4,23 @@
   src: url("fonts/FiraSans-Regular.ttf");
   font-display: swap;
 }
-
 @font-face {
   font-family: "Fira Math";
   src: url("fonts/FiraMath-Regular.otf");
   font-display: swap;
 }
-
 @font-face {
   font-family: "Fira Sans";
   src: url("fonts/FiraSans-Italic.ttf");
   font-display: swap;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Fira Sans";
   src: url("fonts/FiraSans-Bold.ttf");
   font-display: swap;
   font-weight: bold;
 }
-
 @font-face {
   font-family: "Fira Sans";
   src: url("fonts/FiraSans-BoldItalic.ttf");
@@ -32,14 +28,12 @@
   font-weight: bold;
   font-style: italic;
 }
-
 @font-face {
   font-family: "Iosevka";
   src: url("fonts/Iosevka-Regular.ttf");
   font-display: swap;
   font-feature-settings: "ss18" 1;
 }
-
 @font-face {
   font-family: "Iosevka";
   src: url("fonts/Iosevka-Italic.ttf");
@@ -47,7 +41,6 @@
   font-style: italic;
   font-feature-settings: "ss18" 1;
 }
-
 @font-face {
   font-family: "Iosevka";
   src: url("fonts/Iosevka-Bold.ttf");
@@ -55,7 +48,6 @@
   font-weight: bold;
   font-feature-settings: "ss18" 1;
 }
-
 @font-face {
   font-family: "Iosevka";
   src: url("fonts/Iosevka-BoldItalic.ttf");
@@ -64,26 +56,19 @@
   font-style: italic;
   font-feature-settings: "ss18" 1;
 }
-
 @font-face {
   font-family: "Nokia Pure HL KLGN";
   src: url("fonts/nokiapiqad.ttf");
 }
 
 /* main */
-*,
-input,
-button {
+*, input, button {
   box-sizing: border-box;
   -webkit-text-size-adjust: 100%;
 }
-
-*:not(body),
-input,
-button {
+*:not(body), input, button {
   transition: background 0.2s;
 }
-
 :root {
   --bg: 255, 224, 241;
   --fg: 0, 0, 0;
@@ -101,25 +86,46 @@ button {
   --mono: "Iosevka", ui-monospace, monospace;
   background: rgb(var(--bg));
   color: rgb(var(--fg));
-}
-
-:root:has(> body.regex) {
-  --bg: 224, 242, 240;
-  --checked: 12, 147, 129;
-}
-
-:root:has(> body.rhyme) {
-  --bg: 236, 230, 245;
-  --checked: 113, 44, 232;
+  &:has(> body.regex) {
+    --bg: 224, 242, 240;
+    --checked: 12, 147, 129;
+  }
+  &:has(> body.rhyme) {
+    --bg: 236, 230, 245;
+    --checked: 113, 44, 232;
+  }
+  &.dark {
+    --bg: 38, 3, 22;
+    --fg: 255, 255, 255;
+    --inv: 0, 0, 0;
+    --link: 153, 204, 255;
+    --err: 255, 153, 153;
+    &:has(> body.regex) {
+      --bg: 3, 23, 20;
+    }
+    &:has(> body.rhyme) {
+      --bg: 22, 10, 36;
+      --checked: 143, 72, 224;
+    }
+  }
 }
 
 body {
   font-family: var(--sans);
-  margin: 0 auto;
-  max-width: 600px;
+  margin-inline: auto;
+  max-inline-size: 600px;
   padding: 8px;
   line-height: 1.4;
   word-break: break-word;
+  &[class^=r] .normalonly {
+    display: none;
+  }
+  &:not([class^=re]) .regexonly {
+    display: none;
+  }
+  &:not([class^=rh]) .rhymeonly {
+    display: none;
+  }
 }
 
 /* searchbar */
@@ -129,11 +135,22 @@ body {
   background: rgb(var(--inv));
   border: 2px solid rgb(var(--fg));
   box-shadow: rgb(var(--fg)) 0 3px;
-  padding: 4px 12px;
+  padding-block: 4px;
+  padding-inline: 12px;
   align-items: baseline;
-  height: 1lh;
+  block-size: 1lh;
   font-size: 1.5em;
   box-sizing: content-box;
+  &:has(> #search:disabled) {
+    opacity: 1;
+    border-color: rgba(var(--fg), var(--op-8));
+    background-color: rgba(var(--inv), var(--op-8));
+    box-shadow: rgba(var(--fg), var(--op-8)) 0 3px;
+  }
+  &:is(:hover, :focus-within) {
+    outline: 2px solid rgb(var(--focus));
+    background-color: rgba(var(--focus), var(--op-2));
+  }
 }
 
 #search {
@@ -147,48 +164,38 @@ body {
   background: transparent;
   border: none;
   color: rgb(var(--fg)) !important;
-  height: 1lh;
+  block-size: 1lh;
   box-sizing: content-box;
   caret-color: rgb(var(--fg));
-}
-
-#fakebox:has(> #search:disabled) {
-  opacity: 1;
-  border-color: rgba(var(--fg), var(--op-8));
-  background-color: rgba(var(--inv), var(--op-8));
-  box-shadow: rgba(var(--fg), var(--op-8)) 0 3px;
-}
-
-#search:disabled {
-  opacity: 1;
-}
-
-#search::placeholder {
-  color: rgba(var(--fg), var(--op-c));
-  opacity: 1;
-}
-
-#search:disabled::placeholder {
-  color: rgba(var(--fg), var(--op-8));
-  opacity: 1;
+  &:disabled {
+    opacity: 1;
+  }
+  &::placeholder {
+    color: rgba(var(--fg), var(--op-c));
+    opacity: 1;
+  }
+  &:disabled::placeholder {
+    color: rgba(var(--fg), var(--op-8));
+    opacity: 1;
+  }
+  &:focus-visible {
+    outline: none;
+    background: none;
+  }
 }
 
 #clear-wrap {
   display: none;
+  &.show {
+    display: inline;
+  }
 }
-
-#clear-wrap.show {
-  display: inline;
-}
-
 .clear {
   color: rgb(var(--err));
 }
-
 .nopad {
   padding: 0;
 }
-
 :disabled {
   color: rgba(var(--fg), var(--op-c));
 }
@@ -196,15 +203,16 @@ body {
 /* lujvo things / regex errors */
 #info {
   font-size: 1.25em;
-  margin-top: 8px;
+  margin-block-start: 8px;
   color: rgba(var(--fg), var(--op-c));
+  p {
+    margin-block: 6px;
+  }
+  :not(.err) {
+    color: rgba(var(--fg), var(--op-c));
+  }
 }
 
-#info p {
-  margin: 6px 0;
-}
-
-#info :not(.err),
 .rafsi a {
   color: rgba(var(--fg), var(--op-c));
 }
@@ -212,65 +220,57 @@ body {
 /* results */
 .entry {
   display: block;
-  margin: 8px 0;
-  padding: 4px 16px;
+  margin-block: 8px;
+  padding-block: 4px;
+  padding-inline: 16px;
   background: rgba(var(--inv), var(--op-8));
   border-radius: 16px;
   color: rgb(var(--fg));
+  :is(p:first-child, summary) {
+    font-family: var(--sans);
+  }
+  p:first-child a.w {
+    color: rgb(var(--fg));
+  }
+  .selmaho {
+    font-family: var(--mono);
+    color: rgba(var(--fg), var(--op-c));
+  }
+  :is(.selmaho, .rafsi) {
+    color: rgba(var(--fg), var(--op-c));
+  }
+  details {
+    color: rgba(var(--fg), var(--op-c));
+    margin-block: 16px;
+  }
 }
-
-.entry :is(p:first-child, summary) {
-  font-family: var(--sans);
-}
-
-.entry p:first-child a.w {
-  color: rgb(var(--fg));
-}
-
-.entry .selmaho,
-code,
-pre {
+code, pre {
   font-family: var(--mono);
 }
-
-.entry :is(.selmaho, .rafsi) {
-  color: rgba(var(--fg), var(--op-c));
-}
-
-.entry details {
-  color: rgba(var(--fg), var(--op-c));
-  margin: 16px 0;
-}
-
 summary {
   font-weight: bold;
   cursor: pointer;
+  &:has(a:hover):hover {
+    outline: none;
+    background: none;
+  }
 }
-
-:not([open])>summary span {
+:not([open]) > summary span {
   display: none;
-}
-
-.entry .glosswords {
-  font-style: italic;
 }
 
 /* misc */
 .nobr {
   white-space: nowrap;
 }
-
 ul li {
   list-style-type: disc;
 }
-
 math {
   font-family: "Fira Math";
+  font-size: 1.1em;
 }
-
-b,
-h1,
-summary {
+b, h1, summary {
   letter-spacing: 0.05ch;
 }
 
@@ -278,20 +278,69 @@ summary {
 a {
   color: rgb(var(--link));
   text-decoration: none;
+  &:is(:hover, :focus-visible) {
+    outline: 2px solid rgb(var(--focus));
+    background-color: rgba(var(--focus), var(--op-2));
+  }
 }
-
 .opt {
   color: rgb(var(--fg));
   border: 1px solid rgb(var(--fg));
   border-radius: 16px;
   display: inline-block;
-  margin-top: 4px;
+  margin-block-start: 4px;
+  &:not(:has(:not([disabled]))) {
+    border-color: rgba(var(--fg), var(--op-c));
+  }
+  button {
+    padding-block: 4px;
+    padding-inline: 8px;
+    display: inline-block;
+    border-radius: 16px;
+    transition: background 0.2s, border-radius 0.2s, padding 0.2s, margin 0.2s;
+    &:not(:last-child) {
+      margin-inline-end: -4px;
+    }
+  }
+  .checked {
+    background: rgb(var(--checked));
+    color: white;
+    font-weight: bold;
+    &:has(+ .checked) {
+      border-start-end-radius: 0;
+      border-end-end-radius: 0;
+      padding-inline-end: 6px;
+      margin-inline-end: 0;
+    }
+    & + .checked {
+      border-start-start-radius: 0;
+      border-end-start-radius: 0;
+      padding-inline-start: 6px;
+    }
+    &:disabled {
+      color: #fffd;
+    }
+  }
+  ::after {
+    content: "";
+    inset: 0;
+    position: absolute;
+    border-radius: 16px;
+    background-color: transparent;
+    transition: background-color 0.2s;
+  }
+  :is(:hover, :focus-visible) {
+    outline: none;
+    &::after {
+      z-index: 1;
+      outline: 2px solid rgb(var(--focus));
+      background-color: rgba(var(--focus), var(--op-2));
+    }
+  }
 }
-
 p:has(.opt) {
   text-align: center;
 }
-
 button {
   cursor: pointer;
   background: rgb(var(--checked), 0);
@@ -300,56 +349,10 @@ button {
   font-size: 1em;
   font-family: var(--sans);
   position: relative;
-}
-
-.opt button {
-  padding: 4px 8px;
-  display: inline-block;
-  border-radius: 16px;
-  transition: background 0.2s, border-radius 0.2s, padding 0.2s, margin 0.2s;
-}
-
-.opt button:not(:last-child) {
-  margin-right: -4px;
-}
-
-.opt .checked {
-  background: rgb(var(--checked));
-  color: white;
-  font-weight: bold;
-}
-
-.opt .checked:has(+ .checked) {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  padding-right: 6px;
-  margin-right: 0;
-}
-
-.opt .checked+.checked {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  padding-left: 6px;
-}
-
-.opt .checked:disabled {
-  color: #fffd;
-}
-
-.opt:not(:has(:not([disabled]))) {
-  border-color: rgba(var(--fg), var(--op-c));
-}
-
-body[class^=r] .normalonly {
-  display: none;
-}
-
-body:not([class^=re]) .regexonly {
-  display: none;
-}
-
-body:not([class^=rh]) .rhymeonly {
-  display: none;
+  &:is(:hover, :focus-visible):not(.opt > button) {
+    outline: 2px solid rgb(var(--focus));
+    background-color: rgba(var(--focus), var(--op-2));
+  }
 }
 
 #jvop {
@@ -357,130 +360,67 @@ body:not([class^=rh]) .rhymeonly {
   font-size: inherit;
   border: 1px solid rgb(var(--fg));
   background: rgb(var(--inv));
-  padding: 4px 8px;
-  margin-top: 4px;
+  padding-block: 4px;
+  padding-inline: 8px;
+  margin-block-start: 4px;
   display: inline-block;
   color: rgb(var(--fg));
+  &:is(:hover, :focus-visible) {
+    outline: 2px solid rgb(var(--focus));
+    background-color: rgba(var(--focus), var(--op-2));
+  }
 }
 
 /* misc 2 */
-math {
-  font-size: 1.1em;
-}
-
 hr {
   border: 1px solid rgb(var(--fg));
 }
-
 :not(hr, br, #fakebox *, #jvop):empty {
   display: none;
 }
-
-h1,
-h1+p.sub {
+h1 {
   margin: 0;
   text-align: center;
+  & + p.sub {
+    margin: 0;
+    text-align: center;
+  }
 }
-
 h2 {
-  border-top: 3px solid rgba(var(--fg), var(--op-c));
+  border-block-start: 3px solid rgba(var(--fg), var(--op-c));
 }
-
 .temml-error {
   color: rgb(var(--err)) !important;
   white-space: pre-wrap !important;
   font-family: var(--mono);
   display: block;
 }
-
 .err {
   color: rgb(var(--err));
 }
-
-#length,
-#bottom {
+#length, #bottom {
   text-align: center;
-  margin: 8px 0;
+  margin-block: 8px;
   font-size: 1.25em;
+  small {
+    font-size: 1rem;
+  }
 }
-
-:is(#length, #bottom) small {
-  font-size: 1rem;
-}
-
 i span {
   font-style: normal;
 }
 
-/* hover/focus */
-:is(a, summary, :not(.opt) > button, #jvop):is(:hover, :focus-visible),
-#fakebox:is(:hover, :focus-within) {
-  outline: 2px solid rgb(var(--focus));
-  background-color: rgba(var(--focus), var(--op-2));
-}
-
-#search:focus-visible,
-summary:has(a:hover):hover {
-  outline: none;
-  background: none;
-}
-
-.opt ::after {
-  content: "";
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  position: absolute;
-  border-radius: 16px;
-  background-color: transparent;
-  transition: background-color 0.2s;
-}
-
-.opt :is(:hover, :focus-visible) {
-  outline: none;
-}
-
-.opt :is(:hover, :focus-visible)::after {
-  z-index: 1;
-  outline: 2px solid rgb(var(--focus));
-  background-color: rgba(var(--focus), var(--op-2));
-}
-
-/* dark mode */
-:root.dark {
-  --bg: 38, 3, 22;
-  --fg: 255, 255, 255;
-  --inv: 0, 0, 0;
-  --link: 153, 204, 255;
-  --err: 255, 153, 153;
-}
-
-:root.dark:has(> body.regex) {
-  --bg: 3, 23, 20;
-}
-
-:root.dark:has(> body.rhyme) {
-  --bg: 22, 10, 36;
-  --checked: 143, 72, 224;
-}
-
 /* other media queries */
 @media (prefers-contrast: more) {
-
-  a,
-  button,
-  summary {
+  a, button, summary {
     text-decoration: underline;
   }
 }
-
 @media (forced-colors: active) {
   .opt button.checked::before {
     content: "✓ ";
   }
 }
-
 @media (prefers-reduced-motion: reduce) {
   * {
     transition: none;
