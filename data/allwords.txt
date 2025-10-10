@@ -3407,6 +3407,7 @@ en dakli
 en daklycka
 en daklycka
 en daklyflani
+en daklystizu
 en daklytcati
 en dakrmatcete
 en dakyba'e
@@ -6008,6 +6009,7 @@ en gutrygapru
 en gutrynebypunli
 en gutryne'o
 en gutrypilcri
+en gutrytunba
 en gutyjamkarce
 en gu'u
 en gu'y
@@ -7148,6 +7150,8 @@ en jivyfrica
 en jizvanbi
 en jizyselpre
 en jmacidni
+en jmadakli
+en jmadaklyjvi
 en jmadegji
 en jmadegji
 en jmadegycalku
@@ -14319,6 +14323,7 @@ en selbartu
 en selbartu
 en selbasna
 en selbasna
+en selbasna
 en selbasti
 en selbasti
 en selbatci
@@ -14357,6 +14362,7 @@ en selberti
 en selberti
 en selbesna
 en selbesna
+en selbetri
 en selbetri
 en selbetri
 en selbe'u
@@ -18211,6 +18217,7 @@ en terbarja
 en terbarja
 en terbasna
 en terbasna
+en terbasna
 en terbasti
 en terbasti
 en terbatci
@@ -20622,6 +20629,7 @@ en vilgunma
 en vilka'a
 en vilkla
 en vilmu'u
+en vilselte'azu'e
 en vilsi'e
 en viltce
 en vilti'a
@@ -21169,6 +21177,7 @@ en xandegji'o
 en xandegycalku
 en xandegycalku
 en xandi'i
+en xanfirfra
 en xangle
 en xangle
 en xango

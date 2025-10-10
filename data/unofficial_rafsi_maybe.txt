@@ -19,7 +19,7 @@ $x_1=s_1=c_1$ is a lighter / sparker / ignition device for function / fire / pur
 -n
 Suitable for ‘cigarrete lighter’.  Also spark plug (more rafsi or fu'ivlaizations can also be added to further specify or vary the type of {ca'arsacki}, e.g. for specifically ‘spark plug’).
 ---
-cidytsecorci lujvo krtisfranks 1 (en)
+cidytsecorci lujvo krtisfranks 0 (en)
 $x_1$ kneels/genuflects with meaning $x_2$ on surface $x_3$ on/with limb(s) $x_4$ of body $x_5$.
 -n
 Usually implies obeisance, homage, devotion, loyalty, obedience, subservience, vulnerability, or some other form of inferiority or trust. Specify the recipient of said inferiority or trust expression via/in $x_2$. Mere "{cidytse}" is an action which may not convey any semantic information; cidytsecorci refers to a strict/proper subset of actions which are cidytse. This word uses experimental rafsi "-coc-", which has been proposed to be assigned to experimental gismu "{corci}". This word is, for now, equivalent to "{cocyborcidytse}", mostly because .krtisfranks. cannot semantically distinguish between "a kneeling-type-of semantic-gesture" and "a semantic-gesture-type-of kneeling".
