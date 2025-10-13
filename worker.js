@@ -85,8 +85,8 @@ function search(query) {
       return results;
     }
     // exact matches
-    for (const w of query.split(/[\s.]+/)) {
-      const exact = jbo.filter(entry => entry.word.toLowerCase().replace(/\./g, "") == h(w));
+    for (const w of query.split(/\s+/)) {
+      const exact = jbo.filter(entry => entry.word.toLowerCase() == h(w));
       for (const e of exact) {
         results.push([e, 10]);
       }
