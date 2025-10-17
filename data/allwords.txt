@@ -998,6 +998,8 @@ en bi'orka
 en bi'orsi
 en bircidni
 en bircidni
+en birco
+en birco
 en birdadykla
 en birdadykla
 en birgutci
@@ -4354,6 +4356,7 @@ en du'umdu
 en du'umrei
 en duvma'i
 en dy
+en dy.bu
 en dy'ei
 en dylez
 en dy zei sance
@@ -8021,6 +8024,7 @@ en kibyka'i
 en kibyka'ixra
 en kibykarni
 en kibypapri
+en kibypedli'u
 en kibypidyfi'a
 en kibyse'u
 en kibysku
@@ -8368,6 +8372,7 @@ en korporalo
 en korsari
 en korsenta
 en korsova
+en kortilo
 en korvo
 en korzeti
 en kosmu
@@ -9766,6 +9771,7 @@ en me
 en me'a
 en me'ai
 en me'ajbi
+en me'amfetamina
 en me'andi
 en me'au
 en mebmla
@@ -14304,6 +14310,7 @@ en selbalvi
 en selbalvi
 en selbancu
 en selbancu
+en selbancu
 en selbandu
 en selbandu
 en selbanfi
@@ -18203,6 +18210,7 @@ en terbaktu
 en terbaktu
 en terbancu
 en terbancu
+en terbancu
 en terbandu
 en terbandu
 en terbanxa
@@ -19890,6 +19898,7 @@ en tu'ursluni
 en tu'uspa
 en ty
 en tyBIlisis
+en ty.bu
 en tylidos
 en tyrontos
 en ty zei creka
@@ -20271,6 +20280,7 @@ en veka'a
 en vektori
 en velbajra
 en velbajra
+en velbancu
 en velbancu
 en velbancu
 en velbatci
@@ -39019,6 +39029,7 @@ jbo kenra
 jbo kensa
 jbo ke'o
 jbo kerfa
+jbo kerlo
 jbo ke'u
 jbo ke'unai
 jbo ke'usku
@@ -39226,6 +39237,7 @@ jbo lastu
 jbo lasybo'i
 jbo lasydakli
 jbo latkemsorprekarce
+jbo latkerlo
 jbo latmo
 jbo latna
 jbo latna
