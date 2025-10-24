@@ -75,6 +75,7 @@ en aksiptrina
 en akti
 en aktigau
 en aktinidja
+en aktygau
 en akuuas
 en alba'aka
 en albatro
@@ -1159,6 +1160,7 @@ en blotcana
 en bloti
 en bloti
 en blotrkanu
+en blovinji
 en bloxadni
 en blozeile'a
 en blozeile'a
@@ -3763,7 +3765,6 @@ en demspa
 en demspa
 en demtse
 en demtse
-en demxa'e
 en denbi'i
 en denbru
 en denburcu
@@ -4099,6 +4100,7 @@ en djika
 en djine
 en djintrau
 en djirafa
+en djiranda
 en djiroi
 en djisku
 en djisku
@@ -6246,6 +6248,7 @@ en itka
 en itki
 en itku'ile
 en itku'ilybau
+en itkygau
 en itlgu'e
 en itlnrasno
 en itlo
@@ -8382,6 +8385,7 @@ en kosmyka'u
 en kosmyselgu'a
 en kosmyvrici
 en kosne'ota'u
+en kosplei
 en kosta
 en kosycreka
 en kotledona
@@ -11011,6 +11015,7 @@ en na'ujbi
 en naun
 en naunmu
 en nau'o
+en naurfamti
 en naurso'a
 en nau'u
 en na'uvla
@@ -11192,6 +11197,7 @@ en nimbau
 en nimci'o
 en nimcre
 en nimfaia
+en nimfamti
 en nimjizdunkri
 en nimnaujizdunkri
 en nimpinji
@@ -11278,6 +11284,7 @@ en ni'u'u
 en ni'u zei ionti
 en ni'u zei namcu
 en nivji
+en nivmapku
 en nivycreka
 en nix
 en nixli
@@ -12557,6 +12564,7 @@ en pocli
 en po'e
 en po'ecru
 en po'edji
+en pogbau
 en po'i
 en poi
 en poi'a
@@ -12645,6 +12653,7 @@ en porto
 en porveljmina
 en porzu'e
 en posfai
+en posko
 en posnei
 en posri'a
 en posterfai
@@ -13096,6 +13105,7 @@ en raxyckasu
 en raxyxajmi
 en razbau
 en razgu'e
+en razru'u
 en razyporto
 en re
 en re'a
@@ -16465,6 +16475,7 @@ en skina
 en skinoi
 en skiueli
 en skli'iparte
+en skocau
 en skogace
 en skogarce'a
 en skola'a
@@ -18182,6 +18193,7 @@ en tepcau
 en tepcau
 en tepi'o
 en tepmoso
+en tepnunsla
 en tepo'i
 en teprai
 en tepri'a
@@ -20621,6 +20633,7 @@ en vifne
 en vi'i
 en vi'imde
 en vijblo
+en vijdilnu
 en vijli'a
 en vijyja'a
 en vijysazri
@@ -21624,6 +21637,7 @@ en xraski
 en xrasni
 en xrata
 en xratai
+en xrazme
 en xrebau
 en xrejvejdikybau
 en xremi'i
@@ -22307,6 +22321,7 @@ en zmase
 en zmasydju
 en zmaumce
 en zmazau
+en zmelamdu
 en zmiboto
 en zmico
 en zmicu'a
@@ -39722,6 +39737,7 @@ jbo natmi
 jbo na'u
 jbo nau
 jbo nau'o
+jbo naurfamti
 jbo nauspe
 jbo navni
 jbo naxle
@@ -39765,6 +39781,7 @@ jbo nilguskli
 jbo nilmu'o zei uidje
 jbo nilzendu'i
 jbo nilzilcmi
+jbo nimfamti
 jbo nimre
 jbo nimspe
 jbo ninfi'i
