@@ -29,32 +29,28 @@
   font-style: italic;
 }
 @font-face {
-  font-family: "Iosevka";
-  src: url("fonts/Iosevka-Regular.ttf");
+  font-family: "iosevie";
+  src: url("fonts/Iosevie-Regular.ttf");
   font-display: swap;
-  font-feature-settings: "ss18" 1;
 }
 @font-face {
-  font-family: "Iosevka";
-  src: url("fonts/Iosevka-Italic.ttf");
+  font-family: "iosevie";
+  src: url("fonts/Iosevie-Italic.ttf");
   font-display: swap;
   font-style: italic;
-  font-feature-settings: "ss18" 1;
 }
 @font-face {
-  font-family: "Iosevka";
-  src: url("fonts/Iosevka-Bold.ttf");
+  font-family: "iosevie";
+  src: url("fonts/Iosevie-Bold.ttf");
   font-display: swap;
   font-weight: bold;
-  font-feature-settings: "ss18" 1;
 }
 @font-face {
-  font-family: "Iosevka";
-  src: url("fonts/Iosevka-BoldItalic.ttf");
+  font-family: "iosevie";
+  src: url("fonts/Iosevie-BoldItalic.ttf");
   font-display: swap;
   font-weight: bold;
   font-style: italic;
-  font-feature-settings: "ss18" 1;
 }
 @font-face {
   font-family: "Nokia Pure HL KLGN";
@@ -83,7 +79,7 @@
   --err: 200, 41, 41;
   --focus: 255, 174, 12;
   --sans: "Fira Sans", "Nokia Pure HL KLGN", ui-sans-serif, sans-serif;
-  --mono: "Iosevka", ui-monospace, monospace;
+  --mono: "iosevie", ui-monospace, monospace;
   background: rgb(var(--bg));
   color: rgb(var(--fg));
   &:has(> body.regex) {
