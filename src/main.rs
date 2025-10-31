@@ -267,7 +267,6 @@ fn main() {
             }
         }
     }
-    words.sort_by_key(|w| w.clone().author);
     // prop/exp rafsi
     let unofficial_rafsi = words
         .iter()
