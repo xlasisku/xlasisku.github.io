@@ -1,6 +1,12 @@
 #![allow(clippy::format_push_string)]
 
-use std::{collections::HashMap, fs, sync::LazyLock, time::Instant};
+use std::{
+    collections::HashMap,
+    fs,
+    io::{Write, stdout},
+    sync::LazyLock,
+    time::{Duration, Instant},
+};
 
 use htmlentity::entity::{ICodedDataTrait as _, decode};
 use latkerlo_jvotci::RAFSI;
@@ -71,6 +77,12 @@ impl Entry {
 }
 
 fn deëntity(t: &str) -> String { decode(t.as_bytes()).to_string().unwrap() }
+
+macro_rules! flush {
+    () => {
+        stdout().flush().unwrap();
+    };
+}
 
 #[allow(clippy::too_many_lines)]
 fn main() {
@@ -152,9 +164,10 @@ fn main() {
     let mut base_entry = Entry::new();
     let mut current_entry = Entry::new();
     let mut skip_word = false;
-    let client = Client::new();
+    let client = Client::builder().timeout(Duration::from_secs(60)).build().unwrap();
     for lang in langs {
-        println!("`{lang}`");
+        print!("\r`{lang}`\x1b[K");
+        flush!();
         let xml = String::from_utf8(
             client
                 .get(format!(
@@ -254,6 +267,7 @@ fn main() {
             }
         }
     }
+    words.sort_by_key(|w| w.clone().author);
     // prop/exp rafsi
     let unofficial_rafsi = words
         .iter()
@@ -265,27 +279,29 @@ fn main() {
         .cloned()
         .collect::<Vec<_>>();
     // write
-    println!("writing:");
     // allwords.txt
-    println!("all words");
+    print!("\rwriting: all words\x1b[K");
+    flush!();
     let mut all = String::new();
     for word in &words {
         all += &format!("{} {}\n", word.lang, word.word);
     }
     fs::write("data/allwords.txt", all).unwrap();
     // jbo.js
-    println!("json");
+    print!("\rwriting: json\x1b[K");
+    flush!();
     let json_str = serde_json::to_string(&words).unwrap();
     fs::write("data/jbo.js", "const jbo = ".to_owned() + &json_str).unwrap();
     // data.txt
-    println!("plaintext");
+    print!("\rwriting: plaintext\x1b[K");
+    flush!();
     let mut data = "---".to_string();
     for word in words {
         data += &format!("\n{}\n---", word.to_datastring());
     }
     fs::write("data/data.txt", &data).unwrap();
     // chars.txt, fonts, noto.css
-    println!("characters");
+    print!("\rwriting: characters\x1b[K");flush!();
     let chars: String = {
         let mut v = data.chars().collect::<Vec<char>>();
         v.sort_unstable();
@@ -294,7 +310,7 @@ fn main() {
     };
     fs::write("data/chars.txt", &chars).unwrap();
     // unofficial_rafsi.txt
-    println!("unofficial rafsi");
+    print!("\rwriting: unofficial rafsi\x1b[K");flush!();
     let mut data = "---".to_string();
     for word in unofficial_rafsi {
         data += &format!("\n{}\n---", word.to_datastring());
@@ -302,5 +318,5 @@ fn main() {
     fs::write("data/unofficial_rafsi_maybe.txt", &data).unwrap();
     // .i mulno .ui
     let duration = start.elapsed();
-    println!("done :3 took {duration:?}");
+    println!("\rdone :3 took {duration:?}");
 }
