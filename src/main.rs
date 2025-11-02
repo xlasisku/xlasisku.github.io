@@ -3,7 +3,7 @@
 use std::{
     collections::HashMap,
     fs,
-    io::{Write, stdout},
+    io::{Write as _, stdout},
     sync::LazyLock,
     time::{Duration, Instant},
 };
