@@ -244,6 +244,11 @@ $x_1$ reflects (ex-)Ottoman culture/language/empire in aspect $x_2$
 -n
 Proposed rafsi -los-. An alternative to {samlu}, which has no short rafsi and doesn't end in -o like other cultural roots do. See also {turko}, and everything else linked in the {samlu} entry.
 ---
+majgo gismu mati 1 (en)
+$x_1$ reflects Hungarian culture/language/nationality in aspect $x_2$
+-n
+From Hungarian magyar > *magjo > majgo (shape chosen for better combining form). Proposed rafsi -jgo-. Synonym: {magdaro}. Beware this word conflicts with the experimental {majga} '... is the inertial mass of ...'.
+---
 malglixlu lujvo spheniscine 2 (en)
 $x_1=m_1=g_1=xl_3$ is an inappropriate anglicism made by $x_2=xl_2$, inappropriate according to $x_3=m_3$
 -n
@@ -334,15 +339,15 @@ $c_1=r_1$ is a title of $c_2=r_2$ used by $c_3$.
 -n
 Cf. {cmene}, {rafsi}.
 ---
-ra'oi cmavo RAhOI gusnikantu 1 (en)
-tag of rafsi; it makes one following rafsi a sumti.
--n
-Note that sometimes a space or a pause is necessary before and/or after the rafsi. The parser zantufa-0.14 and later will parse ra'oi as in selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Examples: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
----
 ra'oi cmavo ZOhOI eimi 4 (en)
 single-word rafsi quote; quotes a single word delimited by pauses (in speech) or whitespace (in writing) and treats it as a rafsi
 -n
 Useful for quoting rafsi that aren't legal words on their own. See http://mw.lojban.org/papri/unspeakable_rafsi_gotcha for details.
+---
+ra'oi cmavo RAhOI gusnikantu 1 (en)
+tag of rafsi; it makes one following rafsi a sumti.
+-n
+Note that sometimes a space or a pause is necessary before and/or after the rafsi. The parser zantufa-0.14 and later will parse ra'oi as in selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Examples: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
 ---
 ra'oijbo fu'ivla lamisotanis 2 (en)
 $x_1$ is someone who constantly annoyingly reminds other Lojbanists including $x_2$ to not forget about mandatory pauses in speech
@@ -447,7 +452,7 @@ Completely equivalent to "{tokpona}", including in rafsi; however, this is okay 
 tonzo gismu mati 2 (en)
 $x_1$ reflects Toaq language/culture in aspect $x_2$
 -n
-{to'anbau} sounds like a language name ending in -bau like {jbobau}, but actually means '$x_1$ reflects Toaq language or culture [...]' and not '$x_1$ is Toaq spoken by $x_2$', so you'd have to say... to'anbau'ybau? for an explicit language name. {tonzo} avoids the double -bau- by having the language be tonzybau. Proposed rafsi -toz-, which would allow for even shorter tozbau, but -toz- would have to be "stolen" from the experimental particle {to'ai}.
+Proposed rafsi -to'o-. Synonym: {to'anzu}. See also {to'anbau} (= {to'orbau} ~ {tonzybau}).
 ---
 tunri'a lujvo djeikyb 1 (en)
 $x_1=r_1$ (nu) physically causes $x_2=t_1$ (object, usually pointed) to poke $x_3=t_2$ (experiencer) under conditions $x_4=r_3$

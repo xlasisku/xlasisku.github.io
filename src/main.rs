@@ -164,7 +164,7 @@ fn main() {
     let mut base_entry = Entry::new();
     let mut current_entry = Entry::new();
     let mut skip_word = false;
-    let client = Client::builder().timeout(Duration::from_secs(60)).build().unwrap();
+    let client = Client::builder().timeout(Duration::from_secs(120)).build().unwrap();
     for lang in langs {
         print!("\r`{lang}`\x1b[K");
         flush!();

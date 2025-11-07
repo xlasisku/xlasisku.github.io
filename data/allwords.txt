@@ -2138,6 +2138,7 @@ en cidjrtcilekonkarne
 en cidjrxaluxalo
 en cidjrxametsa
 en cidjrxonido
+en cidnaxo
 en cidni
 en cidro
 en cidydzu
@@ -9488,8 +9489,8 @@ en mai'u'ei
 en maixra
 en maixra
 en majbi'o
-en majga
 en majgau
+en majgo
 en majgybra
 en majmi'u
 en majrsto
@@ -16381,6 +16382,8 @@ en sipfli
 en sipfru
 en sipkemdjusa'a
 en sipku'a
+en sipmidvelmikce
+en sipmi'e
 en sipna
 en sipsa'a
 en sipsavgau
@@ -20141,7 +20144,6 @@ en vajyje'ipoitau
 en vajyki'i
 en vajymecyboryraipavmompoi
 en valcrimtu
-en valfa
 en valkra
 en valrfa'a
 en valrmodla
