@@ -10137,6 +10137,7 @@ en mitre
 en mitsi'u
 en mitsmuvla
 en mitsmuvla
+en mitsmuvlaste
 en mitsnavla
 en mitxondriio
 en mitybe'isi'u
@@ -19140,6 +19141,8 @@ en tesau
 en tese
 en tesete
 en tesi'u
+en test
+en test
 en test
 en testk
 en testkak
