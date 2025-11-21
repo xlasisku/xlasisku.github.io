@@ -3123,6 +3123,7 @@ en cternalmat
 en ctesa'acpi
 en ctesai
 en ctesai
+en ctetoldi
 en cticinza
 en cticinza
 en cticpe
@@ -3445,6 +3446,7 @@ en dalroktopoda
 en dalsauia
 en dalselxa'u
 en dalske
+en dalti
 en daltrixe
 en daltsi
 en daltsivi'i
@@ -5392,6 +5394,7 @@ en gairbu'u
 en gairgau
 en gairja'i
 en gairjaudu'e
+en gairjbome'o
 en gairki'e
 en gairkosta
 en gairmasti
@@ -7287,6 +7290,7 @@ en jukpa
 en jukremnas
 en jukte'a
 en julbaco
+en juljudri
 en julne
 en julpuco
 en julra'o
@@ -7559,6 +7563,7 @@ en kairda'o
 en kairdu'a
 en kairji'i
 en ka'irli
+en kairni'i
 en kairpai
 en kairpai
 en kairpau
@@ -8072,6 +8077,7 @@ en kilga
 en kilga'a
 en kilga'axa'i
 en kilga'axa'i
+en kilma
 en kilmru
 en kilpunli
 en kilrango
@@ -9813,6 +9819,7 @@ en me'ei
 en me'ei
 en me'ei'o
 en me'e ma
+en meftasi
 en megbivysamsle
 en megdje
 en megdo
@@ -12993,6 +13000,7 @@ en ralnirci'e
 en ralseldauju'a
 en ralselva'i
 en ralselylispre
+en ralsi'o
 en raltca
 en raltca
 en ralte
@@ -13050,6 +13058,7 @@ en rarmi'e
 en rarna
 en rarnsibe
 en rarselfra
+en rarsevda
 en rarske
 en rartapla
 en rarvanbi
@@ -16110,6 +16119,7 @@ en se'urbi'o
 en sevan
 en seva'o
 en seva'u
+en sevda
 en sevzi
 en sexipa
 en sexixa
@@ -20028,6 +20038,7 @@ en ulmu
 en ulsa
 en ultime
 en umbe
+en umfi
 en umpalumpa
 en umre
 en umri'a
@@ -21551,6 +21562,7 @@ en xisyjbedetri
 en xisyjbenunsla
 en xisyjbesla
 en xiuas
+en xivba'a
 en xlabu'u
 en xladani
 en xladja
@@ -33347,6 +33359,7 @@ he jirgau
 he klama
 he la'ornai
 he mulcabna
+hi lojbo
 hi mlatu
 hu bacru
 hu badna
@@ -38932,6 +38945,7 @@ jbo jvinu
 jbo jvocmevla
 jbo jvofi'i
 jbo jvomi'u
+jbo jvoso
 jbo jvotau
 jbo jy
 jbo ka
@@ -39726,6 +39740,7 @@ jbo narfaucu'i
 jbo narfaunarcu'i
 jbo nargaubasyvla
 jbo narge
+jbo narjmifri
 jbo narju
 jbo narka'e
 jbo narkau

@@ -204,6 +204,11 @@ $x_1=k_1=s_1$ is a server on the Internet for a client $x_2=k_1=s_2$ of service 
 -n
 -kib- is a short rafsi of experimental gismu {kibro}. See ${samseltcana}_2$ for nodes of a network, {kibro} {selfu}, {kibdu'a}, {kibycpa}, {kibyca'o}
 ---
+kilma gismu ilmen 1 (en)
+$x_1$ is skilled at having property $x_2$ relatively to population $x_3$.
+-n
+Similar to {certu}, but not as strong in meaning, not implying experthood or prowess. Proposed rafsi -kim-.
+---
 kligo gismu mati 2 (en)
 $x_1$ reflects Klingon language/culture in aspect $x_2$
 -n
@@ -339,15 +344,15 @@ $c_1=r_1$ is a title of $c_2=r_2$ used by $c_3$.
 -n
 Cf. {cmene}, {rafsi}.
 ---
-ra'oi cmavo RAhOI gusnikantu 1 (en)
-tag of rafsi; it makes one following rafsi a sumti.
--n
-Note that sometimes a space or a pause is necessary before and/or after the rafsi. The parser zantufa-0.14 and later will parse ra'oi as in selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Examples: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
----
 ra'oi cmavo ZOhOI eimi 4 (en)
 single-word rafsi quote; quotes a single word delimited by pauses (in speech) or whitespace (in writing) and treats it as a rafsi
 -n
 Useful for quoting rafsi that aren't legal words on their own. See http://mw.lojban.org/papri/unspeakable_rafsi_gotcha for details.
+---
+ra'oi cmavo RAhOI gusnikantu 1 (en)
+tag of rafsi; it makes one following rafsi a sumti.
+-n
+Note that sometimes a space or a pause is necessary before and/or after the rafsi. The parser zantufa-0.14 and later will parse ra'oi as in selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Examples: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
 ---
 ra'oijbo fu'ivla lamisotanis 2 (en)
 $x_1$ is someone who constantly annoyingly reminds other Lojbanists including $x_2$ to not forget about mandatory pauses in speech
@@ -849,6 +854,11 @@ $x_1$ lojbo $x_2$
 -n
 .i ko pilno va'o lo nu do ji'a jinvi lo du'u zoi jy. loj jy. .a zo lojbo .a zo .lojban. tolmletce ni'o li'a ra'oi jbo rafsi zo jbobo
 ---
+jvoso gismu mati 1 (jbo)
+$x_1$ ckini lo kulnu ja bangu ja cecmu pe la viiosas (to la'o vy Viossa vy toi)
+-n
+ra'oi -vos- rafsi .i le vi valsi se finti la tcima je la evis
+---
 kibyse'u lujvo gusnikantu 0 (jbo)
 $x_1$ selfu $x_2$ boi $x_3$ .ije $x_1$ .e $x_2$ kibro
 -n
@@ -869,12 +879,12 @@ $x_1$ ckini $x_1$ boi $x_2$
 -n
 ko karbi fi zo {sevzi} .e zo {simxu} .i .ei zo'oi se'i rafsi zo sefsi .i zo sevzi na nitcu lo fanmo rafsi .i {djuse'i} .i {spose'i} .i {lacyse'i} .i {trose'i} .i {truse'i} .i {sazyse'i} .i {lumse'i} .i {lebyse'i} .i {catryse'i} .i {sajyse'i}
 ---
-skuna gismu ractu 2 (jbo)
+skuna gismu ractu 0 (jbo)
 $x_1$ boi $x_2$ boi $x_3$ boi $x_4$ cusku
 -n
 panra zo {cusku} lo ka claxu lo me zo cy. sance noi so'i da jinvi lo du'u ke'a jai cafnydu'e fai tu'a lo bangu mu'u lu {cu} {cusku} li'u .i lo rafsi be zo skuna cu mintu lo me zo {cusku} moi .i za'a za'a dai lo se skicu valsi cu pu co'a cafne banzu fi lo nu jmina fi jyvysy .i ja'o kukte ko
 ---
-skuna gismu ractu 0 (jbo)
+skuna gismu ractu 2 (jbo)
 $x_1$ boi $x_2$ boi $x_3$ boi $x_4$ cusku
 -n
 panra zo {cusku} lo ka claxu lo me zo cy. sance noi so'i da jinvi lo du'u ke'a jai cafnydu'e fai tu'a lo bangu mu'u lu {cu} {cusku} li'u .i lo rafsi be zo skuna cu mintu lo me zo {cusku} moi .i za'a za'a dai lo se skicu valsi cu pu co'a cafne banzu fi lo nu jmina fi jyvysy .i ja'o kukte ko
