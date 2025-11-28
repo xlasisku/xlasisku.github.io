@@ -94,6 +94,7 @@ en alkai
 en alkanse
 en alma
 en almapamla
+en almini
 en almu
 en alna
 en alpaka
@@ -478,6 +479,7 @@ en balzgibe'e
 en bambola
 en bambu
 en bamrdinamite
+en bamri
 en bamrti'enti
 en bamvinji
 en ban
@@ -1664,6 +1666,7 @@ en caidji
 en caidji
 en caidji
 en cai'e
+en cai'i
 en ca'irci'a
 en ca'irdi'a
 en ca'irfanta
@@ -3233,6 +3236,7 @@ en cukpabna'u
 en cukplita
 en cukre
 en cukrerkavjvi
+en cukse
 en cukselba'a
 en cukseltai
 en cukta
@@ -3386,6 +3390,7 @@ en dagme'esni
 en dagmlaterdzu
 en dagyke'a
 en dagykoi
+en dagyko'u
 en dagypli
 en dagysfe
 en dagysfe
@@ -4036,6 +4041,7 @@ en djacu
 en djagru
 en djagru
 en djagu'ara
+en djaikoni
 en djainu
 en djakare
 en djakari
@@ -5186,6 +5192,7 @@ en fo'a
 en fo'ai
 en fo'ai
 en fo'e
+en fofsori
 en fo'i
 en foi
 en foi'e
@@ -5553,6 +5560,7 @@ en geizma
 en gejrdauko
 en gejystani
 en gekcisma
+en gekfegdripu'a
 en gekmau
 en geknimi
 en gekpanpi
@@ -5961,6 +5969,7 @@ en gumjau
 en gumpe'i
 en gumpra
 en gumri
+en gumsko
 en gunbre
 en gundi
 en gunfrivei
@@ -7606,6 +7615,7 @@ en kalgaisligau
 en kaljba
 en kalke'a
 en kalke'asrumu'a
+en kalkumi
 en kalmari
 en kalmebykre
 en kalpi
@@ -7813,6 +7823,7 @@ en karsna
 en karsna
 en kartamo
 en kartapuno
+en kartaroko
 en kartecu
 en kartilago
 en kartuli
@@ -9469,6 +9480,7 @@ en mafni'u
 en mafpli
 en mafre'o
 en mafta'a
+en maftaroko
 en magdaro
 en magmiltre
 en magyxre
@@ -10460,6 +10472,7 @@ en mroke'a
 en mroke'a
 en mromakfa
 en mromu'e
+en mromumi
 en mronalspe
 en mronunsla
 en mrori'a
@@ -10594,10 +10607,12 @@ en mumdei
 en mumdei
 en mumdo'i
 en mumei
+en mumjgatai
 en mumkulpikta
 en mumoi
 en mumplin
 en mumplini
+en mumtartai
 en mumvanbi
 en mumvanci
 en mumvlabivli'i
@@ -13754,6 +13769,7 @@ en rulbifce
 en rulcmapezli
 en rulfe'iganti
 en rulkemjinziljivbu
+en rulkobli
 en rulnakyganti
 en rulpezli
 en rulpezli
@@ -14294,6 +14310,7 @@ en seka'a
 en seka'i
 en sekai
 en sekai ma
+en sekfoia
 en seki'i
 en seki'u
 en seki'unai
@@ -16883,6 +16900,7 @@ en sorgle
 en sorgu
 en sorgugje'a
 en sorjaknykarce
+en sorjgatai
 en sorjontai
 en sorju'o
 en sorkai
@@ -20910,9 +20928,11 @@ en vonpaso
 en vonpitytai
 en vonplin
 en vonplini
+en vonrafpemjvo
 en vonseldansu
 en vonselmla
 en vonseltu'e
+en vonserakto
 en vonskosa'e
 en vonvanbi
 en vonvanci
@@ -21563,6 +21583,7 @@ en xisyjbenunsla
 en xisyjbesla
 en xiuas
 en xivba'a
+en xivgau
 en xlabu'u
 en xladani
 en xladja

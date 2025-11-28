@@ -54,6 +54,11 @@ $x_{1}$ is a lock/seal of/on/for sealing $x_{2}$ with/by locking mechanism $x_{3
 -n
 Equivalent to "{stela}"; gismu similarity conflict with "{stero}" prohibited *"stera". In a dialect which prefers this word over "stela", the rafsi for this word would be "-ter-" and the rafsi for "{te}" would be "-tel-", thus normalizing and uniformizing the rafsi of the primary members of selma'o SE. See also: "{ckiku}".
 ---
+cukse gismu mati 0 (en)
+$x_1$ succeeds/follows/goes after $x_2$ in sequence $x_3$.
+-n
+= {se} {lidne}. Proposed rafsi -cus- (steal {cusku}); algorithmically generated from EN succeed | ZH 续 xù | HI बाद bād 'after, later' | ES suceder | AR خَلَفَ khalafa | FR succéder.
+---
 cunrafsi lujvo xabju 1 (en)
 $r_1$ is an unpredictable/irregular affix for word/concept $r_2$, with form/properties $r_3$, in language $r_4$.
 -n
@@ -64,7 +69,12 @@ $x_1$ arrives at/reaches property $x_2$ (ka).
 -n
 Proposed rafsi -da'a-. Arrive at location = {zvada'a}.
 ---
-dinti gismu krtisfranks 4 (en)
+dindi gismu lakanro 2 (en)
+$x_1$ is a non-binary/intersex (probably also can include: asexual, nongendered, indeterminately gendered) individual of species $x_2$ evidencing non-binary gender trait(s) $x_3$ (ka); $x_1$ is characterized by not following or fitting into some gender-binary.
+-n
+Co-equal to {fetsi} and {nakni}. See also {fetsi}, {nakni}, {nunmu}. Proposed short rafsi: -did-.
+---
+dinti gismu krtisfranks 3 (en)
 $x_1$ is a non-binary/intersexed (probably also can include: asexual, nongendered, indeterminately gendered, gender-fluid, transgendered, two-spirited, alternatively gendered, or affirmatively non-binarily gendered or nongendered/graygendered) individual of species $x_2$ evidencing non-binary gender trait(s) $x_3$ (ka); $x_1$ is characterized by not following or fitting into some gender-binary.
 -n
 Co-equal to "{fetsi}" and "{nakni}". Proposed short rafsi: -dit-. See also "{fetsi}", "{nakni}", "{nunmu}".
@@ -344,15 +354,15 @@ $c_1=r_1$ is a title of $c_2=r_2$ used by $c_3$.
 -n
 Cf. {cmene}, {rafsi}.
 ---
-ra'oi cmavo ZOhOI eimi 4 (en)
-single-word rafsi quote; quotes a single word delimited by pauses (in speech) or whitespace (in writing) and treats it as a rafsi
--n
-Useful for quoting rafsi that aren't legal words on their own. See http://mw.lojban.org/papri/unspeakable_rafsi_gotcha for details.
----
 ra'oi cmavo RAhOI gusnikantu 1 (en)
 tag of rafsi; it makes one following rafsi a sumti.
 -n
 Note that sometimes a space or a pause is necessary before and/or after the rafsi. The parser zantufa-0.14 and later will parse ra'oi as in selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Examples: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
+---
+ra'oi cmavo ZOhOI eimi 4 (en)
+single-word rafsi quote; quotes a single word delimited by pauses (in speech) or whitespace (in writing) and treats it as a rafsi
+-n
+Useful for quoting rafsi that aren't legal words on their own. See http://mw.lojban.org/papri/unspeakable_rafsi_gotcha for details.
 ---
 ra'oijbo fu'ivla lamisotanis 2 (en)
 $x_1$ is someone who constantly annoyingly reminds other Lojbanists including $x_2$ to not forget about mandatory pauses in speech
@@ -428,6 +438,11 @@ smusu gismu spheniscine 1 (en)
 $x_1$ expresses meaning $x_2$ (du'u/si'o) to addressee/audience $x_3$ by doing $x_4$ (property of $x_1$)
 -n
 Gismu form of {smusku}. The act ($x_4$) may or may not be linguistic. Proposed rafsi: -sus-. See also {cusku}, {smuni}, {corci}
+---
+sorjgatai lujvo mati 1 (en)
+$x_1$ is a polygon with $x_2$ sides.
+-n
+sor-jga-tai < {so'i} + {jganu} + {tarmi}. A calque of "polygon" (poly- many, -gon angle). [Even though "many" here actually means "3 or more", {so'i} was chosen for a shorter resulting compound.] Arbitrary polygon names are formed with rafsi numbers plus -jgatai: {cibjgatai}, {vonjgatai}, {mumjgatai}, etc.
 ---
 taxfrdulbande fu'ivla krtisfranks 1 (en)
 $x_1=taxfu_1$ is a turban (head/hair-covering garment which is wrapped and often built into a somewhat prominent three-dimensional structure) to be worn by $x_1=taxfu_2$ for purpose $x_3=taxfu_3$.
@@ -625,6 +640,11 @@ pro-sumti: repeats 3rd place of a bridi within the main bridi of this sentence.
 {ni'o} Proposed secondary axis index semantics: Use e.g. {vo'a'e}{xi}{pi'e}{re} to refer to the second-innermost bridi.  Perhaps {vei}…{ve'o} can be used to nest groups if needed.  (Without {pi'e}, {vo'a'e} as usual if indexed with {xi} would just change what place it refers to, e.g. x6.) (Perhaps then {vo'a'e} would be shorthand for {vo'a}{xi}{pi'e}{ni'u}{pa} or {vo'a}{xi}{pi'e}{ro} under the {la} {ma'oste} language dialect, saving 5 syllables.)
 
 {ni'o} Additional proposed experimental cmavo sequences: {vo'a'e}…{vo'u'e} selects bridi from the shortest possible scope, allowing for direct reflexives (even in descriptions) (suggested mneumonic: ‘'e’ as in ‘se’ for a reflexive pronomial verb in some languages), {vo'a'ei}…{vo'u'ei} selects bridi from the outermost bridi (suggested mneumonic: ‘'ei’ as in ‘nei’ (like ‘dei’) as an alternative to using {vo'a'ei}…{vo'u'ei} when combined with {lo} and SE), and {vo'a'e'i}…{vo'u'e'i} selects from the innermost / current full bridi (suggest mneumonic: adding an extra ‘'i’ looks similar to the outer-bridi-separator {i}, and also ‘e'i’ is in ‘se'i’ which is a rafsi of {sevzi}).  Finally, {vo'a'o'e}…{vo'a'o'e} could be defined for the variant of an unspecified bridi, as in {xi}{pi'e}{xo'e}.  Example: in {i} {mi} {krici} {lo}{du'u} {lo} {bende} {cu} {se} {xamgu} {lo} {djuno} {be} {fi} {vo'a}, the ‘'e’ variant (shortest) would mean that those who know themselves are good for the team, the ‘'ei’ variant (outermost) would mean that those who know the speaker are beneficial for the team, and the ‘'e'i’ variant would mean that those who know the team are good for it.
+---
+vonrafpemjvo lujvo mati 2 (en)
+$x_1$ is a Lojban compound-word idiom made of four combining forms (rafsi); $x_1$ is a "Lojbanic chengyu/yojijukugo".
+-n
+{vonrafpemjvo} are Lojban words that imitate the structure of Chinese/Japanese/Korean four-character proverbs. The "ideal" short form is four rafsi, with no epenthetic r's, n's, or y's. Examples of these include {dekpredekpu'a}, {zditeitortei}, {gekfegdripu'a}, and except for the fact that it is literal and not poetic ({pemci} → -pem-), the word {vonrafpemjvo} itself.
 ---
 vo'o'e cmavo KOhA4 bairyn 1 (en)
 pro-sumti: repeats 4th place of the innermost / current bridi with the stortest possible scope (even in descriptions).
