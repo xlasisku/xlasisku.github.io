@@ -577,6 +577,7 @@ en bapse'u
 en baptizo
 en bapu
 en barat
+en barbaganuji
 en barbei
 en barbekeiu
 en barca'e
@@ -1270,6 +1271,7 @@ en boltsemaku
 en bolxada
 en bolxadba
 en bolxa'e
+en bolxanda'i
 en bombiksiia
 en bombila
 en bonfemu
@@ -1956,6 +1958,7 @@ en cenmige
 en cenmildje
 en cenrini
 en censa
+en censuso
 en centaureia
 en centero
 en centi
@@ -2129,6 +2132,7 @@ en cidjrkusku
 en cidjrletcone
 en cidjrmakapuno
 en cidjrmanju
+en cidjrmotci
 en cidjrpitsa
 en cidjrsapinsapini
 en cidjrspageti
@@ -2640,6 +2644,7 @@ en cmananba
 en cmapagjvo
 en cmapezyzgu
 en cmapinflani
+en cmapinxe
 en cmaplini
 en cmaplini
 en cmaplinykemjinrcaibyca'u
@@ -2807,6 +2812,7 @@ en cmeci'u
 en cmeclax
 en cmeju'o
 en cmekancu
+en cmekirakira
 en cmemo'i
 en cmene
 en cmenrline
@@ -3435,6 +3441,7 @@ en dalgunma
 en dalkastora
 en dalkastoro
 en dalko'ala
+en dalko'ati
 en dalku'i
 en dalma'e
 en dalmasi
@@ -3575,6 +3582,7 @@ en darvi'a
 en darvistci
 en darxa'i
 en darxa'u
+en darxi
 en darxi
 en daryra'i
 en daryri'a
@@ -4694,6 +4702,7 @@ en famfa'o
 en famli'a
 en famnalka'e
 en fampi'i
+en famrafsi
 en famselre'e
 en famsku
 en famstu
@@ -5436,6 +5445,7 @@ en galxejbo'u
 en galxyfe'a
 en galxypunli
 en gambaru
+en gamdegi
 en gamgata
 en gamseti'yra'a
 en gamyma'i
@@ -6014,6 +6024,7 @@ en gustci
 en gustytigni
 en gusybatke
 en gusybi'o
+en gusybo'i
 en gusycai
 en gusycfine
 en gusycinki
@@ -6031,6 +6042,7 @@ en gutrynebypunli
 en gutryne'o
 en gutrypilcri
 en gutrytunba
+en gutselzu'e
 en gutyjamkarce
 en gu'u
 en gu'y
@@ -6287,6 +6299,7 @@ en iunbau
 en iunkoda
 en iu'o
 en iupna
+en iupre
 en iutkata
 en iu'u
 en iu zei tcitygau
@@ -6531,6 +6544,7 @@ en jbabaji
 en jbagu'arana
 en jbakiui
 en jbama
+en jbamora
 en jbari
 en jbarjuniperu
 en jbarnkiui
@@ -7673,6 +7687,7 @@ en kamna'ujbi
 en kamni
 en kamnolraitru
 en kamnynunpe'i
+en kampaneto
 en kampavyselmanri
 en kampeikai
 en kamprije
@@ -7702,6 +7717,7 @@ en kamyzanfu'a
 en kamyzi'e
 en kamyzmakezra'a
 en kanba
+en kanbaji
 en kanbas
 en kanbycirla
 en kanbyku'i
@@ -8054,6 +8070,7 @@ en kibysku
 en kibysnustu
 en kibystu
 en kibzva
+en kibzvaipi
 en kicne
 en kicnunda'a
 en kicotes
@@ -8436,6 +8453,7 @@ en kralyxaigle
 en krama'o
 en krambola
 en kramu
+en kranbari
 en krasi
 en krastu
 en krastu
@@ -10932,6 +10950,7 @@ en namsusu
 en namtolxanka
 en namus
 en nanba
+en nanbagele
 en nanbe'o
 en nanbrbaklava
 en nanbrkrepa
@@ -10953,6 +10972,7 @@ en nanlybakni
 en nanm
 en nanmerko
 en nanmu
+en nanpita
 en nanrkafkaso
 en nansicfi'ocinfo
 en nansicnansnanu
@@ -12776,6 +12796,7 @@ en pronabi
 en pronalka'e
 en proradyxarnysti
 en prosa
+en proselzu'e
 en prostituta
 en protagonista
 en protele
@@ -12838,7 +12859,9 @@ en puca'a
 en puca'o
 en pucymapra
 en pudlu'a
+en pudlu'aju'a
 en pudlu'avalsi'ipo'ato
+en pudlu'avla
 en pudydi'u
 en pudykurji
 en pudzgu
@@ -13180,6 +13203,7 @@ en re'i
 en rei
 en re'icla
 en rei'e
+en rei'i
 en re'imnu
 en re'inai
 en reinbodece
@@ -13674,6 +13698,7 @@ en rolterdi
 en rolterslidi'e
 en roltru
 en rolxracu'a
+en rolylerju'a
 en rolza'i
 en rolzda
 en romai
@@ -18022,6 +18047,7 @@ en tcika
 en tcikai
 en tcIkculub
 en tcikculube
+en tcikero
 en tcikona
 en tcikoni
 en tcikydragausnidu
@@ -18048,6 +18074,7 @@ en tcipi
 en tciromei
 en tcita
 en tcitama
+en tcitani
 en tcita zei uidje
 en tcitcarone
 en tcitigi
@@ -20175,6 +20202,7 @@ en vajyje'ipoi
 en vajyje'ipoitau
 en vajyki'i
 en vajymecyboryraipavmompoi
+en vaksaki
 en valcrimtu
 en valkra
 en valrfa'a
@@ -20634,6 +20662,7 @@ en ve'urzvocma
 en vi
 en vi'a
 en vi'adji
+en vi'ai
 en vi'ajmi
 en vi'amde
 en vibgle
@@ -21228,6 +21257,7 @@ en xamxeinmo
 en xamyzu'e
 en xanbau
 en xanbe'u
+en xanbikyda'i
 en xanboi
 en xance
 en xancidja'i
@@ -22192,6 +22222,7 @@ en zgika'u
 en zgika'usni
 en zgike
 en zgikemfi'inalka'esefsysajyke'ejvekemsefsyda'atoiflike'ejvejagborkemjilryjvesefsyborxenze'a
+en zgilofoni
 en zgilregi
 en zgilregitona
 en zgimi'i

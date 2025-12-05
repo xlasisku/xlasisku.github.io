@@ -109,6 +109,11 @@ $x_1$ practices/exercises/studies/improves at doing/being $x_2$ by doing/being $
 -n
 Somewhat based on the rafsi -cre-
 ---
+famrafsi lujvo mati 1 (en)
+$x_1$ is a prefix for (meaning, word) $x_2$.
+-n
+... with form/properties $x_3$ in language $x_4$, if you like the higher places of {rafsi}. This word is a shorter equivalent of {selyli'erafsi}; see also {li'enrafsi} 'prefix'.
+---
 felma'i lujvo spheniscine 3 (en)
 $x_1$ is November/eleventh month of year $x_2$ in calendar $x_3$.
 -n
