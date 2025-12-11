@@ -259,7 +259,11 @@ fn main() {
                 }
                 Ok(Event::End(e)) => {
                     let tag = String::from_utf8(e.name().as_ref().to_vec()).unwrap();
-                    if tag.as_str() == "definition" && !skip_word && current_entry.score >= -1. {
+                    if tag.as_str() == "definition"
+                        && !skip_word
+                        && current_entry.score >= -1.
+                        && !words.iter().any(|e| e.word == current_entry.word)
+                    {
                         words.push(current_entry.clone());
                     }
                 }
@@ -300,7 +304,8 @@ fn main() {
     }
     fs::write("data/data.txt", &data).unwrap();
     // chars.txt, fonts, noto.css
-    print!("\rwriting: characters\x1b[K");flush!();
+    print!("\rwriting: characters\x1b[K");
+    flush!();
     let chars: String = {
         let mut v = data.chars().collect::<Vec<char>>();
         v.sort_unstable();
@@ -309,7 +314,8 @@ fn main() {
     };
     fs::write("data/chars.txt", &chars).unwrap();
     // unofficial_rafsi.txt
-    print!("\rwriting: unofficial rafsi\x1b[K");flush!();
+    print!("\rwriting: unofficial rafsi\x1b[K");
+    flush!();
     let mut data = "---".to_string();
     for word in unofficial_rafsi {
         data += &format!("\n{}\n---", word.to_datastring());
