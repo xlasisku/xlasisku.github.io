@@ -405,6 +405,9 @@ h2 {
 i span {
   font-style: normal;
 }
+.bal {
+  text-wrap: balance;
+}
 
 /* other media queries */
 @media (prefers-contrast: more) {

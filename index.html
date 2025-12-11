@@ -21,10 +21,11 @@
 
 <body id="main">
   <h1>la xlasisku</h1>
-  <p class="sub"><a href="https://github.com/xlasisku/xlasisku.github.io" target="_blank">github repo</a></p>
-  <p>
-    this is a readonly frontend for jbovlaste.<br />
-    also check out <a href="https://nalvai.github.io">nalvai's descriptive dictionary</a>!
+  <p class="sub bal">
+    <a href="https://github.com/xlasisku/xlasisku.github.io" target="_blank">github repo</a>
+    <br />
+    <b>not very maintained.</b> i do fix the occasional bug but if you want me to do something bigger than that you are
+    better off creating a pull request
   </p>
   <p>
     <span class="nobr opt">
@@ -67,16 +68,12 @@
       document.documentElement.className = dark ? "dark" : "";
       try {
         localStorage.setItem("theme", dark ? "dark" : "light");
-      } catch (e) {
-        //
-      }
+      } catch (e) { }
     }
     var theme = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)") ? "dark" : "light";
     try {
       theme = localStorage.getItem("theme") || theme;
-    } catch (e) {
-      //
-    }
+    } catch (e) { }
     setTheme(theme == "dark");
     setTimeout(() => {document.body.style.transition = "background 0.2s"}, 0);
   </script>
