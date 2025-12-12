@@ -30,24 +30,24 @@
 }
 @font-face {
   font-family: "iosevie";
-  src: url("fonts/Iosevie-Regular.ttf");
+  src: url("https://raw.githubusercontent.com/mi2ebi/iosevie/refs/heads/main/dist/Iosevie/TTF/Iosevie-Regular.ttf");
   font-display: swap;
 }
 @font-face {
   font-family: "iosevie";
-  src: url("fonts/Iosevie-Italic.ttf");
+  src: url("https://raw.githubusercontent.com/mi2ebi/iosevie/refs/heads/main/dist/Iosevie/TTF/Iosevie-Italic.ttf");
   font-display: swap;
   font-style: italic;
 }
 @font-face {
   font-family: "iosevie";
-  src: url("fonts/Iosevie-Bold.ttf");
+  src: url("https://raw.githubusercontent.com/mi2ebi/iosevie/refs/heads/main/dist/Iosevie/TTF/Iosevie-Bold.ttf");
   font-display: swap;
   font-weight: bold;
 }
 @font-face {
   font-family: "iosevie";
-  src: url("fonts/Iosevie-BoldItalic.ttf");
+  src: url("https://raw.githubusercontent.com/mi2ebi/iosevie/refs/heads/main/dist/Iosevie/TTF/Iosevie-BoldItalic.ttf");
   font-display: swap;
   font-weight: bold;
   font-style: italic;
