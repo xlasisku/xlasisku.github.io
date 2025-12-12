@@ -164,6 +164,11 @@ $x_1=p_{1j}$ (object/person) seems pleasant to/pleases $x_2=p_2$ in property $x_
 -n
 This is the first defined lujvo using -jax-, the proposed rafsi for {jai}. See also {pluka}.
 ---
+jbovla lujvo krtisfranks 1 (en)
+$v1$ is a 'strictly' Lojbanic word with meaning/role $v2$
+-n
+Used in contrast with and excluding {fu'ivla}. Includes all cmavo, gismu, lujvo, and non-cmevla cmene (experimental or otherwise, so long as they obey the proper form). It arguably might include cmevla, rafsi, or words which seem morphologically Lojbanic (such as zi'evla that seem Lojbanic, but probably excluding fu'ivla); as such, usage must be careful and clear. Such words must conform to phonotactic and morphological rules of Lojban.
+---
 jisrxananase fu'ivla wuzzy -1 (en)
 $x_1$ is a quantitiy of pineapple juice made from pineapple/pineapples $x_2$.
 -n
@@ -393,11 +398,6 @@ sefsi gismu xorxes 2 (en)
 $x_1$ is/are related to itself/himself/herself/themselves by relation $x_2$
 -n
 Compare with {sevzi} and {simxu}. -se'i- proposed as rafsi for "sefsi" since "sevzi" doesn't really need much a final rafsi.
----
-selja'e lujvo ilmen 4 (en)
-$x_1$ (event) results in $x_2$ (event)
--n
-Possibly synonymous to {banzu}. Proposed rafsi: -se'e- (for paralleling the other causal suffixes). See also {jalge}, {rinka}, {krinu}, {banzu}, {nibli}, {mukti}.
 ---
 selkicrypoi lujvo krtisfranks 1 (en)
 $x_1$ is an ordered series of podcast episodes/podcast serial, ordered by conparison rule $x_2$ (contextless default: production order or intended listening order, or reverse of these), and being entirely composed of all of the individual episodes belonging to set $x_3$.

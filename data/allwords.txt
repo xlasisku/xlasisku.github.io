@@ -3381,6 +3381,8 @@ en dictergu'i
 en dicyba'ogaumi'i
 en dicybo'i
 en dicycau
+en dicyclupa
+en dicycupta'o
 en dicydenmi
 en dicydinfanza
 en dicyjdika
@@ -7618,6 +7620,7 @@ en kraislr
 en krakatau
 en krakene
 en krakeni
+en krakida
 en krakozabra
 en krakuf
 en krali
