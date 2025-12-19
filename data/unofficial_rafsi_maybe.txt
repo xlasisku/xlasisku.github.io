@@ -14,11 +14,6 @@ $x_1$ is a $x_2$osity, a $x_2$onger, an absolute $x_2$ I tell you (augmentative)
 -n
 Proposed rafsi -bu or -xa. See {mabla}, {zabna}, {barda}
 ---
-ca'arsacki lujvo bairyn 1 (en)
-$x_1=s_1=c_1$ is a lighter / sparker / ignition device for function / fire / purpose $x_2=c_2$ controlled/[triggered] by $x_3=c_3$ and made of / fueled by $x_4=s_2$.
--n
-Suitable for ‘cigarrete lighter’.  Also spark plug (more rafsi or fu'ivlaizations can also be added to further specify or vary the type of {ca'arsacki}, e.g. for specifically ‘spark plug’).
----
 cidytsecorci lujvo krtisfranks 0 (en)
 $x_1$ kneels/genuflects with meaning $x_2$ on surface $x_3$ on/with limb(s) $x_4$ of body $x_5$.
 -n
@@ -105,7 +100,7 @@ $x_1$ practices/exercises/studies/improves at doing/being $x_2$ by doing/being $
 Somewhat based on the rafsi -cre-
 ---
 famrafsi lujvo mati 1 (en)
-$x_1$ is a prefix for (meaning, word) $x_2$.
+$x_1$ is a suffix for (meaning, word) $x_2$.
 -n
 ... with form/properties $x_3$ in language $x_4$, if you like the higher places of {rafsi}. This word is a shorter equivalent of {selyli'erafsi}; see also {li'enrafsi} 'prefix'.
 ---
@@ -163,11 +158,6 @@ jaxpu'a lujvo djeikyb 3 (en)
 $x_1=p_{1j}$ (object/person) seems pleasant to/pleases $x_2=p_2$ in property $x_3$, in that $x_1$ does/is/partakes in $x_4=p_{fai}$
 -n
 This is the first defined lujvo using -jax-, the proposed rafsi for {jai}. See also {pluka}.
----
-jbovla lujvo krtisfranks 1 (en)
-$v1$ is a 'strictly' Lojbanic word with meaning/role $v2$
--n
-Used in contrast with and excluding {fu'ivla}. Includes all cmavo, gismu, lujvo, and non-cmevla cmene (experimental or otherwise, so long as they obey the proper form). It arguably might include cmevla, rafsi, or words which seem morphologically Lojbanic (such as zi'evla that seem Lojbanic, but probably excluding fu'ivla); as such, usage must be careful and clear. Such words must conform to phonotactic and morphological rules of Lojban.
 ---
 jisrxananase fu'ivla wuzzy -1 (en)
 $x_1$ is a quantitiy of pineapple juice made from pineapple/pineapples $x_2$.

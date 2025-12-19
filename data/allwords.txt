@@ -849,6 +849,7 @@ en birdadykla
 en birgutci
 en birja'i
 en birjai
+en birjaktu
 en birjanco
 en birjanke'a
 en birje
@@ -878,6 +879,7 @@ en bisycla
 en bisycmaplini
 en bisyladru
 en bitcan
+en bitco
 en bitkoine
 en bitmu
 en bitni
@@ -893,6 +895,7 @@ en bityzba
 en bi'u
 en bi'umra
 en bi'unai
+en bivjaktu
 en bivjetka'u
 en bivma'i
 en bivmast
@@ -990,6 +993,7 @@ en bluda'emre
 en bluda'emretci
 en blufle
 en blujisra
+en bluju'emi'i
 en blupinxe
 en blurdrakono
 en bluselpi'a
@@ -1048,6 +1052,7 @@ en bolji'openbi
 en boljipe
 en bolkei
 en bolkeijvi
+en bolmunpi
 en bolplita
 en bolrbasketo
 en bolrbeiso
@@ -1862,6 +1867,7 @@ en cikyjunla
 en ciladulumu
 en cilce
 en cilfu
+en cilga
 en ciljongau
 en cilkan
 en cilkane
@@ -1932,6 +1938,8 @@ en cinpa'i
 en cinpampe'o
 en cinri
 en cinse
+en cinseiaui
+en cinseiuri
 en cinta
 en cinterfradansu
 en cinto
@@ -2835,6 +2843,7 @@ en cuska'i
 en cusku
 en cusku'i
 en cusna
+en cuspe
 en custerzi'e
 en cutci
 en cutlunbe
@@ -5558,6 +5567,7 @@ en irci
 en irga
 en irk
 en irkasa
+en irmu
 en irnodela
 en iRON
 en irstoni
@@ -7069,6 +7079,7 @@ en katcpi
 en katcti
 en katkana
 en katlana
+en katmunpi
 en katna
 en katnymikce
 en katpre
@@ -7464,6 +7475,7 @@ en klombiia
 en klovano
 en klubarcreka
 en kluce'u
+en klugi'u
 en klulei
 en klulele
 en kluni'i
@@ -7712,6 +7724,7 @@ en kruca
 en krudakyxa'i
 en kruji
 en krumami
+en krutace
 en kruuaiti
 en kru'uze
 en kruvi
@@ -7870,6 +7883,7 @@ en kustru
 en kusyja'a
 en kutlerpoi
 en kutpoi
+en kutsa'a
 en kutselcmi
 en kutsfeca'u
 en kutydza
@@ -7878,6 +7892,7 @@ en kutyje'u
 en kutysetmima
 en kutytu'a
 en kutyuenzi
+en kutyzgimi'i
 en ku'u
 en kuualalumpur
 en ku'urcedru
@@ -8029,6 +8044,7 @@ en landa
 en landegmei
 en landegna'u
 en lange'u
+en langi
 en lanjanbe
 en lanka
 en lanku'i
@@ -8206,6 +8222,7 @@ en leksikosle
 en lekta'e
 en lektoni
 en lektu'a
+en lelde
 en lelxe
 en lemi
 en lemkai
@@ -9117,6 +9134,7 @@ en mijyselpevysmacu
 en mijyzva
 en mikce
 en mikri
+en miksampau
 en miksini
 en miksnidu
 en mikybontoknu
@@ -9628,6 +9646,7 @@ en munje
 en munjero
 en muno
 en munono
+en munpi
 en mu'o
 en mu'oi
 en mu'onai
@@ -9730,6 +9749,7 @@ en na'e
 en na'ebo
 en na'efa'a
 en na'ei
+en na'e'o'e
 en na'epu'i
 en nafmupli
 en nafselte'i
@@ -9946,6 +9966,7 @@ en nansunsunsnanu
 en nantrau
 en nanvi
 en na'o
+en na'o'e
 en na'oi
 en na'onai
 en narbanzu
@@ -12106,6 +12127,7 @@ en relmasti
 en relmoija'a
 en relmoixandegji
 en relmomdegji
+en relmunpi
 en relnacmei
 en relpamcinse
 en relpezvi'ospa
@@ -12736,6 +12758,7 @@ en sailce
 en sailon
 en saimn
 en sainkaseti
+en sai'o
 en sa'irbi'o
 en sairbu'u
 en sairfa'o
@@ -15003,6 +15026,7 @@ en sirjga
 en sirji
 en sirjrneuei
 en sirmpetu
+en sirmu
 en sirsunla
 en sirtaki
 en sirxo
@@ -15038,6 +15062,7 @@ en ska'ai
 en ska'ando
 en skacau
 en skaci
+en skacyjaktu
 en skadu'i
 en skai'i
 en skaip
@@ -15429,6 +15454,7 @@ en songri
 en songripau
 en songripausle
 en sonjamkarce
+en sonli
 en sono
 en sonono
 en sonralju
@@ -16342,6 +16368,7 @@ en ta'orstizu
 en tapflifa'u
 en tapkla
 en tapla
+en taplylatci
 en taplytai
 en tapsni
 en tapydansu
@@ -16428,6 +16455,7 @@ en tcaka
 en tcakali
 en tcakamni
 en tcakarni
+en tcame
 en tcamoru
 en tcampurado
 en tcana
@@ -16574,6 +16602,7 @@ en tcokobo
 en tcokolatle
 en tcokumte
 en tcomolunmas
+en tcondari
 en tcotu'a
 en tcoxarju
 en tcubi'a
@@ -19962,6 +19991,7 @@ en xulbu'u
 en xulgani
 en xulgau
 en xulta
+en xulylatci
 en xumbe
 en xumcacpli
 en xumjimcelxa'i
