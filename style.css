@@ -158,6 +158,9 @@ body {
     outline: none;
     background: none;
   }
+  .regex & {
+    font-family: var(--mono);
+  }
 }
 
 #clear-wrap {
