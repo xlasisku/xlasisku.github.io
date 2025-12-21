@@ -243,6 +243,3 @@ id("clear").addEventListener("click", function() {
   id("search").focus();
   dispatchSearchInputEvent();
 });
-id("theme").addEventListener("click", function() {
-  setTheme(document.documentElement.className != "dark");
-});

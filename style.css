@@ -52,10 +52,6 @@
   font-weight: bold;
   font-style: italic;
 }
-@font-face {
-  font-family: "Nokia Pure HL KLGN";
-  src: url("fonts/nokiapiqad.ttf");
-}
 
 /* main */
 *, input, button {
@@ -66,44 +62,28 @@
   transition: background 0.2s;
 }
 :root {
-  --bg: 255, 224, 241;
-  --fg: 0, 0, 0;
-  --inv: 255, 255, 255;
-  --checked: 255, 20, 146;
-  --op-c: 0.8;
-  --op-a: calc(2/3);
-  --op-8: calc(8/15);
-  --op-4: calc(4/15);
-  --op-2: calc(2/15);
-  --link: 0, 105, 204;
-  --err: 200, 41, 41;
-  --focus: 255, 174, 12;
+  --bg: light-dark(white, black);
+  --fg: light-dark(black, white);
+  --checked: #ff1493;
+  --op-c: calc(12/15);
+  --op-a: calc(10/15);
+  --op-8: calc(08/15);
+  --op-4: calc(04/15);
+  --op-2: calc(02/15);
+  --link: light-dark(#06c, #9cf);
+  --red: light-dark(#c82929, #f99);
+  --focus: #ffae0c;
   --sans: "Fira Sans", "Nokia Pure HL KLGN", ui-sans-serif, sans-serif;
   --mono: "iosevie", ui-monospace, monospace;
-  background: rgb(var(--bg));
-  color: rgb(var(--fg));
+  background: var(--bg);
+  color: var(--fg);
   &:has(> body.regex) {
-    --bg: 224, 242, 240;
-    --checked: 12, 147, 129;
+    --checked: #0c9381;
   }
   &:has(> body.rhyme) {
-    --bg: 236, 230, 245;
-    --checked: 113, 44, 232;
+    --checked: light-dark(#712ce8, #8f48e0);
   }
-  &.dark {
-    --bg: 38, 3, 22;
-    --fg: 255, 255, 255;
-    --inv: 0, 0, 0;
-    --link: 153, 204, 255;
-    --err: 255, 153, 153;
-    &:has(> body.regex) {
-      --bg: 3, 23, 20;
-    }
-    &:has(> body.rhyme) {
-      --bg: 22, 10, 36;
-      --checked: 143, 72, 224;
-    }
-  }
+  color-scheme: light dark;
 }
 
 body {
@@ -128,9 +108,9 @@ body {
 #fakebox {
   display: flex;
   border-radius: 16px;
-  background: rgb(var(--inv));
-  border: 2px solid rgb(var(--fg));
-  box-shadow: rgb(var(--fg)) 0 3px;
+  background: var(--bg);
+  border: 2px solid var(--fg);
+  box-shadow: var(--fg) 0 3px;
   padding-block: 4px;
   padding-inline: 12px;
   align-items: baseline;
@@ -139,13 +119,13 @@ body {
   box-sizing: content-box;
   &:has(> #search:disabled) {
     opacity: 1;
-    border-color: rgba(var(--fg), var(--op-8));
-    background-color: rgba(var(--inv), var(--op-8));
-    box-shadow: rgba(var(--fg), var(--op-8)) 0 3px;
+    border-color: rgb(from var(--fg) r g b / var(--op-8));
+    background-color: rgb(from var(--bg) r g b / var(--op-8));
+    box-shadow: rgb(from var(--fg) r g b / var(--op-8)) 0 3px;
   }
   &:is(:hover, :focus-within) {
-    outline: 2px solid rgb(var(--focus));
-    background-color: rgba(var(--focus), var(--op-2));
+    outline: 2px solid var(--focus);
+    background-color: rgb(from var(--focus) r g b / var(--op-2));
   }
 }
 
@@ -159,19 +139,19 @@ body {
   font-size: inherit;
   background: transparent;
   border: none;
-  color: rgb(var(--fg)) !important;
+  color: var(--fg) !important;
   block-size: 1lh;
   box-sizing: content-box;
-  caret-color: rgb(var(--fg));
+  caret-color: var(--fg);
   &:disabled {
     opacity: 1;
   }
   &::placeholder {
-    color: rgba(var(--fg), var(--op-c));
+    color: rgb(from var(--fg) r g b / var(--op-c));
     opacity: 1;
   }
   &:disabled::placeholder {
-    color: rgba(var(--fg), var(--op-8));
+    color: rgb(from var(--fg) r g b / var(--op-8));
     opacity: 1;
   }
   &:focus-visible {
@@ -187,30 +167,30 @@ body {
   }
 }
 .clear {
-  color: rgb(var(--err));
+  color: var(--red);
 }
 .nopad {
   padding: 0;
 }
 :disabled {
-  color: rgba(var(--fg), var(--op-c));
+  color: rgb(from var(--fg) r g b / var(--op-c));
 }
 
 /* lujvo things / regex errors */
 #info {
   font-size: 1.25em;
   margin-block-start: 8px;
-  color: rgba(var(--fg), var(--op-c));
+  color: rgb(from var(--fg) r g b / var(--op-c));
   p {
     margin-block: 6px;
   }
   :not(.err) {
-    color: rgba(var(--fg), var(--op-c));
+    color: rgb(from var(--fg) r g b / var(--op-c));
   }
 }
 
 .rafsi a {
-  color: rgba(var(--fg), var(--op-c));
+  color: rgb(from var(--fg) r g b / var(--op-c));
 }
 
 /* results */
@@ -219,24 +199,22 @@ body {
   margin-block: 8px;
   padding-block: 4px;
   padding-inline: 16px;
-  background: rgba(var(--inv), var(--op-8));
-  border-radius: 16px;
-  color: rgb(var(--fg));
+  color: var(--fg);
   :is(p:first-child, summary) {
     font-family: var(--sans);
   }
   p:first-child a.w {
-    color: rgb(var(--fg));
+    color: var(--fg);
   }
   .selmaho {
     font-family: var(--mono);
-    color: rgba(var(--fg), var(--op-c));
+    color: rgb(from var(--fg) r g b / var(--op-c));
   }
   :is(.selmaho, .rafsi) {
-    color: rgba(var(--fg), var(--op-c));
+    color: rgb(from var(--fg) r g b / var(--op-c));
   }
   details {
-    color: rgba(var(--fg), var(--op-c));
+    color: rgb(from var(--fg) r g b / var(--op-c));
     margin-block: 16px;
   }
 }
@@ -272,21 +250,21 @@ b, h1, summary {
 
 /* links/buttons */
 a {
-  color: rgb(var(--link));
+  color: var(--link);
   text-decoration: none;
   &:is(:hover, :focus-visible) {
-    outline: 2px solid rgb(var(--focus));
-    background-color: rgba(var(--focus), var(--op-2));
+    outline: 2px solid var(--focus);
+    background-color: rgb(from var(--focus) rgb / var(--op-2));
   }
 }
 .opt {
-  color: rgb(var(--fg));
-  border: 1px solid rgb(var(--fg));
+  color: var(--fg);
+  border: 1px solid var(--fg);
   border-radius: 16px;
   display: inline-block;
   margin-block-start: 4px;
-  &:not(:has(:not([disabled]))) {
-    border-color: rgba(var(--fg), var(--op-c));
+  &:not(:has(:not([disabled]))) { /* what was i on */
+    border-color: rgb(from var(--fg) r g b / var(--op-c));
   }
   button {
     padding-block: 4px;
@@ -299,7 +277,7 @@ a {
     }
   }
   .checked {
-    background: rgb(var(--checked));
+    background: var(--checked);
     color: white;
     font-weight: bold;
     &:has(+ .checked) {
@@ -329,8 +307,8 @@ a {
     outline: none;
     &::after {
       z-index: 1;
-      outline: 2px solid rgb(var(--focus));
-      background-color: rgba(var(--focus), var(--op-2));
+      outline: 2px solid var(--focus);
+      background-color: rgb(from var(--focus) r g b / var(--op-2));
     }
   }
 }
@@ -339,37 +317,37 @@ p:has(.opt) {
 }
 button {
   cursor: pointer;
-  background: rgb(var(--checked), 0);
+  background: rgb(from var(--checked) r g b / 0);
   border: none;
-  color: rgb(var(--fg));
+  color: var(--fg);
   font-size: 1em;
   font-family: var(--sans);
   position: relative;
   &:is(:hover, :focus-visible):not(.opt > button) {
-    outline: 2px solid rgb(var(--focus));
-    background-color: rgba(var(--focus), var(--op-2));
+    outline: 2px solid var(--focus);
+    background-color: rgb(from var(--focus) r g b / var(--op-2));
   }
 }
 
 #jvop {
   font-family: var(--mono);
   font-size: inherit;
-  border: 1px solid rgb(var(--fg));
-  background: rgb(var(--inv));
+  border: 1px solid var(--fg);
+  background: var(--bg);
   padding-block: 4px;
   padding-inline: 8px;
   margin-block-start: 4px;
   display: inline-block;
-  color: rgb(var(--fg));
+  color: var(--fg);
   &:is(:hover, :focus-visible) {
-    outline: 2px solid rgb(var(--focus));
-    background-color: rgba(var(--focus), var(--op-2));
+    outline: 2px solid var(--focus);
+    background-color: rgb(from var(--focus) r g b / var(--op-2));
   }
 }
 
 /* misc 2 */
 hr {
-  border: 1px solid rgb(var(--fg));
+  border: 1px solid var(--fg);
 }
 :not(hr, br, #fakebox *, #jvop):empty {
   display: none;
@@ -377,22 +355,22 @@ hr {
 h1 {
   margin: 0;
   text-align: center;
-  & + p.sub {
+  + p.sub {
     margin: 0;
     text-align: center;
   }
 }
 h2 {
-  border-block-start: 3px solid rgba(var(--fg), var(--op-c));
+  border-block-start: 3px solid rgb(from var(--fg) r g b / var(--op-c));
 }
 .temml-error {
-  color: rgb(var(--err)) !important;
+  color: var(--red) !important;
   white-space: pre-wrap !important;
   font-family: var(--mono);
   display: block;
 }
 .err {
-  color: rgb(var(--err));
+  color: var(--red);
 }
 #length, #bottom {
   text-align: center;

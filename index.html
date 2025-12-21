@@ -32,9 +32,6 @@
       <button id="sm" disabled>normal</button><button id="xm" disabled>regex</button><button id="rm"
         disabled>rhyme</button>
     </span>
-    <span class="nobr opt">
-      <button id="theme">theme</button>
-    </span>
     <span class="nobr">
       <label for="jvop">lujvo settings:</label>
       <input name="jvop" id="jvop" type="text" value="A1g" size="6" />
@@ -62,21 +59,6 @@
   <div id="length"></div>
   <div id="results"></div>
   <div id="bottom"></div>
-  <script>
-    // theme (mi lebna ti la lalxu)
-    function setTheme(dark) {
-      document.documentElement.className = dark ? "dark" : "";
-      try {
-        localStorage.setItem("theme", dark ? "dark" : "light");
-      } catch (e) { }
-    }
-    var theme = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)") ? "dark" : "light";
-    try {
-      theme = localStorage.getItem("theme") || theme;
-    } catch (e) { }
-    setTheme(theme == "dark");
-    setTimeout(() => {document.body.style.transition = "background 0.2s"}, 0);
-  </script>
   <script src="data/jbo.js"></script>
   <script src="helper.js"></script>
   <script src="events.js"></script>
