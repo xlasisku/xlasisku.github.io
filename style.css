@@ -289,7 +289,7 @@ a {
       padding-inline-end: 6px;
       margin-inline-end: 0;
     }
-    & + .checked {
+    + .checked {
       border-start-start-radius: 0;
       border-end-start-radius: 0;
       padding-inline-start: 6px;
@@ -358,10 +358,10 @@ hr {
 h1 {
   margin: 0;
   text-align: center;
-  + p.sub {
-    margin: 0;
-    text-align: center;
-  }
+}
+ p.sub {
+  margin: 0;
+  text-align: center;
 }
 h2 {
   border-block-start: 3px solid rgb(from var(--fg) r g b / var(--op-c));
@@ -404,5 +404,16 @@ i span {
 @media (prefers-reduced-motion: reduce) {
   * {
     transition: none;
+  }
+}
+@media (height < 500px) {
+  p.sub {
+    display: none;
+  }
+  p:has(.opt) {
+    margin-top: 0;
+  }
+  :is(.entry, details) > * {
+    margin-block: 4px !important;
   }
 }
