@@ -970,6 +970,7 @@ en blolei
 en bloli'u
 en blolo
 en blomatryga'a
+en blomra
 en blomuvga'a
 en blonare
 en blonaresmi
@@ -7425,6 +7426,7 @@ en klavire
 en klebana
 en klecmi
 en klecmiri'a
+en klegeni
 en kleide
 en kleinzu
 en kleivmu
@@ -10370,6 +10372,7 @@ en nonceikri
 en noncinse
 en noncte
 en nondei
+en nondi'a
 en nondo'i
 en nonjavycimni
 en nonjdi

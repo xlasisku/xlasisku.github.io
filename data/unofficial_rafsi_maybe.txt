@@ -144,6 +144,11 @@ $x_1$ is a tree graph on nodes $x_2$ (set of points), with edges $x_3$ (set of o
 -n
 A graph with no cycles. The classifier rafsi of this word comes from the experimental gismu "{grafu}".
 ---
+gugle gismu krtisfranks 0 (en)
+$x_1$ searches network or collection of information/data/facts, etc. (especially the Internet) for information on topic/quote $x_2$ using service/tool/search resource/function $x_3$ provided by (host, company, etc.) $x_4$ with accessed information sources (websites, network, documents, books, etc.) $x_5$. $x_3$ is a search engine that provides information/resource/output on topic/query $x_2$ by way of organized and (semi-)automated/quick information search through many providers/sources of information including $x_5$, with search service provided by $x_4$ and provided to/used by/accessible to (potential or actual) user $x_1$ (who does not actually perform the initial search/sorting/recruiting of information). $x_4$ is a search engine service provider able to present search results via service/tool $x_3$. 
+-n
+Key word search, academic search, picture search, video search, map search, etc. can be expressed by x3; the algorithm and other means of searching through, organizing and ranking, and presenting the massive amount of information (provided by x5) may likewise be expressed by x3 (in brief). The creation and/or use of this word does not endorse Google or any other search engine service provider. Proposed short rafsi form: –gul–. See also: {valfa}
+---
 guglyzamgri lujvo spheniscine 1 (en)
 $x_1$ is a Google Group for $x_2$ to discuss/talk about subject $x_3$
 -n
@@ -388,6 +393,11 @@ sefsi gismu xorxes 2 (en)
 $x_1$ is/are related to itself/himself/herself/themselves by relation $x_2$
 -n
 Compare with {sevzi} and {simxu}. -se'i- proposed as rafsi for "sefsi" since "sevzi" doesn't really need much a final rafsi.
+---
+selja'e lujvo ilmen 4 (en)
+$x_1$ (event) results in $x_2$ (event)
+-n
+Possibly synonymous to {banzu}. Proposed rafsi: -se'e- (for paralleling the other causal suffixes). See also {jalge}, {rinka}, {krinu}, {banzu}, {nibli}, {mukti}.
 ---
 selkicrypoi lujvo krtisfranks 1 (en)
 $x_1$ is an ordered series of podcast episodes/podcast serial, ordered by conparison rule $x_2$ (contextless default: production order or intended listening order, or reverse of these), and being entirely composed of all of the individual episodes belonging to set $x_3$.
