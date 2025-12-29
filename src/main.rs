@@ -262,7 +262,6 @@ fn main() {
                     if tag.as_str() == "definition"
                         && !skip_word
                         && current_entry.score >= -1.
-                        && !words.iter().any(|e| e.word == current_entry.word)
                     {
                         words.push(current_entry.clone());
                     }
