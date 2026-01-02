@@ -1759,6 +1759,7 @@ en camnei
 en campa'i
 en campana
 en campei
+en campinoni
 en camselci'i
 en camselci'i
 en camselci'igri
@@ -2041,6 +2042,7 @@ en ci'ai
 en ci'ai'u
 en ci'ajbu
 en ci'ajbu
+en ci'angu
 en ci'anti
 en ci'arfi'i
 en ci'arfi'i
@@ -2487,6 +2489,8 @@ en ckeji
 en ckemono
 en ckenderu
 en cketake
+en ckikindelai
+en ckikindelidai
 en ckiku
 en ckilu
 en ckilus
@@ -3636,6 +3640,7 @@ en datnyfle
 en datnynoi
 en datnyselklo
 en datnysri
+en datnysro
 en datnyvau
 en datnyvau
 en datnyvaugunma
@@ -4014,6 +4019,7 @@ en dinske
 en dinso
 en dinsro
 en dinsro
+en dinti
 en dinti
 en dinti
 en dintro
@@ -6168,6 +6174,7 @@ en ilmismu
 en ilnu
 en ilpofu
 en imla
+en imli
 en impera
 en imperative
 en imperatora
@@ -7837,7 +7844,6 @@ en karli
 en karloka
 en karmikorselte
 en karmine
-en karmo
 en karmolcinba
 en karna'ano
 en karnauba
@@ -16996,6 +17002,7 @@ en sorprekarcytcana
 en sorprema'e
 en sorprevinji
 en sorpruda'i
+en sorsabysai
 en sorselcei
 en sorselsmu
 en sorsipydi'u
