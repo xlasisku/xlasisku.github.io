@@ -3301,6 +3301,7 @@ en cuntu
 en cunyna'u
 en cunyna'u
 en cu'o
+en cu'oi
 en cu'oi'e
 en cupli'u
 en cupli'u
@@ -3309,6 +3310,7 @@ en cupsri
 en cupterplo
 en cupypijne
 en cupypoi
+en curbanfi
 en curfi'e
 en curmi
 en curnu
@@ -3805,6 +3807,7 @@ en denbru
 en denburcu
 en dencaupin
 en denci
+en dencilta
 en dencro
 en dendi
 en denfi'e
@@ -4073,6 +4076,7 @@ en djagru
 en djagu'ara
 en djaikoni
 en djainu
+en djakaranda
 en djakare
 en djakari
 en djakartas
@@ -6297,6 +6301,7 @@ en iste
 en isxa
 en itca
 en itca
+en itco
 en itiiopiias
 en itka
 en itki
@@ -7393,8 +7398,10 @@ en junri'a
 en junske
 en junta
 en juntycau
+en juntyjdika
 en juntymre
 en juntytri
+en juntyze'a
 en ju'o
 en ju'ocai
 en ju'ocu'i
@@ -8478,6 +8485,7 @@ en krakida
 en krakozabra
 en krakuf
 en krali
+en kralyle'a
 en kralyma'u
 en kralyxaigle
 en krama'o
@@ -8966,6 +8974,7 @@ en lasysilka
 en latci
 en latcmo
 en latcribe
+en latcybanfi
 en latfekspa
 en latfi'e
 en latfrotrikusi
@@ -9344,6 +9353,7 @@ en lojbab
 en lojban
 en lojbangirz
 en lojbangirzu
+en lojban.org
 en lojban zei simsa
 en lojbau
 en lojbau
@@ -13216,6 +13226,7 @@ en re'azda
 en rebdesygau
 en rebjukma'i
 en rebla
+en rebybanfi
 en rebybo'u
 en rebyrespa
 en rectu
@@ -14568,6 +14579,7 @@ en selbu'a
 en selbukrnailone
 en selbumru
 en selbumru
+en selbunda
 en selbunda
 en selbunda
 en selbu'o
@@ -18123,6 +18135,7 @@ en tcingys
 en tcini
 en tcintrau
 en tcinysligau
+en tcinyza'i
 en tcipi
 en tciromei
 en tcita
@@ -18424,6 +18437,7 @@ en terbru
 en terbru
 en terbu'a
 en terbu'a
+en terbunda
 en terbunda
 en terbunda
 en terca'a
@@ -19252,6 +19266,8 @@ en tesau
 en tese
 en tesete
 en tesi'u
+en test
+en test
 en test
 en test
 en test
@@ -20440,6 +20456,7 @@ en velbo'a
 en velbo'i
 en velbo'i
 en velbotsu'i
+en velbunda
 en velbunda
 en velcange
 en velcange
@@ -21831,6 +21848,7 @@ en xukmranoni
 en xukske
 en xukske
 en xuksle
+en xulbanfi
 en xulbuktci
 en xulbu'u
 en xulgani
