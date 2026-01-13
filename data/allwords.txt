@@ -783,6 +783,7 @@ en beicka
 en beiDJIN
 en beidle
 en bei'e
+en bei'i
 en bei'oi
 en beipre
 en beipre
@@ -7432,6 +7433,7 @@ en jurpei
 en jursa
 en juryri'a
 en jusysku
+en jutcme
 en jutcmi
 en jutcmi
 en jutlei
@@ -9629,6 +9631,7 @@ en malmliselgu'i
 en malmys
 en malne'u
 en malpanci
+en malpasobivo
 en malpavyselbau
 en malpli
 en malrarbau
@@ -12277,6 +12280,7 @@ en pempra
 en pemsa'a
 en pemsoneto
 en pemsuua
+en pemvontau
 en pemxaiku
 en penbi
 en pencu
@@ -20126,6 +20130,7 @@ en uicmo
 en uidja
 en uidja zei tanbo
 en uidje
+en ui'ei
 en uigdei
 en uigru
 en ui'i

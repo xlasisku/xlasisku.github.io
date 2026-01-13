@@ -359,7 +359,7 @@ h1 {
   margin: 0;
   text-align: center;
 }
- p.sub {
+p.sub {
   margin: 0;
   text-align: center;
 }
@@ -385,9 +385,6 @@ h2 {
 }
 i span {
   font-style: normal;
-}
-.bal {
-  text-wrap: balance;
 }
 
 /* other media queries */
