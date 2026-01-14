@@ -87,7 +87,7 @@ function convertJSONToHTMLElement(json) {
         createHTMLElement("code", { "className": "selmaho" }, [json.selmaho])
       ]) : null,
       " ",
-      createHTMLElement("a", {
+      json.score !== undefined ? createHTMLElement("a", {
         "href": "https://jbovlaste.lojban.org/dict/" + json.word.replace(/ /g, "%20"),
         "target": "_blank",
       }, [
@@ -95,7 +95,7 @@ function convertJSONToHTMLElement(json) {
         json.author == "officialdata" ? "" :
           json.score == -1 ? json.score : "+" + json.score + " ",
         "↗"
-      ]),
+      ]) : json.author + " (not in jvs)",
       " ",
       createHTMLElement("code", {}, [json.lang || ""])
     ]),
