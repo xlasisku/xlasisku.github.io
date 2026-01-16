@@ -54,11 +54,15 @@
 }
 
 /* main */
-*, input, button {
+*,
+input,
+button {
   box-sizing: border-box;
   -webkit-text-size-adjust: 100%;
 }
-*:not(body), input, button {
+*:not(body),
+input,
+button {
   transition: background 0.2s;
 }
 :root {
@@ -93,13 +97,13 @@ body {
   padding: 8px;
   line-height: 1.4;
   word-break: break-word;
-  &[class^=r] .normalonly {
+  &[class^="r"] .normalonly {
     display: none;
   }
-  &:not([class^=re]) .regexonly {
+  &:not([class^="re"]) .regexonly {
     display: none;
   }
-  &:not([class^=rh]) .rhymeonly {
+  &:not([class^="rh"]) .rhymeonly {
     display: none;
   }
 }
@@ -221,7 +225,8 @@ body {
     margin-block: 16px;
   }
 }
-code, pre {
+code,
+pre {
   font-family: var(--mono);
 }
 summary {
@@ -247,7 +252,9 @@ math {
   font-family: "Fira Math";
   font-size: 1.1em;
 }
-b, h1, summary {
+b,
+h1,
+summary {
   letter-spacing: 0.05ch;
 }
 
@@ -266,7 +273,8 @@ a {
   border-radius: 16px;
   display: inline-block;
   margin-block-start: 4px;
-  &:not(:has(:not([disabled]))) { /* what was i on */
+  &:not(:has(:not([disabled]))) {
+    /* what was i on */
     border-color: rgb(from var(--fg) r g b / var(--op-c));
   }
   button {
@@ -274,7 +282,11 @@ a {
     padding-inline: 8px;
     display: inline-block;
     border-radius: 16px;
-    transition: background 0.2s, border-radius 0.2s, padding 0.2s, margin 0.2s;
+    transition:
+      background 0.2s,
+      border-radius 0.2s,
+      padding 0.2s,
+      margin 0.2s;
     &:not(:last-child) {
       margin-inline-end: -4px;
     }
@@ -375,7 +387,8 @@ h2 {
 .err {
   color: var(--red);
 }
-#length, #bottom {
+#length,
+#bottom {
   text-align: center;
   margin-block: 8px;
   font-size: 1.25em;
@@ -389,7 +402,9 @@ i span {
 
 /* other media queries */
 @media (prefers-contrast: more) {
-  a, button, summary {
+  a,
+  button,
+  summary {
     text-decoration: underline;
   }
 }

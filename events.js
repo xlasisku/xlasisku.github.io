@@ -1,31 +1,45 @@
-var worker = { "postMessage": function(a) { } }; // very hack
+var worker = { postMessage: function (a) {} }; // very hack
 var config = { jvops: "", rhyme: {}, regex: {} };
 let page;
 var q = "";
 var results;
 function h(t) {
-  return t.replace(/[h‘’]/igu, "'");
+  return t.replace(/[h‘’]/giu, "'");
 }
 function getConflictRegex(g) {
   var conflict = [...g];
   for (var i = 0; i < conflict.length; i++) {
-    conflict[i] = !isVowel(conflict[i]) ?
-      (g.slice(0, i) || "") + g[i]
-        // wheeeeee
-        .replace(/[bfpv]/, m => "[" + (/[bf]/.test(m) ? ["p", "v", m] : ["b", "f", m]).sort().join("") + "]")
-        .replace(/[cjsz]/, m => "[" + (/[cz]/.test(m) ? ["j", "s", m] : ["c", "z", m]).sort().join("") + "]")
-        .replace(/[dt]/, "[dt]")
-        .replace(/[gkx]/, "[gkx]")
-        .replace(/[lr]/, "[lr]")
-        .replace(/[mn]/, "[mn]")
-      + (g.slice(i + 1, conflict.length) || "")
-      :
-      i == conflict.length - 1 ? g.slice(0, i) + "[aeiou]" : "";
+    conflict[i] = !isVowel(conflict[i])
+      ? (g.slice(0, i) || "") +
+        g[i]
+          // wheeeeee
+          .replace(
+            /[bfpv]/,
+            (m) =>
+              "[" +
+              (/[bf]/.test(m) ? ["p", "v", m] : ["b", "f", m]).sort().join("") +
+              "]",
+          )
+          .replace(
+            /[cjsz]/,
+            (m) =>
+              "[" +
+              (/[cz]/.test(m) ? ["j", "s", m] : ["c", "z", m]).sort().join("") +
+              "]",
+          )
+          .replace(/[dt]/, "[dt]")
+          .replace(/[gkx]/, "[gkx]")
+          .replace(/[lr]/, "[lr]")
+          .replace(/[mn]/, "[mn]") +
+        (g.slice(i + 1, conflict.length) || "")
+      : i == conflict.length - 1
+        ? g.slice(0, i) + "[aeiou]"
+        : "";
   }
   conflict = conflict.join("|").replace(/\|+/g, "|");
   return conflict;
 }
-window.addEventListener("scroll", function(e) {
+window.addEventListener("scroll", function (e) {
   if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 100) {
     page++;
     load(results, page);
@@ -44,7 +58,7 @@ function clearResults() {
   id("length").innerHTML = "";
 }
 var timer;
-id("search").addEventListener("input", function() {
+id("search").addEventListener("input", function () {
   clearTimeout(timer);
   q = id("search").value;
   if (q.length) {
@@ -56,7 +70,7 @@ id("search").addEventListener("input", function() {
   results = null;
   clearResults();
   redirect();
-  timer = setTimeout(function() {
+  timer = setTimeout(function () {
     const JVOPS = str2jvops(config.jvops);
     if (q.length) {
       id("bottom").innerHTML = "loading...";
@@ -65,25 +79,43 @@ id("search").addEventListener("input", function() {
         try {
           if (/\s/.test(q)) {
             const lujvo = getLujvo(h(q), JVOPS);
-            id("info").append(createHTMLElement("p", null, [
-              "→\u{a0}",
-              createHTMLElement("a", { "href": "?q=" + encodeURIComponent(lujvo) + jvoptionsUrl() }, [createHTMLElement("i", null, [lujvo])])
-            ]));
+            id("info").append(
+              createHTMLElement("p", null, [
+                "→\u{a0}",
+                createHTMLElement(
+                  "a",
+                  { href: "?q=" + encodeURIComponent(lujvo) + jvoptionsUrl() },
+                  [createHTMLElement("i", null, [lujvo])],
+                ),
+              ]),
+            );
           } else {
             const veljvo = getVeljvo(h(q), JVOPS).join(" ");
-            id("info").append(createHTMLElement("p", null, [
-              "↑\u{a0}",
-              createHTMLElement("a", { "href": "?q=" + encodeURIComponent(veljvo) + jvoptionsUrl() }, [createHTMLElement("i", null, [veljvo])])
-            ]));
+            id("info").append(
+              createHTMLElement("p", null, [
+                "↑\u{a0}",
+                createHTMLElement(
+                  "a",
+                  { href: "?q=" + encodeURIComponent(veljvo) + jvoptionsUrl() },
+                  [createHTMLElement("i", null, [veljvo])],
+                ),
+              ]),
+            );
             let the = getLujvo(veljvo, JVOPS);
             if (h(q) != the) {
-              id("info").append(createHTMLElement("p", null, [
-                "best:\u{a0}",
-                createHTMLElement("a", {
-                  "id": "best",
-                  "href": "?q=" + encodeURIComponent(the) + jvoptionsUrl()
-                }, [])
-              ]));
+              id("info").append(
+                createHTMLElement("p", null, [
+                  "best:\u{a0}",
+                  createHTMLElement(
+                    "a",
+                    {
+                      id: "best",
+                      href: "?q=" + encodeURIComponent(the) + jvoptionsUrl(),
+                    },
+                    [],
+                  ),
+                ]),
+              );
               const best = analyseBrivla(the, JVOPS)[1];
               const mabla = analyseBrivla(h(q), JVOPS)[1];
               const hyphens = ["r", "n", "y", "'y", "y'", "'y'"];
@@ -92,20 +124,27 @@ id("search").addEventListener("input", function() {
                   if (!hyphens.includes(best[b])) {
                     if (
                       best[b] == mabla[m + 1] &&
-                      !id("best").children[id("best").children.length - 1].classList.contains("err")
+                      !id("best").children[
+                        id("best").children.length - 1
+                      ].classList.contains("err")
                     ) {
-                      id("best").append(createHTMLElement("i", { "className": "err" }, ["͜"]))
+                      id("best").append(
+                        createHTMLElement("i", { className: "err" }, ["͜"]),
+                      );
                     }
                     m++;
                   } else if (hyphens.includes(best[b]) && mabla[m] == best[b]) {
                     id("best").append(createHTMLElement("i", null, [best[b]]));
-                    m++; b++;
+                    m++;
+                    b++;
                   }
                 } else if (hyphens.includes(best[b])) {
                   mabla.splice(m, 0, "");
                 }
                 if (mabla[m] != best[b]) {
-                  id("best").append(createHTMLElement("i", { "className": "err" }, [best[b]]));
+                  id("best").append(
+                    createHTMLElement("i", { className: "err" }, [best[b]]),
+                  );
                 } else {
                   id("best").append(createHTMLElement("i", null, [best[b]]));
                 }
@@ -115,20 +154,38 @@ id("search").addEventListener("input", function() {
         } catch (e) {
           // not a lujvo
         }
-        if (isGismu(q) && (VALID.includes(q.slice(0, 2)) || VALID.includes(q.slice(2, 4)))) {
-          id("info").append(createHTMLElement("p", null, [
-            createHTMLElement("a", { "href": "?q=" + encodeURIComponent(getConflictRegex(q)) + "&regex=tight" }, ["↑ find gismu conflicts?"])
-          ]));
+        if (
+          isGismu(q) &&
+          (VALID.includes(q.slice(0, 2)) || VALID.includes(q.slice(2, 4)))
+        ) {
+          id("info").append(
+            createHTMLElement("p", null, [
+              createHTMLElement(
+                "a",
+                {
+                  href:
+                    "?q=" +
+                    encodeURIComponent(getConflictRegex(q)) +
+                    "&regex=tight",
+                },
+                ["↑ find gismu conflicts?"],
+              ),
+            ]),
+          );
         }
       } else if (config.regex.on) {
         // bad regex
         try {
           _ = new RegExp(q);
         } catch (e) {
-          id("info").append(createHTMLElement("p", null, [e.message.split(": ").slice(-1)[0].toLowerCase()]));
+          id("info").append(
+            createHTMLElement("p", null, [
+              e.message.split(": ").slice(-1)[0].toLowerCase(),
+            ]),
+          );
         }
       }
-      worker.postMessage({ "query": q, "config": config });
+      worker.postMessage({ query: q, config: config });
     } else {
       results = null;
       clearResults();
@@ -138,7 +195,7 @@ id("search").addEventListener("input", function() {
 });
 // modes
 
-id("sm").addEventListener("click", function() {
+id("sm").addEventListener("click", function () {
   searchMode(config.jvops);
 });
 let mode = () => {
@@ -146,25 +203,25 @@ let mode = () => {
   else if (config.rhyme.on) return rhymeMode;
   else return searchMode;
 };
-id("jvop").addEventListener("input", function() {
+id("jvop").addEventListener("input", function () {
   mode()(id("jvop").value, false, false);
 });
-id("jvo-x").addEventListener("click", function() {
+id("jvo-x").addEventListener("click", function () {
   config.jvops = "A1g";
   id("jvop").value = config.jvops;
   id("jvo-x").disabled = false;
   mode()("A1g", false, false);
 });
-id("rm").addEventListener("click", function() {
+id("rm").addEventListener("click", function () {
   rhymeMode(config.jvops, false);
 });
-id("rhyme-y").addEventListener("click", function() {
+id("rhyme-y").addEventListener("click", function () {
   rhymeMode(config.jvops, true);
 });
-id("xm").addEventListener("click", function() {
+id("xm").addEventListener("click", function () {
   regexMode(config.jvops, false);
 });
-id("regex-tight").addEventListener("click", function() {
+id("regex-tight").addEventListener("click", function () {
   regexMode(config.jvops, true);
 });
 function removeClasses() {
@@ -183,11 +240,10 @@ function removeClassById(_id, className) {
 function toggleClassById(_id, className) {
   if (id(_id).classList.contains(className))
     id(_id).classList.remove(className);
-  else
-    id(_id).classList.add(className);
+  else id(_id).classList.add(className);
 }
 function dispatchSearchInputEvent() {
-  id("search").dispatchEvent(new Event("input", { "bubbles": true }));
+  id("search").dispatchEvent(new Event("input", { bubbles: true }));
 }
 function searchMode(jvops) {
   clearTimeout(timer);
@@ -238,7 +294,7 @@ function rhymeMode(jvops, toggley) {
   id("jvo-x").disabled = config.jvops == "A1g";
   dispatchSearchInputEvent();
 }
-id("clear").addEventListener("click", function() {
+id("clear").addEventListener("click", function () {
   id("search").value = "";
   id("search").focus();
   dispatchSearchInputEvent();
