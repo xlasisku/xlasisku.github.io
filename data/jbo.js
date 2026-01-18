@@ -1,5 +1,6 @@
 const jbo = [
   { word: "agjuda", author: "evis", definition: "$x_1$ is a hazelnut", notes: "from Cherokee ᎠᏳᎩᏛ (ayugidv)" },
+  { word: "fogma", author: "dalgimbe'e", definition: "$x_1$ is a seal/sea lion of species/variety $x_2$" },
   //////////////////////////////////////////////////////////////
   // the below entries are from jvs before it was made immutable
   {
