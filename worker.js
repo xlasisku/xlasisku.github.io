@@ -9,9 +9,8 @@ importScripts(
 );
 var config;
 function h(t) {
-  return t.replace(/[h‘’]/giu, "'");
+  return t.replace(/[h‘’]/giu, "'").replace(/q/gi, "i").replace(/w/gi, "u");
 }
-// TODO: selmaho() - parse into ↓
 function selmahois(x, y) {
   const [xname, xdigit, xsub, xstar] = x;
   const [yname, ydigit, ysub, ystar] = y;
