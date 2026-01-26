@@ -9,7 +9,7 @@ importScripts(
 );
 var config;
 function h(t) {
-  return t.replace(/[h‘’]/giu, "'").replace(/q/gi, "i").replace(/w/gi, "u");
+  return t.replace(/[h‘’]/giu, "'").replace(/q(?=[aeiouy])/gi, "i").replace(/w(?=[aeiouy])/gi, "u");
 }
 function selmahois(x, y) {
   const [xname, xdigit, xsub, xstar] = x;
@@ -24,12 +24,12 @@ function selmahois(x, y) {
 function getVowelsFrom(str) {
   var vowels = str.toLowerCase();
   vowels = vowels.replace(/(?<=[aeoy])i/g, "ĭ").replace(/(?<=[aeoy])u/g, "ŭ");
-  while (/[iu]/.test(vowels)) {
+  while (/[qiwu]/.test(vowels)) {
     vowels = vowels
       .replace(/i(?![aeiouyīū])/gu, "ī")
       .replace(/u(?![aeiouyīū])/gu, "ū")
-      .replace(/i(?=[aeoyīū])/gu, "ị")
-      .replace(/u(?=[aeīoūy])/gu, "ụ");
+      .replace(/[qi](?=[aeoyīū])/gu, "ị")
+      .replace(/[wu](?=[aeīoūy])/gu, "ụ");
   }
   if (config.rhyme.ignorey) vowels = vowels.replace(/[^aeiouĭŭīūịụ]/gu, "");
   else vowels = vowels.replace(/[^aeiouyĭŭīūịụ]/gu, "");
@@ -57,7 +57,7 @@ function search(query) {
   } else if (config.regex.on) {
     var rgx;
     try {
-      rgx = new RegExp(config.regex.tight ? "^(" + query + ")$" : query, "i");
+      rgx = new RegExp(config.regex.tight ? "^(" + h(query) + ")$" : h(query), "i");
     } catch (e) {
       return [];
     }
