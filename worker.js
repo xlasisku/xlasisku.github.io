@@ -36,9 +36,7 @@ function getVowelsFrom(str) {
   return vowels;
 }
 function xusegismu_zo(g) {
-  return /^[bcdfgjklmnprstvxz]([aeiou][bcdfgjklmnprstvxz]|[bcdfgjklmnprstvxz][aeiou])[bcdfgjklmnprstvxz][aeiou]$/.test(
-    g,
-  );
+  return /^[bcdfgjklmnprstvxz]([aeiou][bcdfgjklmnprstvxz]|[bcdfgjklmnprstvxz][aeiou])[bcdfgjklmnprstvxz][aeiou]$/.test(g);
 }
 function search(query) {
   const original = query;

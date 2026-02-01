@@ -164,7 +164,7 @@ fn main() {
     let mut base_entry = Entry::new();
     let mut current_entry = Entry::new();
     let mut skip_word = false;
-    let client = Client::builder().timeout(Duration::from_secs(120)).build().unwrap();
+    let client = Client::builder().timeout(Duration::from_mins(2)).build().unwrap();
     for lang in langs {
         print!("\r`{lang}`\x1b[K");
         flush!();
@@ -206,13 +206,13 @@ fn main() {
                             base_entry = Entry::new();
                             base_entry.lang = lang.to_string();
                             skip_word = false;
-                            if attrs.get("type").unwrap().starts_with('o') {
+                            if attrs["type"].starts_with('o') {
                                 current_tag.clear();
                                 reader.read_to_end(e.name()).unwrap();
                                 skip_word = true;
                             } else {
-                                base_entry.word.clone_from(attrs.get("word").unwrap());
-                                base_entry.pos.clone_from(attrs.get("type").unwrap());
+                                base_entry.word.clone_from(&attrs["word"]);
+                                base_entry.pos.clone_from(&attrs["type"]);
                                 base_entry.rafsi = RAFSI
                                     .get(base_entry.word.as_str())
                                     .unwrap_or(&vec![])
@@ -259,10 +259,7 @@ fn main() {
                 }
                 Ok(Event::End(e)) => {
                     let tag = String::from_utf8(e.name().as_ref().to_vec()).unwrap();
-                    if tag.as_str() == "definition"
-                        && !skip_word
-                        && current_entry.score >= -1.
-                    {
+                    if tag.as_str() == "definition" && !skip_word && current_entry.score >= -1. {
                         words.push(current_entry.clone());
                     }
                 }
