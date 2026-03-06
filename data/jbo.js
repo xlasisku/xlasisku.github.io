@@ -2,6 +2,12 @@ const jbo = [
   { word: "agjuda", author: "evis", definition: "$x_1$ is a hazelnut", notes: "from Cherokee ᎠᏳᎩᏛ (ayugidv)" },
   { word: "fogma", author: "dalgimbe'e", definition: "$x_1$ is a seal/sea lion of species/variety $x_2$" },
   { word: "daste", author: "janbe", definition: "$x_1$ intends $x_2$ (ka)" },
+  { word: "kotfo", author: "ezras", definition: "$x_1$ reflects Kotava culture/language/community in aspect $x_2$.", notes: "Proposed rafsi: -kof-." },
+  { word: "cecto", author: "ezras", definition: "$x_1$ reflects Xextan culture/language/community in aspect $x_2$.", notes: "Proposed rafsi: -cet-." },
+  { word: "skizofreni", author: "ezras", definition: "$x_1$ has schizophrenia." },
+  { word: "cmebijo", author: "ezras", definition: "$x_1$ relates to/is an instance of cmevla-brivla merger dialect in aspect $x_2$." },
+  { word: "masli", author: "Ilmen", definition: "$x_1$ is the mass (fundamental property of matter) of $x_2$.", notes: "This word exists on Lensisku, but was added by ezras (by request of Ilmen)." },
+  { word: "jdazeno", author: "ezras", definition: "$x_1$ pertains to the Zen Buddhist culture/religion/ethos in aspect $x_2$.", notes: "Cf. {budjo}, {zge'eno}, {mla'aiana}, {tseravada}, {vajraiana}" },
   //////////////////////////////////////////////////////////////
   // the below entries are from jvs before it was made immutable
   {
