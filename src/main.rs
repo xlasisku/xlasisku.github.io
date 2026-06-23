@@ -1,7 +1,6 @@
-#![allow(clippy::format_push_string)]
+#![allow(clippy::format_push_string, reason = "annoying")]
 
 use std::{
-    collections::HashMap,
     fs,
     io::{Write as _, stdout},
     sync::LazyLock,
@@ -28,11 +27,9 @@ struct Entry {
     notes: String,
     #[serde(skip)]
     pos: String,
-    author: String,
     #[serde(skip_serializing_if = "is_en")]
     lang: String,
 }
-#[allow(clippy::must_use_candidate)]
 pub fn is_en(l: &String) -> bool { l == "en" }
 pub static PAUSE: LazyLock<Regex> = LazyLock::new(|| Regex::new("[. ]").unwrap());
 pub static TRIM: LazyLock<Regex> = LazyLock::new(|| Regex::new("^_|_$").unwrap());
@@ -48,10 +45,10 @@ impl Entry {
             definition: String::new(),
             notes: String::new(),
             pos: String::new(),
-            author: String::new(),
             lang: String::new(),
         }
     }
+
     fn to_datastring(&self) -> String {
         let mut s = self.word.clone();
         // regex replacements
@@ -67,7 +64,6 @@ impl Entry {
         if !self.rafsi.is_empty() {
             s += &format!(" [-{}-]", self.rafsi.join("-"));
         }
-        s += &format!(" {}", NONWORD.replace_all(&self.author.to_lowercase(), ""));
         s += &format!(" {} ({})\n{}", self.score.to_string().as_str(), self.lang, self.definition);
         if !self.notes.is_empty() {
             s += &format!("\n-n\n{}", self.notes);
@@ -84,7 +80,6 @@ macro_rules! flush {
     };
 }
 
-#[allow(clippy::too_many_lines)]
 fn main() {
     let start = Instant::now();
     // parse the xml
@@ -164,16 +159,14 @@ fn main() {
     let mut base_entry = Entry::new();
     let mut current_entry = Entry::new();
     let mut skip_word = false;
+    let mut in_entry = false;
     let client = Client::builder().timeout(Duration::from_mins(2)).build().unwrap();
     for lang in langs {
         print!("\r`{lang}`\x1b[K");
         flush!();
         let xml = String::from_utf8(
             client
-                .get(format!(
-                    "https://jbovlaste.lojban.org/export/xml-export.html\
-                    ?lang={lang}&positive_scores_only=0&all_defs=1&bot_key=z2BsnKYJhAB0VNsl"
-                ))
+                .get(format!("https://lensisku.lojban.org/api/export/cached/{lang}/xml"))
                 .send()
                 .unwrap()
                 .bytes()
@@ -191,76 +184,84 @@ fn main() {
                 }
                 Ok(Event::Start(e)) => {
                     let tag = String::from_utf8(e.name().as_ref().to_vec()).unwrap();
-                    let attrs = e
-                        .html_attributes()
-                        .map(|attr| attr.unwrap())
-                        .map(|attr| {
-                            (
-                                String::from_utf8(attr.key.as_ref().to_vec()).unwrap(),
-                                attr.unescape_value().unwrap().to_string(),
-                            )
-                        })
-                        .collect::<HashMap<_, _>>();
                     match tag.as_str() {
-                        "valsi" => {
+                        "entry" => {
                             base_entry = Entry::new();
                             base_entry.lang = lang.to_string();
                             skip_word = false;
-                            if attrs["type"].starts_with('o') {
-                                current_tag.clear();
-                                reader.read_to_end(e.name()).unwrap();
-                                skip_word = true;
-                            } else {
-                                base_entry.word.clone_from(&attrs["word"]);
-                                base_entry.pos.clone_from(&attrs["type"]);
-                                base_entry.rafsi = RAFSI
-                                    .get(base_entry.word.as_str())
-                                    .unwrap_or(&vec![])
-                                    .iter()
-                                    .map(ToString::to_string)
-                                    .collect();
-                            }
+                            in_entry = true;
                         }
-                        "selmaho" | "username" | "score" | "text" | "notes" => current_tag = tag,
-                        "definition" => {
-                            if !skip_word {
-                                current_entry = base_entry.clone();
-                            }
+                        "word" | "type" | "selmaho" | "definition" | "notes" | "score" => {
+                            current_tag = tag;
                         }
-                        "dictionary" | "direction" | "definitions" | "user" => (), // go inside
+                        "dictionary" | "entries" => {
+                            current_tag.clear();
+                        }
                         _ => {
                             reader.read_to_end(e.name()).unwrap();
                         }
                     }
                 }
                 Ok(Event::Text(e)) => {
+                    if !in_entry {
+                        current_tag.clear();
+                        continue;
+                    }
                     let text = deëntity(str::from_utf8(&e.into_inner()).unwrap());
                     match current_tag.as_str() {
-                        "selmaho" => current_entry.selmaho = text,
-                        "score" => {
-                            let score = text.parse::<f32>().unwrap();
-                            current_entry.score = score;
-                        }
-                        "text" => {
-                            if ["with ISO 639-3", "ISO-3166", "ISO-4217"]
-                                .iter()
-                                .any(|a| text.contains(a))
-                            {
+                        "word" => base_entry.word = text.trim().to_string(),
+                        "type" => {
+                            base_entry.pos = text.trim().to_string();
+                            if text.trim().starts_with('o') {
                                 skip_word = true;
-                            } else {
-                                current_entry.definition = text;
                             }
                         }
-                        "notes" => current_entry.notes = text,
-                        "username" => current_entry.author = text,
+                        "selmaho" => current_entry.selmaho = text.trim().to_string(),
+                        "score" => {
+                            if let Ok(score) = text.trim().parse::<f32>() {
+                                current_entry.score = score;
+                            }
+                        }
+                        "definition" => {
+                            if !skip_word {
+                                current_entry = base_entry.clone();
+                                current_entry.definition = text.trim().to_string();
+                            }
+                        }
+                        "notes" => current_entry.notes = text.trim().to_string(),
                         _ => (),
                     }
-                    current_tag.clear();
+                    if !matches!(current_tag.as_str(), "definition") {
+                        current_tag.clear();
+                    }
                 }
                 Ok(Event::End(e)) => {
                     let tag = String::from_utf8(e.name().as_ref().to_vec()).unwrap();
-                    if tag.as_str() == "definition" && !skip_word && current_entry.score >= -1. {
-                        words.push(current_entry.clone());
+                    match tag.as_str() {
+                        "entry" => {
+                            if !skip_word
+                                && current_entry.score >= -1.
+                                && !current_entry.word.is_empty()
+                            {
+                                if current_entry.rafsi.is_empty()
+                                    && let Some(rafsi_list) = RAFSI.get(current_entry.word.as_str())
+                                {
+                                    current_entry.rafsi =
+                                        rafsi_list.iter().map(ToString::to_string).collect();
+                                }
+                                words.push(current_entry.clone());
+                            }
+                            in_entry = false;
+                            current_entry = Entry::new();
+                            base_entry = Entry::new();
+                        }
+                        "definition" => {
+                            // definition is the trigger to push the entry
+                            current_tag.clear();
+                        }
+                        _ => {
+                            current_tag.clear();
+                        }
                     }
                 }
                 _ => (),
@@ -273,7 +274,13 @@ fn main() {
         .filter(|word| {
             (word.notes.contains("rafsi") || word.notes.contains("ra'oi"))
                 && (!RAFSI.contains_key(word.word.as_str())
-                    || RAFSI.get(word.word.as_str()).unwrap().is_empty())
+                    || RAFSI.get(word.word.as_str()).unwrap().is_empty()
+                    || RAFSI
+                        .get(word.word.as_str())
+                        .unwrap()
+                        .iter()
+                        .inspect(|r| println!("word={} rafsi={r}", word.word))
+                        .any(|r| !word.notes.contains(&format!("-{r}-"))))
         })
         .cloned()
         .collect::<Vec<_>>();

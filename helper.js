@@ -135,27 +135,23 @@ function convertJSONToHTMLElement(json) {
           )
         : null,
       " ",
-      json.score !== undefined
-        ? createHTMLElement(
+      createHTMLElement(
             "a",
             {
               href:
-                "https://jbovlaste.lojban.org/dict/" +
-                json.word.replace(/ /g, "%20"),
+                "https://lensisku.lojban.org/en/valsi/" +
+                json.word.replace(/ /g, "_"),
               target: "_blank",
             },
             [
-              json.author,
-              " ",
-              json.author == "officialdata"
-                ? ""
-                : json.score == -1
+              json.score >= 1000
+                ? "official "
+                : json.score < 0
                   ? json.score
                   : "+" + json.score + " ",
               "↗",
             ],
-          )
-        : json.author + " (not in jvs)",
+      ),
       " ",
       createHTMLElement("code", {}, [json.lang || ""]),
     ]),
