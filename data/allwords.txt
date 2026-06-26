@@ -319,6 +319,7 @@ en bacyzirdi'e
 en badbi'u
 en badgai
 en badgau
+en badja'i
 en badjamblo
 en badmapku
 en badna
@@ -887,7 +888,6 @@ en beirsai
 en beitlaxum
 en beitrau
 en bei'u'i
-en bejmi
 en bekpi
 en bekybo'u
 en belta'em
@@ -3822,6 +3822,7 @@ en dzeko'o
 en dzena
 en dzibekslu
 en dzibi'o
+en dzictaru
 en dzigau
 en dzini'ajinru
 en dzip
@@ -4696,6 +4697,7 @@ en galbekslu
 en galbirka
 en galcatlu
 en galcpare
+en galctaru
 en galfi
 en galgau
 en galjdika
@@ -5835,6 +5837,7 @@ en jdice
 en jdicefako
 en jdijmaji
 en jdika
+en jdikyctaru
 en jdikygau
 en jdikykemcrucaule'a
 en jdikykle
@@ -5944,6 +5947,7 @@ en jesymabru
 en jesyratcu
 en jesyspa
 en jesystani
+en jesyzme
 en jetce
 en jetfrica
 en jetkai
@@ -10400,7 +10404,6 @@ en pentu
 en pe'o
 en pe'ocni
 en pe'oi
-en pepmi
 en perfore
 en pergamena
 en pergola
@@ -10514,6 +10517,7 @@ en pincyre'o
 en pincytu'u
 en pincyvi'i
 en pincyvi'itcuga'e
+en pincyvimtansi
 en pindaki
 en pindi
 en pinflani
@@ -12281,6 +12285,7 @@ en selfi'a
 en selfi'i
 en selfityjbu
 en selfri
+en selfriti
 en selfu
 en selfu'a
 en selfu'esi'u
@@ -14284,6 +14289,7 @@ en temtagji
 en temtcu
 en temu'i
 en temu'u
+en temxaksu
 en temymapti
 en temymoi
 en temymre
@@ -15155,8 +15161,8 @@ en u'a
 en ua
 en uabis
 en uabisabis
-en uacintyn
 en UAcintyn
+en uacintyn
 en uafli
 en u'ai
 en uai
@@ -15232,6 +15238,7 @@ en uinai
 en uinaipei
 en uinda
 en uindos
+en uinji
 en u'inmo
 en uinmo
 en ui'o
@@ -15658,6 +15665,7 @@ en vimku'a
 en vimkumstu
 en vimstizu
 en vimstu
+en vimtansi
 en vimtizbru
 en vin
 en vincra
@@ -16772,6 +16780,7 @@ en zemoi
 en zenba
 en zenbaje
 en zencpa
+en zenctaru
 en zengau
 en zeno
 en zenono

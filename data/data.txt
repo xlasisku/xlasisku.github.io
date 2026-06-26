@@ -1346,6 +1346,11 @@ $g_1$ causes event $b_1$ which defends/protects $b_2$ (object/state) from threat
 -n
 Made from {bandu} + {gasnu}.
 ---
+badja'i lujvo 1 (en)
+$x_1$ is an amulet, adorning/decorating $x_2$
+-n
+cf. {bandu} {jadni}
+---
 badjamblo lujvo 2 (en)
 $bl_1=ba_1$ is a frigate/corvette of type/carrying $bl_2$, propelled by $bl_3$.
 -n
@@ -4038,9 +4043,6 @@ bei'u'i cmavo 1 (en)
 -n
 Input will usually be a nonnegative integer; odd input which is greater than 1 will output 0. These numbers are very important mathematically and culturally (consider Lovelace's program). In order to transform them into Bernoulli numbers of the first kind ($B_1 = -1/2
 ---
-bejmi gismu 1 (en)
-$x_1$ is beige.
----
 bekpi gismu 7 (en)
 $x_1$ is the 'back', dorsum of body $x_2$
 -n
@@ -4144,7 +4146,7 @@ $m_1=b_2$ is brain-dead.
 benpi'a lujvo 1 (en)
 $x_1$ is a meninx/mater of $x_2$.
 ---
-benre gismu 3 (en)
+benre gismu 2 (en)
 $x_1$ is the "beneficiary"/intended-recipient of $x_2$ (event/action), as intended by $x_3$ // $x_2$ is done for $x_1$
 -n
 A "beneficiary" here is someone or something for which something is done, and this relation may be either beneficial or disadvantageous. Consider "I poisoned the cake for him" vs "I baked a cake for him" ("for him to eat" would be a purpose/goal). See also {be'ei}, {kosmu}, {terzu'e}, {selxau}
@@ -9891,8 +9893,10 @@ $k_1$ goes to bed from $k_3$.
 -n
 Omit $x_3$ = se {klama} (destination) = {ckana} (bed)
 ---
-ckali'a lujvo 1 (en)
+ckali'a lujvo 2 (en)
 $cl_1$ rises/gets up/leaves bed.
+-n
+{sa'irbi'o} for not-necessarily from bed.
 ---
 ckana gismu [-cka-] 100000 (en)
 $x_{1}$ is a bed/pallet of material $x_{2}$ for holding/supporting $x_{3}$ (person/object/event).
@@ -16864,6 +16868,11 @@ $b_1=d_1$ crouches/squats/hunkers down.
 -n
 Cf. {diklo}, {binxo}, {krosa'i}, {demtse}.
 ---
+dzictaru lujvo 1 (en)
+$x_1$ is low tide at $x_2$ caused by $x_3$
+-n
+For "high tide", see {galctaru}. For "falling tide", see {jdikyctaru}.
+---
 dzigau lujvo 1 (en)
 $g_1$ lowers $d_1$ as compared with $d_2$ in reference frame $d_3$
 ---
@@ -20651,6 +20660,11 @@ galcpare lujvo 2 (en)
 $x_1=c_1$ climbs/[goes up/ascends] upwards on wall/fence/mountain/boulder/obstacle $x_2=c_2$ using $x_3=c_4$ [limbs/tools/equipment] towards top/summit $x_4=g_1$ from base/floor/baseline/standard height $x_5=g_3$.
 -n
 From {galtu} {cpare}. Narrows down {cpare} to only mean climbing and upwards, against the gravitational pull (the frame or reference). For surface of x2, see/use {sefta}.
+---
+galctaru lujvo 1 (en)
+$x_1$ is high tide at $x_2$ caused by $x_3$
+-n
+For "low tide", see {dzictaru}. For "rising tide", see {zenctaru}.
 ---
 galfi gismu [-gaf-ga'i-] 100001 (en)
 $x_{1}$ (event) modifies/alters/changes/transforms/converts $x_{2}$ into $x_{3}$.
@@ -24524,7 +24538,7 @@ jalge modal, 1st place                            resultingly; therefore result 
 ja'ei cmavo 5 (en)
 jai equivalent of la'e
 -n
-tu'a:jai::la'e:ja'ei. So ko'a ja'ei broda equals la'e ko'a broda
+{tu'a} : {jai} :: {la'e} : {ja'ei}. So {ko'a ja'ei broda} is an equivalent of {la'e ko'a broda}.
 ---
 ja'enai cmavo-compound 100001 (en)
 na'e jalge modal, 1st place (event causal); without result ...
@@ -25701,6 +25715,11 @@ $x_{1}$ (experiencer) decreases/contracts/is reduced/diminished in property/quan
 -n
 See also {zenba}, {mleca}, {vimcu}.
 ---
+jdikyctaru lujvo 1 (en)
+$x_1$ is falling (receding) tide at $x_2$ caused by $x_3$
+-n
+For "rising tide", see {zenctaru}. For "low tide", see {dzictaru}.
+---
 jdikygau lujvo 2 (en)
 $g_1$ reduces $j_1$ in property/quantity $j_2$ by amount $j_3$.
 -n
@@ -26197,6 +26216,11 @@ jesystani lujvo 2 (en)
 $s_1$ is a thorn of plant/species $s_2$
 -n
 {stani} {jesni}
+---
+jesyzme lujvo 1 (en)
+$x_1$ is a cucumber [spiny melon/squash] of type $x_2$
+-n
+Alternative to {clazme}
 ---
 jetce gismu [-je'e-] 100000 (en)
 $x_{1}$ is a jet [expelled stream] of material $x_{2}$ expelled from $x_{3}$.
@@ -45710,11 +45734,6 @@ This adds an option to be less careful about terminators, and to, in a more free
 
 ni'o This is {to'o'e}…{toi} but as UI3c.  See also: {pe'a} (metaphorical), {pe'ai} (non-technical), {pe'au} (‘or something’).
 ---
-pepmi gismu 1 (en)
-$x_1$ is pepper (black, not chili or bell) of species $x_2$.
--n
-Capsicum peppers (i.e. chili and bell peppers) are {kapsi}.
----
 perfore fu'ivla 1 (en)
 $x_1$ perforates $x_2$ with holes $x_3$
 ---
@@ -46197,6 +46216,11 @@ pincyvi'itcuga'e lujvo 2 (en)
 $x_1$ feels the sensation of needing to urinate/pee, under conditions $x_2$.
 -n
 If intense, there is an associated pain, possibly among other sensations. The means of sensing this feeling/stimulus is internal and inherent.
+---
+pincyvimtansi lujvo 1 (en)
+$x_1$ is a urinal of material/property $x_2$
+-n
+cf. {pinca} {vikmi} {tansi}
 ---
 pindaki fu'ivla 1 (en)
 $x_1$ is a bladder (part of the body) of $x_2$
@@ -51746,10 +51770,10 @@ $x_1$ are leftovers from meal $x_2$
 sai'o cmavo 2 (en)
 for letterals: "etc.", "...", letteral string omitted here
 ---
-sa'irbi'o lujvo 1 (en)
+sa'irbi'o lujvo 2 (en)
 $b_1=s_1$ stands up/arises onto surface $s_2$ supported by limbs $s_3$.
 -n
-Cf. {sanli}, {binxo}, {galmu'u}.
+Cf. {sanli}, {binxo}, {galmu'u}, {ckali'a}.
 ---
 sairbu'u lujvo 1 (en)
 $x_1=b_1$ is a napkin of type/material $x_2=b_2$
@@ -53820,6 +53844,9 @@ $j_1$ is an altar for offering $f_2$ to $f_3$.
 ---
 selfri lujvo 2 (en)
 $x_{1}$ is an event/experience happening to $x_{2}$.
+---
+selfriti lujvo 2 (en)
+$x_{1}$ is offered by $x_{2}$ to $x_{3}$ with conditions $x_{4}$.
 ---
 selfu gismu [-sef-se'u-] 100000 (en)
 $x_{1}$ (agent) serves $x_{2}$ with service $x_{3}$ (activity); $x_{1}$ is a servant (noun) of $x_{2}$ performing $x_{3}$.
@@ -62324,6 +62351,11 @@ mukti modal, 3rd place                            motivated/motivating per the v
 temu'u cmavo-compound 100001 (en)
 mupli modal, 3rd place                            as an example out of the set of ...
 ---
+temxaksu lujvo 1 (en)
+$x_1$ is a waste of time, using up $x_2$ (duration) according to $x_3$
+-n
+cf. {temci} {xaksu}
+---
 temymapti lujvo 2 (en)
 $x_1=t_1=m_1$ is a time appropriate for event $x_2=m_2$ in aspect $x_3=m_3$; it's time for $x_2$; it's time $x_2$ happened.
 -n
@@ -64539,10 +64571,10 @@ See also {rinju}, {gasnu}, {zifcru}
 tolrunjavji'e lujvo 1 (en)
 $j_1=r_1$ is/pertains to nature (geology/wildlife).
 ---
-tolsakci lujvo 2 (en)
-$s_1$ blows/exhales fluid/gas from high pressure of $s_2$ to low pressure of $s_3$.
+tolsakci lujvo 3 (en)
+$s_1$ blows/exhales fluid/gas from high pressure of $s_2$ [not necessarily gas] to low pressure of $s_3$.
 -n
-Cf. {to'e}, {sakci}, {bifca'e}.
+See also {to'e}, {sakci}, {bifca'e}.
 ---
 tolsarxe lujvo 2 (en)
 $x_1$ is dissonant/discordant/cacophonous/in disagreement/clashes with $x_2$ in property $x_3$ (ka).
@@ -66188,11 +66220,11 @@ wabi-sabi or imperfect/impermanent/incomplete beauty
 -n
 Cf. {uabis}, {sabis}
 ---
-uacintyn cmevla 2 (en)
-Washington.
----
 UAcintyn cmevla 1 (en)
 Washington
+---
+uacintyn cmevla 2 (en)
+Washington.
 ---
 uafli fu'ivla 1 (en)
 $x_1$ fails to understand / figure out $x_2$ (du'u) about $x_3$.
@@ -66516,6 +66548,11 @@ uindos cmevla 1 (en)
 Windows
 -n
 name of an operating system, or the familiy of operating systems
+---
+uinji fu'ivla 1 (en)
+$x_1$ is the wenis (flap of skin on the elbow) of $x_2$
+-n
+Childish slang
 ---
 u'inmo fu'ivla 1 (en)
 $x_1$ is amused by $x_2$ / finds $x_2$ funny.
@@ -68368,6 +68405,11 @@ vimstu lujvo 2 (en)
 $stuzi_1$ is a public convenience area, toilet, lavatory, WC area, restroom (not limited to buildings or rooms in them) for $vikmi_1$ excreting waste $vikmi_{2}$ from source $vikmi_{3}$ via means/route $vikmi_{4}$.
 -n
 See also {vimku'a}.
+---
+vimtansi lujvo 1 (en)
+$x_1$ is a bedpan for holding waste $x_2$ and having material/property $x_3$
+-n
+cf. {vikmi} {tansi}
 ---
 vimtizbru lujvo 1 (en)
 $b_1$ is a toilet brush with bristles $b_3$.
@@ -73396,6 +73438,11 @@ $x_1$ is increasing in $x_2$ for times/conditions determined by context (use {ca
 ---
 zencpa lujvo 1 (en)
 $x_1=c_1=z_1$ gains / obtains / increases in $x_2=c_2=z_2$ by amount / quality $x_3=z_3$ from source $x_4=c_3$; $x_1$ gains $x_2$.
+---
+zenctaru lujvo 1 (en)
+$x_1$ is rising tide at $x_2$ caused by $x_3$
+-n
+For "falling tide", see {jdikyctaru}. For "high tide", see {galctaru}.
 ---
 zengau lujvo 3 (en)
 $x_1$ increases/augments $x_2$ (experiencer) in property/quantity $x_3$ by amount $x_4$.
@@ -133880,7 +133927,7 @@ $x1$ srana lo munje pe lo panra be $x2$ noi bangu bei lo ka naldra $x3$
 bersa gismu [-bes-be'a-] 1 (jbo)
 $x_1$ nakni gi'e se rirni $x_2$
 ---
-berti gismu [-ber-] 1 (jbo)
+berti gismu [-ber-] 2 (jbo)
 $x_1$ zunle $x_2$ lo solnuntolcanci noi stuna .i $x_1$ to'e snanu $x_2$
 -n
 {zunle} .i {snanu} .i {stici} .i {stuna} .i {farna} .i {solnuntolcanci}
@@ -147362,7 +147409,7 @@ $x_1$ valsi zi'o gi'e poi'i lo sance be lo nu ba'usku ke'a cu melbi $x_2$
 -n
 srana fa zo {melbi} .e zo {valsi} .e zo {sance} .e zo {bacru} .e zo {skuna}
 ---
-snanu gismu [-nan-] 1 (jbo)
+snanu gismu [-nan-] 2 (jbo)
 $x_1$ pritu $x_2$ lo solnuntolcanci noi stuna .i $x_1$ to'e berti $x_2$
 -n
 {pritu} .i {berti} .i {stuna} .i {stici} .i {farna} .i {solnuntolcanci}
