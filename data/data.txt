@@ -2608,6 +2608,11 @@ $x_1$ is the language with ISO 639-3 code ''jpn'' (Japanese).
 -n
 Cf. {ponbau}.
 ---
+banka'e lujvo 1 (en)
+$x_1$ can speak language $x_2$; $x_1$ is a speaker of $x_2$.
+-n
+An alternative to "se {bangu}", given that the second slot of {bangu} is often considered a bottlecap ({velbotsu'i}) — not every language has speakers. Does not imply expertise or fluency in the way that {baucre} might.
+---
 banketa fu'ivla 1 (en)
 $x_1$ is a banquet
 -n
@@ -3418,6 +3423,11 @@ bartu gismu [-bar-] 100000 (en)
 $x_{1}$ is on the outside of $x_{2}$; $x_{1}$ is exterior to $x_{2}$.
 -n
 See also {jibni}, {nenri}, {sruri}, {lamji}, {korbi}, {calku}, {vasru}.
+---
+barva'u lujvo 1 (en)
+$x_1$ exhales (breathes out) $x_2$
+-n
+For inhale, see {nerva'u}. Also see {sakci}
 ---
 barxoko fu'ivla 2 (en)
 $x_1$ is baroque/reflects the baroque era in property $x_2$
@@ -4315,6 +4325,11 @@ $c_1=b_2$ crawls on $c_2$.
 ---
 be'unai cmavo-compound 100000 (en)
 attitudinal modifier: lack/need - presence/satisfaction - satiation.
+---
+bevda gismu 1 (en)
+$x_1$ is a drink, a beverage.
+-n
+Synonym: {djalitki} 'water-liquid'.
 ---
 bevgundi lujvo 2 (en)
 $g_1$ is a/the transportation industry/sector for $b_1$ transporting $b_2$ from $b_3$ to $b_4$.
@@ -8022,6 +8037,11 @@ $g_1=c_2$ is an arrow made of $g_2$ fired/launched by $c_1$.
 -n
 Cf. {cecla}, {grana}, {bagyce'a}.
 ---
+celgai lujvo 1 (en)
+$x_1$ is a holster for projectile launcher (gun) $x_2$
+-n
+For "sheath", see {dakygai}.
+---
 celgunta lujvo 4 (en)
 $g_1$ (person/mass) attacks with a projectile weapon/shoots victim $g_2$ with goal/objective $g_3$ using launcher/gun $c_1$ which launches/fires/shoots projectile/missile $c_2$ propelled by propellant/propulsion $c_3$.
 -n
@@ -11031,6 +11051,11 @@ Nameless.
 -n
 Anonymous remailer software
 ---
+cmedu'a lujvo 1 (en)
+$x_1$ gives the name $x_2$ to $x_3$; $x_1$ uses the name $x_2$ to name, denominate, designate, christen $x_3$.
+-n
+Has implications of giving a new name to someone or something, differently from "te {cmene}", which is moreso just 'call [someone by a name]'.
+---
 cmekirakira fu'ivla 1 (en)
 $x_1$ is the kirakira name (= an absurd, unconventional, ridiculous name) of $x_2$.
 -n
@@ -12327,6 +12352,11 @@ $t_1$ is cutlery for eating $c_2$.
 -n
 Cf. {ctidakfu}, {forca}, {smuci}, {palta}.
 ---
+ctitu'u lujvo 1 (en)
+$x_1 = t_1$ is the esophagus of $x_2 = c_1$
+-n
+For "trachea", see {vaxtu'u}
+---
 ctixau lujvo 2 (en)
 $x_1$ is edible to $x_2$
 -n
@@ -13290,6 +13320,11 @@ $x_1$ is a dactyl (metric foot)
 dakyba'e lujvo 1 (en)
 $b_1$ is the blade of knife $b_2=d_1$.
 ---
+dakygai lujvo 1 (en)
+$x_1$ is a sheath of knife (sword) $x_2$
+-n
+For "holster", see {celgai}
+---
 dakyxa'i lujvo 3 (en)
 $x_1=d_1$ is a dagger / knife weapon for use against $x_2=d_2$ by $x_3$ with blade of material $d_3$.
 -n
@@ -13924,6 +13959,11 @@ dasrngeko fu'ivla 2 (en)
 $x_1$ is a gecko tape
 -n
 See {dasri}
+---
+daste gismu 1 (en)
+$x_1$ intends to be/do $x_2$ (ka).
+-n
+Synonym: {aidji}.
 ---
 datca gismu 3 (en)
 $x_1$ examines/checks/investigates $x_2$ for $x_3$ (ka/ni)
@@ -15440,7 +15480,7 @@ $x_1$ (living cell) divides itself into $x_2$ (full set of the same type as $x_1
 -n
 The basic feature of live matter. x2 is the full set of cells born due to the division of $x_1$. See {fukpi}
 ---
-dizlo gismu [-diz-dzi-] 99999 (en)
+dizlo gismu [-diz-dzi-] 100000 (en)
 $x_{1}$ is low/down/downward in frame of reference $x_{2}$ as compared with baseline/standard height $x_{3}$.
 -n
 Also lower; $x_3$ is generally some defined distance above a zero point/baseline, or is that baseline itself.  See also {cnita}, {galtu}, {gapru}, {farna}, {loldi}.
@@ -15536,6 +15576,11 @@ djakebaba fu'ivla 1 (en)
 $x_1$ is a kebab, a dish of components $x_2$ which are usually pieces of meat, fish, vegetables roasted or grilled on a skewer or spit
 -n
 {djacickebaba} is 'shish kebab'
+---
+djakunra lujvo 1 (en)
+$k_1$ is a mineral (inorganic micro-nutrient needed to sustain life) of composition/type $k_2$
+-n
+cf. {cidja} {kunra}
 ---
 djalazani fu'ivla 2 (en)
 $x_1$ is some lasagna, a baked dish with components $x_2$ (plural) one of which is flat
@@ -15657,6 +15702,11 @@ djauzi fu'ivla 3 (en)
 $x_1$ is jiaozi/gyoza with filling $x_2$.
 -n
 Same frame as {pelmeni}. From Mandarin jiǎozi.
+---
+djaxu'i lujvo 1 (en)
+$x_1$ is a quantity of vitamin consisting of/type $x_2$
+-n
+cf. {cidja} {xukmi}
 ---
 djazai lujvo 1 (en)
 $x_1$ is a grocery store (food market) selling $x_2$, operated by $x_3$
@@ -20532,7 +20582,7 @@ $x_1$ is natural gas (methane, propane).
 -n
 See also {gaznatu}.
 ---
-gacydunja lujvo 1 (en)
+gacydunja lujvo 2 (en)
 $x_1=d_1=g_2$ desublimates from the gaseous state at temperature $x_2=d_2=g_3$ with pressure $x_3=d_3$.
 -n
 The process of this is called “deposition” or “desublimation” in English. From “{gapci} {dunja}”; refers to a direct change of the state of matter from gaseous to solid. Cf. {ligyfebvi}.
@@ -20710,7 +20760,7 @@ $x_1$ is a harmonic/overtone of $x_2$; $x_1$ is otonal with respect to $x_2$.
 -n
 x1 and x2 can be frequencies, or pitch classes, or intervals. See also: {dzito'a}.
 ---
-galtu gismu [-gal-ga'u-] 99999 (en)
+galtu gismu [-gal-ga'u-] 100000 (en)
 $x_{1}$ is high/up/upward in frame of reference $x_{2}$ as compared with baseline/standard height $x_{3}$.
 -n
 Also upper; $x_3$ is generally some defined distance above a zero point/baseline, or is that baseline itself.  See also {gapru}, {dizlo}, {cnita}, {drudi}, {farna}.
@@ -20828,6 +20878,11 @@ gansetifri fu'ivla 2 (en)
 $x_1$ feels sensation / qualia $x_2$ via sense $x_3$ (ka) // {ka'e gansetifri} = $x_1$ is sentient (able to feel subjective conscious experiences)
 -n
 $x_2$ is a {ganseti}-type. Proposed gismu form: {gelse}, with rafsi -ges- and -ge'e-. See {lifri}, {ganse}.
+---
+gansna lujvo 1 (en)
+$x_1$ is a deep (low-pitched) sound produced by $x_2$
+-n
+For "high-pitched sound", see {jaksna}. For "low tone", see {ganto'a}.
 ---
 ganti gismu 100000 (en)
 $x_{1}$ is a/the testes/ovary/testicle/scrotum/balls/gonad/stamen/pistil [body-part] of $x_{2}$, gender $x_{3}$.
@@ -20956,6 +21011,11 @@ gardu gismu 1 (en)
 $x_1$ is a dresser/armoire/wardrobe/closet (or any freestanding storage compartment) for storing $x_2$
 -n
 see also {kajna} {vasru} {nilce}
+---
+garja gismu 1 (en)
+$x_1$ is a carrot of variety $x_2$.
+-n
+Synonyms: {morkova} (← Russian), {najgenja} 'orange-root'.
 ---
 garna gismu [-gar-] 100000 (en)
 $x_{1}$ is a rail/railing/bar [tool] supporting/restraining $x_{2}$, of material $x_{3}$.
@@ -23895,12 +23955,12 @@ the realized capacity of thinking, judging, abstract reasoning, and conceptual u
 interlinga fu'ivla 1 (en)
 $x_1$ pertains to Interlingua language in aspect $x_2$
 ---
-internet cmevla 1 (en)
+INternet cmevla 1 (en)
 Internet
 -n
 Cf. {mujysamseltcana}.
 ---
-INternet cmevla 1 (en)
+internet cmevla 1 (en)
 Internet
 -n
 Cf. {mujysamseltcana}.
@@ -24663,6 +24723,11 @@ jakob cmevla 1 (en)
 Jacob
 -n
 With French pronunciation /ʒa.kɔb/, where /ɔ/ is changed to its Lojban approximation /o/
+---
+jaksna lujvo 1 (en)
+$x_1$ is a high-pitched sound produced by $x_2$
+-n
+For "low-pitched sound", see {gansna}. For "high tone", see {jakto'a}.
 ---
 jakto'a lujvo 2 (en)
 $x_1$ is a note high in frequency/pitch produced by $x_2$
@@ -25715,7 +25780,7 @@ $x_{1}$ (experiencer) decreases/contracts/is reduced/diminished in property/quan
 -n
 See also {zenba}, {mleca}, {vimcu}.
 ---
-jdikyctaru lujvo 1 (en)
+jdikyctaru lujvo 2 (en)
 $x_1$ is falling (receding) tide at $x_2$ caused by $x_3$
 -n
 For "rising tide", see {zenctaru}. For "low tide", see {dzictaru}.
@@ -29973,7 +30038,7 @@ relative clause prenex: assigns a variable to the object of the relative clause
 -n
 Works like {ce'ai}, but binds to {ke'a} rather than {ce'u}. lo broda poi ko'a ke'au brode ko'a = lo broda poi ke'a goi ko'a zo'u brode ko'a
 ---
-kebzo gismu 2 (en)
+kebzo gismu 1 (en)
 $x_1$ reflects Quebec nationality/culture/geography in aspect $x_2$ (ka)
 ---
 kecti gismu [-kec-ke'i-] 100001 (en)
@@ -30287,6 +30352,11 @@ kerfrcampu fu'ivla 3 (en)
 $x_1$ (quantity) is a hair cleaning/care/maintenance/styling substance/product for purpose $x_2$ of composition $x_3$; $x_1$ is a quantity of hair product
 -n
 This word is something of an {u'ivla}. Not restricted to only shampoo (hair cleaning product); can include (but is not limited to): shampoo, conditioner, hair mousse/gel, hair replenisher/grower (for baldness), hair coloring dye, hair styling spray, and even shaving cream/foam; however, it should be a tool/substance applied to hair semi-permanently, rather than applied to it only initially in order to modify it for later (such as a crimper, curler, etc.)—in other words, kerfrcampu remains with the hair or is scrubbed in and then washed out in order to function. Hair need not be human, of the top of the head, or even "real"/biological/belonging to the individual in question—these characteristics may be specified by $x_2$. See also {krevelylu'i}; {campu} for gismu version of same word.
+---
+kerja'i lujvo 1 (en)
+$x_1$ is an earring (ear clip, stud) on $x_2$
+-n
+See also {kerdjine}
 ---
 kerlakse lujvo 1 (en)
 $l_1$ is earwax/cerumen.
@@ -30894,6 +30964,9 @@ $d_1$ is Thanksgiving by standard $d_3$
 -n
 From la berenstein cribe 2020/11/17 See also {ckire}, {djedi}
 ---
+kirfa gismu 1 (en)
+$x_1$ is cinnamon of species $x_2$.
+---
 kirilits cmevla 1 (en)
 the alphabetic order used in Cyrillic and basic derivative alphabets.
 -n
@@ -31328,11 +31401,6 @@ See also {dertu}, {pesxu}, {staku}.
 ---
 klivlynd cmevla 1 (en)
 Cleveland
----
-klizga lujvo 1 (en)
-$x_1$ practices vipassana under situations of events/experiences $x_2$ (nu/ka) happening
--n
-See also {medzo}, {klina}, {viska}, {ganse}, {zgana}.
 ---
 klo'aka fu'ivla 2 (en)
 $x_1$ is a cloaca of $x_2$.
@@ -33502,7 +33570,7 @@ $g_3=l_1$ is a candle/wax light with wax source $l_2$.
 -n
 Cf. {fagytergu'i}, {dictergu'i}.
 ---
-laldo gismu 9 (en)
+laldo gismu 8 (en)
 $x_1$ is old/aged [relatively long in elapsed duration] by standard $x_2$
 -n
 (= {tolci'o}) See {citno}, {slabu}
@@ -34630,7 +34698,7 @@ $x_1$ plays a joke on $x_2$ using homophonous word $x_3$ (default ligma) with in
 -n
 This word is mostly used to translate sentences from Sugandese.
 ---
-ligyfebvi lujvo 2 (en)
+ligyfebvi lujvo 3 (en)
 $x_1=f_1=s_2$ sublimates/evaporates from the solid state at temperature $x_2=f_2=s_3$ with vapor pressure $x_3=f_3$.
 -n
 From {sligu} {febvi}; refers to a direct change of the state of matter from solid to gaseous. Cf. {gacydunja}
@@ -37583,6 +37651,11 @@ merje'a lujvo 1 (en)
 $j_1=m_1$ is the United State of America as a state.
 -n
 A U.S. state, or any part of a federation is referred to as {gugypau}. Cf. {merko}, {jecta}, {bemro}.
+---
+merji gismu 1 (en)
+$x_1$ deserves to be/do $x_2$ (ka).
+-n
+Also "merits", "is worthy of". A five-letter root equivalent to the earlier {inda}.
 ---
 merjinme lujvo 1 (en)
 $x_1$ is a quantity of/contains/is made of americium [Am]
@@ -41792,6 +41865,11 @@ $x_1$ is a pair of underpants
 nerta'u lujvo 2 (en)
 $x1$=$t1$=$n1$ is underwear, worn by/on $x2$=$t2$, for purpose $x3$=$t3$, worn under $x4$=$n2$
 ---
+nerva'u lujvo 1 (en)
+$x_1$ inhales (breathes in) $x_2$
+-n
+For exhale, see {barva'u}. Also see {sakci}
+---
 ne'u cmavo 100000 (en)
 location tense relation/direction; south of.
 ---
@@ -41971,6 +42049,11 @@ nilce gismu [-ni'e-] 100000 (en)
 $x_{1}$ [furniture items] furnishes $x_{2}$ [location] serving purpose/function $x_{3}$.
 -n
 See also {ckana}, {jubme}, {sfofa}, {stizu}, {dacru}.
+---
+nilcilmo lujvo 1 (en)
+$x_1$ is the dampness/moistness/humidity of $x_2$ with liquid $x_3$
+-n
+see also {varjau} for "humidity"
 ---
 nilcoi lujvo 1 (en)
 $x_1$ is the depth of $x_2$ away from (with reference to) $x_3$ on scale $x_4$
@@ -42671,11 +42754,6 @@ nondei lujvo 6 (en)
 $x_1$ is a Sunday of week $x_2$ in calendar $x_3$.
 -n
 Duration. For date, use {jedlno}. Sunday is either day seven or day zero, depending on your perspective.
----
-nondi'a lujvo 2 (en)
-$x_1$ is available for free/without cost to $x_2$.
--n
-Shorter form of {nonseldi'a}; the -sel- can be safely removed, as a "jdima be noda" interpretation isn't very useful, so this "has to" be "se jdima be noda".
 ---
 nonjavycimni lujvo 2 (en)
 $x_1$ is either infinite or zero in property/dimension $x_2$ to degree (quantity)/of type $x_3$
@@ -45106,7 +45184,7 @@ $x_1$ is a one-time event/occurrence; $x_1$ does not happen again.
 -n
 Synonym: {nalrapli} 'does not repeat'.
 ---
-pavyfautci lujvo 1 (en)
+pavyfautci lujvo 2 (en)
 $x_1$ is a single-use/one-time tool/utensil/resource/implement used for doing $x_2$ (and discarded afterward).
 -n
 From {pavyfau} {tutci}. Synonyms: {pavyfauselpli}, {pavyplitci}. See also {festerplatci} 'disposable tool', {festerplakai} 'be disposable'.
@@ -52544,6 +52622,11 @@ $x_{1}$ is a spiral/helix/whorl/[vortex] [shape/form] with limits $x_{2}$, of di
 -n
 See also {klupe}, {korcu}, {tarmi}.
 ---
+sarlyborma lujvo 1 (en)
+$x_1$ is a cyclone (typhoon, hurricane) at $x_2$
+-n
+See also {vilti'a}, {carbi'e}
+---
 sarlyterjai lujvo 1 (en)
 $x_1$ is a tendril used by $x_3$ to hold $x_2$ at $x_4$.
 -n
@@ -57140,6 +57223,9 @@ Cf. {armoraki}, {kobli}, {cpinytsapi}, {sansrmustardo}, {koblrsinapi}.
 ---
 snapra lujvo 1 (en)
 $x_1$ emits/produces sound $x_2$ by process $x_3$
+---
+snasmi lujvo 1 (en)
+$x_1$ sounds like $x_2$; $x_1$ and $x_2$ are soundalikes.
 ---
 snasni lujvo 2 (en)
 $x_1$ is an (auditory) signal/alarm/notification/click/beep representing $x_2$
@@ -61900,6 +61986,11 @@ $x_1$ is addicted to doing $x_2$ (property)
 tcuji'e lujvo 1 (en)
 $n_1=j_1$ is a parasite on $n_2$.
 ---
+tcuka gismu 1 (en)
+$x_1$ is vinegar made from $x_2$.
+-n
+Synonyms: {sarvanju} 'sour-wine', {vanslami} 'wine-acid'.
+---
 tcunCIN cmevla 1 (en)
 Chongqing
 ---
@@ -62352,7 +62443,7 @@ temu'u cmavo-compound 100001 (en)
 mupli modal, 3rd place                            as an example out of the set of ...
 ---
 temxaksu lujvo 1 (en)
-$x_1$ is a waste of time, using up $x_2$ (duration) according to $x_3$
+$x_1$ is time-consuming, using up $x_2$ (duration) according to $x_3$
 -n
 cf. {temci} {xaksu}
 ---
@@ -64126,7 +64217,7 @@ $c_2$ is a finite set with members $c_1$.
 -n
 See also: {cimnyselcmi}.
 ---
-tolci'o lujvo 3 (en)
+tolci'o lujvo 4 (en)
 $c_1$ is old (opposite of young) by standard $c_2$.
 -n
 Also aged, senior, senescent, archaic, long-ago.
@@ -64662,7 +64753,7 @@ $s_1$ expends effort/is actively/effortfully involved in doing/being $s_2$ (acti
 -n
 See also: {a'i}, {lazni}, {renvi}, {snada}, {surla}, {tatpi}, {troci}.
 ---
-tolta'i lujvo 2 (en)
+tolta'i lujvo 3 (en)
 $x_1$ is unfatigued/unwearied/refreshed/feels energetic due to $x_2$ (event)
 ---
 toltankomo fu'ivla 1 (en)
@@ -67566,7 +67657,7 @@ $x_1$ breathes out; $x_1$ breathes $x_2$ out
 -n
 {vasxu}, {to'e}, {tisna}, {vaxtisna}, {vaxtoti}
 ---
-vaxtu'u lujvo 2 (en)
+vaxtu'u lujvo 3 (en)
 $x_1$ is the trachea of $x_2$
 ---
 vaxydicra lujvo 2 (en)
@@ -67764,7 +67855,7 @@ $x_4=b_1$ is a wall/fence separating $x_2=b_2$ from $x_3=b_3$, and subdividing $
 -n
 {ve} {bitmu}
 ---
-velbotsu'i lujvo 2 (en)
+velbotsu'i lujvo 3 (en)
 $x_1$ is a "bottlecap sumti": an argument in the definition of selbri $x_2$ that may not always exist
 -n
 examples: x4 of {botpi}, x2 of {canre}
@@ -73245,6 +73336,9 @@ n-Merge Conversion: placed immediately before a selbri, merges all $x_a$ places.
 -n
 In "$x_a$", "$a$" is not a variable; "$x_a$" refers to any sumti slot(s) after the first $n$, where $n$ is a function of the brivla (and is not defined for some brivla), such that it/they is/are part of an open-ended or arbitrarily large relation of mutually similar 'form' (possibly by analogy); for example, all sumti slots of "{jutsi}" except jutsi1 are $x_a$-type slots. See also: "{ze'e'i}".
 ---
+ze'ecpi lujvo 1 (en)
+$x_1$ is a phoenix.
+---
 ze'e'e cmavo 1 (en)
 n-Merge Conversion: placed immediately before a selbri, merges $x_5$ and all $x_a$ places.
 -n
@@ -73439,7 +73533,7 @@ $x_1$ is increasing in $x_2$ for times/conditions determined by context (use {ca
 zencpa lujvo 1 (en)
 $x_1=c_1=z_1$ gains / obtains / increases in $x_2=c_2=z_2$ by amount / quality $x_3=z_3$ from source $x_4=c_3$; $x_1$ gains $x_2$.
 ---
-zenctaru lujvo 1 (en)
+zenctaru lujvo 2 (en)
 $x_1$ is rising tide at $x_2$ caused by $x_3$
 -n
 For "falling tide", see {jdikyctaru}. For "high tide", see {galctaru}.
@@ -73946,6 +74040,9 @@ zifma'o lujvo 2 (en)
 $x_1$ is is a free word (word which can be freely inserted into or deleted from a sentence without making it ungrammatical), with meaning/function $x_2$ in usage (language) $x_3$
 -n
 This corresponds to selma'o UI in Lojban.
+---
+zifmasoni fu'ivla 1 (en)
+$x_1$ pertains to Freemasonry/is Masonic in aspect $x_2$.
 ---
 zifnunsla lujvo 1 (en)
 $n_1$ is Independence Day celebrated by $s_1$ with activities $s_3$
@@ -138970,11 +139067,6 @@ $x_1$ melbi $x_2$ boi $x_3$ lo ka jaurgacmi'i
 ---
 jaurjinru lujvo 1 (jbo)
 $j_1$ jinru $j_2=d_1$ poi ke'a djacu
----
-jaursabytu'u lujvo 1 (jbo)
-$x_1$ tubnu $x_2$ lo djacu poi ke'a se sabji lo mu'a jecta
--n
-{djacu} {sabji} {tubnu}
 ---
 jaursabytu'uvro lujvo 1 (jbo)
 $x_1$ vorme fo lo jaursabytu'u

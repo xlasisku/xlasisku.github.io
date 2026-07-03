@@ -581,6 +581,7 @@ en banjikske
 en banjubu'o
 en banjudutu
 en banjupunu
+en banka'e
 en banketa
 en banke'u'e
 en bankle
@@ -750,6 +751,7 @@ en barselonas
 en barterzga
 en bartsina
 en bartu
+en barva'u
 en barxoko
 en basfa
 en baskle
@@ -951,6 +953,7 @@ en be'u
 en be'ucu'i
 en be'udzu
 en be'unai
+en bevda
 en bevgundi
 en bevjai
 en bevma'e
@@ -1793,6 +1796,7 @@ en cekrti
 en cektola
 en celdi
 en celga'a
+en celgai
 en celgunta
 en celguntas
 en celma'i
@@ -2518,6 +2522,7 @@ en cmecau
 en cmeci'e
 en cmeci'u
 en cmeclax
+en cmedu'a
 en cmekirakira
 en cmene
 en cmenrline
@@ -2804,6 +2809,7 @@ en ctiru'e
 en ctiru'egau
 en ctisla
 en ctitci
+en ctitu'u
 en ctixau
 en ctodje
 en ctokage
@@ -3021,6 +3027,7 @@ en daklytcati
 en dakrmatcete
 en daktili
 en dakyba'e
+en dakygai
 en dakyxa'i
 en dalcange
 en dalcnita
@@ -3168,6 +3175,7 @@ en daspo
 en daspu'i
 en dasri
 en dasrngeko
+en daste
 en datca
 en datcinpa'i
 en datcinselta'u
@@ -3528,6 +3536,7 @@ en djakari
 en djakartas
 en djaka'u
 en djakebaba
+en djakunra
 en djalazani
 en djalekmi'i
 en djalekta'e
@@ -3557,6 +3566,7 @@ en djaule
 en djaumo
 en djautrau
 en djauzi
+en djaxu'i
 en djazai
 en djaZAIR
 en djecacrytcika
@@ -4733,6 +4743,7 @@ en ganra
 en ganse
 en ganseti
 en gansetifri
+en gansna
 en ganti
 en ganto'a
 en gantogdu'e
@@ -4761,6 +4772,7 @@ en gapselfa'a
 en garbimvrogai
 en garbi'u
 en gardu
+en garja
 en garna
 en garpata
 en gasfrili
@@ -5425,8 +5437,8 @@ en instale
 en integrale
 en intele
 en interlinga
-en internet
 en INternet
+en internet
 en interviiu
 en intima
 en intona
@@ -5598,6 +5610,7 @@ en jajyku'a
 en jaklu'a
 en jakne
 en jakob
+en jaksna
 en jakto'a
 en jaktogdu'e
 en jaktu
@@ -6884,6 +6897,7 @@ en kerdjine
 en kerestf
 en kerfa
 en kerfrcampu
+en kerja'i
 en kerlakse
 en kerlo
 en kernauke
@@ -7018,6 +7032,7 @@ en kirbibitni
 en kirbosu
 en kircaiu
 en kirdei
+en kirfa
 en kirilits
 en kirsku
 en kisru'u
@@ -7115,7 +7130,6 @@ en kliru
 en klisodva
 en kliti
 en klivlynd
-en klizga
 en klo'aka
 en kloje
 en klojere
@@ -8538,6 +8552,7 @@ en merfiti
 en mergu'e
 en merja'a
 en merje'a
+en merji
 en merjinme
 en merkadno
 en merklu
@@ -9510,6 +9525,7 @@ en nerklaji
 en nerliiu
 en nerpalku
 en nerta'u
+en nerva'u
 en ne'u
 en ne'urna
 en ni
@@ -9550,6 +9566,7 @@ en nilbra
 en nilbramapti
 en nilca'u
 en nilce
+en nilcilmo
 en nilcoi
 en nildemparbi
 en nildenmi
@@ -9708,7 +9725,6 @@ en nonbaizu'e
 en nonceikri
 en noncinse
 en nondei
-en nondi'a
 en nonjavycimni
 en nonjdi
 en nonka
@@ -11978,6 +11994,7 @@ en sarji
 en sarjrkardano
 en sarlami
 en sarlu
+en sarlyborma
 en sarlyterjai
 en sarni
 en sarnyskrantykemyzgitci
@@ -13047,6 +13064,7 @@ en snami'i
 en snanu
 en snapisa
 en snapra
+en snasmi
 en snasni
 en snavei
 en snaveitci
@@ -14178,6 +14196,7 @@ en tcotu'a
 en tcoxarju
 en tcubi'a
 en tcuji'e
+en tcuka
 en tcunCIN
 en tcuros
 en tcuselkai
@@ -16738,6 +16757,7 @@ en ze'au'e
 en ze'e
 en ze'e'a
 en ze'e'au
+en ze'ecpi
 en ze'e'e
 en ze'e'i
 en ze'ei
@@ -16896,6 +16916,7 @@ en zi'ezva
 en zifcni
 en zifcru
 en zifma'o
+en zifmasoni
 en zifnunsla
 en zifpemci
 en zifre
@@ -32946,7 +32967,6 @@ jbo jau
 jbo jaurcarvi
 jbo jaurgacmi'imle
 jbo jaurjinru
-jbo jaursabytu'u
 jbo jaursabytu'uvro
 jbo jaurxa'u
 jbo ja'urxe'a
