@@ -1351,7 +1351,6 @@ en braronvoimabru
 en brasa'o
 en bratce
 en bratcesluni
-en brato'a
 en bratu
 en bratuca
 en bratybakfu
@@ -1699,6 +1698,7 @@ en carcylai
 en cargau
 en carka'a
 en carkakpa
+en carkeitci
 en carkemkasygaukepyblikeitci
 en carkemkasygaukepyblikemkeitci
 en carlimcinki
@@ -5437,8 +5437,8 @@ en instale
 en integrale
 en intele
 en interlinga
-en INternet
 en internet
+en INternet
 en interviiu
 en intima
 en intona
@@ -5937,6 +5937,7 @@ en jendu
 en jenje
 en jenjigu
 en jenmi
+en jenri
 en jenselte'a
 en jensi
 en jente'a
@@ -6010,6 +6011,7 @@ en jguna
 en ji
 en ji'a
 en ji'a'a
+en ji'acpa
 en ji'acu'i
 en ji'ai
 en ji'anai
@@ -6040,6 +6042,7 @@ en jicyjutsi'o
 en jicymivykle
 en jidge
 en jidmoi
+en jidyfli
 en ji'e
 en ji'e'ai
 en ji'efri
@@ -6983,6 +6986,7 @@ en ki'irgrafu
 en ki'irmapti
 en ki'irpoi
 en ki'irsi
+en ki'irsi'u
 en ki'irxu'a
 en kijdro
 en kijno
@@ -7466,6 +7470,7 @@ en kumtrvalpaka
 en kumtrvikuna
 en kumtyjukni
 en kumyzda
+en kuncalu
 en kuncnero'i
 en kungundi
 en kunjau
@@ -8877,6 +8882,7 @@ en mo'izo'i
 en mo'izu'a
 en mo'izu'au
 en mojbo'i
+en mojdi'u
 en mojdju
 en mojgau
 en mojgaunoi
@@ -11624,6 +11630,7 @@ en ronte
 en rontu'a
 en rontysmimabru
 en ronxasli
+en ronzdo
 en ro'o
 en ro'oi
 en ro'onai
@@ -12158,6 +12165,7 @@ en seko'au
 en sekoi
 en sekoi'au
 en sekre
+en sekse
 en sektoro
 en seku'u
 en sela'u
@@ -12198,6 +12206,7 @@ en selbi'a
 en selbidju
 en selbi'e
 en selbijninvokslicpi
+en selbilga
 en selbilni
 en selbindo
 en selbinra
@@ -12458,6 +12467,7 @@ en selsivypo'e
 en selska
 en selskaclunarviska'e
 en selskanarviska'e
+en selski
 en selsko
 en selsku
 en selskusku
@@ -14187,6 +14197,7 @@ en tciuaua
 en tciuiro
 en tcixori
 en tcizba
+en tcoka
 en tcokobo
 en tcokolatle
 en tcokumte
@@ -14866,6 +14877,7 @@ en tolzi'o
 en tonberi
 en tonga
 en tongau
+en tonjivbu
 en tonsi
 en tonzo
 en to'o
@@ -15661,6 +15673,7 @@ en vijblo
 en vijdilnu
 en vijli'a
 en vijysazri
+en vijyske
 en vijysoi
 en vijytcana
 en vijyzda
@@ -16451,6 +16464,7 @@ en xrudja
 en xrududu
 en xrugau
 en xruii
+en xrujendu
 en xruki
 en xrukla
 en xrula
@@ -31742,10 +31756,12 @@ jbo baitni
 jbo bajra
 jbo bajyjvi
 jbo bakcange
+jbo bakfu
 jbo bakni
 jbo bakrycedra
 jbo baktu
 jbo balcre
+jbo balji
 jbo balni
 jbo balre
 jbo balvi
@@ -31771,6 +31787,7 @@ jbo barbei
 jbo barda
 jbo barduku
 jbo barfa'u
+jbo bargu
 jbo bargu'e
 jbo barja
 jbo barkalri
@@ -31780,11 +31797,13 @@ jbo barli'a
 jbo barna
 jbo bartu
 jbo basfa
+jbo basna
 jbo basti
 jbo basxarfri
 jbo basysi'u
 jbo batci
 jbo batkakpa
+jbo batke
 jbo batke zei uidje
 jbo batkyfoi
 jbo batxapa
@@ -31815,6 +31834,7 @@ jbo befloi
 jbo be'i
 jbo bei
 jbo bei'e
+jbo bemro
 jbo bende
 jbo bengo
 jbo benji
@@ -31827,6 +31847,7 @@ jbo berti
 jbo besna
 jbo besto
 jbo betfu
+jbo betri
 jbo be'u
 jbo be'ucu'i
 jbo be'unai
@@ -31835,9 +31856,11 @@ jbo bi
 jbo bi'ai
 jbo bi'aiku
 jbo bicysakta
+jbo bidju
 jbo bidjycau
 jbo bidjylinsi
 jbo bi'e
+jbo bifce
 jbo bigji'i
 jbo bi'i
 jbo bikla
@@ -31847,6 +31870,7 @@ jbo bilni
 jbo bilske
 jbo bimvrogai
 jbo bindo
+jbo binra
 jbo binxo
 jbo bi'o
 jbo birjai
@@ -31867,6 +31891,7 @@ jbo bi'u
 jbo bi'unai
 jbo bixygau
 jbo blabi
+jbo blaci
 jbo blacybo'i
 jbo blacykabri
 jbo bla'ei
@@ -31878,6 +31903,7 @@ jbo blaselkanla
 jbo blefa'u
 jbo blemau
 jbo bleme'a
+jbo bliku
 jbo blobarmatra
 jbo blogi'adi'u
 jbo blokle
@@ -31944,13 +31970,16 @@ jbo bu'e
 jbo bu'i
 jbo bukmu'a
 jbo bukprgingamu
+jbo bukpu
 jbo bumgapci
 jbo bumru
+jbo bunda
 jbo bundukiia
 jbo bunre
 jbo bu'o
 jbo bu'ocu'i
 jbo bu'onai
+jbo burcu
 jbo burna
 jbo burpelxu
 jbo bu'u
@@ -32753,6 +32782,7 @@ jbo gaspu'a
 jbo gastcica
 jbo ga'u
 jbo gau
+jbo gaucpa
 jbo gaukla
 jbo gaupli
 jbo gaurbasyvla
@@ -33039,6 +33069,7 @@ jbo jdini
 jbo je
 jbo je'a
 jbo jecra'a
+jbo jecta
 jbo jecybriju
 jbo jecyxlube'e
 jbo jedlno
@@ -34589,6 +34620,7 @@ jbo ruxyxadle'a
 jbo ry
 jbo sa
 jbo sa'a
+jbo sabji
 jbo sacki
 jbo sackyta'e
 jbo saclu
@@ -35236,6 +35268,7 @@ jbo tolgeitce
 jbo tolja'e
 jbo tolju'i
 jbo toljursa
+jbo toljvi
 jbo tolkau
 jbo tolke'i
 jbo tolki'u
@@ -35336,6 +35369,7 @@ jbo turbaro
 jbo turko
 jbo turni
 jbo tutci
+jbo tutra
 jbo tu'u
 jbo tu'urbirka
 jbo ty
@@ -35555,6 +35589,7 @@ jbo xa'ardakli
 jbo xabju
 jbo xabmau
 jbo xabme'a
+jbo xadba
 jbo xadni
 jbo xadri'u
 jbo xadydakli

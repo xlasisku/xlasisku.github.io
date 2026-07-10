@@ -354,6 +354,11 @@ $x_1$ is/are related to itself/himself/herself/themselves by relation $x_2$
 -n
 Compare with {sevzi} and {simxu}. -se'i- proposed as rafsi for "sefsi" since "sevzi" doesn't really need much a final rafsi.
 ---
+sekse gismu 1 (en)
+$x_{1}$ is the biological sex (male, female, or otherwise) of $x_{2}$.
+-n
+Not to be confused with "sex act"/"mating behavior" ({gletu}) or "gender" ({jenri} / {se} {klegeni}). Experimental rafsi -sek-.
+---
 selja'e lujvo 4 (en)
 $x_1$ (event) results in $x_2$ (event)
 -n
