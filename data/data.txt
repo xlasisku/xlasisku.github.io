@@ -4940,7 +4940,7 @@ See also {birti}, {binxo}, {sezybitygau}.
 bitydu'a lujvo 1 (en)
 $x_1$ confirms $x_2$
 ---
-bitygau lujvo 4 (en)
+bitygau lujvo 3 (en)
 $g_1$ convinces/persuades $b_1$ that $b_2$ is true.
 -n
 from {birti} {gasnu}. See {termu'igau} for another sense of "convince/persuade". c.f. {madysku} {dragau}
@@ -14140,7 +14140,7 @@ Cf. {duntracinse} (cisgender), {tracinse} (gender).
 da'u cmavo 100000 (en)
 pro-sumti: a remote past utterance; "She couldn't have known that IT would be true.".
 ---
-dau cmavo [-duv-] 100001 (en)
+dau cmavo [-duv-] 100002 (en)
 digit/number: hex digit A (decimal 10) [ten].
 -n
 Experimental rafsi: -duv-
@@ -18801,7 +18801,7 @@ n-ary mathematical operator: divided by; division operator; [(((a / b) / c) / ..
 -n
 see also {dilcu}, {pi'i}
 ---
-fei cmavo [-fel-] 100000 (en)
+fei cmavo [-fel-] 100001 (en)
 digit/number: hex digit B (decimal 11) [eleven].
 -n
 Experimental rafsi: -fel-
@@ -20644,7 +20644,7 @@ attitudinal modifier/honorific: hauteur - equal rank - meekness; used with one o
 -n
 See also {gapru}, {cnita}.
 ---
-gai cmavo [-gam-] 100001 (en)
+gai cmavo [-gam-] 100002 (en)
 digit/number: hex digit C (decimal 12) [twelve].
 -n
 Experimental rafsi: -gam-
@@ -23955,12 +23955,12 @@ the realized capacity of thinking, judging, abstract reasoning, and conceptual u
 interlinga fu'ivla 1 (en)
 $x_1$ pertains to Interlingua language in aspect $x_2$
 ---
-internet cmevla 1 (en)
+INternet cmevla 1 (en)
 Internet
 -n
 Cf. {mujysamseltcana}.
 ---
-INternet cmevla 1 (en)
+internet cmevla 1 (en)
 Internet
 -n
 Cf. {mujysamseltcana}.
@@ -24996,7 +24996,7 @@ na'e fancuka modal: no matter (indirect question)...
 -n
 Used with {du'u} and an indirect question. If the question type is {xu} then it is synonymous with some construction using the U truth function, e.g. "mi pendo do ja'u lo du'u xu kau do ricfu" = "mi pendo do i ju do ricfu". In fact it should not be used with {xu} since the U truth function is much shorter. It is designed to be used with all other question types. For example, "mi na kakne lo ka smusku kei ja'u lo du'u ma kau bangu", for which there only exists the paraphrase: "no da poi bangu zo'u mi kakne lo ka smusku kei bau da". It is also designed to be used with a {ni} or {jei} abstraction ("jei" in this case being mostly synonymous with "du'u xu kau"), e.g. "mi ba jinga ja'u lo ni lo drata cu troci". See also: {du'u}, {na'e}, {fancuka}, {ni}, {jei}, {u}, {ju}, {gi'u}, {gu'u}, {gu}.
 ---
-jau cmavo [-juz-] 100000 (en)
+jau cmavo [-juz-] 100001 (en)
 digit/number: hex digit D (decimal 13) [thirteen].
 -n
 Experimental rafsi: -juz-
@@ -28197,6 +28197,11 @@ A {kosta} for keeping your other clothes clean while cooking.
 ---
 jupku'a lujvo 3 (en)
 $x_1=k_1$ is a kitchen, in which $x_2=j_1$ cooks $x_3=j_2$, in home/building/structure $x_4=k_2$ surrounded by partitions/walls/ceiling/floor $x_5=k_3$ (mass/jo'u).
+---
+jupnu'o lujvo 2 (en)
+$x_1$ is raw, uncooked.
+-n
+A shorter synonym of {nalseljukpa}.
 ---
 juprblanca fu'ivla 1 (en)
 $x_1$ blanches/cooks/prepares food-for-eating $x_2$ by sitting it in boiling liquid $x_3$ for a short time-duration/interval $x_4$ and then plunged into/placed under running liquid $x_5$, blanched at boiling temperature $x_6$ and pressure $x_7$.
@@ -42558,6 +42563,11 @@ $x_{1}$ is noble/aristocratic/elite/high-born/titled in/under culture/society/st
 -n
 Also upper-class; high/low, upper/lower are poor Lojban metaphors; note $x_2$ standard applies when the title/nobility is not recognized culture/society wide; this would include self-assumed titles.  See also {banli}.
 ---
+nocni gismu 2 (en)
+$x_1$ feels nauseous/nauseated/“sick”/“ill”/[symptoms or feelings of stomach upset] because of $x_2$.
+-n
+{muvnocni} ‘motion-sick’. See also {carmalga’e} ‘dizzy’.
+---
 noda cmavo-compound 100000 (en)
 logically quantified sumti: nothing at all (unless restricted).
 ---
@@ -47646,6 +47656,9 @@ $b_1$ is a passenger ship for carrying $b_2$, propleed by $p_3$.
 -n
 Cf. {prenu}, {bloti}, {beiblo}, {ni'ablo}.
 ---
+precauplu lujvo 1 (en)
+$x_1$ is an uninhabited/desert island.
+---
 preci'e lujvo 2 (en)
 $x_1$ is a plural system in body $x_2$ with members/selves $x_3$.
 -n
@@ -49354,7 +49367,7 @@ Notice that the UK has no special place implied by the name here. The Commonweal
 re'i cmavo 100000 (en)
 vocative: ready to receive - not ready to receive.
 ---
-rei cmavo 99999 (en)
+rei cmavo 100000 (en)
 digit/number: hex digit E (decimal 14) [fourteen].
 ---
 rei'e cmavo 2 (en)
@@ -52663,7 +52676,7 @@ $x_1$ is a tendril used by $x_3$ to hold $x_2$ at $x_4$.
 -n
 see also {sarlyjai}
 ---
-sarni gismu 4 (en)
+sarni gismu 5 (en)
 $x_1$ [idéal shape/form] is a three-angled shape/form defined by set of corners/vertices $x_2$ [set], sides/dimensions $x_3$
 -n
 $x_3$, as a dimension, usually is an integer and is at least -1. See also: {cibjgatai}.
@@ -61989,7 +62002,7 @@ See also {endivi}, {skarola}.
 tcizba lujvo 1 (en)
 $z_1$ makes tool $z_2=t_1$ for purpose $t_2$ out of $z_3$; $z_1$ implements $t_2$
 ---
-tcoka gismu 1 (en)
+tcoka gismu 2 (en)
 $x_1$ is discordant, incompatible, clashes with $x_2$ in aspect $x_3$.
 -n
 Synonym: {tolmapti}.
@@ -64369,6 +64382,11 @@ $x_1$ is a monarch butterfly of subspecies $x_2$.
 -n
 Member of species Danaus plexippus. Cf. {toldi}.
 ---
+toldu'a lujvo 1 (en)
+$x_1$ takes away (removes) $x_2$ from $x_3$
+-n
+$x_2$ is a property of $x_1$ and formerly of $x_3$. Use {tu'a} (or in dialect {tau}) for objects. See also {cirko}.
+---
 toldu'e lujvo 2 (en)
 $x_1$ is a shortage/deficiency/insufficiency/derth/too little of $x_2$ by standard $x_3$.
 -n
@@ -65620,7 +65638,7 @@ $x_{1}$ is strong/powerful/[tough] in property/quality $x_{2}$ (ka) by standard 
 -n
 See also {ralci}, {ruble}, {carmi}, {vlipa}.
 ---
-tsamau lujvo 1 (en)
+tsamau lujvo 2 (en)
 $x_1$ is stronger than $x_2$ in property $x_3$ by margin $x_4$.
 ---
 tsame'a lujvo 1 (en)
@@ -66363,11 +66381,11 @@ wabi-sabi or imperfect/impermanent/incomplete beauty
 -n
 Cf. {uabis}, {sabis}
 ---
-UAcintyn cmevla 1 (en)
-Washington
----
 uacintyn cmevla 2 (en)
 Washington.
+---
+UAcintyn cmevla 1 (en)
+Washington
 ---
 uafli fu'ivla 1 (en)
 $x_1$ fails to understand / figure out $x_2$ (du'u) about $x_3$.
@@ -67206,7 +67224,7 @@ discursive: in other words - in the same words.
 -n
 See also {cneselsku}.
 ---
-vai cmavo [-vav-] 100000 (en)
+vai cmavo [-vav-] 100001 (en)
 digit/number: hex digit F (decimal 15) [fifteen].
 -n
 Experimental rafsi: -vav-
@@ -149307,6 +149325,11 @@ $x_1$ to'e sidju $x_2$ fi $x_3$ .i va'i $x_1$ gasnu lo nu $x_3$ zenba lo ka nand
 -n
 srana fa zo {sidju} .e zo {to'e} .e zo {zunti}
 ---
+toldu'a lujvo 1 (jbo)
+$x_1$ noi ckaji $x_2$ cu gasnu lo nu $x_3$ co'u ckaji $x_2$
+-n
+srana zo {cirko} .e zo {claxu}
+---
 toldu'e lujvo 1 (jbo)
 $x_1$ to'e dukse $x_2$ boi $x_3$ .i $x_1$ mleca lo banzu $x_2$ ma'i $x_3$ .i $x_1$ mleca lo mansa be $x_3$ bei $x_2$
 -n
@@ -176429,10 +176452,10 @@ ty cmavo 1 (zh)
 tyrontos cmevla 1 (zh)
 多伦多
 ---
-uacintyn cmevla 1 (zh)
+UAcintyn cmevla 1 (zh)
 华盛顿
 ---
-UAcintyn cmevla 1 (zh)
+uacintyn cmevla 1 (zh)
 华盛顿
 ---
 ueb cmevla 1 (zh)

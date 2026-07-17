@@ -5437,8 +5437,8 @@ en instale
 en integrale
 en intele
 en interlinga
-en internet
 en INternet
+en internet
 en interviiu
 en intima
 en intona
@@ -6418,6 +6418,7 @@ en jupcre
 en jupklu
 en jupkosta
 en jupku'a
+en jupnu'o
 en juprblanca
 en juprtai
 en jupsfe
@@ -9682,6 +9683,7 @@ en no'ai
 en no'au
 en no'au'au
 en nobli
+en nocni
 en noda
 en no'e
 en no'ebo
@@ -10832,6 +10834,7 @@ en praselva'i
 en prasivyci'e
 en praune
 en preblo
+en precauplu
 en preci'e
 en precitri
 en precme
@@ -14746,6 +14749,7 @@ en toldralogji
 en toldratai
 en toldravla
 en toldrpleksipi
+en toldu'a
 en toldu'e
 en tolfalkla
 en tolfalnu
@@ -15192,8 +15196,8 @@ en u'a
 en ua
 en uabis
 en uabisabis
-en UAcintyn
 en uacintyn
+en UAcintyn
 en uafli
 en u'ai
 en uai
@@ -35258,6 +35262,7 @@ jbo toldarsygau
 jbo toldicra
 jbo toldji
 jbo toldju
+jbo toldu'a
 jbo toldu'e
 jbo tolfaucu'i
 jbo tolfautolcu'i
@@ -41496,8 +41501,8 @@ zh tutci
 zh tutra
 zh ty
 zh tyrontos
-zh uacintyn
 zh UAcintyn
+zh uacintyn
 zh ueb
 zh uikis
 zh vacri
