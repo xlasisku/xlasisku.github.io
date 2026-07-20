@@ -13,6 +13,6 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
       - name: fetch, parse
         run: cargo run --release
-      - uses: stefanzweifel/git-auto-commit-action@v6
+      - uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: update
