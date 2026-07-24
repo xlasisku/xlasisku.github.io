@@ -1547,7 +1547,7 @@ $x_{1}$ is a bundle/package/cluster/clump/pack [shape/form] containing $x_{2}$, 
 -n
 See also {daski}, {dakli}, {tanxe}.
 ---
-baklanme lujvo 2 (en)
+baklanme lujvo 1 (en)
 $l_1$ is a musk ox of breed $l_2$ belonging to herd $l_3$.
 ---
 bakma'i lujvo 3 (en)
@@ -4124,6 +4124,16 @@ $x_{1}$ is a crew/team/gang/squad/band of persons $x_{2}$ directed/led by $x_{3}
 ---
 bendicfancyxra lujvo 3 (en)
 $p_1$ is an electroencephalogram of animal $b_2$ drawn by $p_3$ in medium $p_4$
+---
+bendicybi'a lujvo 1 (en)
+$b_1$ suffers a brain seizure with symptoms $b_2$ due to disease $b_3$.
+-n
+cf. {besna} {dikca} {bilma}.  {bendicterbi'a} = epilepsy
+---
+bendirbi'a lujvo 1 (en)
+$b_1$ suffers a stroke with symptoms $b_2$ due to disease $b_3$
+-n
+cf. {besna} {dicra} {bilma}.
 ---
 bengo gismu [-beg-] 99999 (en)
 $x_{1}$ reflects Bengali/Bangladesh culture/nationality/language in aspect $x_{2}$.
@@ -12856,7 +12866,7 @@ $x_{1}$ is a shoe/boot/sandal for covering/protecting [feet/hooves] $x_{2}$, and
 -n
 Also boot (= {tupcutci}).  See also {smoka}, {taxfu}, {skiji}.
 ---
-cutlunbe lujvo 1 (en)
+cutlunbe lujvo 2 (en)
 $x_1$ is topless; $x_1$'s chest is naked.
 ---
 cutne gismu [-cut-] 100000 (en)
@@ -20239,6 +20249,11 @@ $x_{1}$ frowns/grimaces (facial expression).
 -n
 $x_1$ frowns/grimaces at/in reaction to $x_2$ (= {frufra}).  See also {cmila}, {cisma}.
 ---
+frutai lujvo 1 (en)
+$x_1$ is a frown shape (upside-down U) of $x_2$
+-n
+for smile / U shape, see {cismytai}
+---
 fu cmavo 100000 (en)
 sumti place tag: tag 5th sumti place.
 ---
@@ -21381,6 +21396,11 @@ gerku gismu [-ger-ge'u-] 100002 (en)
 $x_{1}$ is a dog/canine/[bitch] of species/breed $x_{2}$.
 -n
 See also {lorxu}, {labno}, {mlatu}.
+---
+gerku_bu bu-letteral 1 (en)
+letteral: dog symbol, "U•ᴥ•U".
+-n
+See also {gerku}, {bu}, {lerfu}.
 ---
 gerkuuono fu'ivla 2 (en)
 $x_1$ is a dhole (Cuon alpinus) of subspecies/breed $x_2$
@@ -23531,10 +23551,10 @@ Refers to the plant itself; for the drink prepared therefrom, use {ierbamate} {t
 ierbamatei fu'ivla 1 (en)
 $x_1$ is made of/contains/is a quantity of yerba maté drink brewed from leaves $x_2$
 ---
-iersini'a fu'ivla 1 (en)
-$x_1$ is a bacterium/bacteria of genus Yersinia
+iersini'a fu'ivla 2 (en)
+$x_{1}$ is Yersinia, a genus of bacteria.
 -n
-Includes Y. pestis, cause of bubonic plague
+Including: Yersinia pestis (cause of bubonic plague), Yersinia enterocolitica, Yersinia pseudotuberculosis.
 ---
 ieRUcaly'im cmevla 1 (en)
 Jerusalem
@@ -26700,6 +26720,11 @@ $s_1=j_1$ is a biological cell of $s_2$.
 -n
 See also {jmive}, {selci}.
 ---
+ji'esra lujvo 1 (en)
+$x_1$ is life support facilitating function/purpose $x_2$
+-n
+cf. {jmive} {sarji}
+---
 ji'exru lujvo 2 (en)
 $x_1$ resurrects/brings back to life $x_2=j_1$ by standard $j_2$.
 -n
@@ -27341,6 +27366,11 @@ jirsu'u lujvo 1 (en)
 $s_1$ dives [manner of controlled falling] to $s_2$ from $s_3$ into liquid $j_2$.
 -n
 Different styles of diving: head first (=nitfarstedu jirsu'u), "cannonball" (=boitse jirsu'u), etc. See also {zajyjirsu'u}.
+---
+jirtu'a lujvo 1 (en)
+$x_1$ is submerged (flooded) land at $x_2$
+-n
+For "wetland", see {cimtu'a}
 ---
 jirvi'odja lujvo 2 (en)
 $x_1=v_1=c_1$ is preserved food/feed/nutriment pickled/immersed in $x_2=j_2$.
@@ -29459,7 +29489,7 @@ $x_1$ (property with two places for ce'u) is the property according to which mem
 -n
 This is analogy; the terms in $x_2$ are related to one another in the same way as the terms in $x_i$, for any $i
 ---
-kanpe gismu 20 (en)
+kanpe gismu 21 (en)
 $x_1$ expects/looks for the occurence of $x_2$ (event), expected likelihood $x_3$ (0-1, default {li} {so'a} i.e. near 1); $x_1$ subjectively evaluates the likelihood of $x_2$ (event) to be $x_3$.
 -n
 The value of $x_3$ is a subjective estimate of likeliness according to $x_1$, and is the basic determinant of whether kanpe means something like "hope" or "wish" or "expect", although kanpe never carries the connotation of desire; for that connotation see {pacna}. kanpe with $x_3$ not very close to 1 has no simple equivalent in English, but for objects/states with negligible expectation it is something like "wishing"; if the state is plausibly likely, it is something like "hoping". In both cases, though, the English implication of emotional desire is not present. The value will usually be expressed using inexact numbers ("{li} {piso'u}" to "{li} {piro}"); not-necessarily desirous wish, not necessarily desirous hope. See also {ba'a}, {djica}, {pacna}, {lakne}, {cunso}.
@@ -31913,6 +31943,9 @@ $x1$ is a non-polyplet polyform/polyomino/polyabolo/polyiamond (etc.) composed o
 -n
 The hyper-edges of the 'tile' polytopes must be shared entirely or not at all with at least one other distinct such 'tile' polytope (should it exist); they cannot be touching only at the corners- the most touch adjacently along the entirety of a side/edge/face/hyper-edge. This obviously restricts which polytopes can be arranged meaningfully in a valid arrangement/pattern (and thus restricts those patterns). See also: {pletomino}
 ---
+korgau lujvo 1 (en)
+$x_1$ causes $x_2$ to be a border of $x_3$ next to (separate from) $x_4$. $x_1$ emborders (demaracates, delimits) $x_3$ with $x_2$.
+---
 korgretro lujvo 1 (en)
 $t_1$ controls $g_1=t_2$ who crosses $g_2=k_1$ to $g_3=k_2$ from $g_4=k_2$.
 -n
@@ -32634,7 +32667,7 @@ $j_1=k_1$ nurses/holds with care $j_2=k_2$ (object/event/person) with/in $j_3$ (
 -n
 Cf. {kurji}, {jgari}.
 ---
-kukfusra lujvo 1 (en)
+kukfusra lujvo 2 (en)
 $f_1=k_1$ is fermented with fermenting agent $f_2$, tasty to observer $x_3=k_2$.
 -n
 Cf. {jurme}, {fomymledi}, {mledi}, {birje}, {vanju}, {nanba}, {cirla}, {ladru}, {sobysanso}, {furfipsanso}.
@@ -34078,6 +34111,11 @@ $x_1=cm_1=cl_1$ loudly laughs; loud at observation point $x_2=cm_2$ by standard 
 laurselylai lujvo 1 (en)
 $x_1=k_2$ is the audial volume / degree of loudness of $x_2=k_1=c_1$ at observation point $x_3=c_2$ on scale / by standard $x_4=k_3=c_3$.
 ---
+la'urxamsi lujvo 1 (en)
+$x_{1}$ is a lagoon of location $x_{2}$, of fluid $x_{3}$.
+-n
+A lagoon is a shallow body of water separated from a larger body of water by a narrow landform. Hence a lagoon is not a lake, but a sea. See also {daplu}, {djacu}, {lalxu}, {rirxe}, {tumla}, {zbani}, {ctaru}.
+---
 laus cmevla 2 (en)
 Laos.
 -n
@@ -34121,6 +34159,11 @@ laxtyminli lujvo 1 (en)
 $x_1$ is $x_2$ (li; default: 1) galactic units (i.e.: the average distance between the center of the Milky Way galaxy and the center of Sol system) by standard $x_3$.
 -n
 This word uses experimental gismu veljvo "{laxte}". Analogous to "{solminli}"; on the scale of the kiloparsec ({ki'ortanminli}).
+---
+laxydjine lujvo 1 (en)
+$x_1$ is a gimbal for $x_2$ allowing $x_3$ degrees of freedom/movement
+-n
+cf. {lanxe} {djine}
 ---
 laxygau lujvo 1 (en)
 $g_1$ balances $l_1$ with force $l_2$.
@@ -38246,6 +38289,11 @@ inclusive we; includes the speaker (I) and the listener (you), but may or may no
 -n
 May mean {mi'o} or {ma'a}, but never {mi'a}. Also see {mi'ai}.
 ---
+mi_pacna_lo_za'i_do_gleki_gi'u_zvati phrase 1 (en)
+I hope you happy wherever you are.
+-n
+From "Miscellaneous translation of Lojban (2022)" by Vulpes², a former Chinese Lojbanist.
+---
 mipcta lujvo 1 (en)
 $c_1=m_1=m_2$ peeks at $c_2=m_3$ from $m_4$
 ---
@@ -38482,6 +38530,9 @@ $x_1$ is a homophone to $x_2$, and means $x_3$ in language $x_4$
 ---
 mitxondriio fu'ivla 1 (en)
 $x_1$ is a mitochondrion of cell $x_2$ of organism $x_3$
+---
+mitxu'a lujvo 1 (en)
+$x_1$ (agent) asserts/claims/declares that $m_1$ is the same/identical thing as $m_2$
 ---
 mitybe'isi'u lujvo 1 (en)
 $s_1$ (set) mutually synchronize $b_2$ via transmission means/medium $b_5$
@@ -42117,8 +42168,8 @@ $x_1$ is the width (breadth) of $x_2$ away from (with reference to) $x_3$ on sca
 -n
 Width is the second-largest dimension of an object (between length and thickness).
 ---
-nilga'u lujvo 2 (en)
-$x_1$ (li) is the altitude of $x_2$ with respect to $x_3$ in frame of reference $x_4$.
+nilga'u lujvo 3 (en)
+$x_1$ (li) is the altitude (elevation) of $x_2$ with respect to $x_3$ (datum) in frame of reference $x_4$ on scale $x_5$.
 ---
 nilgla lujvo 3 (en)
 $n_1$ is the temperature of $g_1$ measured on scale $n_2$.
@@ -46112,10 +46163,10 @@ Cf. {glevi'i}, {pinjyjdu}.
 pibykre lujvo 2 (en)
 $x_1$ is pubic hair of $x_2$.
 ---
-pibyta'u lujvo 2 (en)
+pibyta'u lujvo 3 (en)
 $x_1=t_1$ is genital/crotch area underwear, serving purpose $x_2=t_3$
 -n
-Gender/sex agnostic/non-defined/ambiguous genital/crotch-covering type of underwear (see {fetpibyta'u}/{nakpibyta'u} for female/male specific wear). Cf. {nerta'u}, {taxfrbikini}, {tatyta'u}.
+Also "loincloth", "thong", "jockstrap", "panties", and similar coverings. See {fetpibyta'u}/{nakpibyta'u} for female/male specific wear. Cf. {nerta'u}, {taxfrbikini}, {tatyta'u}.
 ---
 picti gismu [-pic-] 100003 (en)
 $x_{1}$ is a trillionth [$10^{-12}$] of $x_{2}$ in dimension/aspect $x_{3}$ (default is units).
@@ -47926,6 +47977,9 @@ $x_1$ is a member of Hydrozoa genus Protulophila of species $x_2$
 -n
 See also: {nuzlo}, {curnxidrozo'a}
 ---
+prova gismu 1 (en)
+$x_1$ is evidence, proof, an indication that $x_2$ is the case.
+---
 provoke fu'ivla 1 (en)
 $x_1$ provokes, evokes $x_2$ (event) to occur
 ---
@@ -48247,6 +48301,11 @@ Despite the gloss, the waterfall need not constitute falling water specifically,
 ---
 pupu cmavo-compound 100000 (en)
 time tense: had earlier been; (tense/modal).
+---
+purba gismu 1 (en)
+$x_{1}$ is a grape of species/variety $x_{2}$.
+-n
+See also {vanju}, {grute}.
 ---
 purci gismu [-pur-pru-] 100000 (en)
 $x_{1}$ is in the past of/earlier than/before $x_{2}$ in time sequence; $x_{1}$ is former; $x_{2}$ is latter.
@@ -49464,10 +49523,10 @@ $x_1$ is a Tuesday of week $x_2$ in calendar $x_3$.
 -n
 Duration. For date, use {jednre}.
 ---
-reldicyjipypau lujvo 1 (en)
+reldicyjipypau lujvo 2 (en)
 $x_1=p_1$ is a diode of $x_2=p_2$
 -n
-from {re}+{dicyji’o}+{pagbu}
+From {re}+{dicyji'o}+{pagbu}.
 ---
 reldilcymu'o lujvo 2 (en)
 $x_1$ is an even number (integer divisible by 2).
@@ -50617,6 +50676,11 @@ $x_1$ feels $x_2$ (ka) about $x_3$, and notices their heartbeat.
 ---
 risnydicfancyxra lujvo 3 (en)
 $p_1$ is an electrocardiogram of animal $r_2$ drawn by $p_3$ in medium $p_4$
+---
+risnydirbi'a lujvo 1 (en)
+$b_1$ suffers a heart attack/infarction with symptoms $b_2$ due to disease $b_3$
+-n
+cf. {risna} {dicra} {bilma}. {risnyterbi'a} = heart disease
 ---
 risnyjelca lujvo 1 (en)
 $r_1$=$j_1$ is the heart of $r_2$, burning at temperature $j_2$ in atmosphere $j_3$.
@@ -56293,6 +56357,16 @@ I.e. becoming aware of muscle atonia (i.e. unability to move, speak or react) of
 sipyva'u lujvo 1 (en)
 $x1=s1=v1$ snores
 ---
+sirdzi lujvo 1 (en)
+$x_1$ is directly beneath (below) $x_2$ in gravitational frame of reference $x_3$.
+-n
+For "directly above", see {sirga'u}.
+---
+sirga'u lujvo 1 (en)
+$x_1$ is directly above $x_2$ in gravitational frame of reference $x_3$.
+-n
+For "directly beneath", see {sirdzi}.
+---
 sirgazgau lujvo 1 (en)
 $x1$  (agent) aligns/arranges linearly objects $x2$ into organized arrangement $x3$ by rules $x4$
 -n
@@ -56973,6 +57047,11 @@ $s_1$ is a Kurrat/Egyptian leek (Allium ampeloprasum) of variety/strain $s_2$.
 ---
 slunyspa lujvo 1 (en)
 $sp_1$ is an onion plant (genus Allium) of species/strain $sp_2$ with onions/scallions $sl_1$.
+---
+slupi'e lujvo 1 (en)
+$x_1$ twitches/spasms in response to stimulus $x_2$
+-n
+cf. {sluji} {plipe}
 ---
 slurume fu'ivla 1 (en)
 $x_1$ is a part of Lojban text representing rule 'free' according to the first edition of the book 'The Complete Lojban Language'.
@@ -59509,7 +59588,7 @@ From {stali} {cadzu} {cabna} 'remain-walk machine'. Cf. {dzumlo}.
 stagau lujvo 2 (en)
 $x_1$ makes $x_2$ remain/stay being/doing $x_3$ (ka); $x_1$ maintains $x_2$ having property $x_3$
 ---
-stagi gismu 99998 (en)
+stagi gismu 99997 (en)
 $x_{1}$ is the edible $x_{2}$ portion of plant $x_{3}$; $x_{1}$ is a vegetable.
 -n
 Note that fruits and nuts are also vegetables; generally this word will be used for either the general category of edible plants, or for non-fruit vegetables (= {nalrutstagi}).  See also {grute}, {kobli}, {narge}, {sluni}, {spati}, {sunga}, {tamca}.
@@ -59851,7 +59930,7 @@ $x_1=f_1$ has orientation / is oriented with locations / qualities / aspects / f
 stumre lujvo 1 (en)
 $x_1$ surveys the location/position of $x_2$ as $x_3$ (measurements) in units/scale $x_4$ with accuracy $x_5$
 -n
-Alternative to {tumymre} ({tu'amre})
+Alternative to {tumymre} ({tu'amre}). Use {zvamre} for measuring temporary coordinates.
 ---
 stuna gismu [-sun-] 100000 (en)
 $x_{1}$ is to the east/eastern side of $x_{2}$ according to frame of reference $x_{3}$.
@@ -62040,7 +62119,7 @@ $x_1$ is a peccary of species $x_2$.
 -n
 see also {xarju}
 ---
-tcubi'a lujvo 1 (en)
+tcubi'a lujvo 2 (en)
 $x_1$ is addicted to doing $x_2$ (property)
 ---
 tcuji'e lujvo 1 (en)
@@ -64426,6 +64505,11 @@ $f_1=b_1$ (action/event) becomes calm/calms down/is pacified under conditions $f
 -n
 For person, use tu'a x1.
 ---
+tolfendi lujvo 1 (en)
+$x_1$ combines (unites, fuses, consolidates) $x_2$ into $x_3$ by/at $x_4$
+-n
+Synonyms: {jongau}, {lasna}. See also {jmina}.
+---
 tolferti lujvo 1 (en)
 $x_1$ is sterile/non-fertile/unable to procreate $x_2$; $x_1$ is unable to support the growth/development of $x_2$
 -n
@@ -66381,11 +66465,11 @@ wabi-sabi or imperfect/impermanent/incomplete beauty
 -n
 Cf. {uabis}, {sabis}
 ---
-uacintyn cmevla 2 (en)
-Washington.
----
 UAcintyn cmevla 1 (en)
 Washington
+---
+uacintyn cmevla 2 (en)
+Washington.
 ---
 uafli fu'ivla 1 (en)
 $x_1$ fails to understand / figure out $x_2$ (du'u) about $x_3$.
@@ -67696,6 +67780,11 @@ $p_1=v_1$  protests with a sigh about $p_2$ (event/state) to audience $p_3$ with
 -n
 Cf. {vasxu}, {pante}, {patyva'u}.
 ---
+vautci lujvo 1 (en)
+$x_1$ is a container used to hold $x_2$
+-n
+Includes a variety of man-made tools... bottles to bags, crates to cups, pots to pouches...
+---
 vau'u cmavo 1 (en)
 pro-sumti: repeats the most recent 5th argument slot (fu-slot).
 -n
@@ -68614,7 +68703,7 @@ $x_1$ is a scorpion.
 vinsmi lujvo 1 (en)
 $x_1$ looks like/is similar in appearance to $x_2$ to observer $x_3$
 ---
-vinta gismu 3 (en)
+vinta gismu 2 (en)
 $x_1$ (user/consumer) is an addict of/is addicted to substance/entity/experience $x_2$ by standard $x_3$
 -n
 Implies physiological need; the nature of x2 does not matter, only the response of x1. Quite arguably, anything other than an experience filling in x2 is sumti-raising. Is not necessarily bad; for example, one can be addicted to life, or to the consumption and processing of sugar.
@@ -71938,7 +72027,7 @@ $x_{1}$ reflects Arabic-speaking culture/nationality in aspect $x_{2}$.
 -n
 See also {sadjo}, {semto}, {lubno}, {rakso}, {sirxo}.
 ---
-xraci'a lujvo 2 (en)
+xraci'a lujvo 3 (en)
 $c_1=p_3$ draws picture $c_2=p_1$ on medium $c_3=p_4$ with implement $c_4$ depicting $p_2$.
 -n
 Cf. {pixra}, {ciska}, {xraselci'a}, {xratai}, {kacmyxra}, {kacmyterxra}, {kacmyxragau}, {kacmyxrazu'e}.
@@ -73822,9 +73911,9 @@ $x_1$ pertains to the Zen Buddhist culture/religion/ethos in aspect $x_2$
 Cf. {budjo}, {mla'aiana}, {tseravada}, {vajraiana}
 ---
 zgibe'e lujvo 2 (en)
-$b_1$ is a band consisting of performers $b_2$
+$b_{1}$ is a band of performers, musicians $b_{2}$.
 -n
-See also {balzgibe'e}.
+Can include orchestras. For specifically 'orchestra', however, see {balzgibe'e}.
 ---
 zgibite fu'ivla 2 (en)
 $x_1$ is a musical beat/accompaniment/regular pattern
@@ -74525,6 +74614,9 @@ $x_1$ is measured in $x_2$ (default 1) miles (US customary unit)
 -n
 See {iarda}, {sfu'utu}, {inci}, {minli}
 ---
+zmaja'o lujvo 1 (en)
+$z_1 = j_1$ shows/exhibits/displays/[reveals]/demonstrates that they exceed/is more than $z_2$ in property/quantity $z_3 = j_2$ (ka/ni)
+---
 zmajavdu'i lujvo 1 (en)
 $x_1$ is greater than or equal to $x_2$ in property/quantity $x_3$ by amount/excess $x_4$.
 -n
@@ -74548,7 +74640,7 @@ $z_1=n_1$ is a positive number relative to origin $z_2$.
 -n
 Cf. {ni'u}, {nonmecna'u}, {fatna'u}, {mecna'u}, {nonmau}, {ma'u}.
 ---
-zmanei lujvo 6 (en)
+zmanei lujvo 7 (en)
 $n_1$ prefers $n_2=z_1$ over $z_2$, because of property/quantity $z_3$, by margin $z_4$.
 -n
 Cf. {zmazau}.
@@ -75117,6 +75209,11 @@ zvakansa lujvo 3 (en)
 $x_1$ spatially accompanies $x_2$ at location/event $x_3$
 -n
 See also {kansa}, {zvati}
+---
+zvamre lujvo 1 (en)
+$x_1$ tracks the location of $x_2$ as $x_3$ units on scale $x_4$ with accuracy $x_5$
+-n
+Use {stumre} for surveying fixed locations.
 ---
 zvantazi fu'ivla 1 (en)
 $x_1$ is science fantasy about plot/theme/subject $x_2$ by author $x_3$
@@ -142010,6 +142107,9 @@ $x_1$ simsa lo linji lo ka pa da cimde ce'u
 -n
 {simsa}; {linji}; {cimde}
 ---
+lijda gismu [-jda-] 1 (jbo)
+$x_1$ gunma $x_3$ noi se krici je censa $x_2$
+---
 lijnilcla lujvo 1 (jbo)
 $x_1$ nilcla $x_2$ poi ke'a linji $x_3$ ku'o zu'i $x_4$
 -n
@@ -147717,6 +147817,11 @@ $x_1$ simsumji lei se sinxa be $x_2$ noi lo me $x_3$ moi cu fancu $x_4$ vo'e ke'
 snomau lujvo 1 (jbo)
 $x_1$ zmadu $x_2$ lo ni masno $x_3$ kei $x_4$
 ---
+snuji gismu [-nuj-] 1 (jbo)
+$x_1$ te senta $x_2$ jo'u $x_3$ .ije $x_2$ jbini $x_3$ loka zvati
+-n
+srana zo {senta} .e zo {jbini}
+---
 snura gismu [-nur-nu'a-] 1 (jbo)
 $x_1$ se marbi ja se bandu fi $x_2$ ja'e lo nu na lakne fa lo nu $x_1$ ba se xrani $x_2$ .i $x_1$ ka'e je nai ca'a se ckape $x_2$
 -n
@@ -148081,9 +148186,9 @@ stagau lujvo 1 (jbo)
 $x_1$ gasnu lo nu $x_2$ stali $x_3$
 ---
 stagi gismu 1 (jbo)
-$x_1$ cidja gi'e me $x_2$ noi pagbu $x_3$ noi spati
+$x_1$ pagbu $x_2$ noi spati ku'o gi'e cidja $x_3$
 -n
-{cidja} .i {grute} .i {kobli} .i {narge} .i {sluni} .i {spati} .i {sunga} .i {tamca}
+srana zo {spati} .e zo {grute}
 ---
 stakrportcelanu fu'ivla 2 (jbo)
 $x_1$ staku zi'o $x_2$ no'u la .portcelan. $x_3$
@@ -150267,7 +150372,7 @@ fa'orma'o .i fanmo lo sampu bridi .i te sepli lei kampu sumti be lo pluja bridi
 -n
 {fa'orma'o}; {sampu} {bridi} {fanmo}
 ---
-vautci lujvo 2 (jbo)
+vautci lujvo 3 (jbo)
 $x_1$ tutci lo ka vasru $x_2$
 -n
 {vasru}; {tutci}; {baktu}; {botpi}; {dakli}; {kabri}; {lanka}; {lante}; {palne}; {palta}; {patxu}; {tansi}; {tanxe}
@@ -153211,6 +153316,11 @@ daumast cmevla 1 (pl)
 październik.
 -n
 Cf. {laxma'i}, {pavnonmasti}.
+---
+dilcu gismu 1 (pl)
+$x_1$ jest ilorazem '$x_2$/$x_3$' [dzielna $x_2$, dzielnik $x_3$], reszta $x_4$.
+-n
+Zobacz też: {frinu}, {fendi}, {katna}, {parbi}, {mekso}.
 ---
 dilis cmevla 1 (pl)
 Dilli.
@@ -176452,10 +176562,10 @@ ty cmavo 1 (zh)
 tyrontos cmevla 1 (zh)
 多伦多
 ---
-UAcintyn cmevla 1 (zh)
+uacintyn cmevla 1 (zh)
 华盛顿
 ---
-uacintyn cmevla 1 (zh)
+UAcintyn cmevla 1 (zh)
 华盛顿
 ---
 ueb cmevla 1 (zh)

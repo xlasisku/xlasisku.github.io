@@ -906,6 +906,8 @@ en benbo'u
 en bencra
 en bende
 en bendicfancyxra
+en bendicybi'a
+en bendirbi'a
 en bengo
 en BENjamin
 en benji
@@ -4599,6 +4601,7 @@ en fru'austumu
 en frufengalu
 en frufra
 en frumu
+en frutai
 en fu
 en fu'a
 en fu'a'ai
@@ -4856,6 +4859,7 @@ en gerki'a
 en gerkrtciuaua
 en gerkrxaski
 en gerku
+en gerku bu
 en gerkuuono
 en gerkyzdani
 en germo
@@ -6052,6 +6056,7 @@ en ji'erslegreku
 en ji'erslerango
 en ji'eske
 en ji'esle
+en ji'esra
 en ji'exru
 en jifkemlojvro
 en jifkri
@@ -6216,6 +6221,7 @@ en jirlu'i
 en jirna
 en jirnytabra
 en jirsu'u
+en jirtu'a
 en jirvi'odja
 en jisra
 en jisrnxananase
@@ -7249,6 +7255,7 @@ en korbipe
 en korcu
 en kordu
 en korfaipletomino
+en korgau
 en korgretro
 en korja
 en korka
@@ -7744,6 +7751,7 @@ en la'u ma
 en launzu
 en laurmi'a
 en laurselylai
+en la'urxamsi
 en laus
 en la'uske
 en lausku
@@ -7754,6 +7762,7 @@ en laxma'i
 en laxsfani
 en laxte
 en laxtyminli
+en laxydjine
 en laxygau
 en lazdu'i
 en lazme'e
@@ -8684,6 +8693,7 @@ en mintrau
 en mintu
 en mi'o
 en mi'oi
+en mi pacna lo za'i do gleki gi'u zvati
 en mipcta
 en mi pensi i se ni'i bo mi zasti
 en mipnavni
@@ -8739,6 +8749,7 @@ en mitsmuvla
 en mitsmuvlaste
 en mitsnavla
 en mitxondriio
+en mitxu'a
 en mitybe'isi'u
 en mityjutcti
 en mitysisku
@@ -10894,6 +10905,7 @@ en protele
 en protoni
 en protosi
 en protulofila
+en prova
 en provoke
 en prubi'o
 en pruce
@@ -10970,6 +10982,7 @@ en punsarlu
 en pu'o
 en pupsu
 en pupu
+en purba
 en purci
 en purdi
 en purlamke'u
@@ -11518,6 +11531,7 @@ en rismi
 en risna
 en risnycni
 en risnydicfancyxra
+en risnydirbi'a
 en risnyjelca
 en risnyrilti
 en rispesxu
@@ -12851,6 +12865,8 @@ en sipydji
 en sipygai
 en sipyjitri'ufri
 en sipyva'u
+en sirdzi
+en sirga'u
 en sirgazgau
 en sirjga
 en sirji
@@ -13006,6 +13022,7 @@ en sluni
 en slunrjepsoni
 en slunrkurati
 en slunyspa
+en slupi'e
 en slurume
 en slutsa
 en sma'acu
@@ -14759,6 +14776,7 @@ en tolfau
 en tolfaucu'i
 en tolfautolcu'i
 en tolfekybi'o
+en tolfendi
 en tolferti
 en tolfragapci
 en tolfrinyna'u
@@ -15196,8 +15214,8 @@ en u'a
 en ua
 en uabis
 en uabisabis
-en uacintyn
 en UAcintyn
+en uacintyn
 en uafli
 en u'ai
 en uai
@@ -15495,6 +15513,7 @@ en vau'i
 en vau'o
 en vau'o'oi
 en va'urpante
+en vautci
 en vau'u
 en vaxfanta
 en vaxni'ajinru
@@ -17024,6 +17043,7 @@ en zmadu
 en zmaduje
 en zmaduse
 en zmaile
+en zmaja'o
 en zmajavdu'i
 en zmakai
 en zmakanpe
@@ -17157,6 +17177,7 @@ en zvafa'i
 en zvajbi
 en zvaju'o
 en zvakansa
+en zvamre
 en zvantazi
 en zvapre
 en zvasegu
@@ -33621,6 +33642,7 @@ jbo li'i'e
 jbo li'imdu
 jbo li'inta
 jbo li'ismi
+jbo lijda
 jbo lijnilcla
 jbo likcri
 jbo likro'i
@@ -34900,6 +34922,7 @@ jbo snigau
 jbo snime
 jbo snisimsumji
 jbo snomau
+jbo snuji
 jbo snura
 jbo snuti
 jbo so
@@ -36133,6 +36156,7 @@ pl cusku
 pl danfu
 pl danlu
 pl daumast
+pl dilcu
 pl dilis
 pl do
 pl dotco
@@ -41501,8 +41525,8 @@ zh tutci
 zh tutra
 zh ty
 zh tyrontos
-zh UAcintyn
 zh uacintyn
+zh UAcintyn
 zh ueb
 zh uikis
 zh vacri
