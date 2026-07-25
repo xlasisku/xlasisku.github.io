@@ -21,15 +21,18 @@
   <body id="main">
     <h1>la xlasisku</h1>
     <p class="sub bal">
-      <a href="https://github.com/xlasisku/xlasisku.github.io" target="_blank"
-        >github repo</a
-      >
+      <a href="https://github.com/xlasisku/xlasisku.github.io" target="_blank">
+        github repo
+      </a>
+      <br/>
+      do YOU want to maintain xlasisku? i sure don't.<br/>
+      if you do, open a github issue or dm me or something
     </p>
     <p>
       <span class="nobr opt">
-        <button id="sm" disabled>normal</button
-        ><button id="xm" disabled>regex</button
-        ><button id="rm" disabled>rhyme</button>
+        <button id="sm" disabled>normal</button>
+        <button id="xm" disabled>regex</button>
+        <button id="rm" disabled>rhyme</button>
       </span>
       <span class="nobr">
         <label for="jvop">lujvo settings:</label>
@@ -61,9 +64,10 @@
         placeholder="loading"
         disabled
         size="1"
-      />&nbsp;<span id="clear-wrap"
-        ><button class="clear nopad" id="clear">×</button></span
-      >
+      />&nbsp;
+      <span id="clear-wrap">
+        <button class="clear nopad" id="clear">×</button>
+      </span>
     </div>
     <div id="info"></div>
     <div id="length"></div>
@@ -73,70 +77,70 @@
     <script src="helper.js"></script>
     <script src="events.js"></script>
     <script>
-      // ready for stuff to happen
-      worker = new Worker("worker.js");
-      worker.addEventListener("message", function (e) {
-        results = e.data;
-        id("results").innerHTML = "";
-        id("length").innerHTML =
-          results.length + " result" + (results.length == 1 ? "" : "s");
-        page = 0;
-        load(results, page);
-        checkLength();
-      });
-      id("sm").removeAttribute("disabled");
-      id("rm").removeAttribute("disabled");
-      id("xm").removeAttribute("disabled");
-      id("search").removeAttribute("disabled");
-      id("search").setAttribute("placeholder", "search");
-      // url things
-      function redirect() {
-        var vars = "?";
-        if (q) vars += "&q=" + encodeURIComponent(q);
-        if (config.rhyme.on)
-          vars += "&rhyme=" + (config.rhyme.ignorey ? "y" : "");
-        else if (config.regex.on) {
-          var options = [];
-          if (config.regex.tight) options.push("tight");
-          vars += "&regex=" + options.join(",");
-        }
-        vars += jvoptionsUrl();
-        vars = vars
-          .replace(/\?&/g, "?")
-          .replace(/=&/g, "&")
-          .replace(/[&=?]$/, "");
-        window.history.pushState(
-          null,
-          null,
-          window.location.href.split("?")[0] + vars,
-        );
-      }
-      function hardRedirect(str) {
-        window.location.href = window.location.href.split("?")[0] + str;
-      }
-      window.addEventListener("DOMContentLoaded", (e) => {
-        const params = new URLSearchParams(window.location.search);
-        if (!params.has("q") && params.has("gc")) {
-          const gcq = getConflictRegex(params.get("gc"));
-          hardRedirect("?q=" + encodeURIComponent(gcq) + "&regex=tight");
-        } else {
-          var jvop = params.get("lujvo") || "A1g";
-          const qpar = params.get("q");
-          if (params.has("rhyme")) {
-            rhymeMode(jvop, params.get("rhyme") == "y");
-          } else if (params.has("regex")) {
-            var options = params.get("regex").split(",");
-            regexMode(jvop, options.includes("tight"));
-          } else {
-            searchMode(jvop);
-          }
-          if (qpar) {
-            id("search").value = qpar;
-            dispatchSearchInputEvent();
-          }
-          id("search").focus();
-        }
-      });
+     // ready for stuff to happen
+     worker = new Worker("worker.js");
+     worker.addEventListener("message", function (e) {
+       results = e.data;
+       id("results").innerHTML = "";
+       id("length").innerHTML =
+         results.length + " result" + (results.length == 1 ? "" : "s");
+       page = 0;
+       load(results, page);
+       checkLength();
+     });
+     id("sm").removeAttribute("disabled");
+     id("rm").removeAttribute("disabled");
+     id("xm").removeAttribute("disabled");
+     id("search").removeAttribute("disabled");
+     id("search").setAttribute("placeholder", "search");
+     // url things
+     function redirect() {
+       var vars = "?";
+       if (q) vars += "&q=" + encodeURIComponent(q);
+       if (config.rhyme.on)
+         vars += "&rhyme=" + (config.rhyme.ignorey ? "y" : "");
+       else if (config.regex.on) {
+         var options = [];
+         if (config.regex.tight) options.push("tight");
+         vars += "&regex=" + options.join(",");
+       }
+       vars += jvoptionsUrl();
+       vars = vars
+         .replace(/\?&/g, "?")
+         .replace(/=&/g, "&")
+         .replace(/[&=?]$/, "");
+       window.history.pushState(
+         null,
+         null,
+         window.location.href.split("?")[0] + vars,
+       );
+     }
+     function hardRedirect(str) {
+       window.location.href = window.location.href.split("?")[0] + str;
+     }
+     window.addEventListener("DOMContentLoaded", (e) => {
+       const params = new URLSearchParams(window.location.search);
+       if (!params.has("q") && params.has("gc")) {
+         const gcq = getConflictRegex(params.get("gc"));
+         hardRedirect("?q=" + encodeURIComponent(gcq) + "&regex=tight");
+       } else {
+         var jvop = params.get("lujvo") || "A1g";
+         const qpar = params.get("q");
+         if (params.has("rhyme")) {
+           rhymeMode(jvop, params.get("rhyme") == "y");
+         } else if (params.has("regex")) {
+           var options = params.get("regex").split(",");
+           regexMode(jvop, options.includes("tight"));
+         } else {
+           searchMode(jvop);
+         }
+         if (qpar) {
+           id("search").value = qpar;
+           dispatchSearchInputEvent();
+         }
+         id("search").focus();
+       }
+     });
     </script>
   </body>
 </html>
