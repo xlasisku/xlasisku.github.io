@@ -228,7 +228,9 @@ fn main() {
                                 current_entry.definition = text.trim().to_string();
                             }
                         }
-                        "notes" => current_entry.notes = text.trim().to_string(),
+                        "notes" => {
+                            current_entry.notes = text.trim().replace("\r\n", "\n");
+                        }
                         _ => (),
                     }
                     if !matches!(current_tag.as_str(), "definition") {
