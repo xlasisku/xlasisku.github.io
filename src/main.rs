@@ -160,6 +160,7 @@ fn main() {
     let mut current_entry = Entry::new();
     let mut skip_word = false;
     let mut in_entry = false;
+    let mut inited = false;
     let client = Client::builder().timeout(Duration::from_mins(2)).build().unwrap();
     for lang in langs {
         print!("\r`{lang}`\x1b[K");
@@ -175,6 +176,7 @@ fn main() {
         );
         assert!(xml.is_ok(), "invalid utf-8 oh no");
         let xml = xml.unwrap();
+        fs::write(format!("{lang}.xml"), &xml).unwrap();
         let mut reader = Reader::from_str(&xml);
         loop {
             match reader.read_event() {
@@ -190,9 +192,17 @@ fn main() {
                             base_entry.lang = lang.to_string();
                             skip_word = false;
                             in_entry = true;
+                            inited = false;
                         }
-                        "word" | "type" | "selmaho" | "definition" | "notes" | "score" => {
+                        "word" | "type" | "selmaho" => {
                             current_tag = tag;
+                        }
+                        "score" | "definition" | "notes" => {
+                            current_tag = tag;
+                            if !inited && !skip_word {
+                                current_entry = base_entry.clone();
+                            }
+                            inited = true;
                         }
                         "dictionary" | "entries" => {
                             current_tag.clear();
@@ -216,7 +226,7 @@ fn main() {
                                 skip_word = true;
                             }
                         }
-                        "selmaho" => current_entry.selmaho = text.trim().to_string(),
+                        "selmaho" => base_entry.selmaho = text.trim().to_string(),
                         "score" => {
                             if let Ok(score) = text.trim().parse::<f32>() {
                                 current_entry.score = score;
@@ -224,16 +234,15 @@ fn main() {
                         }
                         "definition" => {
                             if !skip_word {
-                                current_entry = base_entry.clone();
-                                current_entry.definition = text.trim().to_string();
+                                current_entry.definition += &text;
                             }
                         }
-                        "notes" => {
-                            current_entry.notes = text.trim().replace("\r\n", "\n");
+                        "notes" if !skip_word => {
+                            current_entry.notes += &text.replace("\r\n", "\n");
                         }
                         _ => (),
                     }
-                    if !matches!(current_tag.as_str(), "definition") {
+                    if !matches!(current_tag.as_str(), "definition" | "notes") {
                         current_tag.clear();
                     }
                 }
@@ -258,7 +267,11 @@ fn main() {
                             base_entry = Entry::new();
                         }
                         "definition" => {
-                            // definition is the trigger to push the entry
+                            current_entry.definition = current_entry.definition.trim().to_string();
+                            current_tag.clear();
+                        }
+                        "notes" => {
+                            current_entry.notes = current_entry.notes.trim().to_string();
                             current_tag.clear();
                         }
                         _ => {
@@ -281,7 +294,6 @@ fn main() {
                         .get(word.word.as_str())
                         .unwrap()
                         .iter()
-                        .inspect(|r| println!("word={} rafsi={r}", word.word))
                         .any(|r| !word.notes.contains(&format!("-{r}-"))))
         })
         .cloned()

@@ -1278,6 +1278,7 @@ en boltipterjvi
 en boltipyboi
 en boltipyjvi
 en boltsemaku
+en bolva
 en bolxada
 en bolxadba
 en bolxa'e
@@ -2239,7 +2240,6 @@ en ckeji
 en ckemono
 en ckenderu
 en cketake
-en cketi
 en ckikindelai
 en ckikindelidai
 en ckiku
@@ -4154,6 +4154,7 @@ en farcri
 en fardukti
 en fargau
 en farja'o
+en farje
 en farka
 en farlu
 en farmako
@@ -5051,6 +5052,7 @@ en grava
 en gravnutnoia
 en grebe'i
 en greblo
+en gredi
 en gredile
 en gregau
 en gregodetri
@@ -5060,6 +5062,7 @@ en greke'a
 en grekla
 en greku
 en greku zei uidje
+en grepu
 en gretera
 en gribatke zei uidje
 en gricniselsa'a
@@ -5441,8 +5444,8 @@ en instale
 en integrale
 en intele
 en interlinga
-en INternet
 en internet
+en INternet
 en interviiu
 en intima
 en intona
@@ -6037,6 +6040,7 @@ en jibypilno
 en jibytreicyfamti
 en jibyxelflese
 en jicfle
+en jicfo
 en jicla
 en jicmrboro
 en jicmu
@@ -7751,7 +7755,6 @@ en la'u ma
 en launzu
 en laurmi'a
 en laurselylai
-en la'urxamsi
 en laus
 en la'uske
 en lausku
@@ -7871,6 +7874,7 @@ en letci
 en leTCON
 en le tego'i
 en leti
+en letsu
 en letu
 en le'u
 en leva
@@ -8394,6 +8398,7 @@ en masnxa
 en masnxei
 en masnze
 en masrbasilika
+en masru
 en masti
 en masxiia
 en masyce'u
@@ -8693,7 +8698,6 @@ en mintrau
 en mintu
 en mi'o
 en mi'oi
-en mi pacna lo za'i do gleki gi'u zvati
 en mipcta
 en mi pensi i se ni'i bo mi zasti
 en mipnavni
@@ -9160,6 +9164,7 @@ en muvdu
 en muvgau
 en muvla'arpu'i
 en muvycau
+en muvykamtinsa
 en muvykemlolgai
 en muvysabnu
 en muvyselpau
@@ -10358,6 +10363,7 @@ en pe'anai
 en pe'ansmu
 en pe'aru'e
 en pe'au
+en pe'au'i
 en pe'aunai
 en pebyuidje
 en pecai
@@ -10859,6 +10865,7 @@ en prejumydu'a
 en prejumydu'a'y'utka
 en prekarce
 en prekoci
+en prele'a
 en premi
 en premuje
 en pren
@@ -11097,6 +11104,7 @@ en rakso
 en raksygu'e
 en raktcuga'e
 en raktu
+en ralbriju
 en ralci
 en raldargu
 en ralj
@@ -11233,6 +11241,7 @@ en refmri
 en refpoi
 en refsajbi'o
 en refsku
+en reftoi
 en refygau
 en regnaftngi
 en re'i
@@ -12293,6 +12302,7 @@ en selcpuma'e
 en selcra
 en selcta
 en selctebi
+en selcu'a
 en selcu'i
 en selcuxfrika'e
 en seldacru
@@ -12340,6 +12350,7 @@ en selgu'a
 en selgu'era'a
 en selgumgau
 en selgumgaufa'e
+en selgunta
 en seli'e
 en selja'e
 en selja'i
@@ -12492,6 +12503,7 @@ en selskutidmulbi'o
 en selsmu
 en selsmudu'i
 en selsmudukti
+en selsmusmi
 en selsnada
 en selsnapra
 en selsne
@@ -14683,6 +14695,7 @@ en to'anbau
 en to'anzu
 en to'au
 en to'a zei lerfu
+en tocke'u
 en tocyrapli
 en todbi'olanka
 en todma'u
@@ -16118,6 +16131,7 @@ en xamxeinmo
 en xanbau
 en xanbe'u
 en xanbikyda'i
+en xanbo
 en xance
 en xancidja'i
 en xancidni
@@ -16661,6 +16675,7 @@ en zansno
 en zantitla
 en zanvi'e
 en zanxi
+en zanzanza'a
 en zanzara
 en za'o
 en za'oi
@@ -25806,6 +25821,7 @@ fr-facile jo'au
 fr-facile jo'e
 fr-facile jo'i
 fr-facile joi
+fr-facile joibu
 fr-facile jonai
 fr-facile jongau
 fr-facile jo'o
@@ -27858,6 +27874,7 @@ he jirgau
 he klama
 he la'ornai
 he mulcabna
+hi mlatu
 hu bacru
 hu badna
 hu badri
@@ -32191,7 +32208,6 @@ jbo ckana
 jbo ckape
 jbo ckasu
 jbo ckeji
-jbo cketi
 jbo ckiku
 jbo ckilu
 jbo ckini
@@ -35338,7 +35354,6 @@ jbo to'o
 jbo torbrato'a
 jbo tordu
 jbo torsipna
-jbo torveki
 jbo to'u
 jbo traji
 jbo trajynei

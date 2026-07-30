@@ -29,11 +29,6 @@ $l_1$ is an implicitly metaphorical lujvo with meaning $l_2$ and arguments $l_3$
 -n
 Used to refer to metaphorical lujvo that do not contain any -pev- rafsi (for “{pe'a}”). The word “{cimjvo}” is itself an example of cimjvo. Synonym of “cimjvo” with explicit metaphor: “{pevycimjvo}”.
 ---
-cketi gismu 1 (en)
-$x_1$ hesitates/vacillates/is unsure about doing/being $x_2$ (ka/nu) because of $x_3$.
--n
-See also {zukyde'a}, {zukte}, {denpa}. Proposed short rafsi -cet-.
----
 cmarafsi lujvo 1 (en)
 $x_1$ ("ra'oi"-quote) is a short (reduced) rafsi/combining form of word/concept $x_2$ in language $x_3$.
 -n
@@ -74,7 +69,7 @@ $x_1$ is a mosasaur [member of family Mosasauridae] of subtaxon/type/genus/speci
 -n
 Categorizer rafsi "dis" is meant (and experimentally proposed) to belong to the experimental gismu {dinso}; as such, it may not be the most elucidating; however, it is technically not essential to the interpretation of the lexeme. Technically, a extinct family of reptile order Squamata (which is extant), but {dinso} applies all the same (unlike {reksa}). See also: {dinso}, {respa}, {reskuamata}, {ikfio}, {plesio}, {dinsauru}, {reksa}, {ketslau}.
 ---
-do'oi cmavo 2 (en)
+do'oi cmavo DOhOI 2 (en)
 generic single-word generic vocative marker; identifies intended listener with a single, possibly non-Lojban word, delimited by pauses (in speech) or by whitespace (in writing).
 -n
 The intent is that it is allowed everywhere in the grammar where DOI and COI are. See also {zo'oi}, {la'oi}, {me'oi}, {ra'oi}. Not similar to {co'oi}. Equivalent to {doi} {la'oi}.
@@ -189,7 +184,7 @@ $x_1=c_1=k_1$ is separate from / not with $x_2=c_2=k_2$ in state/condition/enter
 -n
 A fu'ivla synonym variant of {kancau}, specialized for the purpose of specifying individuality and application of singular logic with {lu'a'ei} and denying/excluding massness (see {loi}) for this sumti or, similarly, plurality and application of plural logic (or visa versa with {to'e} (or {no'e} for either singular or plural)).  «lu'a'ei karncau le prenu cu bevri le pipno» means ‘Each person individually carried the piano’, closer to pre-xorlo CLL {lo} - it may sound odd if the 3 persons carried the piano at the same time, since it was a statement with explicit individuality.  «{lu'a'au}» makes a sumti individualistic, and is equivalent to «{lu'a'ei} {karncau}».  For less rigorous shortcuts to express (non-)individuality, the modal {koi'au} can be used (e.g. «le {koi'au} prenu»), as well as {terle'o} to express ‘as individuals’ (see {le'oi} for more information on this idiom); {karncau} especially with {lu'a'ei} is meant to be fully explicit (alias: {lu'a'au}).  See also: {tolykarncau}, {norykarncau}.  Note: this word is a fu'ivla and not a lujvo in morphology, since ‘n’ would not be needed to hyphenate 2 rafsi ‘kar’ and ‘cau’.
 ---
-kei'ei cmavo 1 (en)
+kei'ei cmavo PA2 1 (en)
 digit/number: hex digit E (decimal 14) [fourteen].
 -n
 Used as an alternative to {rei}/{xei} due to unique consonant. Useful in crowded situations. Experimental rafsi: -kim-
@@ -244,7 +239,7 @@ Mom/Mum
 -n
 The rafsi for {mamta} used as a familiar name. See also {paf}, {bes}, {tix}, {bun}, {mes}.
 ---
-ma'oi cmavo 4 (en)
+ma'oi cmavo ZO 4 (en)
 selma'o quote; quotes a word (a cmavo) and uses it to name a selma'o.
 -n
 The output is the selma'o to which the quoted cmavo belongs (according to the relevant frammar/standards/version); thus any cmavo in the same given selma'o could be used in order to reference that selma'o (not just the canonical cmavo works). Example: "ma'oi coi" is equivalent to COI, as is "ma'oi co'o". For the most part, this will ignore sub-selma'o classes (such as VUhU1 versus VUhU2; both would be treated as simply VUhU). See also: "{ra'oi}".
@@ -254,7 +249,7 @@ Cat
 -n
 'Cat' as a personal name, derived from the {jvarafsi} of {mlatu}. May have a playful or diminutive sense in Western languages, but this is probably not universal. May be a humorous or simply uncreative name for an actual feline ({mlatu}). See also {lat}, {pevmlat}, {pevlat}, {ger}, {gerk}, {rib}, {crib}.
 ---
-mu'o'u cmavo 1 (en)
+mu'o'u cmavo MUhOhU 1 (en)
 Marks an endpoint of a quote/string/expression and specifies that (relative to the original) the quote/string/expression so marked is complete, accurate, and well-portrayed by the quote/string/expression on the relevant side of the excerpt, including wrt all relevant information and when factoring in the content and context of the quotation-external discourse in which said quote/string/expression appears; indicator that quote mining or cherry-picking did not occur and that the excerpt which is quoted is not deceptive.
 -n
 Must be adjacent to a quotation marker (including terminator or delimiter) or "{sedu'u}" or similar; it attaches to the/such a marker such that it is external to the scope of the quote/expression produced/contained/terminated by that marker. For example, in "lu mu'o'u lu coi li'u li'u mu'o'u", the first instance of this word attaches to the second "{lu}" (because it is inside the quotation produced by the first "lu") and the second instance of this word attaches to the second instance of "{li'u}"; it cannot appear adjacent to "{coi}" in this example and yet function in application to the expressed quotation markers because it would then be inside all of the available quotations (nested, in this case), although such is allowed as a pure string (because being able to quote an expression such as "He did say "mu'o'u"" is utile). In a quotation (such as a "lu"-"li'u" quotation) with two markers (initiation and termination), even if one of them is implicit: if this word appears before the quote (at its initiation), then it means that there is no relevant and material information preceding the original version of the presented quote which would drastically alter its interpretation (for example: if the original is "not big", then "big" is technically a quote/substring thereof but there is information prior to this substring which materially alters the interpretation, namely "not"; likewise, cutting out the subject of a sentence which is being quoted and then using the quote in a context in which the subject is implied to be someone or something other than the original constitutes a material change in meaning due to incompleteness and this word would specify against that); if the word appears after the quote (at its termination), then it means that there is no relevant and material information following the original version of the presented quote which would drastically alter its interpretation (for example: if the original is "he chose the men and the women" but the presented quote/substring is "he chose the men" (in a context such that sexism is being accused), then there is information following the presented quote/substring which alters the interpretation, namely "and the women"); note that the interpretation-altering information need not immediately precede or follow the presented quote. For singly-marked quotes (such as by "{zo}") it means that the presented quote/string/expression is complete on both ends (including being the complete word / all relevant rafsi in a lujvo). Modifying this word with "-{nai}" indicates that there definitely is a material change in the meaning of the quote due in part to completeness or lack of appropriate context (textual or otherwise). This word can be negated by "{nai}", much like UI, but that would be unusual in effect. This word is a marker or flag of asserted good faith; thus, in effect, it functions as a reminder to the audience to check the quotation for the alleged completeness and fairness of representation. If quoting from foreign languages, terminal punctuation, such as "." or paragraph breaks, and retention of original letter-casing (or indication thereof) must be explicitly included for the usage of this word to be appropriate and truthful. See also: "{rau'o}", "{rau'oi}", "{boi'o'u}" (for a solution to a technical catch with this word).
@@ -264,7 +259,7 @@ $x_1=zv_1=zg_1$ is missing from $x_2=zv_2=zg_1$ in situation / under conditions 
 -n
 Does not use the more normal rafsi ‘nal’ for «na'e», but is a bit shorter than ‘nalkem-’.
 ---
-nei'ai cmavo 1 (en)
+nei'ai cmavo NEIhAI 1 (en)
 double-negative toggle: every odd-counted explicit usage makes negation additive; unmentioned or every even-counted explicit usage makes negation multiplicative.
 -n
 It applies to the entirety of the current bridi and all future ones until toggled again; multiple but separated usages of this word within the same bridi behave as if they were adjacent. "Additive negation" means that multiple negatives just intensify, but do not cancel, one another. For example in English: "I ain't seen nothin'" means that the speaker is very emphatically claiming to have seen nothing of interest. This is the standard operation for negation in Spanish. "Multiplicative negation" means that negatives cancel, but do not intensify, one another (possibly taking a neutral or abstentional state). "I did not see nothing" in this mode means that the speaker did indeed see something. Note that multiplicative double-negatives are not necessarily equivalent to affirmatives in general. "I like cheese" is an affirmative statement and is not equivalent to "I do not dislike cheese", which is a multiplicative double-negative (and which may indicate a reluctant acceptance of cheese or a neutral feeling toward cheese). In this mode, an even number of negatives in a given statement is not negative and an odd number of negatives in a given statement is not positive. This word applies to all negatives in the text, whether they are free words or rafsi. This word also, but less dramatically, applies to affirmations: in additive mode, multiple affirmatives intensify one another ("I am indeed very much so going!" is a strongly emphasized positive statement); in multiplicative mode, they simply reduce to a single affirmation (for like example, "I am going"). This means that care must be taken: In additive mode, an affirmative marker will partially cancel with a negative particle in some way, reducing its intensity and possibly bringing it to a neutral statement ("I am indeed - not - going" is a neutral statement in this mode, similar to "I may be going"; English does not really have the ability to express such things); in multiplicative mode, an affirmative coupled with a negative simply reduces to the negative, possibly strengthened by a factor equivalent to the intensity of the affirmer ("I am indeed not going" is a clear way of saying that the speaker will not go).
@@ -304,7 +299,7 @@ $x_1$ possess/is permitted only the right to use $x_2$ (and possibly physically 
 -n
 This word is useful for ownership of a movie, or a rented house, or a do at work/school, among other things; one does not really own theset things, only the right to use them. One may or may not have the object in one's physical or immediate possession; the concept of what constitutes "having in one's physical possession" is left semantically ambiguous. Permanence of this status or authority over it is not specified. This word uses the experimental rafsi "-pov-" for the word {po'o}.
 ---
-ra'oi cmavo 4 (en)
+ra'oi cmavo ZOhOI 4 (en)
 single-word rafsi quote; quotes a single word delimited by pauses (in speech) or whitespace (in writing) and treats it as a rafsi
 -n
 Useful for quoting rafsi that aren't legal words on their own. See http://mw.lojban.org/papri/unspeakable_rafsi_gotcha for details.
@@ -384,6 +379,11 @@ $x_1$ expresses meaning $x_2$ (du'u/si'o) to addressee/audience $x_3$ by doing $
 -n
 Gismu form of {smusku}. The act ($x_4$) may or may not be linguistic. Proposed rafsi: -sus-. See also {cusku}, {smuni}, {corci}
 ---
+sorjgatai lujvo 1 (en)
+$x_1$ is a polygon with $x_2$ sides.
+-n
+sor-jga-tai  {so'i} + {jganu} + {tarmi}. A calque of "polygon" (poly- many, -gon angle). [Even though "many" here actually means "3 or more", {so'i} was chosen for a shorter resulting compound.] Arbitrary polygon names are formed with rafsi numbers plus -jgatai: {cibjgatai}, {vonjgatai}, {mumjgatai}, etc.
+---
 taxfrdulbande fu'ivla 1 (en)
 $x_1=taxfu_1$ is a turban (head/hair-covering garment which is wrapped and often built into a somewhat prominent three-dimensional structure) to be worn by $x_1=taxfu_2$ for purpose $x_3=taxfu_3$.
 -n
@@ -444,7 +444,7 @@ $t_1$ is the pattern/shape of word $v_1=t_2$ with meaning $v_2$ in language $v_3
 -n
 Cf. {valsi}, {tarmi}, {rafsi}, {rafske}
 ---
-vo'a'e cmavo 1 (en)
+vo'a'e cmavo KOhA4 1 (en)
 pro-sumti: repeats 1st place of the innermost / current bridi with the stortest possible scope (even in descriptions).
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi with the shortest possible scope (even in descriptions), rather than the outermost bridi, or the innermost / current full bridi, or with the bridi choice left vague.
@@ -455,7 +455,7 @@ pro-sumti: repeats 1st place of the innermost / current bridi with the stortest 
 
 {ni'o} Additional proposed experimental cmavo sequences: {vo'a'e}…{vo'u'e} selects bridi from the shortest possible scope, allowing for direct reflexives (even in descriptions) (suggested mneumonic: ‘'e’ as in ‘se’ for a reflexive pronomial verb in some languages), {vo'a'ei}…{vo'u'ei} selects bridi from the outermost bridi (suggested mneumonic: ‘'ei’ as in ‘nei’ (like ‘dei’) as an alternative to using {vo'a'ei}…{vo'u'ei} when combined with {lo} and SE), and {vo'a'e'i}…{vo'u'e'i} selects from the innermost / current full bridi (suggest mneumonic: adding an extra ‘'i’ looks similar to the outer-bridi-separator {i}, and also ‘e'i’ is in ‘se'i’ which is a rafsi of {sevzi}).  Finally, {vo'a'o'e}…{vo'a'o'e} could be defined for the variant of an unspecified bridi, as in {xi}{pi'e}{xo'e}.  Example: in {i} {mi} {krici} {lo}{du'u} {lo} {bende} {cu} {se} {xamgu} {lo} {djuno} {be} {fi} {vo'a}, the ‘'e’ variant (shortest) would mean that those who know themselves are good for the team, the ‘'ei’ variant (outermost) would mean that those who know the speaker are beneficial for the team, and the ‘'e'i’ variant would mean that those who know the team are good for it.
 ---
-vo'a'e'i cmavo 1 (en)
+vo'a'e'i cmavo KOhA4 1 (en)
 pro-sumti: repeats 1st place of the innermost / current full bridi.
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi with the shortest possible scope (even in descriptions), rather than the outermost bridi, or the innermost / current full bridi, or with the bridi choice left vague.
@@ -466,7 +466,7 @@ pro-sumti: repeats 1st place of the innermost / current full bridi.
 
 {ni'o} Additional proposed experimental cmavo sequences: {vo'a'e}…{vo'u'e} selects bridi from the shortest possible scope, allowing for direct reflexives (even in descriptions) (suggested mneumonic: ‘'e’ as in ‘se’ for a reflexive pronomial verb in some languages), {vo'a'ei}…{vo'u'ei} selects bridi from the outermost bridi (suggested mneumonic: ‘'ei’ as in ‘nei’ (like ‘dei’) as an alternative to using {vo'a'ei}…{vo'u'ei} when combined with {lo} and SE), and {vo'a'e'i}…{vo'u'e'i} selects from the innermost / current full bridi (suggest mneumonic: adding an extra ‘'i’ looks similar to the outer-bridi-separator {i}, and also ‘e'i’ is in ‘se'i’ which is a rafsi of {sevzi}).  Finally, {vo'a'o'e}…{vo'a'o'e} could be defined for the variant of an unspecified bridi, as in {xi}{pi'e}{xo'e}.  Example: in {i} {mi} {krici} {lo}{du'u} {lo} {bende} {cu} {se} {xamgu} {lo} {djuno} {be} {fi} {vo'a}, the ‘'e’ variant (shortest) would mean that those who know themselves are good for the team, the ‘'ei’ variant (outermost) would mean that those who know the speaker are beneficial for the team, and the ‘'e'i’ variant would mean that those who know the team are good for it.
 ---
-vo'a'ei cmavo 1 (en)
+vo'a'ei cmavo KOhA4 1 (en)
 pro-sumti: repeats 1st place of main / outermost bridi of this sentence.
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi with the shortest possible scope (even in descriptions), rather than the outermost bridi, or the innermost / current full bridi, or with the bridi choice left vague.
@@ -477,7 +477,7 @@ pro-sumti: repeats 1st place of main / outermost bridi of this sentence.
 
 {ni'o} Additional proposed experimental cmavo sequences: {vo'a'e}…{vo'u'e} selects bridi from the shortest possible scope, allowing for direct reflexives (even in descriptions) (suggested mneumonic: ‘'e’ as in ‘se’ for a reflexive pronomial verb in some languages), {vo'a'ei}…{vo'u'ei} selects bridi from the outermost bridi (suggested mneumonic: ‘'ei’ as in ‘nei’ (like ‘dei’) as an alternative to using {vo'a'ei}…{vo'u'ei} when combined with {lo} and SE), and {vo'a'e'i}…{vo'u'e'i} selects from the innermost / current full bridi (suggest mneumonic: adding an extra ‘'i’ looks similar to the outer-bridi-separator {i}, and also ‘e'i’ is in ‘se'i’ which is a rafsi of {sevzi}).  Finally, {vo'a'o'e}…{vo'a'o'e} could be defined for the variant of an unspecified bridi, as in {xi}{pi'e}{xo'e}.  Example: in {i} {mi} {krici} {lo}{du'u} {lo} {bende} {cu} {se} {xamgu} {lo} {djuno} {be} {fi} {vo'a}, the ‘'e’ variant (shortest) would mean that those who know themselves are good for the team, the ‘'ei’ variant (outermost) would mean that those who know the speaker are beneficial for the team, and the ‘'e'i’ variant would mean that those who know the team are good for it.
 ---
-vo'a'o'e cmavo 1 (en)
+vo'a'o'e cmavo KOhA4 1 (en)
 pro-sumti: repeats 1st place of a bridi within the main bridi of this sentence.
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi with the shortest possible scope (even in descriptions), rather than the outermost bridi, or the innermost / current full bridi, or with the bridi choice left vague.
@@ -488,7 +488,7 @@ pro-sumti: repeats 1st place of a bridi within the main bridi of this sentence.
 
 {ni'o} Additional proposed experimental cmavo sequences: {vo'a'e}…{vo'u'e} selects bridi from the shortest possible scope, allowing for direct reflexives (even in descriptions) (suggested mneumonic: ‘'e’ as in ‘se’ for a reflexive pronomial verb in some languages), {vo'a'ei}…{vo'u'ei} selects bridi from the outermost bridi (suggested mneumonic: ‘'ei’ as in ‘nei’ (like ‘dei’) as an alternative to using {vo'a'ei}…{vo'u'ei} when combined with {lo} and SE), and {vo'a'e'i}…{vo'u'e'i} selects from the innermost / current full bridi (suggest mneumonic: adding an extra ‘'i’ looks similar to the outer-bridi-separator {i}, and also ‘e'i’ is in ‘se'i’ which is a rafsi of {sevzi}).  Finally, {vo'a'o'e}…{vo'a'o'e} could be defined for the variant of an unspecified bridi, as in {xi}{pi'e}{xo'e}.  Example: in {i} {mi} {krici} {lo}{du'u} {lo} {bende} {cu} {se} {xamgu} {lo} {djuno} {be} {fi} {vo'a}, the ‘'e’ variant (shortest) would mean that those who know themselves are good for the team, the ‘'ei’ variant (outermost) would mean that those who know the speaker are beneficial for the team, and the ‘'e'i’ variant would mean that those who know the team are good for it.
 ---
-vo'e'e cmavo 1 (en)
+vo'e'e cmavo KOhA4 1 (en)
 pro-sumti: repeats 2nd place of the innermost / current bridi with the stortest possible scope (even in descriptions).
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi with the shortest possible scope (even in descriptions), rather than the outermost bridi, or the innermost / current full bridi, or with the bridi choice left vague.
@@ -499,7 +499,7 @@ pro-sumti: repeats 2nd place of the innermost / current bridi with the stortest 
 
 {ni'o} Additional proposed experimental cmavo sequences: {vo'a'e}…{vo'u'e} selects bridi from the shortest possible scope, allowing for direct reflexives (even in descriptions) (suggested mneumonic: ‘'e’ as in ‘se’ for a reflexive pronomial verb in some languages), {vo'a'ei}…{vo'u'ei} selects bridi from the outermost bridi (suggested mneumonic: ‘'ei’ as in ‘nei’ (like ‘dei’) as an alternative to using {vo'a'ei}…{vo'u'ei} when combined with {lo} and SE), and {vo'a'e'i}…{vo'u'e'i} selects from the innermost / current full bridi (suggest mneumonic: adding an extra ‘'i’ looks similar to the outer-bridi-separator {i}, and also ‘e'i’ is in ‘se'i’ which is a rafsi of {sevzi}).  Finally, {vo'a'o'e}…{vo'a'o'e} could be defined for the variant of an unspecified bridi, as in {xi}{pi'e}{xo'e}.  Example: in {i} {mi} {krici} {lo}{du'u} {lo} {bende} {cu} {se} {xamgu} {lo} {djuno} {be} {fi} {vo'a}, the ‘'e’ variant (shortest) would mean that those who know themselves are good for the team, the ‘'ei’ variant (outermost) would mean that those who know the speaker are beneficial for the team, and the ‘'e'i’ variant would mean that those who know the team are good for it.
 ---
-vo'e'e'i cmavo 1 (en)
+vo'e'e'i cmavo KOhA4 1 (en)
 pro-sumti: repeats 2nd place of the innermost / current full bridi.
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi with the shortest possible scope (even in descriptions), rather than the outermost bridi, or the innermost / current full bridi, or with the bridi choice left vague.
@@ -510,7 +510,7 @@ pro-sumti: repeats 2nd place of the innermost / current full bridi.
 
 {ni'o} Additional proposed experimental cmavo sequences: {vo'a'e}…{vo'u'e} selects bridi from the shortest possible scope, allowing for direct reflexives (even in descriptions) (suggested mneumonic: ‘'e’ as in ‘se’ for a reflexive pronomial verb in some languages), {vo'a'ei}…{vo'u'ei} selects bridi from the outermost bridi (suggested mneumonic: ‘'ei’ as in ‘nei’ (like ‘dei’) as an alternative to using {vo'a'ei}…{vo'u'ei} when combined with {lo} and SE), and {vo'a'e'i}…{vo'u'e'i} selects from the innermost / current full bridi (suggest mneumonic: adding an extra ‘'i’ looks similar to the outer-bridi-separator {i}, and also ‘e'i’ is in ‘se'i’ which is a rafsi of {sevzi}).  Finally, {vo'a'o'e}…{vo'a'o'e} could be defined for the variant of an unspecified bridi, as in {xi}{pi'e}{xo'e}.  Example: in {i} {mi} {krici} {lo}{du'u} {lo} {bende} {cu} {se} {xamgu} {lo} {djuno} {be} {fi} {vo'a}, the ‘'e’ variant (shortest) would mean that those who know themselves are good for the team, the ‘'ei’ variant (outermost) would mean that those who know the speaker are beneficial for the team, and the ‘'e'i’ variant would mean that those who know the team are good for it.
 ---
-vo'e'ei cmavo 1 (en)
+vo'e'ei cmavo KOhA4 1 (en)
 pro-sumti: repeats 2nd place of main / outermost bridi of this sentence.
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi with the shortest possible scope (even in descriptions), rather than the outermost bridi, or the innermost / current full bridi, or with the bridi choice left vague.
@@ -521,7 +521,7 @@ pro-sumti: repeats 2nd place of main / outermost bridi of this sentence.
 
 {ni'o} Additional proposed experimental cmavo sequences: {vo'a'e}…{vo'u'e} selects bridi from the shortest possible scope, allowing for direct reflexives (even in descriptions) (suggested mneumonic: ‘'e’ as in ‘se’ for a reflexive pronomial verb in some languages), {vo'a'ei}…{vo'u'ei} selects bridi from the outermost bridi (suggested mneumonic: ‘'ei’ as in ‘nei’ (like ‘dei’) as an alternative to using {vo'a'ei}…{vo'u'ei} when combined with {lo} and SE), and {vo'a'e'i}…{vo'u'e'i} selects from the innermost / current full bridi (suggest mneumonic: adding an extra ‘'i’ looks similar to the outer-bridi-separator {i}, and also ‘e'i’ is in ‘se'i’ which is a rafsi of {sevzi}).  Finally, {vo'a'o'e}…{vo'a'o'e} could be defined for the variant of an unspecified bridi, as in {xi}{pi'e}{xo'e}.  Example: in {i} {mi} {krici} {lo}{du'u} {lo} {bende} {cu} {se} {xamgu} {lo} {djuno} {be} {fi} {vo'a}, the ‘'e’ variant (shortest) would mean that those who know themselves are good for the team, the ‘'ei’ variant (outermost) would mean that those who know the speaker are beneficial for the team, and the ‘'e'i’ variant would mean that those who know the team are good for it.
 ---
-vo'e'o'e cmavo 1 (en)
+vo'e'o'e cmavo KOhA4 1 (en)
 pro-sumti: repeats 2nd place of a bridi within the main bridi of this sentence.
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi with the shortest possible scope (even in descriptions), rather than the outermost bridi, or the innermost / current full bridi, or with the bridi choice left vague.
@@ -532,7 +532,7 @@ pro-sumti: repeats 2nd place of a bridi within the main bridi of this sentence.
 
 {ni'o} Additional proposed experimental cmavo sequences: {vo'a'e}…{vo'u'e} selects bridi from the shortest possible scope, allowing for direct reflexives (even in descriptions) (suggested mneumonic: ‘'e’ as in ‘se’ for a reflexive pronomial verb in some languages), {vo'a'ei}…{vo'u'ei} selects bridi from the outermost bridi (suggested mneumonic: ‘'ei’ as in ‘nei’ (like ‘dei’) as an alternative to using {vo'a'ei}…{vo'u'ei} when combined with {lo} and SE), and {vo'a'e'i}…{vo'u'e'i} selects from the innermost / current full bridi (suggest mneumonic: adding an extra ‘'i’ looks similar to the outer-bridi-separator {i}, and also ‘e'i’ is in ‘se'i’ which is a rafsi of {sevzi}).  Finally, {vo'a'o'e}…{vo'a'o'e} could be defined for the variant of an unspecified bridi, as in {xi}{pi'e}{xo'e}.  Example: in {i} {mi} {krici} {lo}{du'u} {lo} {bende} {cu} {se} {xamgu} {lo} {djuno} {be} {fi} {vo'a}, the ‘'e’ variant (shortest) would mean that those who know themselves are good for the team, the ‘'ei’ variant (outermost) would mean that those who know the speaker are beneficial for the team, and the ‘'e'i’ variant would mean that those who know the team are good for it.
 ---
-vo'i'e cmavo 1 (en)
+vo'i'e cmavo KOhA4 1 (en)
 pro-sumti: repeats 3rd place of the innermost / current bridi with the stortest possible scope (even in descriptions).
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi with the shortest possible scope (even in descriptions), rather than the outermost bridi, or the innermost / current full bridi, or with the bridi choice left vague.
@@ -543,7 +543,7 @@ pro-sumti: repeats 3rd place of the innermost / current bridi with the stortest 
 
 {ni'o} Additional proposed experimental cmavo sequences: {vo'a'e}…{vo'u'e} selects bridi from the shortest possible scope, allowing for direct reflexives (even in descriptions) (suggested mneumonic: ‘'e’ as in ‘se’ for a reflexive pronomial verb in some languages), {vo'a'ei}…{vo'u'ei} selects bridi from the outermost bridi (suggested mneumonic: ‘'ei’ as in ‘nei’ (like ‘dei’) as an alternative to using {vo'a'ei}…{vo'u'ei} when combined with {lo} and SE), and {vo'a'e'i}…{vo'u'e'i} selects from the innermost / current full bridi (suggest mneumonic: adding an extra ‘'i’ looks similar to the outer-bridi-separator {i}, and also ‘e'i’ is in ‘se'i’ which is a rafsi of {sevzi}).  Finally, {vo'a'o'e}…{vo'a'o'e} could be defined for the variant of an unspecified bridi, as in {xi}{pi'e}{xo'e}.  Example: in {i} {mi} {krici} {lo}{du'u} {lo} {bende} {cu} {se} {xamgu} {lo} {djuno} {be} {fi} {vo'a}, the ‘'e’ variant (shortest) would mean that those who know themselves are good for the team, the ‘'ei’ variant (outermost) would mean that those who know the speaker are beneficial for the team, and the ‘'e'i’ variant would mean that those who know the team are good for it.
 ---
-vo'i'e'i cmavo 1 (en)
+vo'i'e'i cmavo KOhA4 1 (en)
 pro-sumti: repeats 5th place of the innermost / current full bridi.
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi with the shortest possible scope (even in descriptions), rather than the outermost bridi, or the innermost / current full bridi, or with the bridi choice left vague.
@@ -554,7 +554,7 @@ pro-sumti: repeats 5th place of the innermost / current full bridi.
 
 {ni'o} Additional proposed experimental cmavo sequences: {vo'a'e}…{vo'u'e} selects bridi from the shortest possible scope, allowing for direct reflexives (even in descriptions) (suggested mneumonic: ‘'e’ as in ‘se’ for a reflexive pronomial verb in some languages), {vo'a'ei}…{vo'u'ei} selects bridi from the outermost bridi (suggested mneumonic: ‘'ei’ as in ‘nei’ (like ‘dei’) as an alternative to using {vo'a'ei}…{vo'u'ei} when combined with {lo} and SE), and {vo'a'e'i}…{vo'u'e'i} selects from the innermost / current full bridi (suggest mneumonic: adding an extra ‘'i’ looks similar to the outer-bridi-separator {i}, and also ‘e'i’ is in ‘se'i’ which is a rafsi of {sevzi}).  Finally, {vo'a'o'e}…{vo'a'o'e} could be defined for the variant of an unspecified bridi, as in {xi}{pi'e}{xo'e}.  Example: in {i} {mi} {krici} {lo}{du'u} {lo} {bende} {cu} {se} {xamgu} {lo} {djuno} {be} {fi} {vo'a}, the ‘'e’ variant (shortest) would mean that those who know themselves are good for the team, the ‘'ei’ variant (outermost) would mean that those who know the speaker are beneficial for the team, and the ‘'e'i’ variant would mean that those who know the team are good for it.
 ---
-vo'i'ei cmavo 1 (en)
+vo'i'ei cmavo KOhA4 1 (en)
 pro-sumti: repeats 3rd place of main / outermost bridi of this sentence.
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi with the shortest possible scope (even in descriptions), rather than the outermost bridi, or the innermost / current full bridi, or with the bridi choice left vague.
@@ -565,7 +565,7 @@ pro-sumti: repeats 3rd place of main / outermost bridi of this sentence.
 
 {ni'o} Additional proposed experimental cmavo sequences: {vo'a'e}…{vo'u'e} selects bridi from the shortest possible scope, allowing for direct reflexives (even in descriptions) (suggested mneumonic: ‘'e’ as in ‘se’ for a reflexive pronomial verb in some languages), {vo'a'ei}…{vo'u'ei} selects bridi from the outermost bridi (suggested mneumonic: ‘'ei’ as in ‘nei’ (like ‘dei’) as an alternative to using {vo'a'ei}…{vo'u'ei} when combined with {lo} and SE), and {vo'a'e'i}…{vo'u'e'i} selects from the innermost / current full bridi (suggest mneumonic: adding an extra ‘'i’ looks similar to the outer-bridi-separator {i}, and also ‘e'i’ is in ‘se'i’ which is a rafsi of {sevzi}).  Finally, {vo'a'o'e}…{vo'a'o'e} could be defined for the variant of an unspecified bridi, as in {xi}{pi'e}{xo'e}.  Example: in {i} {mi} {krici} {lo}{du'u} {lo} {bende} {cu} {se} {xamgu} {lo} {djuno} {be} {fi} {vo'a}, the ‘'e’ variant (shortest) would mean that those who know themselves are good for the team, the ‘'ei’ variant (outermost) would mean that those who know the speaker are beneficial for the team, and the ‘'e'i’ variant would mean that those who know the team are good for it.
 ---
-vo'i'o'e cmavo 1 (en)
+vo'i'o'e cmavo KOhA4 1 (en)
 pro-sumti: repeats 3rd place of a bridi within the main bridi of this sentence.
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi with the shortest possible scope (even in descriptions), rather than the outermost bridi, or the innermost / current full bridi, or with the bridi choice left vague.
@@ -581,7 +581,7 @@ $x_1$ is a Lojban compound-word idiom made of four combining forms (rafsi); $x_1
 -n
 {vonrafpemjvo} are Lojban words that imitate the structure of Chinese/Japanese/Korean four-character proverbs. The "ideal" short form is four rafsi, with no epenthetic r's, n's, or y's. Examples of these include {dekpredekpu'a}, {zditeitortei}, {gekfegdripu'a}, and except for the fact that it is literal and not poetic ({pemci} → -pem-), the word {vonrafpemjvo} itself.
 ---
-vo'o'e cmavo 1 (en)
+vo'o'e cmavo KOhA4 1 (en)
 pro-sumti: repeats 4th place of the innermost / current bridi with the stortest possible scope (even in descriptions).
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi with the shortest possible scope (even in descriptions), rather than the outermost bridi, or the innermost / current full bridi, or with the bridi choice left vague.
@@ -592,7 +592,7 @@ pro-sumti: repeats 4th place of the innermost / current bridi with the stortest 
 
 {ni'o} Additional proposed experimental cmavo sequences: {vo'a'e}…{vo'u'e} selects bridi from the shortest possible scope, allowing for direct reflexives (even in descriptions) (suggested mneumonic: ‘'e’ as in ‘se’ for a reflexive pronomial verb in some languages), {vo'a'ei}…{vo'u'ei} selects bridi from the outermost bridi (suggested mneumonic: ‘'ei’ as in ‘nei’ (like ‘dei’) as an alternative to using {vo'a'ei}…{vo'u'ei} when combined with {lo} and SE), and {vo'a'e'i}…{vo'u'e'i} selects from the innermost / current full bridi (suggest mneumonic: adding an extra ‘'i’ looks similar to the outer-bridi-separator {i}, and also ‘e'i’ is in ‘se'i’ which is a rafsi of {sevzi}).  Finally, {vo'a'o'e}…{vo'a'o'e} could be defined for the variant of an unspecified bridi, as in {xi}{pi'e}{xo'e}.  Example: in {i} {mi} {krici} {lo}{du'u} {lo} {bende} {cu} {se} {xamgu} {lo} {djuno} {be} {fi} {vo'a}, the ‘'e’ variant (shortest) would mean that those who know themselves are good for the team, the ‘'ei’ variant (outermost) would mean that those who know the speaker are beneficial for the team, and the ‘'e'i’ variant would mean that those who know the team are good for it.
 ---
-vo'o'e'i cmavo 1 (en)
+vo'o'e'i cmavo KOhA4 1 (en)
 pro-sumti: repeats 4th place of the innermost / current full bridi.
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi with the shortest possible scope (even in descriptions), rather than the outermost bridi, or the innermost / current full bridi, or with the bridi choice left vague.
@@ -603,7 +603,7 @@ pro-sumti: repeats 4th place of the innermost / current full bridi.
 
 {ni'o} Additional proposed experimental cmavo sequences: {vo'a'e}…{vo'u'e} selects bridi from the shortest possible scope, allowing for direct reflexives (even in descriptions) (suggested mneumonic: ‘'e’ as in ‘se’ for a reflexive pronomial verb in some languages), {vo'a'ei}…{vo'u'ei} selects bridi from the outermost bridi (suggested mneumonic: ‘'ei’ as in ‘nei’ (like ‘dei’) as an alternative to using {vo'a'ei}…{vo'u'ei} when combined with {lo} and SE), and {vo'a'e'i}…{vo'u'e'i} selects from the innermost / current full bridi (suggest mneumonic: adding an extra ‘'i’ looks similar to the outer-bridi-separator {i}, and also ‘e'i’ is in ‘se'i’ which is a rafsi of {sevzi}).  Finally, {vo'a'o'e}…{vo'a'o'e} could be defined for the variant of an unspecified bridi, as in {xi}{pi'e}{xo'e}.  Example: in {i} {mi} {krici} {lo}{du'u} {lo} {bende} {cu} {se} {xamgu} {lo} {djuno} {be} {fi} {vo'a}, the ‘'e’ variant (shortest) would mean that those who know themselves are good for the team, the ‘'ei’ variant (outermost) would mean that those who know the speaker are beneficial for the team, and the ‘'e'i’ variant would mean that those who know the team are good for it.
 ---
-vo'o'ei cmavo 1 (en)
+vo'o'ei cmavo KOhA4 1 (en)
 pro-sumti: repeats 4th place of main / outermost bridi of this sentence.
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi with the shortest possible scope (even in descriptions), rather than the outermost bridi, or the innermost / current full bridi, or with the bridi choice left vague.
@@ -614,7 +614,7 @@ pro-sumti: repeats 4th place of main / outermost bridi of this sentence.
 
 {ni'o} Additional proposed experimental cmavo sequences: {vo'a'e}…{vo'u'e} selects bridi from the shortest possible scope, allowing for direct reflexives (even in descriptions) (suggested mneumonic: ‘'e’ as in ‘se’ for a reflexive pronomial verb in some languages), {vo'a'ei}…{vo'u'ei} selects bridi from the outermost bridi (suggested mneumonic: ‘'ei’ as in ‘nei’ (like ‘dei’) as an alternative to using {vo'a'ei}…{vo'u'ei} when combined with {lo} and SE), and {vo'a'e'i}…{vo'u'e'i} selects from the innermost / current full bridi (suggest mneumonic: adding an extra ‘'i’ looks similar to the outer-bridi-separator {i}, and also ‘e'i’ is in ‘se'i’ which is a rafsi of {sevzi}).  Finally, {vo'a'o'e}…{vo'a'o'e} could be defined for the variant of an unspecified bridi, as in {xi}{pi'e}{xo'e}.  Example: in {i} {mi} {krici} {lo}{du'u} {lo} {bende} {cu} {se} {xamgu} {lo} {djuno} {be} {fi} {vo'a}, the ‘'e’ variant (shortest) would mean that those who know themselves are good for the team, the ‘'ei’ variant (outermost) would mean that those who know the speaker are beneficial for the team, and the ‘'e'i’ variant would mean that those who know the team are good for it.
 ---
-vo'o'o'e cmavo 1 (en)
+vo'o'o'e cmavo KOhA4 1 (en)
 pro-sumti: repeats 4th place of a bridi within the main bridi of this sentence.
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi with the shortest possible scope (even in descriptions), rather than the outermost bridi, or the innermost / current full bridi, or with the bridi choice left vague.
@@ -625,7 +625,7 @@ pro-sumti: repeats 4th place of a bridi within the main bridi of this sentence.
 
 {ni'o} Additional proposed experimental cmavo sequences: {vo'a'e}…{vo'u'e} selects bridi from the shortest possible scope, allowing for direct reflexives (even in descriptions) (suggested mneumonic: ‘'e’ as in ‘se’ for a reflexive pronomial verb in some languages), {vo'a'ei}…{vo'u'ei} selects bridi from the outermost bridi (suggested mneumonic: ‘'ei’ as in ‘nei’ (like ‘dei’) as an alternative to using {vo'a'ei}…{vo'u'ei} when combined with {lo} and SE), and {vo'a'e'i}…{vo'u'e'i} selects from the innermost / current full bridi (suggest mneumonic: adding an extra ‘'i’ looks similar to the outer-bridi-separator {i}, and also ‘e'i’ is in ‘se'i’ which is a rafsi of {sevzi}).  Finally, {vo'a'o'e}…{vo'a'o'e} could be defined for the variant of an unspecified bridi, as in {xi}{pi'e}{xo'e}.  Example: in {i} {mi} {krici} {lo}{du'u} {lo} {bende} {cu} {se} {xamgu} {lo} {djuno} {be} {fi} {vo'a}, the ‘'e’ variant (shortest) would mean that those who know themselves are good for the team, the ‘'ei’ variant (outermost) would mean that those who know the speaker are beneficial for the team, and the ‘'e'i’ variant would mean that those who know the team are good for it.
 ---
-vo'u'e cmavo 1 (en)
+vo'u'e cmavo KOhA4 1 (en)
 pro-sumti: repeats 5th place of the innermost / current bridi with the stortest possible scope (even in descriptions).
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi with the shortest possible scope (even in descriptions), rather than the outermost bridi, or the innermost / current full bridi, or with the bridi choice left vague.
@@ -636,7 +636,7 @@ pro-sumti: repeats 5th place of the innermost / current bridi with the stortest 
 
 {ni'o} Additional proposed experimental cmavo sequences: {vo'a'e}…{vo'u'e} selects bridi from the shortest possible scope, allowing for direct reflexives (even in descriptions) (suggested mneumonic: ‘'e’ as in ‘se’ for a reflexive pronomial verb in some languages), {vo'a'ei}…{vo'u'ei} selects bridi from the outermost bridi (suggested mneumonic: ‘'ei’ as in ‘nei’ (like ‘dei’) as an alternative to using {vo'a'ei}…{vo'u'ei} when combined with {lo} and SE), and {vo'a'e'i}…{vo'u'e'i} selects from the innermost / current full bridi (suggest mneumonic: adding an extra ‘'i’ looks similar to the outer-bridi-separator {i}, and also ‘e'i’ is in ‘se'i’ which is a rafsi of {sevzi}).  Finally, {vo'a'o'e}…{vo'a'o'e} could be defined for the variant of an unspecified bridi, as in {xi}{pi'e}{xo'e}.  Example: in {i} {mi} {krici} {lo}{du'u} {lo} {bende} {cu} {se} {xamgu} {lo} {djuno} {be} {fi} {vo'a}, the ‘'e’ variant (shortest) would mean that those who know themselves are good for the team, the ‘'ei’ variant (outermost) would mean that those who know the speaker are beneficial for the team, and the ‘'e'i’ variant would mean that those who know the team are good for it.
 ---
-vo'u'e'i cmavo 1 (en)
+vo'u'e'i cmavo KOhA4 1 (en)
 pro-sumti: repeats 5th place of innermost application selbri (even in descriptions).
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi, rather than the outermost bridi, or the innermost application (even within descriptions), or with the bridi choice left vague.
@@ -647,7 +647,7 @@ pro-sumti: repeats 5th place of innermost application selbri (even in descriptio
 
 {ni'o} Additional proposed experimental cmavo sequences: {vo'a'e}…{vo'u'e} selects bridi from the innermost (suggested mneumonic: ‘'e’ as in ‘se’ for a reflexive pronomial verb in some languages), {vo'a'ei}…{vo'u'ei} selects bridi from the outermost bridi (suggested mneumonic: ‘'ei’ as in ‘nei’ (like ‘dei’) as an alternative to using {vo'a'ei}…{vo'u'ei} when combined with {lo} and SE), and {vo'a'e'i}…{vo'u'e'i} selects from the innermost applicable selbri, allowing for direct reflexives, even in applications (suggest mneumonic: rafsi of {sevzi}).  Finally, {vo'a'o'e}…{vo'a'o'e} could be defined for the variant of an unspecified bridi, as in {xi}{pi'e}{xo'e}.  Example: in {i} {mi} {krici} {lo}{du'u} {lo} {bende} {cu} {se} {xamgu} {lo} {djuno} {be} {fi} {vo'a}, the {'ei} variant (outermost) would mean that those who know the speaker are good for the team, the {'e} (innermost / current) variant would mean that those who know the team are good for it, and the {'e'i} variant would mean that those who know themselves are beneficial for the team.
 ---
-vo'u'ei cmavo 1 (en)
+vo'u'ei cmavo KOhA4 1 (en)
 pro-sumti: repeats 5th place of main / outermost bridi of this sentence.
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi with the shortest possible scope (even in descriptions), rather than the outermost bridi, or the innermost / current full bridi, or with the bridi choice left vague.
@@ -658,7 +658,7 @@ pro-sumti: repeats 5th place of main / outermost bridi of this sentence.
 
 {ni'o} Additional proposed experimental cmavo sequences: {vo'a'e}…{vo'u'e} selects bridi from the shortest possible scope, allowing for direct reflexives (even in descriptions) (suggested mneumonic: ‘'e’ as in ‘se’ for a reflexive pronomial verb in some languages), {vo'a'ei}…{vo'u'ei} selects bridi from the outermost bridi (suggested mneumonic: ‘'ei’ as in ‘nei’ (like ‘dei’) as an alternative to using {vo'a'ei}…{vo'u'ei} when combined with {lo} and SE), and {vo'a'e'i}…{vo'u'e'i} selects from the innermost / current full bridi (suggest mneumonic: adding an extra ‘'i’ looks similar to the outer-bridi-separator {i}, and also ‘e'i’ is in ‘se'i’ which is a rafsi of {sevzi}).  Finally, {vo'a'o'e}…{vo'a'o'e} could be defined for the variant of an unspecified bridi, as in {xi}{pi'e}{xo'e}.  Example: in {i} {mi} {krici} {lo}{du'u} {lo} {bende} {cu} {se} {xamgu} {lo} {djuno} {be} {fi} {vo'a}, the ‘'e’ variant (shortest) would mean that those who know themselves are good for the team, the ‘'ei’ variant (outermost) would mean that those who know the speaker are beneficial for the team, and the ‘'e'i’ variant would mean that those who know the team are good for it.
 ---
-vo'u'o'e cmavo 1 (en)
+vo'u'o'e cmavo KOhA4 1 (en)
 pro-sumti: repeats 5th place of a bridi within the main bridi of this sentence.
 -n
 {ni'o} Proposed experimental cmavo sequence: {vo'a'e}…{vo'u'e} is a variant of {vo'a}…{vo'u} and is the same except it is explicitly a pro-sumti for the current (innermost) bridi with the shortest possible scope (even in descriptions), rather than the outermost bridi, or the innermost / current full bridi, or with the bridi choice left vague.
@@ -679,7 +679,7 @@ $x_1$ is darkly colored with color $x_2$ [ka]
 -n
 In general, darker colors, i.e. colors with a low brightness in an HSB color model.  In general, use the rafsi "xek" (from {xekri}) or {xekri} as a seltau + a color to form a light version of that color.  E.g. {xekri'o} is dark green.
 ---
-xoi'ei'a cmavo 1 (en)
+xoi'ei'a cmavo XOIhEIhA 1 (en)
 Toggles grammar so that every mention of a number $n$ is interpreted as "at least $n$".
 -n
 If one owns five cats, then in normal Lojban grammar, if they were to say "I have two cats", then they would be incorrect/lying; numbers are exact. But often, allowing for such statements is desirable, at least because one can be less mindful of the exactitude requirement. For example, some criminal statutes say things like "if the defendant has four criminal history points, then...", but they actually mean "if the defendant has four or more criminal history points, then...". Likewise, it is almost always a lie in Lojban to say "I am $t$ years old", because one is almost never exactly $t$ years old (this expression is usually the result of rounding down to the nearest integer or half-integer); one should actually say "I am between $t$ years old and $t+1$ years old" – but toggling the grammar with this word would more closely approximate the natlang phrase (although an eighty-year-old could still correctly say, perhaps with some philosophical correctness too, that they are six years old). An even number of uses of this word return the grammar back to numeric exactitude. The "at least" interpretation applies to rafsi as well: a car is a bicycle after this word has been used an odd number of times because "bicycle" would actually mean "at-least-two-wheeler". Again, this could have some applicability in law, such as when banning the usage of vehicles, for example. "{su'e} will operate normally under this word (so, "su'e {re}" would mean "at most 2" and not "at most at-least-2"; meaning that 3 is definitely excluded from the realm of possible numbers), but "su'o" is converted so as to mean "exactly" (given that it is otherwise useless; in other words, the exactitudes of unmarked numhers and "su'o"-marked ones swap with one another). This word does not affect brivla or modals, unless the former involve numeric rafsi; in particular, "{zmadu}", "{satci}", "{mau}", and the like are not affected. This word affects non-integer numbers as well, as demonstrated by the time example; after this toggle, one could accurately say that Cleopatra died five hundred years ago (because she died ealier than that). Explocit approximation via "{ji'i}" is unaffected by this word, in a manner similar to "su'e". Technically, "1+1 =2" is still true under this toggle effect because the sum of at least 1 with at least 1 is indeed at least 2. Both exactitude and this modification to it have their respective problem cases, so use each carefully.
@@ -694,17 +694,17 @@ $x_1$ properly (in a good sense) simplify $x_2$ in $x_3$ (ka); $x_1$ minimize $x
 -n
 A bit joke word. From "zabna" rafsi + "断捨離 (danshari)", a Japanese word. Also "minimalist". In terms of original danshari, $x_1$ zancari lo nunji'e be $x_1$.
 ---
-zei'ei cmavo 1 (en)
+zei'ei cmavo ZEIhEI 1 (en)
 begin quote that is converted into rafsi
 -n
 Terminated by {zei'oi}. Quotes an utterance (must be grammatical) and converts it (as a whole) into a single rafsi with the meaning of "something to do with the referent of "[insert quoted text]"". Notably, does not distribute through the text, treating each word individually with left-grouping (it does not distribute {zei} before and/or after each word (as needed)); the quoted utterance is taken as a whole unit of meaning unto itself; for the former purpose, see {zei'ei'au}. This word is useful for forming quotes and mathematical expressions (formal, evaluated, or otherwise) into lujvo. This rafsi is assumed to begin the next word if the preceding text/utterance does not end with an otherwise standalone and ungrammatical rafsi (the grammar in such a situation should be discussed); in order to connect it as a rafsi within a lujvo that began before it, precede the quotation with {zei}. In order to finish a lujvo or treat the quotation as a brivla on its own, follow it with {co'e}, which is treated as if the preceding utterance (the quote) is a single word followed immediately by {zei}; in order to string multiple ZEIhEI-ZEIhOI rafsi together follow this formula: zei'ei broda zei'oi co'e zei zei'ei brode zei'oi (co'e (zei...))... . Individual rafsi outside of lujvo are typically not grammatical (except in certain quotation structures, vel sim.).
 ---
-zei'ei'au cmavo 1 (en)
+zei'ei'au cmavo ZEIhEI 1 (en)
 begin quote that is converted into rafsi, distributing lujvo-glue between quoted words
 -n
 Terminated by {zei'oi}. Begins a quote of a grammatical utterance. Between each word in the utterance, {zei} is to be interpreted and any grouping that might be applied is left-grouping. In other words, {zei} is distributed left-groupingly between each word; each word is treated on its own, individually; the quote is not treated as a whole. The final word is interpreted to have {zei} after it as well (this is a quirk of {zei'oi}), thus the quote is a string of rafsi, left-groupingly considered to be a rafsi. In order to end the lujvo formed with such a quote, follow it by {co'e}. This word compactifies large {zei}-clauses/-statements. For the perhaps generally more useful, if slightly more ambiguous, quote marker that treats the quote as a whole entity and converts it singly and wholly into a rafsi (rather than a rafsi string, as is done by this word), see: {zei'ei}. This word works as {zei'ei} does in all other regards (including as a marker for a new word (specifically a lujvo) unless preceded by {zei} or possibly by a standalone and otherwise ungrammatical rafsi). For the purpose of quoting with {ra'oi}, the result of a {zei'ei'au}-quote is treated as a single rafsi.
 ---
-zei'oi cmavo 1 (en)
+zei'oi cmavo ZEI'OI 1 (en)
 end rafsi-converting quote: terminates ZEIhEI quote
 -n
 Elidable terminator (rarely elidable). Ends ZEIhEI quotes. See also: {zei'ei}, {zei'ei'au}. Treats quoted utterance as a rafsi; in order to make it end a lujvo (or act on its own as a brivla), follow it with {co'e} (wherein the the quote is treated as a single word followed by {zei}).
@@ -714,7 +714,7 @@ $r_1$ is an affix/combining form for zi'evla word $r_2=z_1$, form/properties $r_
 -n
 From {zi'evla}+{rafsi}. {zi'evla} are predicate words of an open class in Lojban, defined by their morphology. Compare {zevlyjvo}, a compound word made of one or more zevlyrafsi. See also {zevla}, {lujvo}, {brapagjvo}, {cmapagjvo}, {fu'ivla}.
 ---
-zi'ai cmavo 1 (en)
+zi'ai cmavo UI3a 1 (en)
 jargon word indicator; indicates previous word is a jargon word
 -n
 Jargon words are to have a single, defined, specialized meaning within one particular narrow context (e.g. a game, field of study, or industry), but may also be assigned to other meanings in other contexts. Proposed rafsi: -zam- (technically rafsi for {zai'e}; this rafsi is always placed *before* the modified morpheme(s)) Forethought variant: {zai'e}
@@ -739,7 +739,7 @@ $r_1$ ist das rafsi-Präfix im cibyfu'ivla $v_1=f_1$, rafsi basierend auf Wort $
 -n
 »rafsi-Präfix« ist ein lojbanspezifisches Wort und bezeichnet den initialen Teil eines {cibyfu'ivla}, welcher ein {rafsi} ist. $x_2$ ist das Wort, in welchem das rafsi verwendet wurde, $x_3$ das Wort, von dem das rafsi abgeleitet wurde. Siehe auch: {fu'ivla}.
 ---
-ra'oi cmavo 1 (en-simple)
+ra'oi cmavo RAhOI 1 (en-simple)
 tag of rafsi; it makes one following rafsi a sumti.
 -n
 Note that sometimes a space or a pause is necessary before and/or after the rafsi. The parser zantufa-0.14 and later will parse ra'oi as in selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Examples: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
@@ -754,7 +754,7 @@ $x_{1}$ estas parto/peco/porcio/segmento de $x_{2}$ [kie $x_{2}$ estas tuto/kole
 -n
 En parto (= {selpau}).  Vidu ankaŭ cmavo {pa'u}, {mulno}, {xadba}, {spisa}, {gunma}, {rafsi}.
 ---
-ra'oi cmavo 1 (eo)
+ra'oi cmavo RAhOI 1 (eo)
 markilo de rafsi ; ŝanĝas unu rafsi al sumti.
 -n
 Notu ke unu spaco aŭ unu paŭzo fojfoje necesas antaŭ kaj/aŭ post la rafsi. La analizilo sintaksa zantufa-0.14 kaj posto analizos ra'oi kiel en selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Ekzemploj: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
@@ -764,7 +764,7 @@ $x_{1}$ estas vorto signiganta/kaŭzanta $x_{2}$-on en lingvo $x_{3}$; (adjektiv
 -n
 Vidu ankaŭ {slaka}, {bangu}, {cmavo}, {cmene}, {gismu}, {jufra}, {rafsi}, {smuni}.
 ---
-ra'oi cmavo 1 (fr-facile)
+ra'oi cmavo RAhOI 1 (fr-facile)
 marqueur de rafsi ; il convertit un rafsi en sumti.
 -n
 Notez qu'une espace ou une pause est parfois nécessaire avant et/ou après le rafsi. L'analyseur syntaxique zantufa-0.14 et supérieur analyseront ra'oi comme en selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Exemples: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
@@ -774,7 +774,7 @@ $x_1=k_1=s_1$ est un serveur d'Internet pour un client $x_2=k_1=s_2$ d'un servic
 -n
 -kib- est un rafsi court du gismu expérimental {kibro}. Voir ${samseltcana}_2$ pour des nodes de réseau, {kibro} {selfu}, {kibdu'a}, {kibycpa}, {kibyca'o}
 ---
-ra'oi cmavo 1 (fr)
+ra'oi cmavo RAhOI 1 (fr)
 marqueur de rafsi ; il convertit un rafsi en sumti.
 -n
 Notez qu'une espace ou une pause est parfois nécessaire avant et/ou après le rafsi. L'analyseur syntaxique zantufa-0.14 et supérieur analyseront ra'oi comme en selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Exemples: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
@@ -809,7 +809,7 @@ $x_1$ は $x_2$ （本体）の部分／部品／要素；  $x_2$ は部分的�
 -n
 「spisa」と違い、本体からの分離は含意されない。 ・大意： 部分 ・読み方： パグブ ・関連語： {pa'u}, {mulno}, {xadba}, {spisa}, {gunma}, {rafsi}
 ---
-ra'oi cmavo 1 (ja)
+ra'oi cmavo RAhOI 1 (ja)
 rafsi 標識。 rafsi を sumti に変える。
 -n
 その rafsi の前後に空白やポーズを置く必要がしばしばあることに注意。 構文解析器 zantufa-0.14 以上では ra'oi を selma'o RAhOI として解析する ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html )。 例： ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu
@@ -854,17 +854,17 @@ $x_1$ lojbo $x_2$
 -n
 .i ko pilno va'o lo nu do ji'a jinvi lo du'u zoi jy. loj jy. .a zo lojbo .a zo .lojban. tolmletce ni'o li'a ra'oi jbo rafsi zo jbobo
 ---
-ke'ai cmavo [-ked-] 1 (jbo)
+ke'ai cmavo KEhAI [-ked-] 1 (jbo)
 frica binxo lo nalgrici'e pe tanru ja lujvo
 -n
 zo ke'ai se rafsi la ked. .i lo grici'e pe gismu ja rafsi cu smuvrici .i lu ke'ai melbi cmalu nixli ckule li'u .a zo kedmlecmaxlicu'e cu se cumsmu lo'u to melbi cmalu to nixli to ckule toi toi toi le'u .a lo'u to melbi to cmalu to nixli to ckule toi toi toi toi le'u fi'o ranji .i sisti fa zo ke'ei .a zo ke'ei'a .i fi zo ke'ei binxo fa lo lamselbri
 ---
-ke'ei cmavo [-keb-] 1 (jbo)
+ke'ei cmavo KEhEI [-keb-] 1 (jbo)
 frica binxo lo pritugrici'e pe tanru ja lujvo
 -n
 zo ke'ei se rafsi la keb. .i zo ke'ei'a xruti ke frica binxo lo zulgrici'e .i fi zo ke'ei binxo fa lo lamselbri
 ---
-ke'ei'a cmavo [-kex-] 1 (jbo)
+ke'ei'a cmavo KEhEIhA [-kex-] 1 (jbo)
 frica binxo lo zulgrici'e pe tanru ja lujvo
 -n
 zo ke'ei'a se rafsi la kex. .i xruti frica binxo to balvi lo be zo ke'ei frica binxo lo prutigrici'e .ija balvi lo be zo ke'ai frica binxo lo nalgrici'e toi
@@ -889,7 +889,7 @@ $x_1$ na'e se kansa da $x_2$
 -n
 ti gismu gi'e smudu'i zo {nonseka} .i ra'oi nok tolcatni rafsi ti
 ---
-ra'oi cmavo 1 (jbo)
+ra'oi cmavo RAhOI 1 (jbo)
 tcita lo pa rafsi noi se li'erla'i ku'o lo du'u vo'e rafsi
 -n
 .i .a'e so'o roi ku canlu bu .a denpa bu cu .ei lidne ja se lidne lo rafsi .i la zantufa xi pipavo .e lo balvi cu genturfa'i zo ra'oi poi cmavo ma'oi RAhOI to zoi zoi http://guskant.github.io/gerna_cipra/zantufa-0.14.html zoi toi .i mupli fa lu ra'oi.cra li'u .e lu ra'oi.cac li'u .e lu ra'oicai li'u .e lu ra'oicacy li'u .e lu ra'oi.gismy li'u .e lu ra'oigismu li'u
@@ -929,7 +929,7 @@ $x_1$ - lujvo (глагол из аффиксов) со значением $x_2$
 -n
 См. {stura} - 'структура (чего-либо)', {cmavo} - 'грамматическая частица', {gismu} - 'корневой глагол', {rafsi} - 'аффикс', {smuni} - 'значение (смысл)'
 ---
-ma'oi cmavo 1 (ru)
+ma'oi cmavo ZO 1 (ru)
 цитирование selma'o (класса ложбанских cmavo); цитирует слово (cmavo) и использует его, чтобы обозначить selma'o, к которому это cmavo относится.
 -n
 Пример: ma'oi coi эквивалентно COI. См. также {ra'oi}.
@@ -964,7 +964,7 @@ $x_1$是$x_2$的部分/组分（整体/团体）；$x_2$有部分是$x_1$
 -n
 部分的= {selpau}；参见 {pa'u}, {mulno}, {xadba}, {spisa}, {gunma}, {rafsi}.
 ---
-ra'oi cmavo 1 (zh)
+ra'oi cmavo RAhOI 1 (zh)
 rafsi的标记. 把rafsi变为sumti.
 -n
 要注意在这个rafsi的前后时常需要留出空白或休止. 語法分析器zantufa-0.14和更高版本分析ra'oi作为selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). 例: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
