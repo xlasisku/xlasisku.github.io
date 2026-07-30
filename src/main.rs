@@ -176,7 +176,6 @@ fn main() {
         );
         assert!(xml.is_ok(), "invalid utf-8 oh no");
         let xml = xml.unwrap();
-        fs::write(format!("{lang}.xml"), &xml).unwrap();
         let mut reader = Reader::from_str(&xml);
         loop {
             match reader.read_event() {
