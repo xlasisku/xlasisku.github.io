@@ -176,6 +176,10 @@ fn main() {
         );
         assert!(xml.is_ok(), "invalid utf-8 oh no");
         let xml = xml.unwrap();
+        if xml.is_empty() {
+            println!(" - empty xml :<");
+            continue; // don't delete the existing stuff!
+        }
         let mut reader = Reader::from_str(&xml);
         loop {
             match reader.read_event() {
