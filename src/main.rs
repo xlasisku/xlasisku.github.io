@@ -1,6 +1,5 @@
-#![allow(clippy::format_push_string, reason = "annoying")]
-
 use std::{
+    fmt::Write as _,
     fs,
     io::{Write as _, stdout},
     sync::LazyLock,
@@ -17,7 +16,7 @@ use serde::{Deserialize, Serialize};
 #[derive(Debug, Clone, Serialize, Deserialize)]
 struct Entry {
     word: String,
-    #[serde(skip_serializing_if = "String::is_empty")]
+    #[serde(default, skip_serializing_if = "String::is_empty")]
     selmaho: String,
     #[serde(skip)]
     rafsi: Vec<String>,
@@ -39,7 +38,7 @@ impl Entry {
     const fn new() -> Self {
         Self {
             word: String::new(),
-            rafsi: Vec::new(),
+            rafsi: vec![],
             selmaho: String::new(),
             score: 0.,
             definition: String::new(),
@@ -57,16 +56,17 @@ impl Entry {
         s = MULTIPLE.replace_all(&s, "_").to_string();
         // we get rid of obsolete words and non-experimental words have a vote boost
         // anyway
-        s += &format!(" {}", self.pos.split(' ').nth(1).unwrap_or(&self.pos));
+        let _ = write!(s, " {}", self.pos.split(' ').nth(1).unwrap_or(&self.pos));
         if !self.selmaho.is_empty() {
-            s += &format!(" {}", self.selmaho);
+            let _ = write!(s, " {}", self.selmaho);
         }
         if !self.rafsi.is_empty() {
-            s += &format!(" [-{}-]", self.rafsi.join("-"));
+            let _ = write!(s, " [-{}-]", self.rafsi.join("-"));
         }
-        s += &format!(" {} ({})\n{}", self.score.to_string().as_str(), self.lang, self.definition);
+        let _ =
+            write!(s, " {} ({})\n{}", self.score.to_string().as_str(), self.lang, self.definition);
         if !self.notes.is_empty() {
-            s += &format!("\n-n\n{}", self.notes);
+            let _ = write!(s, "\n-n\n{}", self.notes);
         }
         s
     }
@@ -177,8 +177,33 @@ fn main() {
         assert!(xml.is_ok(), "invalid utf-8 oh no");
         let xml = xml.unwrap();
         if xml.is_empty() {
-            println!(" - empty xml :<");
-            continue; // don't delete the existing stuff!
+            println!(" - empty xml :< trying backup");
+            let backup_path = "data/jbo.js";
+            if std::path::Path::new(backup_path).exists() {
+                let raw_content = fs::read_to_string(backup_path).unwrap();
+                if let Some(json_str) = raw_content.strip_prefix("const jbo = ") {
+                    match serde_json::from_str::<Vec<Entry>>(json_str) {
+                        Ok(backup_words) => {
+                            let mut recovered: Vec<Entry> =
+                                backup_words.into_iter().filter(|w| w.lang == lang).collect();
+                            if recovered.is_empty() {
+                                println!("  no backup entries");
+                            } else {
+                                println!("  backup entries recovered");
+                                words.append(&mut recovered);
+                            }
+                        }
+                        Err(e) => {
+                            println!("  data/jbo.js has messed up json: {e}");
+                        }
+                    }
+                } else {
+                    println!("  data/jbo.js doesn't start with `const jbo = `");
+                }
+            } else {
+                println!("   data/jbo.js is missing");
+            }
+            continue;
         }
         let mut reader = Reader::from_str(&xml);
         loop {
@@ -188,7 +213,7 @@ fn main() {
                     break;
                 }
                 Ok(Event::Start(e)) => {
-                    let tag = String::from_utf8(e.name().as_ref().to_vec()).unwrap();
+                    let tag = String::from_utf8(e.name().as_ref().into()).unwrap();
                     match tag.as_str() {
                         "entry" => {
                             base_entry = Entry::new();
@@ -220,7 +245,7 @@ fn main() {
                         current_tag.clear();
                         continue;
                     }
-                    let text = deëntity(str::from_utf8(&e.into_inner()).unwrap());
+                    let text = deëntity(e.into_inner().as_ref());
                     match current_tag.as_str() {
                         "word" => base_entry.word = text.trim().to_string(),
                         "type" => {
@@ -250,7 +275,7 @@ fn main() {
                     }
                 }
                 Ok(Event::End(e)) => {
-                    let tag = String::from_utf8(e.name().as_ref().to_vec()).unwrap();
+                    let tag = String::from_utf8(e.name().as_ref().into()).unwrap();
                     match tag.as_str() {
                         "entry" => {
                             if !skip_word
@@ -307,7 +332,7 @@ fn main() {
     flush!();
     let mut all = String::new();
     for word in &words {
-        all += &format!("{} {}\n", word.lang, word.word);
+        let _ = writeln!(all, "{} {}", word.lang, word.word);
     }
     fs::write("data/allwords.txt", all).unwrap();
     // jbo.js
@@ -320,7 +345,7 @@ fn main() {
     flush!();
     let mut data = "---".to_string();
     for word in words {
-        data += &format!("\n{}\n---", word.to_datastring());
+        let _ = write!(data, "\n{}\n---", word.to_datastring());
     }
     fs::write("data/data.txt", &data).unwrap();
     // chars.txt, fonts, noto.css
@@ -338,7 +363,7 @@ fn main() {
     flush!();
     let mut data = "---".to_string();
     for word in unofficial_rafsi {
-        data += &format!("\n{}\n---", word.to_datastring());
+        let _ = write!(data, "\n{}\n---", word.to_datastring());
     }
     fs::write("data/unofficial_rafsi_maybe.txt", &data).unwrap();
     // .i mulno .ui
