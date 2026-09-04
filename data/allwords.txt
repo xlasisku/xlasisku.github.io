@@ -2110,6 +2110,7 @@ en-simple bersa
 en-simple berti
 en-simple besna
 en-simple betfu
+en-simple betka
 en-simple betri
 en-simple bevri
 en-simple bidju
@@ -2689,6 +2690,7 @@ en-simple konju
 en-simple korbi
 en-simple korcu
 en-simple korka
+en-simple korvo
 en-simple kosta
 en-simple krali
 en-simple kramu
@@ -2896,6 +2898,7 @@ en-simple nitcu
 en-simple nivji
 en-simple nixli
 en-simple nobli
+en-simple norgo
 en-simple notci
 en-simple nukni
 en-simple nupre
@@ -5169,6 +5172,7 @@ es birkoku
 es birti
 es bisli
 es bisma'a
+es bitco
 es bitmu
 es bi'u
 es bi'unai
@@ -5277,6 +5281,7 @@ es ce'o
 es cerda
 es cerni
 es certu
+es cetrnarvala
 es ce'u
 es cevni
 es cfari
@@ -6537,6 +6542,7 @@ es oiro'e
 es oiro'i
 es oiro'o
 es oiro'u
+es okrindi
 es onai
 es o'o
 es o'ocu'i
@@ -7204,6 +7210,7 @@ es tcana
 es tcandana
 es tcati
 es tcena
+es tceta
 es tcica
 es tcidu
 es tci'ile
@@ -7276,6 +7283,7 @@ es tigni
 es ti'i
 es tikpa
 es tilju
+es timne
 es tinbe
 es tinci
 es tinsa
@@ -10665,6 +10673,7 @@ fr vecnu
 fr viska
 fr vlipa
 fr volsmacu
+fr vopi'irenosu'idau
 fr vricycti
 fr xabju
 fr xagytcerai
@@ -21740,6 +21749,7 @@ ru tsapi
 ru tsiju
 ru tsina
 ru tsirkuso
+ru tsuku
 ru tu
 ru tu'a
 ru tubnu
@@ -22980,6 +22990,7 @@ sv zelmast
 sv zelplin
 sv zepti
 sv zetro
+test ci cipra
 test cipra
 test klama
 test testest
@@ -23083,6 +23094,7 @@ zh ai
 zh aicti
 zh ainmu
 zh alfabeta
+zh alkelna
 zh alzaitu
 zh angeli
 zh angila
@@ -23166,6 +23178,7 @@ zh birje
 zh birka
 zh birti
 zh bisli
+zh bitco
 zh bitmu
 zh bixska
 zh blabi
@@ -23232,6 +23245,7 @@ zh canre
 zh canti
 zh canxais
 zh carce
+zh carfu
 zh carmi
 zh carna
 zh carpacib
@@ -23252,6 +23266,8 @@ zh centi
 zh cerda
 zh cerni
 zh certu
+zh cetrbeluga
+zh cetrnarvala
 zh cev
 zh cevni
 zh cfari
@@ -23259,6 +23275,7 @@ zh cfika
 zh cfila
 zh cfine
 zh cfipu
+zh cforai
 zh ciblu
 zh cicna
 zh cidja
@@ -23355,6 +23372,7 @@ zh cpedu
 zh cpina
 zh cpipase
 zh cpirgaiu
+zh cpixa
 zh cradi
 zh crane
 zh creka
@@ -23423,6 +23441,7 @@ zh degji
 zh dejni
 zh dekpu
 zh dekto
+zh delfinu
 zh delno
 zh dembi
 zh denci
@@ -23430,10 +23449,12 @@ zh denmi
 zh denpa
 zh denpesxu
 zh depspajycatra
+zh dermoni
 zh dertu
 zh derxi
 zh desku
 zh detri
+zh di'albo
 zh dicra
 zh didni
 zh dikca
@@ -23566,6 +23587,7 @@ zh garna
 zh gasnu
 zh gaspo
 zh gasta
+zh gelga
 zh genja
 zh gento
 zh genxu
@@ -23682,6 +23704,7 @@ zh jgira
 zh jgita
 zh jibni
 zh jibri
+zh jicfo
 zh jicla
 zh jicmu
 zh jifmalfu'esku
@@ -23939,6 +23962,7 @@ zh makcu
 zh makfa
 zh maksi
 zh malsi
+zh malvake
 zh mamta
 zh manci
 zh manctuuo
@@ -24086,6 +24110,7 @@ zh nivji
 zh nixli
 zh nobli
 zh noreg
+zh norfegmi'a
 zh norgo
 zh notci
 zh nu,IORK
@@ -24097,6 +24122,7 @@ zh nutli
 zh nuzba
 zh nuzlo
 zh ny
+zh okrindi
 zh opfete
 zh osteraix
 zh otan
@@ -24267,6 +24293,7 @@ zh risna
 zh ritli
 zh rivbi
 zh robin
+zh roimnybau
 zh rokci
 zh rokmartesi
 zh romas
@@ -24329,6 +24356,7 @@ zh sefta
 zh selbrisle
 zh selci
 zh selfu
+zh selmipri
 zh selsa'a
 zh semto
 zh senci
@@ -24371,6 +24399,7 @@ zh sivni
 zh skaci
 zh skami
 zh skapi
+zh skarabai
 zh skari
 zh skicu
 zh skiji
@@ -24526,6 +24555,7 @@ zh tcadu
 zh tcana
 zh tcati
 zh tcena
+zh tceta
 zh tcica
 zh tcidu
 zh tciiivu
@@ -24544,6 +24574,7 @@ zh terto
 zh tigni
 zh tikpa
 zh tilju
+zh timne
 zh tinbe
 zh tinci
 zh tinsa
@@ -24577,6 +24608,7 @@ zh trina
 zh trixe
 zh troci
 zh troneim
+zh truueno
 zh tsa'anma
 zh tsali
 zh tsani
@@ -24599,8 +24631,8 @@ zh tutra
 zh tuvytaivno
 zh ty
 zh tyrontos
-zh UAcintyn
 zh uacintyn
+zh UAcintyn
 zh ueb
 zh uigro
 zh uikis
@@ -24739,7 +24771,6 @@ zh zbabu
 zh zbani
 zh zbasu
 zh zbepi
-zh zdalatukuuerpo'alegriiamakarenaketukuuerpo'espadarle'alegriiakosabuuenadalatukuuerpo'alegriiamakarena'eimakarena
 zh zdani
 zh zdifri
 zh zdile

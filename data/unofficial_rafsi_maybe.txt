@@ -84,122 +84,122 @@ $x_1$ は $x_2$ （意味／効力）を有する、 $x_3$ （言語）の言葉
 -n
 x2 は辞書上の意味だけでなく心理上の効力なども。 ・大意： 言葉 ・読み方： ヴァルスィ ・関連語： {slaka}, {bangu}, {cmavo}, {cmene}, {gismu}, {jufra}, {rafsi}, {smuni}
 ---
-almapamla fu'ivla 1 (jbo)
+almapamla  1 (jbo)
 $x_1$ spati zi'o gi'e sinxa lo si'o prami ku $x_2$ noi skicu ja te skicu vo'a
 -n
 i krasi zoi zoi amapola zoi noi valsi la papaver lo bansupu'a zi'e noi cmene lo selsa'a noi se finti la'o zoi José María Lacalle García zoi i ji'a se pagbu zoi zoi pam zoi noi rafsi zo prami i srana zo {prami} e zo {makpapi}
 ---
-au'unmro fu'ivla 1 (jbo)
+au'unmro  1 (jbo)
 $x_1$ tcetce au'unmo $x_2$ ja'e lo nu vo'a morsi pe'a
 -n
 {u'ivla} fo tu'a zo {au'unmo} joi ra'oi -mro- ne zo {morsi}
 ---
-celdi gismu [-cle-] 1 (jbo)
+celdi  1 (jbo)
 $x_1$ gunma lo prenu poi simxu lo ka ce'u ce'u cinse ja nalcinse prami ku'o po'u $x_2$ je $x_3$ je $x_4$ je $x_5$ li'o li'o li'o
 -n
 .i mu'a loi pamsi'u cu celdi .i lo jai cafne traji celdi cu se re mei .i ra'oi cle rafsi
 ---
-ecre fu'ivla 2 (jbo)
+ecre  2 (jbo)
 lo nu $x_1$ crezenzu'e $x_2$ cu se tadji $x_3$
 -n
 ra'i ru'e ra'oi -cre-
 ---
-gismu gismu [-gim-gi'u-] 1 (jbo)
+gismu  1 (jbo)
 $x_1$ brivo $x_2$ lo jbobau gi'e pormei li mu gi'e poi'i naku lo karsna cu pormoi li pa ke'a kei gi'e se rafsi $x_4$
 -n
 srana fa zo brivo .e zo rafsi
 ---
-jbobo gismu 2 (jbo)
+jbobo  2 (jbo)
 $x_1$ lojbo $x_2$
 -n
 .i ko pilno va'o lo nu do ji'a jinvi lo du'u zoi jy. loj jy. .a zo lojbo .a zo .lojban. tolmletce ni'o li'a ra'oi jbo rafsi zo jbobo
 ---
-ke'ai cmavo KEhAI [-ked-] 1 (jbo)
+ke'ai  KEhAI 1 (jbo)
 frica binxo lo nalgrici'e pe tanru ja lujvo
 -n
 zo ke'ai se rafsi la ked. .i lo grici'e pe gismu ja rafsi cu smuvrici .i lu ke'ai melbi cmalu nixli ckule li'u .a zo kedmlecmaxlicu'e cu se cumsmu lo'u to melbi cmalu to nixli to ckule toi toi toi le'u .a lo'u to melbi to cmalu to nixli to ckule toi toi toi toi le'u fi'o ranji .i sisti fa zo ke'ei .a zo ke'ei'a .i fi zo ke'ei binxo fa lo lamselbri
 ---
-ke'ei cmavo KEhEI [-keb-] 1 (jbo)
+ke'ei  KEhEI 1 (jbo)
 frica binxo lo pritugrici'e pe tanru ja lujvo
 -n
 zo ke'ei se rafsi la keb. .i zo ke'ei'a xruti ke frica binxo lo zulgrici'e .i fi zo ke'ei binxo fa lo lamselbri
 ---
-ke'ei'a cmavo KEhEIhA [-kex-] 1 (jbo)
+ke'ei'a  KEhEIhA 1 (jbo)
 frica binxo lo zulgrici'e pe tanru ja lujvo
 -n
 zo ke'ei'a se rafsi la kex. .i xruti frica binxo to balvi lo be zo ke'ei frica binxo lo prutigrici'e .ija balvi lo be zo ke'ai frica binxo lo nalgrici'e toi
 ---
-la_ma'a_melbau phrase 1 (jbo)
+la_ma'a_melbau  1 (jbo)
 datcme le jbobau
 -n
 .i tcaci fa lo nu pilno ra'oi *-mel-* jenai ra'oi *-mle-* le ti jufpau .i .e'u datca lu {la mensi bangu} li'u (to le logbau toi)
 ---
-lamcfo lujvo 2 (jbo)
+lamcfo  2 (jbo)
 $x_1$ cfola'i (to va'i se lamli'e toi) $x_2$ $x_3$
 -n
 = se {lamli'e}, se {li'erla'i}. i smudu'i zo {cfola'i} noi se pagbu lo rafsi be lo dunli po'i ku'i lo fatne
 ---
-lokra gismu 2 (jbo)
+lokra  2 (jbo)
 $x_1$ cumba ja artropoda $x_2$ fi'o jicymivykle la'e zoi ly. Crustacea ly.
 -n
 srana zo {cinki} .e zo {jukni} .e zo {cumba} .e zo {cakyjukni} .i selti'i rafsi fa ra'oi -lok-
 ---
-lujvo gismu [-luv-jvo-] 1 (jbo)
+lujvo  1 (jbo)
 $x_1$ selbri za'upamei valsi $x_2$ gi'e se sumti $x_3$ gi'e se zbasu fi $x_4$ poi tanru
 -n
 .i ko viska zo {stura} .e zo {cmavo} .e zo {gismu} .e zo {rafsi} .e zo {smuni} ji'a
 ---
-mazmoi lujvo 1 (jbo)
+mazmoi  1 (jbo)
 $x_1$ se ponse ma $x_3$ fi'o selcmi $x_2$ to (preti lo ponse) toi
 -n
 ra'oi -maz- cu za'envla rafsi zo {ma} .i srana zo {moi}
 ---
-nalvai lujvo 1 (jbo)
+nalvai  1 (jbo)
 .i lo ka ce'u nalvai ce'u ce'u cu ka ce'u goi $x_1$ na'e vajni ce'u goi $x_2$ ce'u goi $x_3$
 -n
 .i .e'u ko catlu zo {na'e} .e zo {vajni} noi se rafsi zo vai
 ---
-nonka gismu [-nok-] 2 (jbo)
+nonka  2 (jbo)
 $x_1$ na'e se kansa da $x_2$
 -n
 ti gismu gi'e smudu'i zo {nonseka} .i ra'oi nok tolcatni rafsi ti
 ---
-ra'oi cmavo RAhOI 1 (jbo)
+ra'oi  RAhOI 1 (jbo)
 tcita lo pa rafsi noi se li'erla'i ku'o lo du'u vo'e rafsi
 -n
 .i .a'e so'o roi ku canlu bu .a denpa bu cu .ei lidne ja se lidne lo rafsi .i la zantufa xi pipavo .e lo balvi cu genturfa'i zo ra'oi poi cmavo ma'oi RAhOI to zoi zoi http://guskant.github.io/gerna_cipra/zantufa-0.14.html zoi toi .i mupli fa lu ra'oi.cra li'u .e lu ra'oi.cac li'u .e lu ra'oicai li'u .e lu ra'oicacy li'u .e lu ra'oi.gismy li'u .e lu ra'oigismu li'u
 ---
-sefmi gismu 1 (jbo)
+sefmi  1 (jbo)
 $x_1$ ckini vo'a $x_2$
 -n
 smudu'i zo {sefsi} .i se stidi ki'u po ra'oi *-sem-* (to kansa ra'oi *-se'i-*, noi xa'o na'e carslau rafsi tau lo si'o sefmi toi) cu se djica tepi'o le ti valsi, tai zo {simxu} noi se rafsi ge ra'oi *-sim-* gi ra'oi *-si'u-*
 ---
-sefsi gismu 2 (jbo)
+sefsi  2 (jbo)
 $x_1$ ckini $x_1$ boi $x_2$
 -n
 ko karbi fi zo {sevzi} .e zo {simxu} .i .ei zo'oi se'i rafsi zo sefsi .i zo sevzi na nitcu lo fanmo rafsi .i {djuse'i} .i {spose'i} .i {lacyse'i} .i {trose'i} .i {truse'i} .i {sazyse'i} .i {lumse'i} .i {lebyse'i} .i {catryse'i} .i {sajyse'i}
 ---
-skuna gismu 2 (jbo)
+skuna  2 (jbo)
 $x_1$ boi $x_2$ boi $x_3$ boi $x_4$ cusku
 -n
 panra zo {cusku} lo ka claxu lo me zo cy. sance noi so'i da jinvi lo du'u ke'a jai cafnydu'e fai tu'a lo bangu mu'u lu {cu} {cusku} li'u .i lo rafsi be zo skuna cu mintu lo me zo {cusku} moi .i za'a za'a dai lo se skicu valsi cu pu co'a cafne banzu fi lo nu jmina fi jyvysy .i ja'o kukte ko
 ---
-smusu gismu 1 (jbo)
+smusu  1 (jbo)
 $x_1$ zukte $x_4$ lo nu $x_3$ djuno lo du'u $x_1$ xusra $x_2$
 -n
 smudu'i zo {smusku} .i stidi lo nu ra'oi -sus- co'a rafsi zo smusu
 ---
-u'ivla fu'ivla 2 (jbo)
+u'ivla  2 (jbo)
 $x_1$ xajmi ja zdile ja xalbo valsi $x_2$ boi $x_3$
 -n
 zo .u'ivla si'a .u'ivla ki'u lo nu na'e fadni lujvo fo zo .u'i jo'u ra'oi -vla- gi'e ji'a klamburi zo fu'ivla .i zo {u'imla} drata mupli lo .u'ivla
 ---
-zancari fu'ivla 1 (jbo)
+zancari  1 (jbo)
 $x_1$ gasnu lo nu $x_2$ sampu $x_3$ kei noi ke'a zabna
 -n
 zo'o zei valsi .i valsi krasi fa ra'oi zan joi zoi py. 断捨離(dancari) py.
 ---
-zmo'una fu'ivla 1 (jbo)
+zmo'una  1 (jbo)
 $x_1$ pilno $x_2$ lo nu lifri $x_3$
 -n
 ra'oi -zmo- noi la .telselkik. finti cu ca'e rafsi zo zmo'una noi la cirko cu mapti finti ba lo nu TSK finti lo rafsi lo nu plixau lujvo zbasu kei lo se cuxna be fi lo'i na'e selpli rafsi
@@ -247,7 +247,7 @@ $x_1$（文本）是有着意义 $x_2$，参数 $x_3$ 的复合谓词，由比�
 nijro gismu 2 (zh)
 $x_1$ 是関於尼日利亞的文化/語言/地理，在$x_2$ 的方面
 -n
-參見{friko}，{gajno}。提議者rafsi：-nij-
+參見{friko}，{gajno}，{tcadina}，{ni'ejro}。提議者rafsi：-nij-
 ---
 pagbu gismu [-pag-pau-] 1 (zh)
 $x_1$是$x_2$的部分/组分（整体/团体）；$x_2$有部分是$x_1$
