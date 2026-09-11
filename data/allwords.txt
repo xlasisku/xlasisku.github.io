@@ -2307,6 +2307,7 @@ en-simple ctuca
 en-simple cukla
 en-simple cukta
 en-simple culno
+en-simple cumba
 en-simple cumki
 en-simple cumla
 en-simple cunmi
@@ -2768,6 +2769,7 @@ en-simple livla
 en-simple logji
 en-simple loglo
 en-simple lojbo
+en-simple lokra
 en-simple loldi
 en-simple lorxu
 en-simple lubno
@@ -3100,7 +3102,6 @@ en-simple sazri
 en-simple sefta
 en-simple selci
 en-simple selfu
-en-simple selkicrypoi
 en-simple semto
 en-simple senci
 en-simple senpi
@@ -3294,6 +3295,7 @@ en-simple tikpa
 en-simple tilju
 en-simple tinbe
 en-simple tinci
+en-simple tinri
 en-simple tinsa
 en-simple tirna
 en-simple tirse
@@ -23537,6 +23539,7 @@ zh fetsi
 zh figre
 zh filso
 zh finpe
+zh finprkiprinu
 zh finti
 zh fi'orlabno
 zh firca
@@ -23774,6 +23777,7 @@ zh kajde
 zh kajna
 zh kakne
 zh kakpa
+zh kakpybifce
 zh kalci
 zh kalri
 zh kalsa
@@ -23822,6 +23826,7 @@ zh kijno
 zh kilto
 zh kinda
 zh kinli
+zh kirpini
 zh kisto
 zh kisyglibau
 zh klaji
@@ -23835,6 +23840,7 @@ zh kliti
 zh klupe
 zh kluza
 zh kobli
+zh koirpini
 zh kojna
 zh kokaKOlys
 zh kokso
@@ -23909,6 +23915,7 @@ zh lebna
 zh lelxe
 zh lenjo
 zh lenku
+zh lepcaro
 zh lerci
 zh lerfu
 zh libjo
@@ -23944,6 +23951,7 @@ zh lubno
 zh lu'e
 zh lu'i
 zh lujvo
+zh lujykanla
 zh lumci
 zh lunbe
 zh lunra
@@ -24061,6 +24069,7 @@ zh mumbais
 zh mumvlabivli'i
 zh mumvlavonli'i
 zh munje
+zh munpi
 zh mupli
 zh murse
 zh murta
@@ -24416,6 +24425,7 @@ zh slasi
 zh sligu
 zh slilu
 zh sliri
+zh slokirpini
 zh slovo
 zh sluji
 zh sluni
@@ -24590,6 +24600,7 @@ zh togygu'i
 zh toknu
 zh toldi
 zh tolja'e
+zh tolkerni
 zh tolki'u
 zh tolmu'i
 zh tolni'i

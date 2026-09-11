@@ -3543,7 +3543,7 @@ $x_1$ ist vor $x_2$/geht $x_2$ voran in Reihenfolge $x_3$; $x_1$ ist vorheriger/
 lidysna lujvo 1 (de)
 $s_1$ ist ein Donnern [Geräusch] erzeugt von Blitz $s_2=l_1$.
 -n
-Vgl. {lindi}, {sance}.
+Vgl. {lindi}, {sance}, {truueno}.
 ---
 lifri gismu [-lif-fri-] 1 (de)
 $x_1$ [Person/Opfer/Zustand] erlebt/durchlebt/erfährt $x_2$ (Ereignis/Erfahrung); $x_2$ passiert $x_1$
@@ -7886,6 +7886,11 @@ $x_1$ is a book with work $x_2$ by author $x_3$ for audience $x_4$ in medium $x_
 culno gismu [-clu-] 1 (en-simple)
 $x_1$ is full of $x_2$
 ---
+cumba gismu 1 (en-simple)
+$x_1$ is an arthropod of type $x_2$
+-n
+See {cinki}, {jukni}, {lokra}, {munpi}
+---
 cumki gismu [-cum-cu'i-] 1 (en-simple)
 $x_1$ is possible
 -n
@@ -9287,6 +9292,11 @@ $x_1$ pertains to Loglan language/culture in aspect $x_2$
 lojbo gismu [-lob-jbo-] 1 (en-simple)
 $x_1$ is Lojbanic in aspect $x_2$
 ---
+lokra gismu 1 (en-simple)
+$x_1$ is a crustacean of type $x_2$
+-n
+See {cumba}, {cinki}, {jukni}, {cakyjukni}.
+---
 loldi gismu [-lol-loi-] 1 (en-simple)
 $x_1$ is a floor or ground of $x_2$
 ---
@@ -10297,9 +10307,6 @@ $x_1$ is a cell or atom of $x_2$
 selfu gismu [-sef-se'u-] 1 (en-simple)
 $x_1$ serves $x_2$ with service $x_3$
 ---
-selkicrypoi lujvo 1 (en-simple)
-$x_1$ is a podcast series, ordered by $x_2$ (ka), with episodes $x_3$
----
 semto gismu [-sme-] 1 (en-simple)
 $x_1$ is Semitic in aspect $x_2$
 ---
@@ -10884,6 +10891,11 @@ $x_1$ obeys rule $x_2$ made by $x_3$
 ---
 tinci gismu 1 (en-simple)
 $x_1$ is a quantity of tin
+---
+tinri gismu 1 (en-simple)
+$x_{1}$ (abstraction) bores $x_2$ in manner $x_3$.
+-n
+See also {tolci'i}.
 ---
 tinsa gismu 1 (en-simple)
 $x_1$ is stiff in direction $x_2$ against force $x_3$
@@ -20437,7 +20449,7 @@ Ver también {djine}.
 cukta gismu [-cku-] 1 (es)
 $x_{1}$ es un libro con contenido/obra $x_{2}$ por autor $x_{3}$ para audiencia $x_{4}$ conservado en medio $x_{5}$
 ---
-cukyxratci lujvo 1 (es)
+cukyxratci lujvo 2 (es)
 $x_1$ es un compás para trazar círculos/arcos de circunferencia $x_2$
 ---
 culno gismu [-clu-] 1 (es)
@@ -78650,7 +78662,7 @@ $x_1$ lærer publikum $x_2$ i ideer/metode/lære $x_3$ (du'u) om tema $x_4$ med 
 -n
 Også instruktør, lærer, instruere, lære bort, professor, pedagog; (adjective:) $x_1$/$x_5$ er pedagogisk. Se også {ckule}, {cilre}, {tadni}.
 ---
-cukyxratci lujvo 1 (no)
+cukyxratci lujvo 2 (no)
 $t_1$ er en passer som tegner/risser sirkel $c_1$
 ---
 cusku gismu [-cus-sku-] 1 (no)
@@ -95273,7 +95285,7 @@ $x_1$是用来拼写$x_2$语言的字母表
 -n
 参见：{selyle'u}、{fu'arka}、{anbani}、{abgida}、{abjadu}、{snile'u}
 ---
-alkelna fu'ivla 1 (zh)
+alkelna fu'ivla 2 (zh)
 $x_1$ 是駝鹿（Alces alces），屬於$x_2$ 的亞種/品種
 -n
 參見{xanjirnymirli}，{mirli}，{mabru}
@@ -96958,7 +96970,7 @@ $x_1$是十个/份[10; $1*10^1$]$x_2$，在$x_3$方面（默认为计量单位�
 -n
 参见 {grake}, {mitre}, {snidu}, {stero}, {delno}, {molro}, {kelvo}, {xampo}, {gradu}, {litce}, {merli}, {centi}, {decti}, {femti}, {gigdo}, {gocti}, {gotro}, {kilto}, {megdo}, {mikri}, {milti}, {nanvi}, {petso}, {picti}, {terto}, {xatsi}, {xecto}, {xexso}, {zepti}, {zetro}
 ---
-delfinu fu'ivla 1 (zh)
+delfinu fu'ivla 2 (zh)
 $x_1$ 是海豚，屬於$x_2$ 的品種/種類
 -n
 參見{mabru}，{xamsi}，{flecu}，{tceta}，{tcetace}，{marsopa}，{orka}
@@ -97427,6 +97439,11 @@ finpe gismu [-fip-fi'e-] 1 (zh)
 $x_1$是鱼类，属于品种/种类$x_2$；可借指像鱼类的水生动物，如：鲸
 -n
 参见 {danlu}.
+---
+finprkiprinu fu'ivla 1 (zh)
+$x_{1}$是鲤鱼/鲤属动物[Cyprinus]，属于物种/品种$x_{2}$
+-n
+参见 {finpe}.
 ---
 finti gismu [-fin-fi'i-] 1 (zh)
 $x_1$ 发明/创造/构造/创作$x_2$ , 为功能/目的$x_3$, 源自已有元素/主意$x_4$.
@@ -98583,6 +98600,11 @@ $x_1$挖掘$x_2$，从洞/来源$x_3$中，使用肢体/工具$x_4$
 -n
 也指：$x_1$挖入/掘进$x_3$ （去除材料）；参见 {katna}, {plixa}, {sraku}, {canpa}, {sraku}.
 ---
+kakpybifce lujvo 1 (zh)
+$x_1$ 是木蜂（Xylocopa的屬），屬於$x_2$ 的品種/種類
+-n
+參見{kakpa}，{bifce}
+---
 kalci gismu 1 (zh)
 $x_1$是$x_2$的排泄物/粪便/屎；$x_1$是糟粕的
 -n
@@ -98823,6 +98845,11 @@ $x_1$是尖利的/锋利的，在位置$x_2$处
 -n
 参见 {balre}, {dakfu}, {jesni}.
 ---
+kirpini fu'ivla 1 (zh)
+$x_1$ 屬鯉/鯉魚（Cyprinidae的科），屬於$x_2$ 的品種/種類
+-n
+參見{finpe}
+---
 kisto gismu [-kis-] 2 (zh)
 $x_1$是关于巴基斯坦/普什图的文化/国家/语言等的事物，在$x_2$方面
 -n
@@ -98885,6 +98912,11 @@ kobli gismu [-kob-ko'i-] 1 (zh)
 $x_1$是卷心菜/甘蓝菜，属于品种/种类$x_2$
 -n
 参见 {stagi}.
+---
+koirpini fu'ivla 1 (zh)
+$x_1$ 是錦鯉（馴養的鯉魚），屬於$x_2$ 的品種/種類
+-n
+參見{kirpini}，{finpe}
 ---
 kojna gismu [-koj-ko'a-] 1 (zh)
 $x_1$是一个顶角（三维结构），在$x_2$上，由材料$x_3$构成
@@ -99252,6 +99284,11 @@ $x_1$是冷的，基于标准$x_2$
 -n
 参见 {glare}, {bisli}.
 ---
+lepcaro fu'ivla 1 (zh)
+$x_1$ 是関於絨巴的文化/語言/歷史，在$x_2$ 的方面
+-n
+參見{jgopomi}，{podji}，{neplo}，{indo}
+---
 lerci gismu [-lec-] 1 (zh)
 $x_1$（事件）是迟的，基于标准$x_2$
 -n
@@ -99422,6 +99459,11 @@ lujvo gismu [-luv-jvo-] 2 (zh)
 $x_1$（文本）是有着意义 $x_2$，参数 $x_3$ 的复合谓词，由比喻 $x_4$ 构造
 -n
 参见 {stura}, {cmavo}, {gismu}, {rafsi}, {smuni}。
+---
+lujykanla lujvo 1 (zh)
+$x_1$ 是$x_2$ 的複眼
+-n
+參見{pluja}，{kanla}，{cinki}，{lokra}，{cumba}
 ---
 lumci gismu [-lum-lu'i-] 1 (zh)
 $x_1$清洗/清洁$x_2$上的秽物/污物$x_3$，使用清洁材料$x_4$
@@ -99890,7 +99932,7 @@ molro gismu [-mo'o-] 1 (zh)
 -n
 参见 {centi}, {decti}, {dekto}, {femti}, {gigdo}, {gocti}, {gotro}, {kilto}, {megdo}, {mikri}, {milti}, {nanvi}, {petso}, {picti}, {terto}, {xatsi}, {xecto}, {xexso}, {zepti}, {zetro}.
 ---
-mongo gismu 1 (zh)
+mongo gismu 2 (zh)
 $x_1$ 是関於蒙古的文化/語言/歷史/地理/國籍，在$x_2$ 的方面
 -n
 參見{jungo}，{altaiko}，{edvenki}
@@ -99985,6 +100027,11 @@ munje gismu [-muj-mu'e-] 1 (zh)
 $x_1$是宇宙（一切/所有），具有范围/领域$x_2$，由规则/定理$x_3$定义
 -n
 也指：世界；宇宙是指能够涵盖所有领域的系统；如：论域（在特定论述中使用全部术语的完整集合），鸟类世界，动物世界； $x_3$ 是定义了宇宙的基本规则，借此以区分其它宇宙或非宇宙；参见 {ciste}, {plini}, {kensa}, {mulno}.
+---
+munpi gismu 1 (zh)
+$x_1$ 是蜈蚣/千足蟲/百足蟲/[多腿陸生的節肢動物]，屬於$x_2$ 的品種/種類
+-n
+參見{sortu'e}，{tupcfu}，{cumba}
 ---
 mupli gismu [-mup-] 1 (zh)
 $x_1$是具有基本属性$x_2$的样本/例子/范例，属于集合$x_3$
@@ -100167,7 +100214,7 @@ $x_1$是$x_2$天的晚上/夜晚，位于地点$x_3$；$x_1$是夜间的/夜晚�
 -n
 今晚={cabycte}；明晚={bavlamcte}（注：有时候今晚尚处于未来，但仍然使用{cabycte}；昨晚={prulamcte}；参见 {donri}, {djedi}, {tcika}.
 ---
-nijro gismu 2 (zh)
+nijro gismu 1 (zh)
 $x_1$ 是関於尼日利亞的文化/語言/地理，在$x_2$ 的方面
 -n
 參見{friko}，{gajno}，{tcadina}，{ni'ejro}。提議者rafsi：-nij-
@@ -101565,7 +101612,7 @@ $x_1$ 是関於新加坡的文化，在$x_2$ 的方面。
 sinjabu fu'ivla 1 (zh)
 $x_1$ 是松鼠，屬於$x_2$ 的屬/類
 -n
-任何Sciuridae的成員，包括住在土面或者下土面的一些。參見{ricyratcu}。{marmota}，{ronte}。
+任何Sciuridae的成員，包括住在土面或者下土面的一些。參見{ricyratcu}。{marmota}，{ronte}，{egnama}，{mabru}。
 ---
 sinma gismu [-si'a-] 1 (zh)
 $x_1$尊敬/高规格的对待$x_2$（受尊重的对象）
@@ -101716,6 +101763,11 @@ sliri gismu 1 (zh)
 $x_1$是硫（S）/硫制品
 -n
 参见 {xukmi}, {panci}, {pelxu}.
+---
+slokirpini fu'ivla 1 (zh)
+$x_1$ 是金魚，屬於$x_2$ 的品種/亞種
+-n
+參見{solji}，{kirpini}，{finpe}
 ---
 slovo gismu [-lov-lo'o-] 1 (zh)
 $x_1$是关于斯拉夫的文化/国家/语言等的事物，在$x_2$方面
@@ -102571,6 +102623,11 @@ tolja'e lujvo 1 (zh)
 -n
 {to'e} {jalge}. ``lo nu broda cu tolja'e lo nu brode'' 和 ``lo nu na broda cu jalge lo nu brode'' 是同义的.
 ---
+tolkerni lujvo 1 (zh)
+$x_1$（狀態/事件/事實）對$x_2$ 不公平，根據$x_3$
+-n
+參見{to'e}，{kerni}
+---
 tolki'u lujvo 1 (zh)
 $x_1$(事件/状态)是导致非$x_2$(事件/状态)的原因/解释/起因. $x_1$阻碍$x_2$.
 -n
@@ -102661,7 +102718,7 @@ troneim cmevla 1 (zh)
 -n
 挪威第三大城市，教育、科技、医药研究中心。
 ---
-truueno fu'ivla 1 (zh)
+truueno fu'ivla 2 (zh)
 $x_1$ 是雷聲，被$x_2$ 發出
 -n
 參見{lidysna}，{lindi}，{carvi}，{vilti'e}，{borma}，{savru}，{sance}
@@ -103202,7 +103259,7 @@ $x_1$是黑色的/颜色很深的
 -n
 参见 {blabi}, {grusi}, {manku}, {skari}, {xekri}, {kandi}, {carmi}, {blanu}, {bunre}, {cicna}, {crino}, {narju}, {nukni}, {pelxu}, {xunre}, {zirpu}.
 ---
-xelfo gismu 1 (zh)
+xelfo gismu 2 (zh)
 $x_1$ 是関於瑞士的文化/國籍，在$x_2$ 的方面
 -n
 參見{xelveto}，{xelvetik}，{dotco}，{fraso}，{itlo}，{talno}，{ropno}
@@ -103605,7 +103662,7 @@ zu'u cmavo UI3 1 (zh)
 zvarano fu'ivla 1 (zh)
 $x_1$ 是巨蜥，屬於$x_2$ 的種類/品種
 -n
-參見{latci}，{resrvarano}
+參見{latci}，{resrvarano}，{respa}
 ---
 zvati gismu [-zva-] 1 (zh)
 $x1$(事/物)存在/附着/出现于(事/物)$x2$

@@ -244,7 +244,7 @@ $x_1$（文本）是有着意义 $x_2$，参数 $x_3$ 的复合谓词，由比�
 -n
 参见 {stura}, {cmavo}, {gismu}, {rafsi}, {smuni}。
 ---
-nijro gismu 2 (zh)
+nijro gismu 1 (zh)
 $x_1$ 是関於尼日利亞的文化/語言/地理，在$x_2$ 的方面
 -n
 參見{friko}，{gajno}，{tcadina}，{ni'ejro}。提議者rafsi：-nij-
