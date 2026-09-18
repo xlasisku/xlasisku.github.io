@@ -229,37 +229,37 @@ $x_1$ — слово, означающее/приводящее к эффект�
 -n
 Прилагательное: $x_1$ — лексический/словесный/вербальный {slaka} (слог), {bangu} (язык [лингвистический]), {cmavo} (), {cmene} (имя), {gismu} (), {jufra} (фраза), {rafsi} (аффикс), {smuni} (значение [смысл])
 ---
-cumba gismu 3 (zh)
+cumba  3 (zh)
 $x_1$ 是節肢動物，屬於$x_2$ 的品種/種類；$x_1$ 是«虫»（廣義）
 -n
 要是{cinki}意思«昆虫»或«六腳動物»。{cinki}的源詞都意思«昆虫»，所以，基於更合適的源詞，更喜歡縮小意義而且加一个意思«節肢動物»的詞。提議者的rafsi：-cub-。參見{lokra}，{jukni}，{sortu'e}
 ---
-kibyse'u lujvo 1 (zh)
+kibyse'u  1 (zh)
 $x_1=k_1=s_1$ 是互联网的服务器, 为客户端 $x_2=k_1=s_2$, 提供服务 $x_3=s_3$.
 -n
 -kib- 是试验的gismu {kibro} 的短 rafsi. 网络节点是 {samseltcana}_2. 查看 {kibro} {selfu}; {kibdu'a}, {kibycpa}, {kibyca'o}.
 ---
-lujvo gismu [-luv-jvo-] 2 (zh)
+lujvo  2 (zh)
 $x_1$（文本）是有着意义 $x_2$，参数 $x_3$ 的复合谓词，由比喻 $x_4$ 构造
 -n
 参见 {stura}, {cmavo}, {gismu}, {rafsi}, {smuni}。
 ---
-nijro gismu 1 (zh)
+nijro  1 (zh)
 $x_1$ 是関於尼日利亞的文化/語言/地理，在$x_2$ 的方面
 -n
 參見{friko}，{gajno}，{tcadina}，{ni'ejro}。提議者rafsi：-nij-
 ---
-pagbu gismu [-pag-pau-] 1 (zh)
+pagbu  1 (zh)
 $x_1$是$x_2$的部分/组分（整体/团体）；$x_2$有部分是$x_1$
 -n
 部分的= {selpau}；参见 {pa'u}, {mulno}, {xadba}, {spisa}, {gunma}, {rafsi}.
 ---
-ra'oi cmavo RAhOI 1 (zh)
+ra'oi  RAhOI 1 (zh)
 rafsi的标记. 把rafsi变为sumti.
 -n
 要注意在这个rafsi的前后时常需要留出空白或休止. 語法分析器zantufa-0.14和更高版本分析ra'oi作为selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). 例: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
 ---
-valsi gismu [-val-vla-] 2 (zh)
+valsi  2 (zh)
 $x_1$ 是有着意义 $x_2$的词，从属于语言 $x_3$ (形容性：$x_1$ 是词)
 -n
 参见 {slaka}, {bangu}, {cmavo}, {cmene}, {gismu}, {jufra}, {rafsi}, {smuni}

@@ -3102,6 +3102,7 @@ en-simple sazri
 en-simple sefta
 en-simple selci
 en-simple selfu
+en-simple selkicrypoi
 en-simple semto
 en-simple senci
 en-simple senpi
@@ -9083,6 +9084,7 @@ fr-facile misro
 fr-facile mitre
 fr-facile mitsmuvla
 fr-facile mivdalmuzga
+fr-facile mivyske
 fr-facile mixre
 fr-facile mlakla
 fr-facile mlana
