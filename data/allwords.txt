@@ -2521,6 +2521,7 @@ en-simple iste
 en-simple jabre
 en-simple jadni
 en-simple jakne
+en-simple jaktu
 en-simple jalge
 en-simple jalna
 en-simple jalra
@@ -2862,6 +2863,7 @@ en-simple mudri
 en-simple mukti
 en-simple mulno
 en-simple munje
+en-simple munpi
 en-simple mupli
 en-simple murse
 en-simple murta
@@ -2909,6 +2911,7 @@ en-simple nusna
 en-simple nutli
 en-simple nuzba
 en-simple nuzlo
+en-simple opfete
 en-simple pabykanpystika
 en-simple pacna
 en-simple pagbu
@@ -23310,6 +23313,7 @@ zh cinri
 zh cinse
 zh cinta
 zh cinza
+zh ci'onme'a
 zh cipni
 zh cipra
 zh cipyple
@@ -23612,6 +23616,7 @@ zh glico
 zh gliglibau
 zh gluta
 zh gocti
+zh gomsi
 zh gondunu
 zh gonJAUS
 zh gotro
@@ -23929,6 +23934,7 @@ zh lindi
 zh linji
 zh linsi
 zh linto
+zh linxo
 zh lirjugbau
 zh lisri
 zh liste
@@ -24008,6 +24014,7 @@ zh megdo
 zh mekso
 zh melbi
 zh meljo
+zh melvora
 zh menli
 zh mensi
 zh mentu
@@ -24034,6 +24041,7 @@ zh mi'o
 zh mi'obmoi
 zh mipri
 zh mirli
+zh mirmekobi
 zh misno
 zh misro
 zh misryle'u
@@ -24376,6 +24384,7 @@ zh senta
 zh senva
 zh sepli
 zh serlaxi
+zh sernino
 zh serti
 zh setca
 zh sevzi
@@ -24508,6 +24517,7 @@ zh stika
 zh stimuje
 zh stizu
 zh stodi
+zh strutiio
 zh stuna
 zh stura
 zh stuzi
@@ -24628,6 +24638,7 @@ zh tsani
 zh tsapi
 zh tsiju
 zh tsina
+zh tsuksumu
 zh tubnu
 zh tugni
 zh tujli
@@ -24644,8 +24655,8 @@ zh tutra
 zh tuvytaivno
 zh ty
 zh tyrontos
-zh uacintyn
 zh UAcintyn
+zh uacintyn
 zh ueb
 zh uigro
 zh uikis
@@ -24737,6 +24748,7 @@ zh xelso
 zh xelvet
 zh xendo
 zh xenru
+zh xetkala
 zh xexso
 zh ximblai'yma'a
 zh xin
