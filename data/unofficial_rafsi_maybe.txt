@@ -1,85 +1,85 @@
 ---
-fukyvlarafsi lujvo 1 (de)
+fukyvlarafsi  1 (de)
 $r_1$ ist das rafsi-Präfix im cibyfu'ivla $v_1=f_1$, rafsi basierend auf Wort $r_2$.
 -n
 »rafsi-Präfix« ist ein lojbanspezifisches Wort und bezeichnet den initialen Teil eines {cibyfu'ivla}, welcher ein {rafsi} ist. $x_2$ ist das Wort, in welchem das rafsi verwendet wurde, $x_3$ das Wort, von dem das rafsi abgeleitet wurde. Siehe auch: {fu'ivla}.
 ---
-ra'oi cmavo RAhOI 1 (en-simple)
+ra'oi  RAhOI 1 (en-simple)
 tag of rafsi; it makes one following rafsi a sumti.
 -n
 Note that sometimes a space or a pause is necessary before and/or after the rafsi. The parser zantufa-0.14 and later will parse ra'oi as in selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Examples: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
 ---
-lujvo gismu [-luv-jvo-] 1 (eo)
+lujvo  1 (eo)
 $x_{1}$ (teksto) estas kunmetita predikato kun signifo $x_{2}$ kaj argumentoj $x_{3}$ konstruita el metaforo $x_{4}$
 -n
 Vidu ankaŭ {stura}, {cmavo}, {gismu}, {rafsi}, {smuni}.
 ---
-pagbu gismu [-pag-pau-] 1 (eo)
+pagbu  1 (eo)
 $x_{1}$ estas parto/peco/porcio/segmento de $x_{2}$ [kie $x_{2}$ estas tuto/kolektivaĵo]; $x_{2}$ estas parte $x_{1}$
 -n
 En parto (= {selpau}).  Vidu ankaŭ cmavo {pa'u}, {mulno}, {xadba}, {spisa}, {gunma}, {rafsi}.
 ---
-ra'oi cmavo RAhOI 1 (eo)
+ra'oi  RAhOI 1 (eo)
 markilo de rafsi ; ŝanĝas unu rafsi al sumti.
 -n
 Notu ke unu spaco aŭ unu paŭzo fojfoje necesas antaŭ kaj/aŭ post la rafsi. La analizilo sintaksa zantufa-0.14 kaj posto analizos ra'oi kiel en selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Ekzemploj: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
 ---
-valsi gismu [-val-vla-] 1 (eo)
+valsi  1 (eo)
 $x_{1}$ estas vorto signiganta/kaŭzanta $x_{2}$-on en lingvo $x_{3}$; (adjektivo: $x_{1}$ estas leksikona/vorta)
 -n
 Vidu ankaŭ {slaka}, {bangu}, {cmavo}, {cmene}, {gismu}, {jufra}, {rafsi}, {smuni}.
 ---
-ra'oi cmavo RAhOI 1 (fr-facile)
+ra'oi  RAhOI 1 (fr-facile)
 marqueur de rafsi ; il convertit un rafsi en sumti.
 -n
 Notez qu'une espace ou une pause est parfois nécessaire avant et/ou après le rafsi. L'analyseur syntaxique zantufa-0.14 et supérieur analyseront ra'oi comme en selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Exemples: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
 ---
-kibyse'u lujvo 2 (fr)
+kibyse'u  2 (fr)
 $x_1=k_1=s_1$ est un serveur d'Internet pour un client $x_2=k_1=s_2$ d'un service $x_3=s_3$.
 -n
 -kib- est un rafsi court du gismu expérimental {kibro}. Voir ${samseltcana}_2$ pour des nodes de réseau, {kibro} {selfu}, {kibdu'a}, {kibycpa}, {kibyca'o}
 ---
-ra'oi cmavo RAhOI 1 (fr)
+ra'oi  RAhOI 1 (fr)
 marqueur de rafsi ; il convertit un rafsi en sumti.
 -n
 Notez qu'une espace ou une pause est parfois nécessaire avant et/ou après le rafsi. L'analyseur syntaxique zantufa-0.14 et supérieur analyseront ra'oi comme en selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Exemples: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
 ---
-lujvo gismu [-luv-jvo-] 1 (hu)
+lujvo  1 (hu)
 $x_1$ egy szóelemekből felépített, lexikai értelemmel rendelkező szó $x_2$ jelentéssel, $x_3$ helyszerkezettel/vonzatokkal, $x_4$ elemekből
 -n
 (Lásd még: {stura}, {cmavo}, {gismu}, {rafsi}, {smuni})
 ---
-pagbu gismu [-pag-pau-] 1 (hu)
+pagbu  1 (hu)
 $x_1$ egy része/összetevője/darabja $x_2$ egésznek
 -n
 (Lásd még: {mulno}, {xadba}, {spisa}, {gunma}, {rafsi})
 ---
-valsi gismu [-val-vla-] 1 (hu)
+valsi  1 (hu)
 $x_1$ egy szó $x_2$ jelentéssel/hatással $x_3$ nyelvben
 -n
 (Lásd még: {slaka}, {bangu}, {cmavo}, {cmene}, {gismu}, {jufra}, {rafsi}, {smuni})
 ---
-kibyse'u lujvo 1 (ja)
+kibyse'u  1 (ja)
 $x_1=k_1=s_1$ はインターネットでクライアント $x_2=k_1=s_2$ にサービス $x_3=s_3$ を提供するサーバ
 -n
 -kib- は試験的 gismu {kibro} の3文字 rafsi. ネットワークのノードは {samseltcana}_2. 関連語 : {kibro} {selfu}; {kibdu'a}, {kibycpa}, {kibyca'o}.
 ---
-lujvo gismu [-luv-jvo-] 1 (ja)
+lujvo  1 (ja)
 $x_1$ （文字列）は $x_2$ （意味）・ $x_3$ （項）を有する、 $x_4$ （形態素）から作られた合成語・複合語
 -n
 ・大意： 合成語 ・読み方： ルゥジヴォ  ・関連語： {tanru}, {stura}, {cmavo}, {gismu}, {rafsi}, {smuni}
 ---
-pagbu gismu [-pag-pau-] 1 (ja)
+pagbu  1 (ja)
 $x_1$ は $x_2$ （本体）の部分／部品／要素；  $x_2$ は部分的に $x_1$
 -n
 「spisa」と違い、本体からの分離は含意されない。 ・大意： 部分 ・読み方： パグブ ・関連語： {pa'u}, {mulno}, {xadba}, {spisa}, {gunma}, {rafsi}
 ---
-ra'oi cmavo RAhOI 1 (ja)
+ra'oi  RAhOI 1 (ja)
 rafsi 標識。 rafsi を sumti に変える。
 -n
 その rafsi の前後に空白やポーズを置く必要がしばしばあることに注意。 構文解析器 zantufa-0.14 以上では ra'oi を selma'o RAhOI として解析する ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html )。 例： ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu
 ---
-valsi gismu [-val-vla-] 1 (ja)
+valsi  1 (ja)
 $x_1$ は $x_2$ （意味／効力）を有する、 $x_3$ （言語）の言葉／語彙
 -n
 x2 は辞書上の意味だけでなく心理上の効力なども。 ・大意： 言葉 ・読み方： ヴァルスィ ・関連語： {slaka}, {bangu}, {cmavo}, {cmene}, {gismu}, {jufra}, {rafsi}, {smuni}
@@ -204,62 +204,62 @@ $x_1$ pilno $x_2$ lo nu lifri $x_3$
 -n
 ra'oi -zmo- noi la .telselkik. finti cu ca'e rafsi zo zmo'una noi la cirko cu mapti finti ba lo nu TSK finti lo rafsi lo nu plixau lujvo zbasu kei lo se cuxna be fi lo'i na'e selpli rafsi
 ---
-lujvo gismu [-luv-jvo-] 2 (ru)
+lujvo  2 (ru)
 $x_1$ - lujvo (глагол из аффиксов) со значением $x_2$ и аргументами $x_3$, построенное из selbri $x_4$
 -n
 См. {stura} - 'структура (чего-либо)', {cmavo} - 'грамматическая частица', {gismu} - 'корневой глагол', {rafsi} - 'аффикс', {smuni} - 'значение (смысл)'
 ---
-ma'oi cmavo ZO 1 (ru)
+ma'oi  ZO 1 (ru)
 цитирование selma'o (класса ложбанских cmavo); цитирует слово (cmavo) и использует его, чтобы обозначить selma'o, к которому это cmavo относится.
 -n
 Пример: ma'oi coi эквивалентно COI. См. также {ra'oi}.
 ---
-pagbu gismu [-pag-pau-] 1 (ru)
+pagbu  1 (ru)
 $x_1$ — часть/компонент/кусок/порция/сегмент $x_2$ (чего: целое/масса)
 -n
 Частично: {selpau} {pa'u}, {mulno} (законченный), {xadba} (половина), {spisa} (кусок [вещества/объекта]), {gunma} (масса [единое целое]), {rafsi} (аффикс)
 ---
-sidbo gismu [-sib-si'o-] 1 (ru)
+sidbo  1 (ru)
 $x_1$ (абстракция) есть идея/понятие/концепция/мысль об $x_2$ (объект/абстракция) мыслителя $x_3$
 -n
 Прилагательное: $x_1$ — идеальный, мысленный. rafsi {si'o} часто используется для образования слов на "-изм": "коммунизм", "нудизм" и т. д. {ciksi} (объяснять), {jijnu} (постигать [интуитивно]), {mucti} (нематериальный), {jinvi} (считать [полагать]), {nabmi} (проблема), {pensi} (думать), {xanri} (воображаемый), {si'o}
 ---
-valsi gismu [-val-vla-] 1 (ru)
+valsi  1 (ru)
 $x_1$ — слово, означающее/приводящее к эффекту $x_2$ в языке $x_3$
 -n
 Прилагательное: $x_1$ — лексический/словесный/вербальный {slaka} (слог), {bangu} (язык [лингвистический]), {cmavo} (), {cmene} (имя), {gismu} (), {jufra} (фраза), {rafsi} (аффикс), {smuni} (значение [смысл])
 ---
-cumba gismu 3 (zh)
+cumba  3 (zh)
 $x_1$ 是節肢動物，屬於$x_2$ 的品種/種類；$x_1$ 是«虫»（廣義）
 -n
 要是{cinki}意思«昆虫»或«六腳動物»。{cinki}的源詞都意思«昆虫»，所以，基於更合適的源詞，更喜歡縮小意義而且加一个意思«節肢動物»的詞。提議者的rafsi：-cub-。參見{lokra}，{jukni}，{sortu'e}
 ---
-kibyse'u lujvo 1 (zh)
+kibyse'u  1 (zh)
 $x_1=k_1=s_1$ 是互联网的服务器, 为客户端 $x_2=k_1=s_2$, 提供服务 $x_3=s_3$.
 -n
 -kib- 是试验的gismu {kibro} 的短 rafsi. 网络节点是 {samseltcana}_2. 查看 {kibro} {selfu}; {kibdu'a}, {kibycpa}, {kibyca'o}.
 ---
-lujvo gismu [-luv-jvo-] 2 (zh)
+lujvo  2 (zh)
 $x_1$（文本）是有着意义 $x_2$，参数 $x_3$ 的复合谓词，由比喻 $x_4$ 构造
 -n
 参见 {stura}, {cmavo}, {gismu}, {rafsi}, {smuni}。
 ---
-nijro gismu 1 (zh)
+nijro  1 (zh)
 $x_1$ 是関於尼日利亞的文化/語言/地理，在$x_2$ 的方面
 -n
 參見{friko}，{gajno}，{tcadina}，{ni'ejro}。提議者rafsi：-nij-
 ---
-pagbu gismu [-pag-pau-] 1 (zh)
+pagbu  1 (zh)
 $x_1$是$x_2$的部分/组分（整体/团体）；$x_2$有部分是$x_1$
 -n
 部分的= {selpau}；参见 {pa'u}, {mulno}, {xadba}, {spisa}, {gunma}, {rafsi}.
 ---
-ra'oi cmavo RAhOI 1 (zh)
+ra'oi  RAhOI 1 (zh)
 rafsi的标记. 把rafsi变为sumti.
 -n
 要注意在这个rafsi的前后时常需要留出空白或休止. 語法分析器zantufa-0.14和更高版本分析ra'oi作为selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). 例: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
 ---
-valsi gismu [-val-vla-] 2 (zh)
+valsi  2 (zh)
 $x_1$ 是有着意义 $x_2$的词，从属于语言 $x_3$ (形容性：$x_1$ 是词)
 -n
 参见 {slaka}, {bangu}, {cmavo}, {cmene}, {gismu}, {jufra}, {rafsi}, {smuni}
