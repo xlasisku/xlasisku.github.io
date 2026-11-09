@@ -145,11 +145,11 @@ function convertJSONToHTMLElement(json) {
             },
             [
               json.score >= 1000
-                ? "official "
+                ? '"official"'
                 : json.score < 0
                   ? json.score
-                  : "+" + json.score + " ",
-              "↗",
+                  : "+" + json.score,
+              " ↗",
             ],
       ),
       " ",

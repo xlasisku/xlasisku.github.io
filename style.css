@@ -60,15 +60,13 @@ button {
   box-sizing: border-box;
   -webkit-text-size-adjust: 100%;
 }
-*:not(body),
-input,
-button {
+a, button, input, summary, #fakebox {
   transition: background 0.2s;
 }
 :root {
   --bg: light-dark(white, black);
   --fg: light-dark(black, white);
-  --checked: #ff1493;
+  --checked: #db0f7f;
   --op-c: calc(12/15);
   --op-a: calc(10/15);
   --op-8: calc(08/15);
@@ -79,13 +77,15 @@ button {
   --focus: #ffae0c;
   --sans: "Fira Sans", "Nokia Pure HL KLGN", ui-sans-serif, sans-serif;
   --mono: "iosevie", ui-monospace, monospace;
+  --muted: rgb(from var(--fg) r g b / var(--op-a));
+  --hairline: rgb(from var(--fg) r g b / var(--op-2));
   background: var(--bg);
   color: var(--fg);
   &:has(> body.regex) {
-    --checked: #0c9381;
+    --checked: #0b8272;
   }
   &:has(> body.rhyme) {
-    --checked: light-dark(#712ce8, #8f48e0);
+    --checked: #712ce8;
   }
   color-scheme: light dark;
 }
@@ -93,10 +93,10 @@ button {
 body {
   font-family: var(--sans);
   margin-inline: auto;
-  max-inline-size: 600px;
+  max-inline-size: 640px;
   padding: 8px;
   line-height: 1.4;
-  word-break: break-word;
+  overflow-wrap: anywhere;
   &[class^="r"] .normalonly {
     display: none;
   }
@@ -201,28 +201,72 @@ body {
 }
 
 /* results */
+#results {
+  margin-block-start: 4px;
+}
 .entry {
   display: block;
-  margin-block: 8px;
-  padding-block: 4px;
-  padding-inline: 16px;
+  padding-block: 12px;
+  padding-inline: 2px;
   color: var(--fg);
-  :is(p:first-child, summary) {
-    font-family: var(--sans);
+  content-visibility: auto;
+  contain-intrinsic-block-size: 4.5em;
+  & + .entry {
+    border-block-start: 1px solid var(--hairline);
   }
-  p:first-child a.w {
-    color: var(--fg);
+  p {
+    margin: 0;
   }
-  .selmaho {
-    font-family: var(--mono);
-    color: rgb(from var(--fg) r g b / var(--op-c));
+
+  /* header row */
+  > p:first-child {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 0.7ch;
+    font-size: 0.9em;
+    a.w {
+      color: var(--fg);
+      font-size: 1.2rem;
+      line-height: 1.2;
+    }
+    .rafsi {
+      color: rgb(from var(--fg) r g b / var(--op-c));
+    }
+    a[target] {
+      white-space: nowrap;
+    }
+    code {
+      font-family: var(--mono);
+      font-size: 1em;
+      padding-inline: 0.5ch;
+      border-radius: 4px;
+      background: var(--hairline);
+      color: var(--fg);
+    }
   }
-  :is(.selmaho, .rafsi) {
-    color: rgb(from var(--fg) r g b / var(--op-c));
+
+  /* definition */
+  > p:nth-child(2) {
+    margin-block-start: 2px;
+    line-height: 1.35;
+    text-wrap: pretty;
   }
+
+  /* notes */
   details {
-    color: rgb(from var(--fg) r g b / var(--op-c));
-    margin-block: 16px;
+    margin-block-start: 4px;
+    font-size: 0.9em;
+    color: var(--muted);
+    summary {
+      font-weight: normal;
+    }
+    &[open] > p {
+      margin-block: 4px 0;
+      padding-inline-start: 10px;
+      border-inline-start: 2px solid var(--hairline);
+      line-height: 1.35;
+    }
   }
 }
 code,
@@ -230,8 +274,8 @@ pre {
   font-family: var(--mono);
 }
 summary {
-  font-weight: bold;
   cursor: pointer;
+  width: fit-content;
   &:has(a:hover):hover {
     outline: none;
     background: none;
@@ -250,7 +294,7 @@ ul li {
 }
 math {
   font-family: "Fira Math";
-  font-size: 1.1em;
+  font-size: 1.05em;
 }
 b,
 h1,
@@ -264,7 +308,7 @@ a {
   text-decoration: none;
   &:is(:hover, :focus-visible) {
     outline: 2px solid var(--focus);
-    background-color: rgb(from var(--focus) rgb / var(--op-2));
+    background-color: rgb(from var(--focus) r g b / var(--op-2));
   }
 }
 .opt {
@@ -414,7 +458,7 @@ i span {
   }
 }
 @media (prefers-reduced-motion: reduce) {
-  * {
+  *, *::before, *::after {
     transition: none;
   }
 }
@@ -424,8 +468,5 @@ i span {
   }
   p:has(.opt) {
     margin-top: 0;
-  }
-  :is(.entry, details) > * {
-    margin-block: 4px !important;
   }
 }
