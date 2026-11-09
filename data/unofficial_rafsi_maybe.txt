@@ -1033,6 +1033,11 @@ $x_1$ creates life hack $x_2$ for situation $x_3$, inspired by $x_4$.
 -n
 Uses experimental rafsi -zvi- of {zviki}. See also {zviki}, {zumji'e}.
 ---
+ra'oi cmavo RAhOI 1 (en-simple)
+tag of rafsi; it makes one following rafsi a sumti.
+-n
+Note that sometimes a space or a pause is necessary before and/or after the rafsi. The parser zantufa-0.14 and later will parse ra'oi as in selma'o RAhOI ( http://guskant.github.io/gerna_cipra/zantufa-0.14.html ). Examples: ra'oi.cra .i ra'oi.cac .i ra'oicai .i ra'oicacy .i ra'oi.gismy .i ra'oigismu .
+---
 almapamla fu'ivla 1 (jbo)
 $x_1$ spati zi'o gi'e sinxa lo si'o prami ku $x_2$ noi skicu ja te skicu vo'a
 -n

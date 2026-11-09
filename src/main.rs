@@ -17,7 +17,7 @@ type Result<T> = std::result::Result<T, Box<dyn std::error::Error>>;
 
 const API: &str = "https://lensisku.lojban.org/api/jbovlaste/definitions/list";
 // (language code, lensisku langid)
-const LANGS: [(&str, u32); 2] = [("en", 2), ("jbo", 1)];
+const LANGS: &[(&str, u32)] = &[("en", 2), ("en-simple", 317), ("jbo", 1)];
 const SOURCE_LANGID: u32 = 1;
 const PER_PAGE: u32 = 100; // api max
 const RETRIES: u32 = 5;
@@ -161,7 +161,6 @@ fn select_best(mut definitions: Vec<Definition>, lang: &str) -> Vec<Entry> {
             .then(b.score.total_cmp(&a.score))
             .then(a.definitionid.cmp(&b.definitionid))
     });
-    // keeps the first (best) of each run of the same word
     definitions.dedup_by(|a, b| a.valsiword == b.valsiword);
     definitions
         .into_iter()
@@ -191,9 +190,8 @@ fn main() -> Result<()> {
         .timeout(Duration::from_mins(2))
         .user_agent("xlasisku")
         .build()?;
-    // fetch everything before writing anything, so a failure can't leave partial output
     let mut words = Vec::<Entry>::new();
-    for (lang, langid) in LANGS {
+    for &(lang, langid) in LANGS {
         let definitions = fetch_definitions(&client, lang, langid)?;
         let entries = select_best(definitions, lang);
         if entries.is_empty() {
