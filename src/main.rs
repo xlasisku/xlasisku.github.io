@@ -1,19 +1,29 @@
 use std::{
+    collections::HashMap,
     fmt::Write as _,
     fs,
     io::{Write as _, stdout},
     sync::LazyLock,
+    thread::sleep,
     time::{Duration, Instant},
 };
 
-use htmlentity::entity::{ICodedDataTrait as _, decode};
 use latkerlo_jvotci::RAFSI;
-use quick_xml::{Reader, events::Event};
 use regex::Regex;
 use reqwest::blocking::Client;
 use serde::{Deserialize, Serialize};
 
-#[derive(Debug, Clone, Serialize, Deserialize)]
+type Result<T> = std::result::Result<T, Box<dyn std::error::Error>>;
+
+const API: &str = "https://lensisku.lojban.org/api/jbovlaste/definitions/list";
+// (language code, lensisku langid)
+const LANGS: [(&str, u32); 2] = [("en", 2), ("jbo", 1)];
+const SOURCE_LANGID: u32 = 1;
+const PER_PAGE: u32 = 100; // api max
+const RETRIES: u32 = 5;
+const MIN_SCORE: f32 = -1.;
+
+#[derive(Debug, Clone, Serialize)]
 struct Entry {
     word: String,
     #[serde(default, skip_serializing_if = "String::is_empty")]
@@ -29,25 +39,13 @@ struct Entry {
     #[serde(skip_serializing_if = "is_en")]
     lang: String,
 }
-pub fn is_en(l: &String) -> bool { l == "en" }
-pub static PAUSE: LazyLock<Regex> = LazyLock::new(|| Regex::new("[. ]").unwrap());
-pub static TRIM: LazyLock<Regex> = LazyLock::new(|| Regex::new("^_|_$").unwrap());
-pub static MULTIPLE: LazyLock<Regex> = LazyLock::new(|| Regex::new("_+").unwrap());
-pub static NONWORD: LazyLock<Regex> = LazyLock::new(|| Regex::new("[^a-z0-9]").unwrap());
+fn is_en(l: &String) -> bool {
+    l == "en"
+}
+static PAUSE: LazyLock<Regex> = LazyLock::new(|| Regex::new("[. ]").unwrap());
+static TRIM: LazyLock<Regex> = LazyLock::new(|| Regex::new("^_|_$").unwrap());
+static MULTIPLE: LazyLock<Regex> = LazyLock::new(|| Regex::new("_+").unwrap());
 impl Entry {
-    const fn new() -> Self {
-        Self {
-            word: String::new(),
-            rafsi: vec![],
-            selmaho: String::new(),
-            score: 0.,
-            definition: String::new(),
-            notes: String::new(),
-            pos: String::new(),
-            lang: String::new(),
-        }
-    }
-
     fn to_datastring(&self) -> String {
         let mut s = self.word.clone();
         // regex replacements
@@ -63,8 +61,13 @@ impl Entry {
         if !self.rafsi.is_empty() {
             let _ = write!(s, " [-{}-]", self.rafsi.join("-"));
         }
-        let _ =
-            write!(s, " {} ({})\n{}", self.score.to_string().as_str(), self.lang, self.definition);
+        let _ = write!(
+            s,
+            " {} ({})\n{}",
+            self.score.to_string().as_str(),
+            self.lang,
+            self.definition
+        );
         if !self.notes.is_empty() {
             let _ = write!(s, "\n-n\n{}", self.notes);
         }
@@ -72,244 +75,131 @@ impl Entry {
     }
 }
 
-fn deëntity(t: &str) -> String { decode(t.as_bytes()).to_string().unwrap() }
-
 macro_rules! flush {
     () => {
         stdout().flush().unwrap();
     };
 }
 
-fn main() {
-    let start = Instant::now();
-    // parse the xml
-    let langs = [
-        "en",
-        "am",
-        "ar",
-        "art-guaspi",
-        "art-loglan",
-        "be",
-        "bg",
-        "br",
-        "ca",
-        "ch",
-        "cs",
-        "cy",
-        "da",
-        "de",
-        "el",
-        "en-bpfk",
-        "en-simple",
-        "eo",
-        "es",
-        "et",
-        "eu",
-        "fa",
-        "fi",
-        "fr-facile",
-        "fr",
-        "ga",
-        "gl",
-        "gu",
-        "he",
-        "hi",
-        "hr",
-        "hu",
-        "ia",
-        "id",
-        "it",
-        "ja",
-        "jbo",
-        "ka",
-        "ko",
-        "kw",
-        "la",
-        "lt",
-        "lv",
-        "mg",
-        "ne",
-        "nl",
-        "no",
-        "pl",
-        "pt-br",
-        "pt",
-        "ro",
-        "ru",
-        "sa",
-        "sk",
-        "sl",
-        "so",
-        "sq",
-        "sr",
-        "sv",
-        "ta",
-        "test",
-        "tlh",
-        "tok",
-        "tpi",
-        "tr",
-        "uk",
-        "vi",
-        "wa",
-        "zh",
-    ];
-    let mut words = Vec::<Entry>::new();
-    let mut current_tag = String::new();
-    let mut base_entry = Entry::new();
-    let mut current_entry = Entry::new();
-    let mut skip_word = false;
-    let mut in_entry = false;
-    let mut inited = false;
-    let client = Client::builder().timeout(Duration::from_mins(2)).build().unwrap();
-    for lang in langs {
-        print!("\r`{lang}`\x1b[K");
+/// One page of the lensisku definitions API. Only the fields we use.
+#[derive(Deserialize)]
+struct Page {
+    definitions: Vec<Definition>,
+    total: usize,
+}
+
+#[derive(Deserialize)]
+struct Definition {
+    definitionid: u64,
+    valsiword: String,
+    #[allow(clippy::struct_field_names, reason = "clippy...")]
+    definition: Option<String>,
+    notes: Option<String>,
+    selmaho: Option<String>,
+    type_name: String,
+    score: f32,
+}
+
+fn request_page(client: &Client, langid: u32, page: u32) -> Result<Page> {
+    let response = client
+        .get(API)
+        .query(&[
+            ("languages", langid),
+            ("source_langid", SOURCE_LANGID),
+            ("page", page),
+            ("per_page", PER_PAGE),
+        ])
+        .query(&[("sort_by", "created_at"), ("sort_order", "asc")])
+        .send()?
+        .error_for_status()?;
+    Ok(serde_json::from_slice(&response.bytes()?)?)
+}
+
+fn get_page(client: &Client, langid: u32, page: u32) -> Result<Page> {
+    let mut attempt = 1;
+    loop {
+        match request_page(client, langid, page) {
+            Ok(page) => return Ok(page),
+            Err(e) if attempt >= RETRIES => return Err(e),
+            Err(_) => {
+                sleep(Duration::from_secs(5 << (attempt - 1)));
+                attempt += 1;
+            }
+        }
+    }
+}
+
+fn fetch_definitions(client: &Client, lang: &str, langid: u32) -> Result<Vec<Definition>> {
+    let mut by_id = HashMap::new();
+    let mut total = 0;
+    for page in 1.. {
+        let response = get_page(client, langid, page)?;
+        if response.definitions.is_empty() {
+            break;
+        }
+        total = response.total;
+        for definition in response.definitions {
+            by_id.insert(definition.definitionid, definition);
+        }
+        print!("\r`{lang}` {}/{total}\x1b[K", by_id.len());
         flush!();
-        let xml = String::from_utf8(
-            client
-                .get(format!("https://lensisku.lojban.org/api/export/cached/{lang}/xml"))
-                .send()
-                .unwrap()
-                .bytes()
-                .unwrap()
-                .to_vec(),
-        );
-        assert!(xml.is_ok(), "invalid utf-8 oh no");
-        let xml = xml.unwrap();
-        if xml.is_empty() {
-            println!(" - empty xml :< trying backup");
-            let backup_path = "data/jbo.js";
-            if std::path::Path::new(backup_path).exists() {
-                let raw_content = fs::read_to_string(backup_path).unwrap();
-                if let Some(json_str) = raw_content.strip_prefix("const jbo = ") {
-                    match serde_json::from_str::<Vec<Entry>>(json_str) {
-                        Ok(backup_words) => {
-                            let mut recovered: Vec<Entry> =
-                                backup_words.into_iter().filter(|w| w.lang == lang).collect();
-                            if recovered.is_empty() {
-                                println!("  no backup entries");
-                            } else {
-                                println!("  backup entries recovered");
-                                words.append(&mut recovered);
-                            }
-                        }
-                        Err(e) => {
-                            println!("  data/jbo.js has messed up json: {e}");
-                        }
-                    }
-                } else {
-                    println!("  data/jbo.js doesn't start with `const jbo = `");
-                }
-            } else {
-                println!("   data/jbo.js is missing");
-            }
-            continue;
+    }
+    if by_id.len() < total {
+        return Err(format!("got {} of {total} definitions for `{lang}`", by_id.len()).into());
+    }
+    Ok(by_id.into_values().collect())
+}
+
+/// Mirrors lensisku's dictionary export.
+fn select_best(mut definitions: Vec<Definition>, lang: &str) -> Vec<Entry> {
+    definitions.retain(|d| {
+        d.score >= MIN_SCORE && d.type_name != "nalvla" && !d.type_name.starts_with("obsolete")
+    });
+    definitions.sort_by(|a, b| {
+        a.valsiword
+            .cmp(&b.valsiword)
+            .then(b.score.total_cmp(&a.score))
+            .then(a.definitionid.cmp(&b.definitionid))
+    });
+    // keeps the first (best) of each run of the same word
+    definitions.dedup_by(|a, b| a.valsiword == b.valsiword);
+    definitions
+        .into_iter()
+        .map(|d| Entry {
+            rafsi: RAFSI
+                .get(d.valsiword.as_str())
+                .map_or_default(|list| list.iter().map(ToString::to_string).collect()),
+            word: d.valsiword,
+            selmaho: d.selmaho.unwrap_or_default().trim().to_string(),
+            score: d.score,
+            definition: d.definition.unwrap_or_default().trim().to_string(),
+            notes: d
+                .notes
+                .unwrap_or_default()
+                .replace("\r\n", "\n")
+                .trim()
+                .to_string(),
+            pos: d.type_name,
+            lang: lang.to_string(),
+        })
+        .collect()
+}
+
+fn main() -> Result<()> {
+    let start = Instant::now();
+    let client = Client::builder()
+        .timeout(Duration::from_mins(2))
+        .user_agent("xlasisku")
+        .build()?;
+    // fetch everything before writing anything, so a failure can't leave partial output
+    let mut words = Vec::<Entry>::new();
+    for (lang, langid) in LANGS {
+        let definitions = fetch_definitions(&client, lang, langid)?;
+        let entries = select_best(definitions, lang);
+        if entries.is_empty() {
+            return Err(format!("no entries for `{lang}`").into());
         }
-        let mut reader = Reader::from_str(&xml);
-        loop {
-            match reader.read_event() {
-                Err(e) => panic!("xml problem!: {e}"),
-                Ok(Event::Eof) => {
-                    break;
-                }
-                Ok(Event::Start(e)) => {
-                    let tag = String::from_utf8(e.name().as_ref().into()).unwrap();
-                    match tag.as_str() {
-                        "entry" => {
-                            base_entry = Entry::new();
-                            base_entry.lang = lang.to_string();
-                            skip_word = false;
-                            in_entry = true;
-                            inited = false;
-                        }
-                        "word" | "type" | "selmaho" => {
-                            current_tag = tag;
-                        }
-                        "score" | "definition" | "notes" => {
-                            current_tag = tag;
-                            if !inited && !skip_word {
-                                current_entry = base_entry.clone();
-                            }
-                            inited = true;
-                        }
-                        "dictionary" | "entries" => {
-                            current_tag.clear();
-                        }
-                        _ => {
-                            reader.read_to_end(e.name()).unwrap();
-                        }
-                    }
-                }
-                Ok(Event::Text(e)) => {
-                    if !in_entry {
-                        current_tag.clear();
-                        continue;
-                    }
-                    let text = deëntity(e.into_inner().as_ref());
-                    match current_tag.as_str() {
-                        "word" => base_entry.word = text.trim().to_string(),
-                        "type" => {
-                            base_entry.pos = text.trim().to_string();
-                            if text.trim().starts_with('o') {
-                                skip_word = true;
-                            }
-                        }
-                        "selmaho" => base_entry.selmaho = text.trim().to_string(),
-                        "score" => {
-                            if let Ok(score) = text.trim().parse::<f32>() {
-                                current_entry.score = score;
-                            }
-                        }
-                        "definition" => {
-                            if !skip_word {
-                                current_entry.definition += &text;
-                            }
-                        }
-                        "notes" if !skip_word => {
-                            current_entry.notes += &text.replace("\r\n", "\n");
-                        }
-                        _ => (),
-                    }
-                    if !matches!(current_tag.as_str(), "definition" | "notes") {
-                        current_tag.clear();
-                    }
-                }
-                Ok(Event::End(e)) => {
-                    let tag = String::from_utf8(e.name().as_ref().into()).unwrap();
-                    match tag.as_str() {
-                        "entry" => {
-                            if !skip_word
-                                && current_entry.score >= -1.
-                                && !current_entry.word.is_empty()
-                            {
-                                if current_entry.rafsi.is_empty()
-                                    && let Some(rafsi_list) = RAFSI.get(current_entry.word.as_str())
-                                {
-                                    current_entry.rafsi =
-                                        rafsi_list.iter().map(ToString::to_string).collect();
-                                }
-                                words.push(current_entry.clone());
-                            }
-                            in_entry = false;
-                            current_entry = Entry::new();
-                            base_entry = Entry::new();
-                        }
-                        "definition" => {
-                            current_entry.definition = current_entry.definition.trim().to_string();
-                            current_tag.clear();
-                        }
-                        "notes" => {
-                            current_entry.notes = current_entry.notes.trim().to_string();
-                            current_tag.clear();
-                        }
-                        _ => {
-                            current_tag.clear();
-                        }
-                    }
-                }
-                _ => (),
-            }
-        }
+        words.extend(entries);
     }
     // prop/exp rafsi
     let unofficial_rafsi = words
@@ -334,12 +224,12 @@ fn main() {
     for word in &words {
         let _ = writeln!(all, "{} {}", word.lang, word.word);
     }
-    fs::write("data/allwords.txt", all).unwrap();
+    fs::write("data/allwords.txt", all)?;
     // jbo.js
     print!("\rwriting: json\x1b[K");
     flush!();
-    let json_str = serde_json::to_string(&words).unwrap();
-    fs::write("data/jbo.js", "const jbo = ".to_owned() + &json_str).unwrap();
+    let json_str = serde_json::to_string(&words)?;
+    fs::write("data/jbo.js", "const jbo = ".to_owned() + &json_str)?;
     // data.txt
     print!("\rwriting: plaintext\x1b[K");
     flush!();
@@ -347,8 +237,8 @@ fn main() {
     for word in words {
         let _ = write!(data, "\n{}\n---", word.to_datastring());
     }
-    fs::write("data/data.txt", &data).unwrap();
-    // chars.txt, fonts, noto.css
+    fs::write("data/data.txt", &data)?;
+    // chars.txt
     print!("\rwriting: characters\x1b[K");
     flush!();
     let chars: String = {
@@ -357,7 +247,7 @@ fn main() {
         v.dedup();
         v.into_iter().collect()
     };
-    fs::write("data/chars.txt", &chars).unwrap();
+    fs::write("data/chars.txt", &chars)?;
     // unofficial_rafsi.txt
     print!("\rwriting: unofficial rafsi\x1b[K");
     flush!();
@@ -365,8 +255,9 @@ fn main() {
     for word in unofficial_rafsi {
         let _ = write!(data, "\n{}\n---", word.to_datastring());
     }
-    fs::write("data/unofficial_rafsi_maybe.txt", &data).unwrap();
+    fs::write("data/unofficial_rafsi_maybe.txt", &data)?;
     // .i mulno .ui
     let duration = start.elapsed();
     println!("\rdone :3 took {duration:?}");
+    Ok(())
 }
