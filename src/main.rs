@@ -12,6 +12,7 @@ use latkerlo_jvotci::RAFSI;
 use regex::Regex;
 use reqwest::blocking::Client;
 use serde::{Deserialize, Serialize};
+use serde_json::Value;
 
 type Result<T> = std::result::Result<T, Box<dyn std::error::Error>>;
 
@@ -28,8 +29,18 @@ struct Entry {
     word: String,
     #[serde(default, skip_serializing_if = "String::is_empty")]
     selmaho: String,
+
     #[serde(skip)]
-    rafsi: Vec<String>,
+    jvotci_rafsi: Vec<String>,
+    #[serde(skip)]
+    guessed_notes_rafsi: Vec<String>,
+    #[serde(skip)]
+    official_rafsi: Option<Value>,
+    #[serde(skip)]
+    experimental_rafsi: Option<Value>,
+    #[serde(skip)]
+    api_rafsi: Option<Value>,
+
     score: f32,
     definition: String,
     #[serde(default, skip_serializing_if = "String::is_empty")]
@@ -38,13 +49,40 @@ struct Entry {
     pos: String,
     #[serde(skip_serializing_if = "is_en")]
     lang: String,
+    author: String,
 }
+
 fn is_en(l: &String) -> bool {
     l == "en"
 }
+
 static PAUSE: LazyLock<Regex> = LazyLock::new(|| Regex::new("[. ]").unwrap());
 static TRIM: LazyLock<Regex> = LazyLock::new(|| Regex::new("^_|_$").unwrap());
 static MULTIPLE: LazyLock<Regex> = LazyLock::new(|| Regex::new("_+").unwrap());
+static NOTES_RAFSI: LazyLock<Regex> =
+    LazyLock::new(|| Regex::new(r"\W-([a-gi-pr-vz']{3,4})-\W").unwrap());
+
+#[allow(
+    clippy::ref_option_ref,
+    clippy::trivially_copy_pass_by_ref,
+    reason = "needed for serde?"
+)]
+fn is_empty_json(value: &Option<&Value>) -> bool {
+    match value {
+        None | Some(Value::Null) => true,
+        Some(Value::String(s)) => s.is_empty(),
+        Some(Value::Array(a)) => a.is_empty(),
+        Some(Value::Object(o)) => o.is_empty(),
+        _ => false,
+    }
+}
+fn extract_notes_rafsi(notes: &str) -> Vec<String> {
+    NOTES_RAFSI
+        .captures_iter(notes)
+        .map(|capture| capture[1].to_string())
+        .collect()
+}
+
 impl Entry {
     fn to_datastring(&self) -> String {
         let mut s = self.word.clone();
@@ -58,8 +96,8 @@ impl Entry {
         if !self.selmaho.is_empty() {
             let _ = write!(s, " {}", self.selmaho);
         }
-        if !self.rafsi.is_empty() {
-            let _ = write!(s, " [-{}-]", self.rafsi.join("-"));
+        if !self.jvotci_rafsi.is_empty() {
+            let _ = write!(s, " [-{}-]", self.jvotci_rafsi.join("-"));
         }
         let _ = write!(
             s,
@@ -75,12 +113,6 @@ impl Entry {
     }
 }
 
-macro_rules! flush {
-    () => {
-        stdout().flush().unwrap();
-    };
-}
-
 /// One page of the lensisku definitions API. Only the fields we use.
 #[derive(Deserialize)]
 struct Page {
@@ -92,12 +124,40 @@ struct Page {
 struct Definition {
     definitionid: u64,
     valsiword: String,
+
     #[allow(clippy::struct_field_names, reason = "clippy...")]
     definition: Option<String>,
     notes: Option<String>,
     selmaho: Option<String>,
     type_name: String,
     score: f32,
+
+    #[serde(rename = "username")]
+    author: String,
+
+    official_rafsi: Option<Value>,
+    experimental_rafsi: Option<Value>,
+    rafsi: Option<Value>,
+}
+
+#[derive(Serialize)]
+struct RafsiComparison<'a> {
+    word: &'a str,
+    lang: &'a str,
+    def: &'a str,
+
+    #[serde(skip_serializing_if = "<[_]>::is_empty")]
+    jvotci_rafsi: &'a [String],
+    #[serde(skip_serializing_if = "is_empty_json")]
+    official_rafsi: Option<&'a Value>,
+    #[serde(skip_serializing_if = "is_empty_json")]
+    experimental_rafsi: Option<&'a Value>,
+    #[serde(skip_serializing_if = "is_empty_json")]
+    api_rafsi: Option<&'a Value>,
+    #[serde(skip_serializing_if = "<[_]>::is_empty")]
+    guessed_notes_rafsi: &'a [String],
+
+    notes: &'a str,
 }
 
 fn request_page(client: &Client, langid: u32, page: u32) -> Result<Page> {
@@ -164,24 +224,65 @@ fn select_best(mut definitions: Vec<Definition>, lang: &str) -> Vec<Entry> {
     definitions.dedup_by(|a, b| a.valsiword == b.valsiword);
     definitions
         .into_iter()
-        .map(|d| Entry {
-            rafsi: RAFSI
-                .get(d.valsiword.as_str())
-                .map_or_default(|list| list.iter().map(ToString::to_string).collect()),
-            word: d.valsiword,
-            selmaho: d.selmaho.unwrap_or_default().trim().to_string(),
-            score: d.score,
-            definition: d.definition.unwrap_or_default().trim().to_string(),
-            notes: d
+        .map(|d| {
+            let word = d.valsiword;
+            let notes = d
                 .notes
                 .unwrap_or_default()
                 .replace("\r\n", "\n")
                 .trim()
-                .to_string(),
-            pos: d.type_name,
-            lang: lang.to_string(),
+                .to_string();
+            Entry {
+                jvotci_rafsi: RAFSI
+                    .get(word.as_str())
+                    .map_or_default(|list| list.iter().map(ToString::to_string).collect()),
+                guessed_notes_rafsi: extract_notes_rafsi(&notes),
+                official_rafsi: d.official_rafsi,
+                experimental_rafsi: d.experimental_rafsi,
+                api_rafsi: d.rafsi,
+                word,
+                selmaho: d.selmaho.unwrap_or_default().trim().to_string(),
+                score: d.score,
+                definition: d.definition.unwrap_or_default().trim().to_string(),
+                notes,
+                pos: d.type_name,
+                lang: lang.to_string(),
+                author: d.author,
+            }
         })
         .collect()
+}
+
+fn write_rafsi_comparison(words: &[Entry]) -> Result<()> {
+    let comparison = words
+        .iter()
+        .filter(|word| {
+            !word.guessed_notes_rafsi.is_empty() && word.jvotci_rafsi != word.guessed_notes_rafsi
+        })
+        .map(|word| RafsiComparison {
+            word: &word.word,
+            lang: &word.lang,
+            def: &word.definition,
+            jvotci_rafsi: &word.jvotci_rafsi,
+            official_rafsi: word.official_rafsi.as_ref(),
+            experimental_rafsi: word.experimental_rafsi.as_ref(),
+            api_rafsi: word.api_rafsi.as_ref(),
+            guessed_notes_rafsi: &word.guessed_notes_rafsi,
+            notes: &word.notes,
+        })
+        .collect::<Vec<_>>();
+    fs::write(
+        "data/rafsi_comparison.json",
+        serde_json::to_vec_pretty(&comparison)?,
+    )?;
+    Ok(())
+}
+
+#[macro_export]
+macro_rules! flush {
+    () => {
+        stdout().flush().unwrap();
+    };
 }
 
 fn main() -> Result<()> {
@@ -199,21 +300,7 @@ fn main() -> Result<()> {
         }
         words.extend(entries);
     }
-    // prop/exp rafsi
-    let unofficial_rafsi = words
-        .iter()
-        .filter(|word| {
-            (word.notes.contains("rafsi") || word.notes.contains("ra'oi"))
-                && (!RAFSI.contains_key(word.word.as_str())
-                    || RAFSI.get(word.word.as_str()).unwrap().is_empty()
-                    || RAFSI
-                        .get(word.word.as_str())
-                        .unwrap()
-                        .iter()
-                        .any(|r| !word.notes.contains(&format!("-{r}-"))))
-        })
-        .cloned()
-        .collect::<Vec<_>>();
+
     // write
     // allwords.txt
     print!("\rwriting: all words\x1b[K");
@@ -223,19 +310,27 @@ fn main() -> Result<()> {
         let _ = writeln!(all, "{} {}", word.lang, word.word);
     }
     fs::write("data/allwords.txt", all)?;
+
     // jbo.js
     print!("\rwriting: json\x1b[K");
     flush!();
     let json_str = serde_json::to_string(&words)?;
     fs::write("data/jbo.js", "const jbo = ".to_owned() + &json_str)?;
+
     // data.txt
     print!("\rwriting: plaintext\x1b[K");
     flush!();
     let mut data = "---".to_string();
-    for word in words {
+    for word in &words {
         let _ = write!(data, "\n{}\n---", word.to_datastring());
     }
     fs::write("data/data.txt", &data)?;
+
+    // rafsi_comparison.json
+    print!("\rwriting: rafsi comparison\x1b[K");
+    flush!();
+    write_rafsi_comparison(&words)?;
+
     // chars.txt
     print!("\rwriting: characters\x1b[K");
     flush!();
@@ -246,14 +341,7 @@ fn main() -> Result<()> {
         v.into_iter().collect()
     };
     fs::write("data/chars.txt", &chars)?;
-    // unofficial_rafsi.txt
-    print!("\rwriting: unofficial rafsi\x1b[K");
-    flush!();
-    let mut data = "---".to_string();
-    for word in unofficial_rafsi {
-        let _ = write!(data, "\n{}\n---", word.to_datastring());
-    }
-    fs::write("data/unofficial_rafsi_maybe.txt", &data)?;
+
     // .i mulno .ui
     let duration = start.elapsed();
     println!("\rdone :3 took {duration:?}");

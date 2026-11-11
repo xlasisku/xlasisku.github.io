@@ -1645,6 +1645,11 @@ Monomorphemic form of {tolcau}. Its semantic space is roughly those of {ralte} a
 axlte fu'ivla 1 (en)
 $x_1$ is an axolotl of species/breed $x_2$
 ---
+axsomo fu'ivla 1 (en)
+$x_1$ represents Ahom culture/language/history/geography in aspect $x_2$.
+-n
+See also {oxmiia}, {indo}, {jdaio}.
+---
 azarbaiDJAN cmevla 1 (en)
 Azerbaijan
 ---
@@ -45653,10 +45658,10 @@ $x_1$ becomes inactive (idle/at rest) under conditions $x_2$.
 -n
 See also {cadgau} ("deactivate").
 ---
-cadga gismu 3 (en)
-$x_1$ (abstraction) should/(of right) ought to be true/happening under conditions/in the case of $x_2$ being true/happening, as believed by/by standard/under consideration of $x_3$. If the world were proper/correct/just/ruled perfectly and strictly according to $x_3$ and if $x_2$ were true, then $x_1$ would be true as well.
+cadga gismu 4 (en)
+$x_1$ should be or do $x_2$.
 -n
-Moral judgment goes in $x_3$. $x_3$ can also be assumed by expectation under hypothesized laws of physics, by the true situation of the world, etc. Synonymous with {zgadi}. See also {bilga}, {jetnu}, {kerni}.
+Split from {zgadi} as it's the less used of the two. The difference parallels {kakne} and {cumki}. Don't use this for inanimate subjects like "the sign should be removed"; this word is agentive, and that's *lo snita'o cu poi'i zgadi fa lo du'u vimcu ke'a*.
 ---
 cadgau lujvo 1 (en)
 $x_1$ deactivates $x_2$.
@@ -49352,7 +49357,7 @@ See also {clani}, {kurfa}.
 clamau lujvo 2 (en)
 $z_1$ is longer/taller than $z_2$ in direction $c_2$ by margin $z_4$.
 -n
-Cf. {bramau}, {clame'a}.
+Cf. {bramau}, {clame'a}, {clarai}, {rajyclamau}, {clani}, {zmadu}.
 ---
 clame'a lujvo 1 (en)
 $m_1$ is shorter than $m_2$ in direction $c_2$ by margin $m_4$.
@@ -49399,8 +49404,10 @@ Cf. {claselxadni}, {torpre}, {brabracrida}.
 clara'i lujvo 0 (en)
 $x_{1}$ is a long with continuity interval $x_{2}$ with length direction  $x_{3}$ with length standard $x_{4}$.
 ---
-clarai lujvo 0 (en)
-$x_1$ (object/dimension) is longest among set $x_2$ (set) in respective dimensions $x_3$ (default: the longest for each).
+clarai lujvo 1 (en)
+$c_1$ is the longest among set/range $t_4$ in property $c_2$.
+-n
+See also {clamau}, {rajyclarai}, {brarai}, {clani}, {traji}.
 ---
 clare'i lujvo 0 (en)
 $x_{1}$ is a survivor with endured $x_{2}$ with survival time-long $x_{3}$ with length standard $x_{4}$.
@@ -56786,6 +56793,11 @@ $x_1$ is less than/has a smaller value than $x_2$, with a difference of $x_3$ (a
 -n
 See also {dubnalmau}, {dubmau}
 ---
+dubme'o lujvo 1 (en)
+$m_1$ is an equation under rules/convention $m_2$ where $d_1$ equals $d_2$ equals $d_3$… etc.
+-n
+See also {du}, {mekso}, {naldubme'o}.
+---
 dubmecrai lujvo 1 (en)
 $x_1$ is the smallest number/value out of plurality $x_2$
 -n
@@ -57622,6 +57634,11 @@ efmere fu'ivla 1 (en)
 $x_1$ is ephemeric, lasting for a short period of time $x_2$; $x_1$ is ephemeral, temporary, transitory, fleeting, evanescent, momentary, short-lived, short, volatile
 -n
 See {zasni}
+---
+efmeropte fu'ivla 1 (en)
+$x_1$ is a mayfly (order Ephemeroptera) of species/breed $x_2$.
+-n
+See also {odnata}, {ansoptera}, {zgoptera}, {cinki}.
 ---
 egna fu'ivla 4 (en)
 $x_1$ gnaws on $x_2$
@@ -61388,9 +61405,6 @@ Place before UI to indicate it applies to the next construct rather than the pre
 ---
 fu'u cmavo VUhU0 100000 (en)
 n-ary mathematical operator: elliptical/unspecified mathematical expression (mex) operator.
----
-fucking cmevla -1 (en)
-synonym of {ba'e}
 ---
 fugvrse'i fu'ivla 0 (en)
 $removed$
@@ -83891,8 +83905,8 @@ $g_1=me_1$ telekinetically / with its mind moves $mu_1$ to destination/receiver 
 -n
 Made from {menli}+{muvgau}.  {menli}2 dropped on account of irrelevancy.  See also {gasnu}, {klama}, {litru}, {makfa}, {menli}, {muvdu}.
 ---
-menre gismu 2 (en)
-$x_1$ is/are among the referent(s) of $x_2$
+menre gismu 3 (en)
+$x_1$ is/are among $x_2$, $x_1$ belongs to $x_2$
 -n
 See also {me}.
 ---
@@ -87891,6 +87905,11 @@ $x_1$ is moderate in respect of $x_2$ by standard $x_3$
 -n
 from {na'e} + {dukse}
 ---
+naldubme'o lujvo 1 (en)
+$m_1$ is an inequality under rules/convention $m_2$ where $d_1$ is greater/less than $d_2$ greater/less than $d_3$… etc.
+-n
+See also {na'e}, {du}, {mekso}, {dubme'o}.
+---
 naldzukla lujvo 0 (en)
 $x_{1}$ is a come with destination $x_{2}$ with starting point $x_{3}$ with route of going $x_{4}$ with transportation means  $x_{5}$.
 ---
@@ -89188,10 +89207,10 @@ Modeled on the definition of {mugle}. Some degree of (at least budding) expertis
 nerfle lujvo 0 (en)
 $x_{1}$ is a flow with has flow $x_{2}$ with flow destination -has inside $x_{3}$ with flow source  $x_{4}$.
 ---
-nerfopi fu'ivla 2 (en)
+nerfopi fu'ivla 1 (en)
 $x_1$ is a lobster of species $x_2$.
 -n
-Cf. {xasyjukni}, {cakyjukni}, {lokra}, {cilga}. From linnaean Nephropidae.
+Cf. {xasyjukni}, {cakyjukni}, {lokra}, {cilga}.
 ---
 nergaiu fu'ivla 3 (en)
 $x_1$ tops (sexual position/role) in aspect $x_2$ (ka)
@@ -92138,7 +92157,7 @@ Ohio
 oxmiia fu'ivla 1 (en)
 $x_1$ represents Assamese culture/language/geography/ethnicity in aspect $x_2$
 -n
-See also {bengo}, {xindo}, {indo}, {srito}.
+See also {axsomo}, {bengo}, {xindo}, {indo}, {srito}.
 ---
 oxtapodi fu'ivla 2 (en)
 $x_1$ is an octopus of species $x_2$.
@@ -97721,7 +97740,7 @@ Cf. {sraji}, {clani}, {zmadu}, {rajycla}, {rajyclarai}.
 rajyclarai lujvo 1 (en)
 $t_1=c_1=s_1$ is the tallest among set/range $t_4$.
 -n
-Cf. {sraji}, {clani}, {traji}, {rajycla}, {rajyclamau}.
+Cf. {sraji}, {clani}, {traji}, {rajycla}, {rajyclamau}, {clarai}.
 ---
 rajydesku lujvo 1 (en)
 $x_1$ nods
@@ -99479,6 +99498,11 @@ $x_1$ is an emerald.
 ---
 ri'onro'i lujvo 3 (en)
 $x_1$ is a jade.
+---
+ri'orbizbla lujvo 1 (en)
+$x_1$ is grue/bleen (blue-green spectrum treated as a single colour word).
+-n
+See also {crino}, {cicna}, {blanu}, {bi'i}.
 ---
 ri'orfrupo'a lujvo 1 (en)
 $x_1$ is a Creeper, the exploding green monster from the video game Minecraft.
@@ -102928,7 +102952,7 @@ $x_1$ is a file (electronic document) containing $x_2$
 -n
 see also {skami}, {dokcu}
 ---
-samdzan cmevla 1 (en)
+samdzan cmevla 2 (en)
 Shenzhen
 -n
 See also {jungo}, {gondunu}, {jugygu'e}.
@@ -110311,7 +110335,7 @@ See also {nilce}.
 sfopu gismu [-fop-fo'u-] 2 (en)
 $x_1$ is borked/borken and can no longer perform function $x_2$
 -n
-see also {spofu}. Proposed rafsi -fop- and/or -fo'u-.
+see also {spofu}
 ---
 sfu'utu fu'ivla 1 (en)
 $x_1$ is measured in $x_2$ (default 1) feet (US customary unit)
@@ -110815,6 +110839,11 @@ silvusi fu'ivla 2 (en)
 $x_1$ has a salty taste
 -n
 {silna}, {vrusi}
+---
+silxoto fu'ivla 1 (en)
+$x_1$ represents Sylheti culture/language/history/geography in aspect $x_2$.
+-n
+See also {bengo}, {indo}, {srito}.
 ---
 simbasti lujvo 5 (en)
 $x_1$ trades places with $x_2$ in circumstance $x_3$.
@@ -115471,7 +115500,7 @@ $u_1$ is a spinner in user interface $u_2$.
 -n
 See {ciska zei uidje}, {uidje}.
 ---
-stima gismu 4 (en)
+stima gismu 5 (en)
 $x_1$ comes to an end; $x_1$ ceases to happen
 -n
 Synonymous with {tolcfa}, {fausti}, {famfau}.
@@ -116226,7 +116255,7 @@ cf. {surla}, {gasnu}
 surkata fu'ivla 2 (en)
 $x_1$ is a meerkat (Suricata suricatta) of type $x_2$
 -n
-See {mabru}, {danlu}
+See {erpesti}, {mabru}, {danlu}
 ---
 surla gismu [-sur-] 100002 (en)
 $x_{1}$ relaxes/rests/is at ease in/by doing/being $x_{2}$ (activity).
@@ -116997,10 +117026,10 @@ $x_1$ is a taxi
 -n
 See also {aftobuso}. For denoting passengers, engine, towns and cities etc. used in combination with {karce}, {carce}, {marce}, {tcadu}.
 ---
-takside fu'ivla 2 (en)
+takside fu'ivla 1 (en)
 $x_1$ is a badger of species $x_2$
 -n
-See also {mutsteila}, {mabmustela}, {mabmustelidai}, {dauzlexo}.
+See also {melvora}, {mutsteila}, {mabmustela}, {mabmustelidai}, {dauzlexo}, {mabru}.
 ---
 taktapla lujvo 0 (en)
 $x_{1}$ is a tile-ceramic with tile material-ceramic composition $x_{2}$ with tapla3-ceramic form $x_{3}$ with tapla4 $x_{4}$.
@@ -137156,7 +137185,7 @@ $x_1$ is apparatus for function $x_2$ controlled by $x_3$
 cacra gismu 1 (en-simple)
 $x_1$ is $x_2$ hours in duration
 ---
-cadga gismu 1 (en-simple)
+cadga gismu 0 (en-simple)
 $x_{1}$ (abstraction) should be true under condition $x_{2}$ by standard $x_{3}$.
 -n
 $x_{3}$ can be moral judgment, hypothesized laws of physics, etc. See also {zgadi}.
@@ -141404,6 +141433,11 @@ $x_1$ ca'a zilpilno $x_2$
 -n
 ko catlu fe ji'a zo {pilno}
 ---
+aktinari fu'ivla 1 (jbo)
+$x_1$ snidari’a $x_2$ fi’o veljutsi la’e zoi lu Actinaria lu
+-n
+srana zo {jmedu} .e zo {korja}
+---
 alcu fu'ivla 1 (jbo)
 $x_1$ cusku $x_2$ .i ba bo $x_3$ cusku $x_4$ .i ba bo $x_5$ cusku $x_6$ .i ba bo co'e li'o
 ---
@@ -142071,6 +142105,11 @@ bejmi gismu 1 (jbo)
 $x_{1}$ kandi grusi bunre
 -n
 srana fa zo {bunre} .e {grusi} .e {kandi} .e {skari}
+---
+bekpi gismu 1 (jbo)
+$x_1$ pagbu lo cutne ja betfu be $x_2$ gi’e trixe lo se go’i ca lo nu sraji kei gi’e bo cpana lo se go’i ca lo nu pinta .i $x_1$ to’e vente
+-n
+srana zo {trixe} .e zo {vente} .e zo {cutne}
 ---
 bemro gismu [-bem-be'o-] 1 (jbo)
 $x_1$ ckini lo braplu poi se stuzi le stici je berti be la terd ku'o $x_2$
@@ -142907,7 +142946,7 @@ lonu $x_1$ cusku $x_2$ $x_3$ $x_4$ cu tcaci $x_1$ $x_5$
 -n
 {tcaci} {cusku}
 ---
-cadga gismu 3 (jbo)
+cadga gismu 4 (jbo)
 .ei $x_1$ zukte ja ckaji $x_2$ .i zgadi fa lo du'u $x_1$ zukte ja ckaji $x_2$ .i lo nu da'i $x_1$ zukte $x_2$ cu nu drazu'e fa $x_1$
 -n
 sepygau fi zo {zgadi} ki'u lo du'u le re valsi pu prane co smudu'i zu'ai .i zo {cadga} cu se zukcu'a fi lo ka sinxa lo cnino smuni kei ki'u lo du'u mleca lo ni cafne se pilno kei zo {zgadi} .i .e'u datca ke ji'a zo {ei} je zo {nitcu} je zo {bilga}
@@ -143707,6 +143746,11 @@ $x_2$ ckaji $x_3$ .ije $x_1$ jursa jarco lo ka tolsi'a ja xalbo la'e di'u kei lo
 -n
 {cmila} .i {xalbo} .i {xajmi} .i {bebna} .i {junri} .i {xrani} .i {xendo} .i {jursa}
 ---
+ckeirku fu'ivla 1 (jbo)
+$x_1$ is a cercus/cerci of $x_2$ having function $x_3$.
+-n
+Refers to a paired appendage on the end segments of many arthropods, with many different functions. See also {gaskre}, {betfu}, {rebla}, {jalra}, {jadji}, {cinki}, {cumba}.
+---
 ckeji gismu [-kej-cke-] 1 (jbo)
 $x_1$ cinmo lo ka burna ja na'e se pluka lo nu $x_1$ zukte ja ckaji $x_2$ .i $x_1$ to'e jgira $x_2$
 -n
@@ -143736,6 +143780,11 @@ ckire gismu [-kir-] 1 (jbo)
 $x_1$ cinmo lo zabna $x_2$ ja'e lo nu $x_2$ zukte ja ckaji $x_3$ noi xamgu ja prali ja pluka ja se zanru ja se sinma $x_1$
 -n
 {cinmo}; {zabna}; {zukte}; {ckaji}; {xamgu}; {prali}; {pluka}; {zanru}; {sinma}
+---
+ckiripedi fu'ivla 1 (jbo)
+$x_1$ lokra $x_2$ fi’o vipsi xeljutsi la’e zoi lu Cirripedia lu
+-n
+srana zo {lokra} .e zo {korja}
 ---
 ckisku lujvo 1 (jbo)
 $x_1$ cusku $x_2$ fi $x_3$ fo $x_4$ fi'o se ciksi $x_5$
@@ -144033,10 +144082,10 @@ tcita lo cmene ja ve skicu le du'u sinxa le du'u makau te cusku .e le du'u tolri
 -n
 {doi}, {tolrinsa}
 ---
-co'u cmavo ZAhO [-co'u-] 1 (jbo)
+co'u cmavo ZAhO [-co'u-] 2 (jbo)
 fi'o fanmo
 -n
-{fanmo}; {tolcfa}
+{fanmo}; {stima}
 ---
 co'urde'a lujvo 1 (jbo)
 $x_1$ co'u denpa $x_2$ $x_3$ $x_4$
@@ -145674,6 +145723,11 @@ ifle fa lo du'u $x_3$ li pa dubmau kei, lo du'u $x_1$ me'au $x_4$ lo efku be $x_
 -n
 smudu'i zo {refkusi}
 ---
+efmeropte fu'ivla 1 (jbo)
+$x_1$ cinki $x_2$ fi’o veljutsi la’e zoi lu Ephemeroptera lu
+-n
+srana zo {odnata} .e zo {ansoptera} .e zo {zgoptera} .e zo {cinki}
+---
 ei cmavo UI1 1 (jbo)
 tcita le se cusku le du'u la'e ri se bilga
 -n
@@ -145766,6 +145820,11 @@ srana fa zo {fatci} .e zo {jetnu} .e zo {ja'a} .e zo {zmadu}
 ---
 enzasti fu'ivla 1 (jbo)
 $x_1$ zasti xoi se munje $x_2$
+---
+erpesti fu'ivla 1 (jbo)
+$x_1$ is a mongoose (family Herpestidae) of species/breed $x_2$.
+-n
+See also {surkata}, {recyctimabru}, {smidauzlexo}, {mabru}.
 ---
 erpi fu'ivla 1 (jbo)
 $x_1$ te finti $x_2$ zi'o
@@ -149418,6 +149477,11 @@ $x_1$ pilno $x_4$ noi mu'a canpa ku'o lo nu vimcu $x_2$ boi $x_3$ noi sligu .i g
 -n
 {katna} .i {plixa} .i {sraku} .i {canpa} .i {sraku}
 ---
+kakpybifce lujvo 1 (jbo)
+$x_1$ bifce $x_2$ fi’o seljutsi la’e zoi lu Xylocopa lu
+-n
+srana zo {kakpa} .e zo {bifce}
+---
 kakydirgo lujvo 1 (jbo)
 $x_1$ dirgo lo se klaku be $x_2$ bei $x_3$ boi $x_4$
 -n
@@ -150205,6 +150269,11 @@ korcu gismu [-kro-] 1 (jbo)
 $x_1$ na'e sirji
 -n
 {sirji}
+---
+korja gismu 1 (jbo)
+$x_1$ snidari’a fi’o vipsi jicmivlei la’e zoi lu Anthozoa lu gi’e se calku lo jdari gi’e narmu’u se cecmu
+-n
+srana zo {korja}
 ---
 korka gismu [-kok-] 2 (jbo)
 $x_1$ pilka $x_2$ noi spati gi'e se mudri
@@ -154876,10 +154945,10 @@ $x_1$ ckini lo daplu poi se stuzi lo sunrai ja sicrai be la .terd. ku'o $x_2$
 -n
 srana zo {daplu} .e zo {xamsi} .e zo {terdi}
 ---
-pombo gismu [-pom-] 2 (jbo)
-$x_1$ cmima $x_3$ .ije $x_1$ .enai roda poi cmima $x_3$ gi'e na du $x_1$ cu ckaji $x_2$
+pombo gismu [-pom-] 3 (jbo)
+lo klesi be $x_3$ bei $x_2$ cu pamei $x_1$
 -n
-$x_1$ se {steci} $x_2$ $x_3$ .i ji'a srana zo {rirci} .e zo {fadni} .e zo {mupli} .e zo {kampu}
+$x_1$ se {steci} $x_2$ $x_3$ .i ji'a srana zo {klesi} .e zo {rirci} .e zo {fadni} .e zo {mupli} .e zo {kampu} .e zo {pamei}
 ---
 ponjo gismu [-pon-po'o-] 1 (jbo)
 $x_1$ ckini lo kulnu ja bangu ja cecmu ja natmi pe lo banjupunu ja gugdejupu $x_2$
@@ -155327,6 +155396,16 @@ $x_1$ ckini lo kulnu ja bangu ja cecmu ja natmi pe lo gugde'ike $x_2$
 -n
 {kulnu}; {bangu}; {cecmu}; {natmi}; {gugde'ike}; {xazdo}; {semto}; {xrabo}
 ---
+raktu gismu [-ra'u-] 1 (jbo)
+$x_1$ gasnu lonu $x_2$ se nabmi $x_3$
+-n
+srana zo {nabmi} .e zo {fanza} .e zo {zunti}
+---
+ralci gismu [-rac-] 1 (jbo)
+$x_1$ mutce loka kakne loka xrani ce'u kei kei $x_2$
+-n
+srana zo {xrani} .e zo {daspo} .e zo {spofu} .e zo {ranti}
+---
 ralju gismu [-ral-] 1 (jbo)
 $x_1$ traji fi $x_2$ fe lo ka vajni fi $x_3$
 -n
@@ -155347,6 +155426,16 @@ $x_1$ mirli $x_2$ fi'o jutsi la'e zoi lu Rangifer tarandus lu
 -n
 srana zo {mirli} .e zo {mabru}
 ---
+rango gismu [-rag-] 1 (jbo)
+$x_1$ pagbu lo xadni be $x_2$ gi'e ckaji $x_3$
+-n
+srana zo {xadni} .e zo {tubra} .e zo {cigla}
+---
+ranji gismu [-ra'i-] 1 (jbo)
+noda dicra $x_1$ ze'a $x_2$
+-n
+srana zo {kuspe} .e zo {renvi} .e zo {dicra}
+---
 ranmi gismu [-ram-] 1 (jbo)
 $x_1$ lisri $x_2$ lo dzena be lo se kulnu be $x_3$
 -n
@@ -155361,6 +155450,11 @@ ranti gismu [-ran-] 1 (jbo)
 $x_1$ kakne lo ka randa $x_2$ .i $x_1$ jai frili $x_2$ fai lo ka ce'u randa ce'u .i $x_1$ to'e jdari $x_2$
 -n
 {kakne}; {randa}; {frili}; {jdari}
+---
+ranxi gismu [-rax-] 1 (jbo)
+$x_1$ frica $x_2$ $x_3$ .ije $x_1$ na.e $x_2$ se kanpe
+-n
+srana zo {frica} .e zo {cizra} .e zo {xalbo}
 ---
 rapcreze'a lujvo 1 (jbo)
 $x_1$ zenba lo ka ke'a certu $x_2$ kei $x_3$ se zu'e lo nu $x_4$ rapli $x_5$
@@ -155401,6 +155495,11 @@ rarna gismu [-rar-] 1 (jbo)
 lo nu $x_1$ zasti cu fasnu gi'e na se gasnu lo prenu .i va'i $x_1$ to'e rutni zi'o
 -n
 {rutni} .i {jinzi} .i {nurma} .i {stati}
+---
+ratcu gismu 1 (jbo)
+$x_1$ no'e cmalu ronte $x_2$ gi'e se rebla lo clani
+-n
+srana zo {ronte} .e zo {smacu}
 ---
 ratma gismu 1 (jbo)
 $x_1$ ronte $x_2$ fi'o terjutsi la'e zoi lu Muridae lu
@@ -155720,6 +155819,11 @@ $x_1$ porsi ja vlapoi gi'e morna lo so'i sance $x_2$ noi zgike
 -n
 lo rilti na bilga lo ka slilu .i {damri} .i {pemci} .i {tonga} .i {zgike} .i {slilu} .i {dikni} .i {sanga} .i {morna}
 ---
+rimni gismu [-rim-] 1 (jbo)
+$x_1$ simsa $x_2$ loka valsi fi $x_3$ gi'e se pagbu $x_4$ noi sance
+-n
+srana zo {valsi} .e zo {pemci} .e zo {sanga}
+---
 rimsi'u lujvo 1 (jbo)
 $x_1$ simxu lo ka ce'u rimni ce'u $x_2$ boi $x_3$
 ---
@@ -155786,6 +155890,11 @@ rismi gismu [-ris-] 1 (jbo)
 $x_1$ gurni ja spati $x_2$ noi jutsi la'o jutsi Oryza sativa jutsi
 -n
 {gurni}; {spati}; {jutsi}
+---
+risna gismu 1 (jbo)
+$x_1$ rango $x_2$ loka jai galfi lo manfo flecu be le ciblu lo boxna flecu be le ciblu
+-n
+srana zo {ciblu} .e zo {pambe} .e zo {cnise'i}
 ---
 ritli gismu [-ri'i-] 1 (jbo)
 $x_1$ se zukte fi $x_2$ fe $x_1$ gi'e se tarmi lo tcaci ja se javni ja se flalu
@@ -155942,6 +156051,11 @@ ronsa gismu 1 (jbo)
 na nitcu su'o nu $x_1$ jo'u $x_2$ cu ckaji $x_3$ kei naku ki'u ja va'o $x_4$
 -n
 se srana zo {simsa} .e zo {nalra'a} .e lu {to'e} {nitcu} li'u
+---
+ropno gismu [-ron-ro'o-] 1 (jbo)
+$x_1$ ckini lo braplu poi se stuzi lo no'e stuna je berti be la .terd. ku'o $x_2$
+-n
+srana zo {braplu} .e zo {terdi}
 ---
 rorci gismu [-ror-] 1 (jbo)
 $x_1$ kansa $x_3$ lo nu $x_2$ co'a panzi $x_1$ joi $x_3$
@@ -156125,6 +156239,11 @@ $x_1$ gasnu lonu $x_3$ cpacu $x_2$ $x_1$
 -n
 srana zo {cpacu} .e zo {dunda} .e zo {sorcu}
 ---
+sabnu gismu 1 (jbo)
+$x_1$ kumfa $x_2$ noi marce
+-n
+srana zo {marce} .e zo {kumfa}
+---
 sacki gismu 1 (jbo)
 $x_1$ cmalu grana $x_2$ noi mudri ja jarple ja ke drata ke jelca marji ku'o gi'e se jipno lo xukmi noi cupra lo fagri lo nu mosra lo rufsu sefta
 -n
@@ -156168,6 +156287,11 @@ $x_1=s_1$ saske lo si'o esporte ku $x_2=s_3$
 -n
 .e'u ko tcidu tu'a zo {saske} .e zo {esporte}
 ---
+sakta gismu [-sat-] 1 (jbo)
+$x_1$ titla gi'e ka'e krili gi'e runta lo djacu gi'e ka'e jelca gi'e rarna pagbu ja te cpacu $x_2$ gi'e marji $x_3$
+-n
+srana zo {titla} .e zo {silna} .e zo {jalna}
+---
 salcarce lujvo 1 (jbo)
 $x_1$ claxu be lo gunro ku carce $x_2$ $x_3$ gi'e sakli $x_4$
 -n
@@ -156187,6 +156311,11 @@ salpo gismu [-sa'o-] 1 (jbo)
 $x_1$ jbini lo pinta be $x_3$ be'o jo'u lo sraji be $x_3$ .i je $x_2$ jganu lo terkruca be $x_1$ bei $x_3$ lo tersei be $x_1$ bei $x_3$
 -n
 {jbini}; {pinta}; {sraji}; {jganu}; {terkruca}; {tersei}
+---
+salta gismu 1 (jbo)
+$x_1$ mixre $x_2$ noi cidja spisa ju litki
+-n
+srana zo {sanso} .e zo {stasu}
 ---
 salvoi lujvo 1 (jbo)
 $x_1$ vofli no da joi cu sakli $x_2$ poi na’o flecu lo vacri
@@ -156317,6 +156446,11 @@ $x_1$ gunma $x_2$ noi cidja gi'e bredi lo ka se citka
 -n
 {gunma}; {cidja}; {bredi}; {citka}; {gusta}; {barja}; {stasu}; {salta}; {sanso}
 ---
+sanso gismu 1 (jbo)
+$x_1$ mixre $x_3$ noi litki cidja ku'o gi'e se pilno fi loka kansa $x_2$ noi sligu cidja
+-n
+srana zo {salta} .e zo {stasu}
+---
 santa gismu 1 (jbo)
 $x_1$ jai bandu $x_2$ $x_3$ gi'e marji $x_4$ gi'e se sarji $x_5$ $x_3$
 ---
@@ -156329,6 +156463,11 @@ sarji gismu [-sra-] 1 (jbo)
 $x_1$ sidju $x_2$ lo ka renvi ja na'e randa ja fapro $x_3$
 -n
 {sidju}; {renvi}; {randa}; {fapro}
+---
+sarlu gismu 1 (jbo)
+$x_1$ tarmi $x_2$ .ije lo krefu be lo kruvi be $x_1$ cu zenba loka darno lo midju be $x_1$
+-n
+srana zo {tarmi} .e zo {krefu} .e zo {cukla} .e zo {kruvi} .e zo {klupe}
 ---
 sarxe gismu [-sax-] 1 (jbo)
 $x_1$ ckini $x_2$ $x_3$ ja'e lo zabna ja pluka ja melbi ja to'e vlile
@@ -156366,6 +156505,11 @@ fi'o sarcu
 ---
 saunrai lujvo 1 (jbo)
 $x_1$ traji fo $x_2$ fe lo ka slabu $x_3$
+---
+savru gismu [-sav-vru-] 1 (jbo)
+$x_1$ se ganse $x_2$ $x_3$ gi'e ka'enai se pilno $x_2$
+-n
+srana zo {ganse} .e zo {datni} .e zo {fanza}
 ---
 saxfri lujvo 2 (jbo)
 $x1$ lifri lo ka sarxe $x2$
@@ -158229,6 +158373,11 @@ takni gismu 2 (jbo)
 ro da ro de ro di zo'u da .e de .e di me $x_2$ .i na ja ga nai ge da de gi de di, gi da di me'au $x_1$
 -n
 zo {kinra} .i zo {kinfi}
+---
+takside fu'ivla 1 (jbo)
+$x_1$ dauzlexo $x_2$ fi’o seljutsi la’e zo’oi Meles .a la’e zo’oi Arctonyx .a la’e zo’oi Mellivora .a la’e zo’oi Taxidea gi’e se xadni lo rajyto’u gi’e ta’e kevykakpa lo zdani
+-n
+srana zo {melvora} .e zo {mutsteila} .e zo {mabmustela} .e zo {mabmustelidai} .e zo {dauzlexo} .e zo {mabru}
 ---
 talsa gismu [-tal-] 1 (jbo)
 $x_1$ jungau $x_2$ lo du'u vo'a djica lo nu vo'e jarco lo ka snada $x_3$

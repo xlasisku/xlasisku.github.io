@@ -376,6 +376,7 @@ en avgadro
 en avgusto
 en avju
 en axlte
+en axsomo
 en azarbaiDJAN
 en azvangi
 en b zei p zei f zei k
@@ -11900,6 +11901,7 @@ en dubma'o
 en dubmau
 en dubmaurai
 en dubme'a
+en dubme'o
 en dubmecrai
 en dubnalmau
 en dubnalme'a
@@ -12093,6 +12095,7 @@ en efklipi
 en efklizu
 en efku
 en efmere
+en efmeropte
 en egna
 en egnama
 en egnome
@@ -12961,7 +12964,6 @@ en fu'ivla
 en fu'o
 en fu'oi
 en fu'u
-en fucking
 en fugvrse'i
 en fukfadmupli
 en fukpi
@@ -19021,6 +19023,7 @@ en naldasri'a
 en naldjica
 en naldra
 en naldu'e
+en naldubme'o
 en naldzukla
 en nalfadni
 en nalfadysmato'a
@@ -21730,6 +21733,7 @@ en ri'oi
 en ri'oirkai
 en ri'ojme
 en ri'onro'i
+en ri'orbizbla
 en ri'orfrupo'a
 en ri'orkalvoi
 en ri'orkliru
@@ -24700,6 +24704,7 @@ en siltci
 en silto'a
 en silviparu
 en silvusi
+en silxoto
 en simbasti
 en simbasygau
 en simbi'o
@@ -32464,6 +32469,7 @@ jbo akna
 jbo aknagau
 jbo akra
 jbo akti
+jbo aktinari
 jbo alcu
 jbo alma
 jbo almapamla
@@ -32610,6 +32616,7 @@ jbo befloi
 jbo bei
 jbo bei'e
 jbo bejmi
+jbo bekpi
 jbo bemro
 jbo bende
 jbo bengo
@@ -32973,12 +32980,14 @@ jbo ckana
 jbo ckankuua
 jbo ckape
 jbo ckasu
+jbo ckeirku
 jbo ckeji
 jbo cketi
 jbo ckiku
 jbo ckilu
 jbo ckini
 jbo ckire
+jbo ckiripedi
 jbo ckisku
 jbo ckukajna
 jbo ckule
@@ -33414,6 +33423,7 @@ jbo e'y
 jbo ebu
 jbo ecre
 jbo efku
+jbo efmeropte
 jbo ei
 jbo ei'e
 jbo ei'i
@@ -33435,6 +33445,7 @@ jbo endyspa
 jbo enfasnu
 jbo ensa
 jbo enzasti
+jbo erpesti
 jbo erpi
 jbo erve
 jbo ervinda
@@ -34256,6 +34267,7 @@ jbo kajde
 jbo kajna
 jbo kakne
 jbo kakpa
+jbo kakpybifce
 jbo kakydirgo
 jbo kalbasa
 jbo kalci
@@ -34428,6 +34440,7 @@ jbo komcu
 jbo konju
 jbo korbi
 jbo korcu
+jbo korja
 jbo korka
 jbo korlma
 jbo korvo
@@ -35567,13 +35580,18 @@ jbo rajbi'o
 jbo rajyjudri
 jbo rajyserti
 jbo rakso
+jbo raktu
+jbo ralci
 jbo ralju
 jbo ralte
 jbo randa
 jbo rangife
+jbo rango
+jbo ranji
 jbo ranmi
 jbo ransu
 jbo ranti
+jbo ranxi
 jbo rapcreze'a
 jbo rapli
 jbo rapmarxa
@@ -35582,6 +35600,7 @@ jbo rarbau
 jbo rardugri
 jbo rarmu'e
 jbo rarna
+jbo ratcu
 jbo ratma
 jbo ratni
 jbo rau
@@ -35652,6 +35671,7 @@ jbo rilpesa
 jbo rilsle
 jbo rilsletei
 jbo rilti
+jbo rimni
 jbo rimsi'u
 jbo rimsku
 jbo rinci
@@ -35669,6 +35689,7 @@ jbo rirtaitra
 jbo rirxe
 jbo riryrirni
 jbo rismi
+jbo risna
 jbo ritli
 jbo rivbi
 jbo rivli'a
@@ -35703,6 +35724,7 @@ jbo romge
 jbo rone'e
 jbo ronmantodi
 jbo ronsa
+jbo ropno
 jbo rorci
 jbo rorlei
 jbo rotpaci
@@ -35743,6 +35765,7 @@ jbo sa'i
 jbo sa'o
 jbo sa'u
 jbo sabji
+jbo sabnu
 jbo sacki
 jbo sackyta'e
 jbo saclu
@@ -35752,10 +35775,12 @@ jbo sajyse'i
 jbo sakci
 jbo sakli
 jbo saksrsporte
+jbo sakta
 jbo salcarce
 jbo salci
 jbo salcpare
 jbo salpo
+jbo salta
 jbo salvoi
 jbo samca'igau
 jbo samcfi
@@ -35785,9 +35810,11 @@ jbo sanga
 jbo sanji
 jbo sanli
 jbo sanmi
+jbo sanso
 jbo santa
 jbo sarcu
 jbo sarji
+jbo sarlu
 jbo sarxe
 jbo saske
 jbo saskrsporte
@@ -35797,6 +35824,7 @@ jbo satybebna
 jbo satyjdu
 jbo sau
 jbo saunrai
+jbo savru
 jbo saxfri
 jbo saxse'i
 jbo saxsi'u
@@ -36222,6 +36250,7 @@ jbo tafygenxu
 jbo tagji
 jbo tai
 jbo takni
+jbo takside
 jbo talsa
 jbo tambi'o
 jbo tamcydakfu

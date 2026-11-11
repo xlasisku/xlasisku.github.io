@@ -1,0 +1,1025 @@
+[
+  {
+    "word": "bekybo'u",
+    "lang": "en",
+    "def": "$x_1$ is a vertebra / backbone of $x_2$",
+    "guessed_notes_rafsi": [
+      "bek"
+    ],
+    "notes": "Uses the rafsi -bek- for {bekpi}"
+  },
+  {
+    "word": "beljo",
+    "lang": "en",
+    "def": "$x_1$ represents Belgian/Flemish culture/nationality/language in aspect $x_2$.",
+    "guessed_notes_rafsi": [
+      "bel"
+    ],
+    "notes": "See also {ropno}, {nedlo}, {dotco}, {fraso}. Proposed rafsi: -bel-."
+  },
+  {
+    "word": "cetmo",
+    "lang": "en",
+    "def": "$x_1$ is a demon (an evil supernatural being or mythical creature).",
+    "guessed_notes_rafsi": [
+      "cet"
+    ],
+    "notes": "This word is to be interpreted in a very broad sense; it refers to practically any kind of evil mythological fiend. Very tentatively proposed combining form -cet-."
+  },
+  {
+    "word": "cetrbeluga",
+    "lang": "en",
+    "def": "$x_1$ is a beluga whale (Delphinapterus leucas) of species/breed $x_2$",
+    "guessed_notes_rafsi": [
+      "cet"
+    ],
+    "notes": "The -cet- rafsi is from {tceta}; see also {cetrnarvala}, {tcetace}, {mabru}."
+  },
+  {
+    "word": "cetrnarvala",
+    "lang": "en",
+    "def": "$x_1$ is a narwhal (Monodon monoceros) of species/breed $x_2$",
+    "guessed_notes_rafsi": [
+      "cet"
+    ],
+    "notes": "The rafsi -cet- is from {tceta}; see also {cetrbeluga}, {tcetace}, {mabru}."
+  },
+  {
+    "word": "cidytsecorci",
+    "lang": "en",
+    "def": "$x_1$ kneels/genuflects with meaning $x_2$ on surface $x_3$ on/with limb(s) $x_4$ of body $x_5$.",
+    "guessed_notes_rafsi": [
+      "coc"
+    ],
+    "notes": "Usually implies obeisance, homage, devotion, loyalty, obedience, subservience, vulnerability, or some other form of inferiority or trust. Specify the recipient of said inferiority or trust expression via/in $x_2$. Mere \"{cidytse}\" is an action which may not convey any semantic information; cidytsecorci refers to a strict/proper subset of actions which are cidytse. This word uses experimental rafsi \"-coc-\", which has been proposed to be assigned to experimental gismu \"{corci}\". This word is, for now, equivalent to \"{cocyborcidytse}\", mostly because .krtisfranks. cannot semantically distinguish between \"a kneeling-type-of semantic-gesture\" and \"a semantic-gesture-type-of kneeling\"."
+  },
+  {
+    "word": "cimjvo",
+    "lang": "en",
+    "def": "$l_1$ is an implicitly metaphorical lujvo with meaning $l_2$ and arguments $l_3$ built from metaphor $l_4$.",
+    "guessed_notes_rafsi": [
+      "pev"
+    ],
+    "notes": "Used to refer to metaphorical lujvo that do not contain any -pev- rafsi (for “{pe'a}”). The word “{cimjvo}” is itself an example of cimjvo. Synonym of “cimjvo” with explicit metaphor: “{pevycimjvo}”."
+  },
+  {
+    "word": "cketi",
+    "lang": "en",
+    "def": "$x_1$ hesitates/vacillates/is unsure about doing/being $x_2$ (ka/nu) because of $x_3$.",
+    "guessed_notes_rafsi": [
+      "cet"
+    ],
+    "notes": "See also {zukyde'a}, {zukte}, {denpa}. Proposed short rafsi -cet-."
+  },
+  {
+    "word": "cmazve",
+    "lang": "en",
+    "def": "$x_1$ is a small zevla meaning $x_2$.",
+    "guessed_notes_rafsi": [
+      "zve"
+    ],
+    "notes": "This word uses the experimental rafsi \"-zve-\" for the experimental gismu \"{zevla}\". This word is mostly intended for {zevla} which imitate {gismu}, such as \"{raunte} for \"{ronte}\" or hypothetical \"{gro'oxe}\", perhaps \"{xlei'eva}\", etc. The boundaries of this category are fuzzy."
+  },
+  {
+    "word": "cocyborcidytse",
+    "lang": "en",
+    "def": "$x_1$ kneels/genuflects with meaning $x_2$ on surface $x_3$ on/with limb(s) $x_4$ of body $x_5$.",
+    "guessed_notes_rafsi": [
+      "coc"
+    ],
+    "notes": "Usually implies obeisance, homage, devotion, loyalty, obedience, subservience, vulnerability, or some other form of inferiority or trust. Specify the recipient of said inferiority or trust expression via/in $x_2$. Mere \"{cidytse}\" is an action which may not convey any semantic information. This word uses experimental rafsi \"-coc-\", which has been proposed to be assigned to experimental gismu \"{corci}\". This word is, for now, equivalent to \"{cidytsecorci}\", mostly because .krtisfranks. cannot semantically distinguish between \"a kneeling-type-of semantic-gesture\" and \"a semantic-gesture-type-of kneeling\"."
+  },
+  {
+    "word": "ctera",
+    "lang": "en",
+    "def": "$x_{1}$ is a lock/seal of/on/for sealing $x_{2}$ with/by locking mechanism $x_{3}$.",
+    "guessed_notes_rafsi": [
+      "ter",
+      "tel"
+    ],
+    "notes": "Equivalent to \"{stela}\"; gismu similarity conflict with \"{stero}\" prohibited *\"stera\". In a dialect which prefers this word over \"stela\", the rafsi for this word would be \"-ter-\" and the rafsi for \"{te}\" would be \"-tel-\", thus normalizing and uniformizing the rafsi of the primary members of selma'o SE. See also: \"{ckiku}\"."
+  },
+  {
+    "word": "cukse",
+    "lang": "en",
+    "def": "$x_1$ succeeds/follows/goes after $x_2$ in sequence $x_3$.",
+    "guessed_notes_rafsi": [
+      "cus"
+    ],
+    "notes": "= {se} {lidne}. Proposed rafsi -cus- (steal {cusku})."
+  },
+  {
+    "word": "cumba",
+    "lang": "en",
+    "def": "$x_1$ is an arthropod of species/breed $x_2$; $x_1$ is a bug (broad sense)",
+    "guessed_notes_rafsi": [
+      "cub"
+    ],
+    "notes": "For a world in which {cinki} means \"insect\" or \"hexapod\". The source words for {cinki} mean \"insect\", so I prefer narrowing its meaning and adding a new word for \"arthropod\" based on more fitting source words. Proposed rafsi: -cub-. See also {danlu}, {lokra}, {jukni}, {munpi}, {sortu'e}"
+  },
+  {
+    "word": "dinti",
+    "lang": "en",
+    "def": "$x_1$ is a non-binary/intersexed (probably also can include: asexual, nongendered, indeterminately gendered, gender-fluid, transgendered, two-spirited, alternatively gendered, or affirmatively non-binarily gendered or nongendered/graygendered) individual of species $x_2$ evidencing non-binary gender trait(s) $x_3$ (ka); $x_1$ is characterized by not following or fitting into some gender-binary.",
+    "guessed_notes_rafsi": [
+      "dit"
+    ],
+    "notes": "Co-equal to \"{fetsi}\" and \"{nakni}\". Proposed short rafsi: -dit-. See also \"{fetsi}\", \"{nakni}\", \"{nunmu}\"."
+  },
+  {
+    "word": "dizri",
+    "lang": "en",
+    "def": "${x_1} $ is intoxicated (high, drunk) from substance ${x_2}$.",
+    "guessed_notes_rafsi": [
+      "diz"
+    ],
+    "notes": "Experimental rafsi -diz- (steal {dizlo}). Generated algorithmically, but that was some time ago and I don't remember the weights."
+  },
+  {
+    "word": "djaikoni",
+    "lang": "en",
+    "def": "$x_1$ is a daikon radish of variety $x_2$",
+    "guessed_notes_rafsi": [
+      "dja"
+    ],
+    "notes": "Blend of -dja- (< {cidja} 'food') and JA 大根 daikon. See {srafanu} 'radish' and {brarapa} 'turnip'."
+  },
+  {
+    "word": "dutso",
+    "lang": "en",
+    "def": "$x_1$ is clockwise/right-turn-direction of[/to] $x_2$ along/following track $x_3$ [path] in frame of reference $x_4$ (where the axis is within the region defined by the track as the boundary, as viewed from and defined by view(er) $x_4$; see notes); $x_1$ is locally to the right of $x_2$, according to $x_4$, constrained along $x_3$; $x_1$ is along a right turn from $x_2$ along path $x_3$, as viewed in frame $x_4$.",
+    "guessed_notes_rafsi": [
+      "tso"
+    ],
+    "notes": "Angular/curling direction: clockwise. he orientation of the path determines x4 but does not factor into consideration for x3. Further glosses: clockwise, locally rightward, right-turning (with no bulk translation) in a way that would be characterized as \"negative\" by the right-hand rule (aligned with and in the direction of a basis vector, at least for a given component). x1 is left-handedly/clockwise(ly) oriented relative to x2 on/along x3 in frame of reference x4.  x1 is left-handed (one sense) from x2 [more accurately: moving from x2 to x1 requires a(n imaginary) motion that is left-handed about/along x3 as seen in frame/orientation/perspective x4]. x1 is to the path-following right of x2 (where the path is connected; as such, x1 is also be to the path-following left of x2, although there is an implication that the former is the smaller (or equal-length) path). See also: {zucna}, {du'ei} (left-handed vectorial cross product), {du'oi} (modal). Proposed short rafsi: -tso-."
+  },
+  {
+    "word": "dzama",
+    "lang": "en",
+    "def": "$x1$ performs chore / menial duty / housework / errand $x2$ (nu/ka) for purpose / as obliged by $x3$.",
+    "guessed_notes_rafsi": [
+      "zam",
+      "dza"
+    ],
+    "notes": "Compare with {zdagu'a}, but much broader in scope, as not limited to house work.  Includes, for example, bills and shopping.  The little tasks we do to maintain our daily lives.  x3 is the motivation for doing the chore, compare {zukte}3.  Suggested rafsi: -zam- and also proposed to steal -dza- from {da}.  See also {bilga}, {gunka}. Generated with gismu algorithm: gismu[...]score.py dzaci, kama, tcor, lata, domashnie, rutini"
+  },
+  {
+    "word": "dzibekslu",
+    "lang": "en",
+    "def": "$x_1$ is the lats (lower back muscles) of $x_2$",
+    "guessed_notes_rafsi": [
+      "bek"
+    ],
+    "notes": "The rafsi -bek- is used for {bekpi}"
+  },
+  {
+    "word": "dzoli",
+    "lang": "en",
+    "def": "$x_1$ is recursively related to $x_2$ by applying $x_3$ (number) levels-of-recursion of the predicate-relation $x_4$ (ka with two ce'u)",
+    "jvotci_rafsi": [
+      "dzo"
+    ],
+    "guessed_notes_rafsi": [
+      "dzo",
+      "dzo"
+    ],
+    "notes": "Rafsi -dzo- (when -dzo- is a tertau then seltau corresponds to $x_4$ of {dzoli}). Synonym of {refkusi} for more convenience in making lujvo. tanru example for common usage: 'the day three days from now (tomorrow's tomorrow's tomorrow)' is '{le} {bavlamdeidzo} {be} {fi} {li} {ci}'. Cf. {krefu}, {rapli}, {dzoli}."
+  },
+  {
+    "word": "farje",
+    "lang": "en",
+    "def": "$x_1$ ferments [undergoes fermentation] with fermenting agent $x_2$.",
+    "guessed_notes_rafsi": [
+      "faj"
+    ],
+    "notes": "Proposed combining form -faj-. For agentive '$x_1$ ferments substance $x_2$', use {farjygau} (or even shorter, {fajgau}). This word was made to split the semantic spaces of 'ferment' ({farje}) and 'rot' ({fusra}); {kukfusra} 'delicious-rot' for 'ferment', while technically correct, is silly."
+  },
+  {
+    "word": "flipo",
+    "lang": "en",
+    "def": "$x_1$ reflects Filipino culture/nationality/language/geography in aspect $x_2$",
+    "guessed_notes_rafsi": [
+      "lip"
+    ],
+    "notes": "May take rafsi -lip-. See also: {ta'algo}, {sebvano}, {ilkano}."
+  },
+  {
+    "word": "folcu",
+    "lang": "en",
+    "def": "$x_1$ is a false, fake, apparent, pseudo-$x_2$ (ka); $x_1$ seems to be or do $x_2$, but in fact doesn't.",
+    "guessed_notes_rafsi": [
+      "fol"
+    ],
+    "notes": "Combining form -fol- (for use as an analogue of *pseudo-*, as in {folske} 'pseudoscience'). See also {tcica} 'deceive, dupe', {fidna} 'pretend'. This word does *not* mean the same as {jitfa} 'logically false'."
+  },
+  {
+    "word": "gajno",
+    "lang": "en",
+    "def": "$x_1$ represents Ghanaian culture/language/history/politics in aspect $x_2$.",
+    "guessed_notes_rafsi": [
+      "gaj"
+    ],
+    "notes": "See also {nijro}, {aknano}, {friko}. May take rafsi -gaj-."
+  },
+  {
+    "word": "galbekslu",
+    "lang": "en",
+    "def": "$x_1$ is the traps (upper back muscles) of $x_2$",
+    "guessed_notes_rafsi": [
+      "bek"
+    ],
+    "notes": "The rafsi -bek- is used for {bekpi}"
+  },
+  {
+    "word": "gamdegi",
+    "lang": "en",
+    "def": "$x_1$ is the duodenum (part of the small intestine) of $x_2$.",
+    "guessed_notes_rafsi": [
+      "gam"
+    ],
+    "notes": "Calque of Latin duodenum (digitorum) 'of twelve (fingers)': -gam- (< {gai}, twelve) + {degji} 'finger', removing the -j- to make it a freeword instead of a true compound. Compare Dutch twaalfvingerige darm, and its calque, Japanese 十二指腸 jūnishichō."
+  },
+  {
+    "word": "gansetifri",
+    "lang": "en",
+    "def": "$x_1$ feels sensation / qualia $x_2$ via sense $x_3$ (ka) // {ka'e gansetifri} = $x_1$ is sentient (able to feel subjective conscious experiences)",
+    "guessed_notes_rafsi": [
+      "ges",
+      "ge'e"
+    ],
+    "notes": "$x_2$ is a {ganseti}-type. Proposed gismu form: {gelse}, with rafsi -ges- and -ge'e-. See {lifri}, {ganse}."
+  },
+  {
+    "word": "ganvi",
+    "lang": "en",
+    "def": "$x_1$ is the sensory media content of type/stimulating sense/containing experience information $x_2$ of recording/broadcast/media $x_3$ displayed/produced by medium/device $x_4$.",
+    "guessed_notes_rafsi": [
+      "gav"
+    ],
+    "notes": "Generalizes/encompasses both of {vidvi} and {snavi} (where $x_2$ is visual/video or audio, respectively), so-called '4D' experiences (which have jostling/kinetoceptive and olfactory stimuli), the feelies from Huxley's /Brave New World/, and other stuff. See also {tivni}, {cradi}, {skina}, {zgike}. Proposed rafsi: -gav-."
+  },
+  {
+    "word": "gelga",
+    "lang": "en",
+    "def": "$x_1$ is an eagle/hawk/buzzard/bird-of-prey of species $x_2$",
+    "guessed_notes_rafsi": [
+      "geg"
+    ],
+    "notes": "See also {atkuuila}, {atku'ila}, {aksiptrina}, {cipnrbute'o}, {falkoni}, {opfete}, {glauka}, {malbu}, {katcpi}, {cipni}. May take rafsi -geg-."
+  },
+  {
+    "word": "gomsi",
+    "lang": "en",
+    "def": "$x_1$ reflects/pertains to the Mediterranean region/culture/geography/identity/[nationality] in aspect $x_2$",
+    "guessed_notes_rafsi": [
+      "gos"
+    ],
+    "notes": "See also {atlanto}. May take rafsi -gos-."
+  },
+  {
+    "word": "gosxamsi",
+    "lang": "en",
+    "def": "$x_1$ is the Mediterranean Sea.",
+    "guessed_notes_rafsi": [
+      "gos"
+    ],
+    "notes": "Rafsi -gos- is for {gomsi}, see also {xamsi}, {ropno}, {friko}, {xazdo}."
+  },
+  {
+    "word": "itkygau",
+    "lang": "en",
+    "def": "$x_1$ turns off/deactivates $x_2$",
+    "guessed_notes_rafsi": [
+      "gau"
+    ],
+    "notes": "Counterpart to {aktygau}, a \"de-freeword-ification\" of {aktigau}. Synonym: {na'aktigau} (pseudo-compound), or {na'aktygau} (actual compound from na'akti -y- -gau-, na'akti being a synonym of itka)."
+  },
+  {
+    "word": "jbamora",
+    "lang": "en",
+    "def": "$x_1$ is mulberry of variety $x_2$.",
+    "guessed_notes_rafsi": [
+      "jba"
+    ],
+    "notes": "From -jba- (combining form of {jbari}) and Portuguese amora."
+  },
+  {
+    "word": "jbo'u'i",
+    "lang": "en",
+    "def": "$x_1$ is funny to $x_2$ because it is Lojbanic, in aspect $x_3$.",
+    "guessed_notes_rafsi": [
+      "jbo"
+    ],
+    "notes": "From -jbo- and {u'i}."
+  },
+  {
+    "word": "jbolotomi",
+    "lang": "en",
+    "def": "$x_1$ has the Lojban permanently excised via lobotomy from their brain $x_2$ for reasons $x_3$ in hospital $x_4$ by jbo-doctor $x_5$, and decides to learn other loglang $x_6$ (default Toaq), in Lojbanic aspect $x_7$, after awful xekce-ing $x_8$, by standard $x_{10}$, with lid $x_{11}$ (default the parietal bone), and become a better person $x_{12}$ with friends $x_{13}$, touching grass $x_{14}$.",
+    "guessed_notes_rafsi": [
+      "jbo"
+    ],
+    "notes": "A blend of -jbo- and English lobotomy, changing the syllables somewhat because *lojbotomi would have the lo- part fall off as a particle. The ninth parameter is an unknown esoteric secret; for the eleventh parameter, see {botpi}'s fourth. Coined collectively by Mati and la lanru."
+  },
+  {
+    "word": "jmafuto",
+    "lang": "en",
+    "def": "$x_1$ is $x_2$ feet (imperial/American unit) in length (default 1) measured in direction $x_3$.",
+    "guessed_notes_rafsi": [
+      "jma"
+    ],
+    "notes": "From -jma- (< {jamfu}) and \"foot\". Alternative to {sfu'utu} with a more recognizable word shape. See also {inci}, {iarda}."
+  },
+  {
+    "word": "jo'oi",
+    "lang": "en",
+    "def": "non-logical connective: the more ..., the more...",
+    "guessed_notes_rafsi": [
+      "jof"
+    ],
+    "notes": "Usually connects two sentences. \"broda .i jo'oi brode\" means roughly \"the more broda, the more brode\" (German \"je... desto\") and more precisely \"lo nu lo ni broda kei cu zenba cu nibli lo nu lo ni brode kei cu zenba\". Negating one of the components (NA jo'oi NAI) changes \"zenba\" to \"jdika\", so e.g. \"jo'oi nai\" means \"the more..., the less...\". Using SE swaps the antecedent with the consequent. While this connective usually connects sentences, it is perfectly correct to use it to connect anything that non-logical connectives can. \"mi ecre jo'oi certu\" means \"the more I practice, the more I'm skilled\". May take rafsi -jof-. See also {zmadu}, {zenba}, {banro}, {joi}."
+  },
+  {
+    "word": "jvarafsi",
+    "lang": "en",
+    "def": "$r_1$ is a predictable/regular affix for word/concept $r_2$, with form/properties $r_3$, in language $r_4$.",
+    "guessed_notes_rafsi": [
+      "badn",
+      "badn"
+    ],
+    "notes": "Literally 'rule affix'. In Lojban, jvarafsi are the familiar four-letter (or, more precisely, four-segment) {rafsi}, which are fully predictable in form, and of which each {gismu} has only one. For example, -badn- is the jvarafsi of {badna} 'banana', and can belong to no other word. The form of the affix -badn- may be inferred from the form of the word badna, and vice versa (if the final vowel of badna is known)."
+  },
+  {
+    "word": "kazgo",
+    "lang": "en",
+    "def": "$x_1$ represents Kazakh culture/language/geography/history in aspect $x_2$.",
+    "guessed_notes_rafsi": [
+      "kaz",
+      "zgo"
+    ],
+    "notes": "See also {turko}, {kirgo}, {turkiko}, {mongo}, {xazdo}. May take rafsi -kaz- or -zgo-."
+  },
+  {
+    "word": "kejgu'e",
+    "lang": "en",
+    "def": "$k_1=g_1$ is Kenya.",
+    "guessed_notes_rafsi": [
+      "kej"
+    ],
+    "notes": "The -kej- in this word is from {kenjo} and not {ckeji} (a rafsi reassign was put in place but now in the dictionary editor only official assigned rafsi take precedence). See also {kenjo}, {sunfi'o}, {friko}."
+  },
+  {
+    "word": "kenjo",
+    "lang": "en",
+    "def": "$x_1$ represents Kenyan culture in aspect $x_2$.",
+    "guessed_notes_rafsi": [
+      "kej"
+    ],
+    "notes": "See also {friko}, {sunfi'o}, {indi'o}, {smalo}, {ugnada}, {tanzaina}, {sfaxili}. Proposed to steal rafsi -kej- from {ckeji}."
+  },
+  {
+    "word": "kenka",
+    "lang": "en",
+    "def": "$k_1$ is a quantity of cake/torte/tart/pie/flan made of/containing ingredients $k_2$, prepared according to method $k_3$.",
+    "guessed_notes_rafsi": [
+      "kek"
+    ],
+    "notes": "Cf. {titnanba}, {jupypesxu}, {rutytisna}. May take rafsi -kek-."
+  },
+  {
+    "word": "kigygu'e",
+    "lang": "en",
+    "def": "$k_1=g_1$ is Kyrgyzstan.",
+    "guessed_notes_rafsi": [
+      "kig"
+    ],
+    "notes": "Uses experimental -kig- of {kirgo}. See also {gugde}, {xazdo}."
+  },
+  {
+    "word": "klegeni",
+    "lang": "en",
+    "def": "$x_1$ has $x_2$ (ka) as their gender; $x_1$ identifies as gender $x_2$.",
+    "guessed_notes_rafsi": [
+      "kle"
+    ],
+    "notes": "From -kle- (< {klesi}) and the ending of {trangeni}, {singeni}. The -geni ending is ultimately from Latin genus and its descendants (cf. English gender)."
+  },
+  {
+    "word": "kleinzu",
+    "lang": "en",
+    "def": "$x_1$ (mass / plurality) is a class / category / subgroup / subset including members $x_2$, with defining property $x_3$ (ka), within superset $x_4$ (mass)",
+    "guessed_notes_rafsi": [
+      "klei"
+    ],
+    "notes": "See {klesi}, {gunma}, {lanzu}. Suggested morphemes: -klei-, -leiu-"
+  },
+  {
+    "word": "kongo",
+    "lang": "en",
+    "def": "$x_1$ represents Congolese (Republic of the Congo/Democratic Republic of the Congo) culture in aspect $x_2$.",
+    "guessed_notes_rafsi": [
+      "kog"
+    ],
+    "notes": "May take rafsi -kog-. See also {friko}, {karmuni}, {lingala}, {mijriko}, {nansudno}, {ugnada}, {ru'anda}, {ru'undi}, {tanzaina}."
+  },
+  {
+    "word": "kotfo",
+    "lang": "en",
+    "def": "$x_{1}$ is pertains to Kotava-speaking culture in aspect $x_{2}$.",
+    "guessed_notes_rafsi": [
+      "kof"
+    ],
+    "notes": "Proposed short rafsi -kof-."
+  },
+  {
+    "word": "la ma'a melbau",
+    "lang": "en",
+    "def": "our beautiful language (a nickname for Lojban)",
+    "guessed_notes_rafsi": [
+      "mel",
+      "mle"
+    ],
+    "notes": "always *-mel-* (and not *-mle-*) in this set phrase. see also {la mensi bangu} 'the sister language' (i.e. Loglan). like *la Lingvo Internacia* in Esperanto."
+  },
+  {
+    "word": "lesrplatono",
+    "lang": "en",
+    "def": "$x_1$ is Platonic/a Platonistic ideal/philosophy about topic $x_2$ characterized by thoughts/ideals $x_3$ and methodology $x_4$, according to thinker/user/standard $x_5$",
+    "guessed_notes_rafsi": [
+      "les"
+    ],
+    "notes": "See also: {flese} (an experimental gismu with short rafsi -les- (not yet officially accepted))"
+  },
+  {
+    "word": "lesrxapsurde",
+    "lang": "en",
+    "def": "$x_1$ (notion) is Absurd/is characterized by an Absurd nature in aspect $x_2$, belonging to school of philosophy/type of Absurdism $x_3$, according to standards/methodology/classification/claim $x_4$",
+    "guessed_notes_rafsi": [
+      "les"
+    ],
+    "notes": "{flese} is an experimental gismu and the short rafsi -les- is not officially assigned. For the term \"Absurdism\" itself, consider: te lesrxapsurdie. The Absurd in this case is that associated with, for example, Albert Camus and other philosophers."
+  },
+  {
+    "word": "loglo",
+    "lang": "en",
+    "def": "$x_1$ pertains to Loglan language/culture in aspect $x_2$",
+    "jvotci_rafsi": [
+      "log",
+      "glo"
+    ],
+    "guessed_notes_rafsi": [
+      "log"
+    ],
+    "notes": "Proposed rafsi -log- and -glo-"
+  },
+  {
+    "word": "lokma'i",
+    "lang": "en",
+    "def": "$x_1$ is July of year $x_2$ in calendar $x_3$.",
+    "guessed_notes_rafsi": [
+      "lok"
+    ],
+    "notes": "Alternative to {mlajukma'i}. Uses experimental rafsi -lok- of {lokra}. See also: {lokra}, {mlajukma'i}, {nanca}."
+  },
+  {
+    "word": "maftaroko",
+    "lang": "en",
+    "def": "$x_1$ is tarot (the method of divination).",
+    "guessed_notes_rafsi": [
+      "maf"
+    ],
+    "notes": "Pseudo-stage-3 loanword from -maf- (combining form of {makfa}) and -taroko from Italian tarocco (or DE Tarock, EO taroko). Refers to tarot as a method of divination; the cards themselves are {kartaroko}."
+  },
+  {
+    "word": "majvu",
+    "lang": "en",
+    "def": "$x_1$ is a microörganism, virus, protein, spore, pathogen, or other such substance which causes or is intimately associated with disease(s)/symptoms $x_2$.",
+    "guessed_notes_rafsi": [
+      "jvu"
+    ],
+    "notes": "See also: \"{bilma}\", \"{jurme}\", \"{vidru}\", \"{prejume}\". May take rafsi -jvu-."
+  },
+  {
+    "word": "malpasobivo",
+    "lang": "en",
+    "def": "$x_1$ is Orwellian/\"literally 1984\" in aspect $x_2$ (ka).",
+    "guessed_notes_rafsi": [
+      "mal"
+    ],
+    "notes": "From -mal- ({mabla} 'bad') + pa so bi vo '1984'."
+  },
+  {
+    "word": "nabzu",
+    "lang": "en",
+    "def": "$x_1$ happens now (absolute time reference).",
+    "guessed_notes_rafsi": [
+      "naz"
+    ],
+    "notes": "Synonym: {ca'abna}. Differs from {cabna} in that {cabna} may be relative — “at the same time *as* $x_2$”. Also see {tizva}, the spatial equivalent. Very tentative combining form assignment: -naz-, stealing {nazbi}."
+  },
+  {
+    "word": "neplo",
+    "lang": "en",
+    "def": "$x_1$ represents Nepali/Nepalese culture/language/history/geography in aspect $x_2$.",
+    "guessed_notes_rafsi": [
+      "nep"
+    ],
+    "notes": "See also {xundo}, {xindo}, {podjo}, {srito}, {xazdo}. May take rafsi -nep-."
+  },
+  {
+    "word": "nifkemtemsalryke'ecusna",
+    "lang": "en",
+    "def": "$x_1$ (scalar-valued) is the magnitude of the vector of the differintegral (with respect to time) of order $x_2$ of the displacement of $x_3$ (object/point) relative to $x_4$ (object/point/frame of reference; contextless default: origin) in coordinate system/frame of reference/as measured by $x_5$ according to definition/standard/(meta)physics $x_6$, where the differintegral is taken with starting point $x_7$, in metric/by definition $x_8$",
+    "guessed_notes_rafsi": [
+      "nif"
+    ],
+    "notes": "This word uses three experimental gismu (with one experimental short cmavo for one of these): {nicfa} (-nif-), {salri}, {cusna}."
+  },
+  {
+    "word": "nijgu'e",
+    "lang": "en",
+    "def": "$n_1=g_1$ is Nigeria.",
+    "guessed_notes_rafsi": [
+      "nij"
+    ],
+    "notes": "Uses experimental -nij- of {nijro}. See also {nijro}, {friko}, {gugde}."
+  },
+  {
+    "word": "noltrututra",
+    "lang": "en",
+    "def": "$x_1$ is a monarchal territory/noble territory/regency (territory)/kingdom (territory)/queendom (territory) of ruler $x_2$",
+    "guessed_notes_rafsi": [
+      "rai"
+    ],
+    "notes": "Synonym of {nolraitrututra}, with the -rai- dropped for brevity. See also {noltru}, {nolraitru}, {nobli}, {turni}, {tutra}."
+  },
+  {
+    "word": "nondi'a",
+    "lang": "en",
+    "def": "$x_1$ is available for free/without cost to $x_2$.",
+    "guessed_notes_rafsi": [
+      "sel"
+    ],
+    "notes": "Shorter form of {nonseldi'a}; the -sel- can be safely removed, as a \"jdima be noda\" interpretation isn't very useful, so this \"has to\" be \"se jdima be noda\"."
+  },
+  {
+    "word": "norgo",
+    "lang": "en",
+    "def": "$x_1$ reflects Norwegian culture/nationality/language in aspect $x_2$",
+    "guessed_notes_rafsi": [
+      "nog"
+    ],
+    "notes": "Experimental gismu. May take rafsi -nog-."
+  },
+  {
+    "word": "nudle",
+    "lang": "en",
+    "def": "$x_1$ are noodles made of $x_2$",
+    "guessed_notes_rafsi": [
+      "nud"
+    ],
+    "notes": "May take rafsi -nud-. Also {nanba} {skori}"
+  },
+  {
+    "word": "nusfo",
+    "lang": "en",
+    "def": "$x_1$ tries hard, works hard, puts an effort into doing $x_2$, to achieve goal $x_3$.",
+    "guessed_notes_rafsi": [
+      "sfo"
+    ],
+    "notes": "Like Japanese 頑張る *ganbaru*. Proposed combining form -sfo-, stealing {sfofa}."
+  },
+  {
+    "word": "pagro",
+    "lang": "en",
+    "def": "$x_1$ reflects Paraguayan language/culture/nationality in aspect $x_2$",
+    "guessed_notes_rafsi": [
+      "gro"
+    ],
+    "notes": "I would have done \"pargo\" for this, but the rafsi was worth it. Proposed rafsi -gro-."
+  },
+  {
+    "word": "pevycimjvo",
+    "lang": "en",
+    "def": "$l_1$ is an implicitly metaphorical lujvo with meaning $l_2$ and arguments $l_3$ built from metaphor $l_4$.",
+    "guessed_notes_rafsi": [
+      "pev"
+    ],
+    "notes": "Used to refer to metaphorical lujvo that do not contain any -pev- rafsi (for “{pe'a}”). The word “{cimjvo}” is an example of such a lujvo and synonymous to pevycimjvo."
+  },
+  {
+    "word": "plife'e",
+    "lang": "en",
+    "def": "$x_1=p_2$ is available to $x_2=p_1$ for purpose / end $x_3=p_3$; $x_2$ using $x_1$ is a possibility under conditions $x_4=i_3$.",
+    "guessed_notes_rafsi": [
+      "fe'e"
+    ],
+    "notes": "See also: {selplicu'i} (available), {selcu'acu'i} (option), {selplifrika'e} (usable), {ifka'e}.  «-fe'e-» is an experimental rafsi for {ifka'e}."
+  },
+  {
+    "word": "plipovypo'e",
+    "lang": "en",
+    "def": "$x_1$ possess/is permitted only the right to use $x_2$ (and possibly physically possess $x_2$ as well) under law $x_3$",
+    "guessed_notes_rafsi": [
+      "pov"
+    ],
+    "notes": "This word is useful for ownership of a movie, or a rented house, or a do at work/school, among other things; one does not really own theset things, only the right to use them. One may or may not have the object in one's physical or immediate possession; the concept of what constitutes \"having in one's physical possession\" is left semantically ambiguous. Permanence of this status or authority over it is not specified. This word uses the experimental rafsi \"-pov-\" for the word {po'o}."
+  },
+  {
+    "word": "podjo",
+    "lang": "en",
+    "def": "$x_1$ represents Tibetan culture/language/history/geography in aspect $x_2$.",
+    "guessed_notes_rafsi": [
+      "pod"
+    ],
+    "notes": "See also {jungo}. May take rafsi -pod-."
+  },
+  {
+    "word": "raunzu",
+    "lang": "en",
+    "def": "$x_1$ is sufficiently $x_2$ (ka) to be/do $x_3$ (ka)",
+    "guessed_notes_rafsi": [
+      "rau"
+    ],
+    "notes": "Created to match the cmavo {rau}. Proposed rafsi -rau-. See also {sorni}, {banzu}, {rau}."
+  },
+  {
+    "word": "roblik",
+    "lang": "en",
+    "def": "Roblox",
+    "guessed_notes_rafsi": [
+      "blik"
+    ],
+    "notes": "The -blik- part comes from {bliku} and is a direct phono-semantic matching of the English name."
+  },
+  {
+    "word": "roflma'o",
+    "lang": "en",
+    "def": "$x_1$ is a ridiculous (useless, etc) cmavo of selma'o $x_2$ by standard $x_3$",
+    "guessed_notes_rafsi": [
+      "ma'o"
+    ],
+    "notes": "The cmavo doesn't have to be experimental. I'm still mad they wasted monosyllabic cmavo space on a bunch of letteral stuff. Ex.: zo «tei» je zo «foi» cu roflma'o fi mi. Etymology: English ROFL + -ma'o- (rafsi of {cmavo})."
+  },
+  {
+    "word": "ronte",
+    "lang": "en",
+    "def": "$x_1$ is a rodent [can be a member of eutherian mammal Rodentia; semantic broadening might subjectively generalize the concept somewhat] of subtaxon/type/genus/species/breed/variety $x_2$.",
+    "guessed_notes_rafsi": [
+      "ro'e"
+    ],
+    "notes": "(Updated for 2022-11-18: This word is now in conflict with \"{ronti}\", although this word was created on or around 2014-06-27 and thus might have precedence; see \"{raunte}\"). This word is the gismu version of: \"{ratcnrodentia}\", \"{rontnrodentia}\". Meant for any rodent in general (more general than \"{ratcu}\", \"{smacu}\"). Semantic broadening may allow for any 'small, scurrying mammal' to be so named (such as lagomorphs; such description should be avoided in technical contexts and is not necessarily disparaging (unlike in English)). For the subjective generalization of concept to any 'small scurrying mammal' made explicit, unambiguous, and clear, use: \"{rontysmimabru}\". See also {mabru}, {egnama}, {ratcu}, {smacu}, {sinjabu}, {kunduzi}, {istriku}, {kricetu}, {dalsauia}, {tciuiro}. May take rafsi -ro'e-."
+  },
+  {
+    "word": "samyzamsmacu",
+    "lang": "en",
+    "def": "$x_1$ is a computer mouse (physical object)",
+    "guessed_notes_rafsi": [
+      "zam"
+    ],
+    "notes": "Defined to demonstrate use of -zam-, rafsi of {zai'e}; the existing synonyms {pevysmacu} and {sma'acu} are probably much more convenient for actual use however."
+  },
+  {
+    "word": "sefmi",
+    "lang": "en",
+    "def": "$x_1$ does $x_2$ [ka with two blanks] to itself; $x_1$ is in relation $x_2$ with itself.",
+    "guessed_notes_rafsi": [
+      "sem",
+      "se'i",
+      "sim",
+      "si'u"
+    ],
+    "notes": "An alternative form of {sefsi} so it can take up the combining form *-sem-*, alongside the *-se'i-* this word already has unofficially (compare {simxu}, with both *-sim-* and *-si'u-*). *semlu'i* or *lumse'i* 'to wash oneself, take a bath'; *spose'i* 'self-destruct'..."
+  },
+  {
+    "word": "sefsi",
+    "lang": "en",
+    "def": "$x_1$ is/are related to itself/himself/herself/themselves by relation $x_2$",
+    "guessed_notes_rafsi": [
+      "se'i"
+    ],
+    "notes": "Compare with {sevzi} and {simxu}. -se'i- proposed as rafsi for \"sefsi\" since \"sevzi\" doesn't really need much a final rafsi."
+  },
+  {
+    "word": "sekse",
+    "lang": "en",
+    "def": "$x_{1}$ is the biological sex (male, female, or otherwise) of $x_{2}$.",
+    "guessed_notes_rafsi": [
+      "sek"
+    ],
+    "notes": "Not to be confused with \"sex act\"/\"mating behavior\" ({gletu}) or \"gender\" ({jenri} / {se} {klegeni}). Experimental rafsi -sek-."
+  },
+  {
+    "word": "selja'e",
+    "lang": "en",
+    "def": "$x_1$ (event) results in $x_2$ (event)",
+    "guessed_notes_rafsi": [
+      "se'e"
+    ],
+    "notes": "Possibly synonymous to {banzu}. Proposed rafsi: -se'e- (for paralleling the other causal suffixes). See also {jalge}, {rinka}, {krinu}, {banzu}, {nibli}, {mukti}."
+  },
+  {
+    "word": "selkleigau",
+    "lang": "en",
+    "def": "$g_1$ categorises/classifies $g_2=k_2$ into group $k_1$ with defining property $k_3$.",
+    "guessed_notes_rafsi": [
+      "klei"
+    ],
+    "notes": "The -klei- is from {kleinzu}. See also {klesi}, {kleinzu}, {cmima}."
+  },
+  {
+    "word": "semkaigau",
+    "lang": "en",
+    "def": "$x_1$ causes itself to have property $x_2$",
+    "guessed_notes_rafsi": [
+      "sem"
+    ],
+    "notes": "Uses rafsi -sem- for {sefmi} (reflexive). For causing onself to be in a relation, see {dzodu}. For goal-oriented action, see {zukte}. For affecting a third party, see {kairgau}, {bixygau}, {galfi}, {ki'irgau}."
+  },
+  {
+    "word": "smela",
+    "lang": "en",
+    "def": "$x_1$ is a plum/peach/cherry/apricot/almond/sloe [fruit] (genus Prunus) of species/variety $x_2$",
+    "guessed_notes_rafsi": [
+      "mel",
+      "mel"
+    ],
+    "notes": "{zirsmela} for plum, {xunsmela} for cherry, {najysmela} for peach, {pelsmela} for apricot, {ri'orsmela} for almond, {blasmela} for sloe. Cf. {rutrprunu}, {ricrprunu}, {flaume}, {persika}, {rutrceraso}, {birkoku}, {frambesi}, {fragari}, {plise}, {perli}, {rozgu}. Might take rafsi -mel- from {melbi} since -mel- is seldom used in practice."
+  },
+  {
+    "word": "smusu",
+    "lang": "en",
+    "def": "$x_1$ expresses meaning $x_2$ (du'u/si'o) to addressee/audience $x_3$ by doing $x_4$ (property of $x_1$)",
+    "guessed_notes_rafsi": [
+      "sus"
+    ],
+    "notes": "Gismu form of {smusku}. The act ($x_4$) may or may not be linguistic. Proposed rafsi: -sus-. See also {cusku}, {smuni}, {corci}"
+  },
+  {
+    "word": "sondu",
+    "lang": "en",
+    "def": "$x_1$ is a monk/nun of religion/sect $x_2$, associated with convent/monastery/nunnery $x_3$.",
+    "guessed_notes_rafsi": [
+      "so'u"
+    ],
+    "notes": "Can take rafsi -so'u-."
+  },
+  {
+    "word": "tceta",
+    "lang": "en",
+    "def": "$x_1$ is a whale/dolphin/porpoise (order Cetacea) of species/breed $x_2$",
+    "guessed_notes_rafsi": [
+      "cet"
+    ],
+    "notes": "See also: {tcetace}, {delfinu}, {marsopa}, {orka}, {mabru}, {jaurxa'u}. May take rafsi -cet-."
+  },
+  {
+    "word": "tezyfrinu",
+    "lang": "en",
+    "def": "$x_1$  is a fraction with $x_2$ divided by e (natural exponential base)",
+    "guessed_notes_rafsi": [
+      "tez"
+    ],
+    "notes": "Experimental rafsi \"-tez- (for  {te'o}) is used."
+  },
+  {
+    "word": "tombo",
+    "lang": "en",
+    "def": "$x_1$ renounces, disavows, disclaims being or doing $x_2$.",
+    "guessed_notes_rafsi": [
+      "to'o"
+    ],
+    "notes": "the second slot is a property, but can be raised with {tu'a} for concrete things. combining form -to'o-, especially useful for 'divorce', 'have a falling out with', 'disown'... ({speto'o}, {pedyto'o}...)"
+  },
+  {
+    "word": "tosymabru",
+    "lang": "en",
+    "def": "$x_1$ is a non-binary mammal of species/breed $x_2$.",
+    "guessed_notes_rafsi": [
+      "tos"
+    ],
+    "notes": "{u'ivla}; gave the name of the tosmabru test. The affix -tos- did not exist when the concept was created but is now an experimental rafsi for {tonsi}."
+  },
+  {
+    "word": "tradzo",
+    "lang": "en",
+    "def": "$x_1$ treats $x_2$ in way $x_3$; $x_1$ behaves toward $x_2$ by doing $x_3$ to them (ka with two blanks).",
+    "guessed_notes_rafsi": [
+      "dzo"
+    ],
+    "notes": "*-dzo-* here stands for {dzodu}. Synonym: {traki'i}."
+  },
+  {
+    "word": "u'ivla",
+    "lang": "en",
+    "def": "$x_1$ is a word meaning $x_2$ in language $x_3$ and silly/funny/clever for reason $x_4$ (usually etymological).",
+    "guessed_notes_rafsi": [
+      "vla"
+    ],
+    "notes": "The word {u'ivla} is itself an u'ivla, as it is an unconventional portmanteau of {u'i} and -vla- (a rafsi of {valsi}) and also a pun on the word {fu'ivla}. Another example is {u'imla}."
+  },
+  {
+    "word": "valsrvlsrvalsrvla",
+    "lang": "en",
+    "def": "$x_1$ is stage 3 fu'ivla meaning/causing $x_2$ in language $x_3$ (default Lojban) containing excessively long consonant cluster $x_4$ (quote)",
+    "guessed_notes_rafsi": [
+      "vlsr"
+    ],
+    "notes": "For further autologicality, add additional -vlsr-'s to taste."
+  },
+  {
+    "word": "ve'irsau",
+    "lang": "en",
+    "def": "$x_1$ is familiar to the memories of $x_2$ in feature $x_3$ (ka) and by standard $x_4$; $x_2$ knows/is familiar with/has lived memory of $x_2$.",
+    "guessed_notes_rafsi": [
+      "ve'i"
+    ],
+    "notes": "For example: A person may know/have known/remember their grandparents, even if the latter are dead. The general emphasis is that the familiarity was gained in and might be applicable to only/primarily the past, or might strictly belong to the past/memory. Considering that events end and people change or die, it is hard to say that something which belongs strictly to the past or which may have evolved beyond recognition in some respects remains presently 'familiar' ({slabu}), even if it was experienced formerly. This word uses the proposed/experimental rafsi '-ve'i-' of the experimental gismu \"{vedli}\"; it also relies on \"slabu\" taking a greater connotation of familiarity/'knowledge' (in the Spanish \"conocer\" sense) due to the introduction of the experimental gismu \"{laldo}\" for other meanings of \"old\"."
+  },
+  {
+    "word": "vonrafpemjvo",
+    "lang": "en",
+    "def": "$x_1$ is a Lojban compound-word idiom made of four combining forms (rafsi); $x_1$ is a \"Lojbanic chengyu/yojijukugo\".",
+    "guessed_notes_rafsi": [
+      "pem"
+    ],
+    "notes": "{vonrafpemjvo} are Lojban words that imitate the structure of Chinese/Japanese/Korean four-character proverbs. The \"ideal\" short form is four rafsi, with no epenthetic r's, n's, or y's. Examples of these include {dekpredekpu'a}, {zditeitortei}, {gekfegdripu'a}, and except for the fact that it is literal and not poetic ({pemci} → -pem-), the word {vonrafpemjvo} itself."
+  },
+  {
+    "word": "vonserakto",
+    "lang": "en",
+    "def": "$x_1$ is a tesseract (four-dimensional analogue of a cube).",
+    "guessed_notes_rafsi": [
+      "von"
+    ],
+    "notes": "Blend of -von- (< {vo} 'four') and tesseract. (*{teserakto} would fall off.)"
+  },
+  {
+    "word": "vujnu",
+    "lang": "en",
+    "def": "$x_1$ is the subtraction-difference of $x_2$ and $x_3$ (and $x_4$ etc.); $x_1 = x_2 - x_3$ [ $- x_4$ etc.]",
+    "jvotci_rafsi": [
+      "vuj",
+      "vu'u"
+    ],
+    "guessed_notes_rafsi": [
+      "vuj"
+    ],
+    "notes": "Near-synonymous to {selsumji}, but better conveys the concept of \"subtraction\", as opposed to merely \"addend\", as well as being more convenient for lujvo. See {vu'u}, {sumji}, {pilji}, {dilcu}, {frinu}. Proposed rafsi: -vuj-, -vu'u-"
+  },
+  {
+    "word": "zanfu",
+    "lang": "en",
+    "def": "$x_1$ bathes $x_2$; $x_1$ gives $x_2$ a bath, a shower.",
+    "guessed_notes_rafsi": [
+      "zaf"
+    ],
+    "notes": "Proposed combining form -zaf-. For intransitive 'take a bath, shower', use {zafse'i}. → {zafta'e} 'bathtub', {zafnalfo} 'shower head'."
+  },
+  {
+    "word": "zi'ai",
+    "lang": "en",
+    "def": "jargon word indicator; indicates previous word is a jargon word",
+    "guessed_notes_rafsi": [
+      "zam"
+    ],
+    "notes": "Jargon words are to have a single, defined, specialized meaning within one particular narrow context (e.g. a game, field of study, or industry), but may also be assigned to other meanings in other contexts. Proposed rafsi: -zam- (technically rafsi for {zai'e}; this rafsi is always placed *before* the modified morpheme(s)) Forethought variant: {zai'e}"
+  },
+  {
+    "word": "zucna",
+    "lang": "en",
+    "def": "$x_1$ is counterclockwise/left-turn-direction of[/to] $x_2$ along/following track $x_3$ [path] in frame of reference $x_4$ (where the axis is within the region defined by the track as the boundary, as viewed from and defined by view(er) $x_4$; see notes); $x_1$ is locally to the left of $x_2$, according to $x_4$, constrained along $x_3$; $x_1$ is along a left turn from $x_2$ along path $x_3$, as viewed in frame $x_4$.",
+    "jvotci_rafsi": [
+      "zuc",
+      "zu'a"
+    ],
+    "guessed_notes_rafsi": [
+      "zuc",
+      "zu'a",
+      "zna"
+    ],
+    "notes": "Angular/curling direction: counterclockwise. The orientation of the path determines x4 but does not factor into consideration for x3. Further glosses: counterclockwise, locally leftward, left-turning (with no bulk translation) in a way that would be characterized as \"positive\" by the right-hand rule (aligned with and in the direction of a basis vector, at least for a given component). x1 is right-handedly/counterclockwise(ly) oriented relative to x2 on/along x3 in frame of reference x4  x1 is right-handed (one sense) from x2 [more accurately: moving from x2 to x1 requires a(n imaginary) motion that is right-handed along x3 as seen in frame/orientation/perspective x4]. x1 is to the path-following left of x2 (where the path is connected; as such, x1 is also be to the path-following right of x2, although there is an implication that the former is the smaller (or equal-length) path). See also: {dutso}, {za'ei} (vectorial cross product), {zu'au} (modal). Proposed short rafsi: -zuc-, -zu'a-. (If “zn” ever becomes a permissible initial consonant pair, krtisfranks proposes that “-zna-” become a rafsi of this word- it makes {zucna} and {dutso} more parallel in lujvo formation, and he is of the opinion that this word is useful and basic enough to warrant such a prized rafsi assignment; after this addition, the current two rafsi proposals can be done away with, reassigned, maintained, vel sim. as desired by the community at the time. In particular, he recognizes that “-zu’a-” might be confusing as a rafsi for this word while being a modal cmavo for {zunle}; but he does believe that this word deserves a vowel-final short rafsi.)"
+  },
+  {
+    "word": "zumji'ezvi",
+    "lang": "en",
+    "def": "$x_1$ creates life hack $x_2$ for situation $x_3$, inspired by $x_4$.",
+    "guessed_notes_rafsi": [
+      "zvi"
+    ],
+    "notes": "Uses experimental rafsi -zvi- of {zviki}. See also {zviki}, {zumji'e}."
+  },
+  {
+    "word": "au'unmro",
+    "lang": "jbo",
+    "def": "$x_1$ tcetce au'unmo $x_2$ ja'e lo nu vo'a morsi pe'a",
+    "guessed_notes_rafsi": [
+      "mro"
+    ],
+    "notes": "{u'ivla} fo tu'a zo {au'unmo} joi ra'oi -mro- ne zo {morsi}"
+  },
+  {
+    "word": "cetrbeluga",
+    "lang": "jbo",
+    "def": "$x_1$ blabi tceta $x_2$ fi'o jutsi la'e zoi lu Delphinapterus leucas lu",
+    "guessed_notes_rafsi": [
+      "cet"
+    ],
+    "notes": "ra'oi -cet- selkra zo {tceta} .i srana zo {cetrnarvala} .e zo {tcetace} .e zo {mabru}"
+  },
+  {
+    "word": "cumba",
+    "lang": "jbo",
+    "def": "$x_1$ narbogda’u $x_2$ fi’o jicmivlei la’e zoi lu Arthropoda lu",
+    "guessed_notes_rafsi": [
+      "cub"
+    ],
+    "notes": "va'o lo su'u zo {cinki} cu valsi la'e zo'oi Insecta .a zo'oi Hexapoda .i lo kravla be zo {cinki} cu valsi la'e zo'oi Insecta .i seki'u bo stidi lo nu jdikygau le go'i lo smuni gi'e jmina lo drata valsi be la'e zo'oi Arthropoda ji'u lo matmau valsi .i ra'oi -cub- cu selstidi rafsi .i srana zo {danlu} .e zo {jukni} .e zo {lokra} .e zo {munpi} .e zo {sortu'e} .e zo {narbogda'u}"
+  },
+  {
+    "word": "demni",
+    "lang": "jbo",
+    "def": "$x_1$ denmi $x_2$ $x_3$ [...].",
+    "guessed_notes_rafsi": [
+      "dem"
+    ],
+    "notes": "dunselvla zo \"{denmi}\" .i ra'oi \"-dem-\" rafsi ti"
+  },
+  {
+    "word": "folcu",
+    "lang": "jbo",
+    "def": "$x_1$ simlu $x_2$ je ku'i na ckaji $x_2$",
+    "guessed_notes_rafsi": [
+      "fol"
+    ],
+    "notes": "stidi lo du'u ra'oi *-fol-* cu rafsi (to te zu'e tu'a zo {folske} mu'a, noi panra zo'oi *pseudoscience* ku'o, li'o toi) .i .e'u datca zo {tcica} je zo {fidna} .i na sai smudu'i zo {jitfa}"
+  },
+  {
+    "word": "gemjo",
+    "lang": "jbo",
+    "def": "$x_1$ is a game concerning or involving $x_2$.",
+    "guessed_notes_rafsi": [
+      "gem",
+      "ge'o"
+    ],
+    "notes": "The second slot is relatively vague and may be either an action or a thing. Combining forms *-gem-* and *-ge'o-*, the last one being a proposed steal from the cultural word {gento}. This word was mostly made for easier compounding in the names of games (-selkei and -kelci'e are often quite long when attached to a base that is already two morphemes), but it also serves to distinguish playing a game, {gemzu'e}, from just generally \"playing\" ({kelci}), which can be done with for example a toy ({keitci}). {samgemjo} 'computer game' [shorter *samge'o* with proposed affix], {cungemjo} ~ {cunge'o} 'game of chance', {gemkubli} 'dice'..."
+  },
+  {
+    "word": "la ma'a melbau",
+    "lang": "jbo",
+    "def": "datcme le jbobau",
+    "guessed_notes_rafsi": [
+      "mel",
+      "mle"
+    ],
+    "notes": ".i tcaci fa lo nu pilno ra'oi *-mel-* jenai ra'oi *-mle-* le ti jufpau .i .e'u datca lu {la mensi bangu} li'u (to le logbau toi)"
+  },
+  {
+    "word": "mazmoi",
+    "lang": "jbo",
+    "def": "$x_1$ se ponse ma $x_3$ fi'o selcmi $x_2$ to (preti lo ponse) toi",
+    "guessed_notes_rafsi": [
+      "maz"
+    ],
+    "notes": "ra'oi -maz- cu za'envla rafsi zo {ma} .i srana zo {moi}"
+  },
+  {
+    "word": "sefmi",
+    "lang": "jbo",
+    "def": "$x_1$ ckini vo'a $x_2$",
+    "guessed_notes_rafsi": [
+      "sem",
+      "se'i",
+      "sim",
+      "si'u"
+    ],
+    "notes": "smudu'i zo {sefsi} .i se stidi ki'u po ra'oi *-sem-* (to kansa ra'oi *-se'i-*, noi xa'o na'e carslau rafsi tau lo si'o sefmi toi) cu se djica tepi'o le ti valsi, tai zo {simxu} noi se rafsi ge ra'oi *-sim-* gi ra'oi *-si'u-*"
+  },
+  {
+    "word": "smusu",
+    "lang": "jbo",
+    "def": "$x_1$ zukte $x_4$ lo nu $x_3$ djuno lo du'u $x_1$ xusra $x_2$",
+    "guessed_notes_rafsi": [
+      "sus"
+    ],
+    "notes": "smudu'i zo {smusku} .i stidi lo nu ra'oi -sus- co'a rafsi zo smusu"
+  },
+  {
+    "word": "u'ivla",
+    "lang": "jbo",
+    "def": "$x_1$ xajmi ja zdile ja xalbo valsi $x_2$ boi $x_3$",
+    "guessed_notes_rafsi": [
+      "vla"
+    ],
+    "notes": "zo .u'ivla si'a .u'ivla ki'u lo nu na'e fadni lujvo fo zo .u'i jo'u ra'oi -vla- gi'e ji'a klamburi zo fu'ivla .i zo {u'imla} drata mupli lo .u'ivla"
+  },
+  {
+    "word": "zmo'una",
+    "lang": "jbo",
+    "def": "$x_1$ pilno $x_2$ lo nu lifri $x_3$",
+    "guessed_notes_rafsi": [
+      "zmo"
+    ],
+    "notes": "ra'oi -zmo- noi la .telselkik. finti cu ca'e rafsi zo zmo'una noi la cirko cu mapti finti ba lo nu TSK finti lo rafsi lo nu plixau lujvo zbasu kei lo se cuxna be fi lo'i na'e selpli rafsi"
+  }
+]
