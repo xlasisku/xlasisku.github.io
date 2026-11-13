@@ -10093,6 +10093,7 @@ en ckankuua
 en ckape
 en ckasu
 en ckazbe
+en ckeirku
 en ckeji
 en ckemono
 en ckenderu
@@ -11994,6 +11995,7 @@ en dy.bu
 en dylez
 en dzadza
 en dzai'i
+en dzako
 en dzalene
 en dzalenypi'i
 en dzama
@@ -12139,6 +12141,7 @@ en eldicka'u
 en elei'anor
 en elfe
 en eljbi
+en elkaici
 en elkoptero
 en elniniio
 en elois
@@ -15941,6 +15944,7 @@ en kau'e
 en kau'i
 en kau'o
 en kau'u
+en kaubde
 en kaunka
 en kaunmei
 en kaunracli
@@ -16142,7 +16146,6 @@ en ki'orbaitni
 en ki'orbi
 en ki'orbitni
 en ki'orbivysamsle
-en ki'orgratretrefrinynidysnidu
 en ki'orna'a
 en ki'orsamsrorau
 en ki'ortanminli
@@ -24663,7 +24666,6 @@ en sidju
 en sidjvik
 en sidla
 en sidmeme
-en sidso
 en sidysmu
 en sifnaptera
 en sigda
@@ -26191,6 +26193,7 @@ en tai'u
 en tai,UAN
 en taibeis
 en taifnu
+en taiksi
 en tairbagycukykruca
 en tairjirnycukykruca
 en tairmlunra
@@ -29656,6 +29659,7 @@ en xamfi'i
 en xamgau
 en xamgu
 en xamkaspi'ano
+en xamni
 en xamoi
 en xampo
 en xampre
@@ -30424,7 +30428,6 @@ en zau'ei
 en zau'u
 en zaurskupemci
 en zausku
-en zazko
 en zazyfau
 en zazyza'i
 en zbabu
@@ -32980,7 +32983,6 @@ jbo ckana
 jbo ckankuua
 jbo ckape
 jbo ckasu
-jbo ckeirku
 jbo ckeji
 jbo cketi
 jbo ckiku

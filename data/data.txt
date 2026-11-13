@@ -2012,7 +2012,7 @@ unary mathematical operator: successor/augment/increment (by one), $succ(a) = a+
 -n
 See also: {su'i} {pa}, {pau'oi}, {balvi}, {jersi}, {jicfo}, {selyli'e}, {rebla}, {lamji}
 ---
-bai'i cmavo VUhU 1 (en)
+bai'i cmavo VUhU 0 (en)
 mekso string operator (ternary): find-and-replace; in string/text/word/sequence X1 formally replace X2 (ordered tuple of terms to be replaced) with X3 (ordered tuple of terms to be respectively substituted)
 -n
 X2 and X3 are ordered tuples of substrings/letters/characters/letterals/digits/numerals. The ith term in tuple X2 is replaced with the ith term in tuple X3; the replacements are executed simultaneously (thus, no overlap/contradiction can be allowed to arise in the substitution- in particular, in X2)  - alternatively, if there is overlap/conflict in/between the terms of X2, the replacements are performed in order of presentation (the ith term in X2 is replaced by the ith term in X3, and then the (i+1)th term in X2 is replaced with the (i+1)th term in X3, starting with the 1st term in each). X2 and X3 must have the same length/number of terms - alternatively, X3 cannot be longer/have more terms than X2; in this situation, the ith term of X2 is replaced with the ith term of X3 until and including when the last term of X3 is reached, after which point the remaining terms in X2 are not replaced at all. Use a permutation acting on X2 as the argument for X3 in order to rearrange the substrings of X1; if the alphabet is ordered, then operators can be applied to the letters in order to rotate through the alphabet. In particular, if X1 is a binary string (a word over an alphabet of two letters) and X2 is the 2-tuple of the letters of that binary alphabet (length-1 substrings), then without specification of X3, this operator defaults to bitwise binary negation (bit conjugation) wherein each letter in X1 is replaced by the unique other letter in the binary alphabet (otherwise, the replacement would be the identity/trivial replacement or just a formal substitution letter-by-letter which does not really change the nature of the word). X1 and each entry in X2 and X3 should be quoted, match a necessary type (such as being a character), or be abstracted a level by symbolics. In general, the replacement is formal and the strings in X3 need not be over the same alphabet as the one over which X1 is written. This operator is useful for combinatorial lines and for expanding digits (such as, in a binary string, replacing each occurrence of "0" with "01" and each occurrence of "1" with "10"; note that the replacement is instantaneous and simultaneous for all terms of X2 and every occurrence of such terms in X1, thus this substitution is perfectly acceptable).
@@ -42200,7 +42200,7 @@ See also {bejnino}, {friko}, {gugde}.
 bekpi gismu 7 (en)
 $x_1$ is the 'back', dorsum of body $x_2$
 -n
-Opposite of ventral part of the body. Not necessarily should be a posterior part of the body. Determined by bilateral symmetry of the body. See also {vente}, {trixe}, {cutne}.
+Opposite of ventral part of the body. Not necessarily should be a posterior part of the body. Determined by bilateral symmetry of the body. See also {vente}, {trixe}, {cutne}, {kaubde}.
 ---
 bekybo'u lujvo 1 (en)
 $x_1$ is a vertebra / backbone of $x_2$
@@ -49022,6 +49022,11 @@ See also {cmila}.
 ckazbe lujvo 0 (en)
 $x_{1}$ is a pedestal with has pedestal-bed $x_{2}$ with pedestal material $x_{3}$.
 ---
+ckeirku fu'ivla 1 (en)
+$x_1$ is a cercus/cerci of $x_2$ having function $x_3$.
+-n
+Refers to a paired appendage on the end segments of many arthropods, with many different functions. See also {gaskre}, {betfu}, {rebla}, {jalra}, {jadji}, {cinki}, {cumba}.
+---
 ckeji gismu [-kej-cke-] 100001 (en)
 $x_{1}$ feels ashamed/mortified/humiliated under conditions $x_{2}$ before community/audience $x_{3}$.
 -n
@@ -53174,7 +53179,7 @@ $s_1$ is zoology concerned with animals of type $d_2$ based on methodology $s_3$
 -n
 Cf. {ji'eske}, {mivdalmuzga}, {mrodalmuzga}, {spaske}.
 ---
-dalti gismu 3 (en)
+dalti gismu 4 (en)
 $x_1$ is tame/domesticated by $x_2$ for use/purpose $x_3$.
 -n
 Synonym of {tolcilce}. See also {cilce}, {pilno}, {pinfu}, {ponse}, {jitro}, {sarxe}.
@@ -57200,6 +57205,11 @@ Tautological/empty/vacuous predicate; it is true regardless of what and how many
 -n
 See also: {izlo}, {zilzilo}, {ku'ai'i}.
 ---
+dzako gismu -1 (en)
+$x_1$ is a bastard, from the perspective of $x_2$
+-n
+Swear words in all contexts can be expressed with this.
+---
 dzalene fu'ivla 3 (en)
 $x_1$ is an integer.
 -n
@@ -57824,6 +57834,11 @@ $x_1$ is an elf of type $x_2$
 ---
 eljbi fu'ivla 4 (en)
 $x_1$ reflects LGBT+/non-normative sexuality/gender expression/identity in aspect $x_2$.
+---
+elkaici fu'ivla 1 (en)
+$x_1$ is a cardamom/elaichi (Elettaria cardamomum) of subspecies/cultivar $x_2$.
+-n
+See also {zingibero}, {tsapi}, {spati}.
 ---
 elkoptero fu'ivla 1 (en)
 $x_1$ is a helicopter
@@ -65648,7 +65663,7 @@ $k_1$ is a diplomat/ambassador representing country $k_2=g_1$ in matter(s)/funct
 -n
 Cf. {jansu}.
 ---
-gugykruca lujvo 0 (en)
+gugykruca lujvo -1 (en)
 A citizen $x_1=g_2=k_1$ is international in aspect/participates in an international event $x_2=k_3$.
 -n
 $x_2=k_3$ may be Olympics, working/studying abroad, foreign trade, international crime syndicate etc. See {gugde}, {kruca}; for union of countries, me loi su'o re gugde; for union of races, me loi su'o re natmi; for treaty, {gugbinselnu'e}; for internationalization of language, vanbi gi'e gunma lo so'i bangu; for cross-country, {tumgre}.
@@ -74497,6 +74512,11 @@ Predicate to variable-binding binary quantifier. The first slot of the predicate
 -n
 Terminator: {te'u}. Semantically equivalent to {kai'i} but behaving syntactically as a quantifier, and therefore able to bind {da}, for example. If a kau'u-phrase is followed by a selbri or a poi-clause, the referents of the x1 or ke'a slot of those will be passed collectively to the x2 of the kau'u-predicate. A kau'u-phrase followed by a sumti other than a bindable variable ({da}…) will treat this latter as if it was a selbri «me [the sumti] me'u». Usage examples: «kau'u roldza da viska da» = «roldza fa lo ka ce'u viska ri» = «ro da viska da»; «kau'u kampu lo mlatu cu se tuple vo da» = «kampu lo mlatu fa lo ka ce'u se tuple vo da» = «ro lo mlatu cu se tuple vo da». See also {kai'i}.
 ---
+kaubde fu'ivla 1 (en)
+$x_1$ is the torso (main part of body) of $x_2$
+-n
+See also {torso}, {cutne}, {betfu}, {bekpi}, {vente}, {stani}, {xadmidju}.
+---
 kaunka fu'ivla 3 (en)
 what satisfies property $x_1$ conditions what satisfies property $x_2$; what satisfies $x_2$ depends on what satisfies $x_1$
 -n
@@ -75359,11 +75379,6 @@ ki'orbivysamsle lujvo 1 (en)
 $se1$ is (close to) a thousand of eight indivisible, most basic computer subunits of computer $se2$; se1 is a kilobyte
 -n
 In binary a kilobyte is actually 1024 bytes, but we can round off for brevity, and to parallel the metric units.
----
-ki'orgratretrefrinynidysnidu lujvo -1 (en)
-$g_1$ is $g_2$ newton (s) of force (default is 1) by standard $g_3$.
--n
-Cf. {niutni}, {klanrniut,ni}.
 ---
 ki'orna'a lujvo 2 (en)
 $n1$ is $n2$ millennia (1000 years) in duration (default is 1 millennium) by standard $n3$.
@@ -76864,7 +76879,7 @@ konvoke fu'ivla 1 (en)
 $x_1$ convokes, convenes a meeting $x_2$ (event)
 ---
 kopteri fu'ivla 2 (en)
-$x_1$ is a copter/helicopter/quadrocopter
+$x_1$ is a copter/helicopter/quadrocopter carrying $x_2$ propelled by $x_3$.
 -n
 See also {vinji}, {vofli}
 ---
@@ -110667,9 +110682,6 @@ $x_1$ is a meme
 -n
 srana fa zo {sibvidru}
 ---
-sidso gismu 0 (en)
-$x_1$ reflects Shidinn/Xiding culture/nationality/language in aspect $x_2$
----
 sidysmu lujvo 2 (en)
 $x_1$ is a figurative/metaphorical/non-literal meaning/interpretation of $x_2$ recognized/seen/accepted by $x_3$ .
 -n
@@ -116946,6 +116958,11 @@ taifnu fu'ivla 2 (en)
 $b_1=c_1$ is a typhoon/hurricane/cyclone moving from direction $b_2$ at speed $b_3$ rotating around centre /eye $c_2$ with rotational  direction $c_3$.
 -n
 Cf. {carbi'e}, {vilti'a}.
+---
+taiksi fu'ivla 1 (en)
+$x_1$ is a taxi/taxicab carrying/transporting $x_2$, propelled by $x_3$.
+-n
+For those that are dissatisfied with the gismu {taksi}. Place structure of this word matches {karce}. See also {marce}, {carce}, {tcadu}, {aftobuso}, {sorpeka}.
 ---
 tairbagycukykruca lujvo 1 (en)
 $x1$ is the conceptualized/ideal/abstract shape of a biconvex lens formed by/manifested from the intersection $x2$ (parameters) of two-dimensional circular disks immersed (embedded) in geometry/defined by metric $x3$; $x1$ is the convex-only region bounded by intersecting circular arcs given by $x2$
@@ -124005,7 +124022,7 @@ $x1=s1$ naps/[sleeps for a short time]
 torso gismu 2 (en)
 $x_1$ is the torso (part of body excluding head and limbs) of $x_2$
 -n
-See {cutne}, {betfu}, {xadni}, {stani}
+See {kaubde}, {cutne}, {betfu}, {xadni}, {stani}
 ---
 torta gismu 1 (en)
 $x_1$ is a cake in style/with ingredients $x_2$
@@ -128206,7 +128223,7 @@ x1 engages in extended intense imagination/daydreaming, similar to a waking drea
 vente gismu 3 (en)
 $x_1$ is the ventral part of body $x_2$
 -n
-Opposite of dorsum. Not necessarily should be the frontal part of the body. See also {bekpi}, {betfu}, {flira}.
+Opposite of dorsum. Not necessarily should be the frontal part of the body. See also {bekpi}, {betfu}, {flira}, {cutne}, {kaubde}.
 ---
 venterse'u lujvo 1 (en)
 $x_1$ is customer service for $x_2$ (customer) provided by server $x_3$
@@ -130522,6 +130539,8 @@ Includes: hands (prehensile), prehensile foot, thumb, fingers, pincers, mandable
 ---
 xadmidju lujvo 1 (en)
 $x_1=m_1$ is the waist  of  $x_2=m_2$.
+-n
+See also {befloi}, {betfu}, {kaubde}.
 ---
 xadmuvgau lujvo 0 (en)
 $x_{1}$ is a do-has body with moving $x_{2}$ with move destination  $x_{3}$ with move origin  $x_{4}$ with move path $x_{5}$.
@@ -131033,6 +131052,9 @@ Acceptable (= {mlixau}, {norxau}, {xaurselcru}).  See also {melbi}, {xlali}, {vr
 ---
 xamkaspi'ano fu'ivla 1 (en)
 $x_1$ pertains to the geography/culture/history of the Caspian Sea or the geographical region surrounding it in aspect/property $x_2$
+---
+xamni gismu -1 (en)
+$x_1$ is amine of composition $x_2$.
 ---
 xamoi cmavo-compound MOI* 100000 (en)
 quantified selbri: convert 6 to ordinal selbri; $x_{1}$ is sixth among $x_{2}$ ordered by rule $x_{3}$.
@@ -134350,9 +134372,6 @@ from {zausku} + {pemci}
 zausku lujvo 1 (en)
 $c_1=z_1$ praises $z_2$ (object/event) for audience $c_3$ via expressive medium $c_4$.
 ---
-zazko gismu 0 (en)
-$x_1$ is a bastard
----
 zazyfau lujvo 2 (en)
 $x_1$ is a state (event)
 ---
@@ -134924,7 +134943,7 @@ begin quote that is converted into rafsi
 -n
 Terminated by {zei'oi}. Quotes an utterance (must be grammatical) and converts it (as a whole) into a single rafsi with the meaning of "something to do with the referent of "[insert quoted text]"". Notably, does not distribute through the text, treating each word individually with left-grouping (it does not distribute {zei} before and/or after each word (as needed)); the quoted utterance is taken as a whole unit of meaning unto itself; for the former purpose, see {zei'ei'au}. This word is useful for forming quotes and mathematical expressions (formal, evaluated, or otherwise) into lujvo. This rafsi is assumed to begin the next word if the preceding text/utterance does not end with an otherwise standalone and ungrammatical rafsi (the grammar in such a situation should be discussed); in order to connect it as a rafsi within a lujvo that began before it, precede the quotation with {zei}. In order to finish a lujvo or treat the quotation as a brivla on its own, follow it with {co'e}, which is treated as if the preceding utterance (the quote) is a single word followed immediately by {zei}; in order to string multiple ZEIhEI-ZEIhOI rafsi together follow this formula: zei'ei broda zei'oi co'e zei zei'ei brode zei'oi (co'e (zei...))... . Individual rafsi outside of lujvo are typically not grammatical (except in certain quotation structures, vel sim.).
 ---
-zei'ei'au cmavo ZEIhEI 1 (en)
+zei'ei'au cmavo ZEIhEI 0 (en)
 begin quote that is converted into rafsi, distributing lujvo-glue between quoted words
 -n
 Terminated by {zei'oi}. Begins a quote of a grammatical utterance. Between each word in the utterance, {zei} is to be interpreted and any grouping that might be applied is left-grouping. In other words, {zei} is distributed left-groupingly between each word; each word is treated on its own, individually; the quote is not treated as a whole. The final word is interpreted to have {zei} after it as well (this is a quirk of {zei'oi}), thus the quote is a string of rafsi, left-groupingly considered to be a rafsi. In order to end the lujvo formed with such a quote, follow it by {co'e}. This word compactifies large {zei}-clauses/-statements. For the perhaps generally more useful, if slightly more ambiguous, quote marker that treats the quote as a whole entity and converts it singly and wholly into a rafsi (rather than a rafsi string, as is done by this word), see: {zei'ei}. This word works as {zei'ei} does in all other regards (including as a marker for a new word (specifically a lujvo) unless preceded by {zei} or possibly by a standalone and otherwise ungrammatical rafsi). For the purpose of quoting with {ra'oi}, the result of a {zei'ei'au}-quote is treated as a single rafsi.
@@ -134942,7 +134961,7 @@ Delete all sumti slots of the immediately preceding word which are not explicitl
 -n
 Use SE in order to reorder the sumti slots. Typically, the word in question should be a non-cmavo brivla, but this is not always the case. When used as a rafsi, it modifies the last veljvo and deletes all except the first $n$ (subscripted) sumti slots (regardless of any inferred relations between them and the sumti slots of other companion veljvo,  or of any implied filling (unless such is actually explicit), which otherwise would or could exist); in rafsi form, the subscript is implied to be 1 (meaning that all except the first unfilled sumti slot is deleted) unless explicitly specified otherwise, else veljvo structure no longer makes much sense; the subscript marker "{xi}" (proposed rafsi: "-xix-") is required for explicit specification of the subscript unless there is a veljvo bracket or tanru-grouping modifier (such as  "{ke'e}") which makes such interpretation the only possible option from a syntactic, semantic, AND practical standpoint. Proposed rafsi: "-zes-" (because the last letteral for it should be able to cluster tightly with "-xix-").
 ---
-zei'oi cmavo ZEI'OI 1 (en)
+zei'oi cmavo ZEIhOI 0 (en)
 end rafsi-converting quote: terminates ZEIhEI quote
 -n
 Elidable terminator (rarely elidable). Ends ZEIhEI quotes. See also: {zei'ei}, {zei'ei'au}. Treats quoted utterance as a rafsi; in order to make it end a lujvo (or act on its own as a brivla), follow it with {co'e} (wherein the the quote is treated as a single word followed by {zei}).
@@ -142107,9 +142126,9 @@ $x_{1}$ kandi grusi bunre
 srana fa zo {bunre} .e {grusi} .e {kandi} .e {skari}
 ---
 bekpi gismu 1 (jbo)
-$x_1$ pagbu lo cutne ja betfu be $x_2$ gi’e trixe lo se go’i ca lo nu sraji kei gi’e bo cpana lo se go’i ca lo nu pinta .i $x_1$ to’e vente
+$x_1$ pagbu lo kaubde be $x_2$ gi’e trixe lo se go’i ca lo nu sraji kei gi’e bo cpana lo se go’i ca lo nu pinta .i $x_1$ to’e vente
 -n
-srana zo {trixe} .e zo {vente} .e zo {cutne}
+srana zo {trixe} .e zo {vente} .e zo {cutne} .e zo {kaubde}
 ---
 bemro gismu [-bem-be'o-] 1 (jbo)
 $x_1$ ckini lo braplu poi se stuzi le stici je berti be la terd ku'o $x_2$
@@ -143746,11 +143765,6 @@ $x_2$ ckaji $x_3$ .ije $x_1$ jursa jarco lo ka tolsi'a ja xalbo la'e di'u kei lo
 -n
 {cmila} .i {xalbo} .i {xajmi} .i {bebna} .i {junri} .i {xrani} .i {xendo} .i {jursa}
 ---
-ckeirku fu'ivla 1 (jbo)
-$x_1$ is a cercus/cerci of $x_2$ having function $x_3$.
--n
-Refers to a paired appendage on the end segments of many arthropods, with many different functions. See also {gaskre}, {betfu}, {rebla}, {jalra}, {jadji}, {cinki}, {cumba}.
----
 ckeji gismu [-kej-cke-] 1 (jbo)
 $x_1$ cinmo lo ka burna ja na'e se pluka lo nu $x_1$ zukte ja ckaji $x_2$ .i $x_1$ to'e jgira $x_2$
 -n
@@ -144552,10 +144566,10 @@ $x_1$ pagbu $x_2$ noi stura ku'o gi'e vasru $x_3$ .i ra'u $x_1$ fa'u $x_2$ tanxe
 -n
 {tanxe} .i {nilce}
 ---
-dacti gismu [-dai-] 1 (jbo)
-$x_1$ marji je se canlu je se ditcu
+dacti gismu [-dai-] 2 (jbo)
+$x_1$ zasti gi'enai bridi
 -n
-{marji}; {canlu}; {ditcu}
+la'e zo zasti frica zo {fasnu} loka bridi .i ji'a srana zo {marji} .e zo {xanri}
 ---
 dacybatke lujvo 1 (jbo)
 $b_1$ batke $b_2=d_1$ po'u lo dacru ge'u lo nu lacpu vo'e kei $b_4$
@@ -145824,7 +145838,7 @@ $x_1$ zasti xoi se munje $x_2$
 erpesti fu'ivla 1 (jbo)
 $x_1$ is a mongoose (family Herpestidae) of species/breed $x_2$.
 -n
-See also {surkata}, {recyctimabru}, {smidauzlexo}, {mabru}.
+See also {surkata}, {recyctimabru}, {virveidi}, {mabru}.
 ---
 erpi fu'ivla 1 (jbo)
 $x_1$ te finti $x_2$ zi'o
@@ -146038,10 +146052,10 @@ $x_1$ cenba co'u lo nu $x_1$ du $x_2$ kei co'a lo nu $x_1$ du $x_3$ kei ca'o lo 
 -n
 {cenba}; {co'u}; {co'a}; {ca'o}
 ---
-fasnu gismu [-fau-] 1 (jbo)
-$x_1$ co'a je ca'o je co'u zasti .i $x_1$ ca'o zasti .i $x_1$ co'i zasti
+fasnu gismu [-fau-] 2 (jbo)
+$x_1$ zasti gi'e bridi
 -n
-{zasti}
+nibli lodu'u lo fasnu cu {bridi} .i la'e lu lonu ko'a broda cu fasnu li'u cu nibli la'e lu ko'a broda li'u .i zo {fau} tcita ti .i ji'a srana zo {zasti} .e zo {jalge} .e zo {dacti}
 ---
 fasybau lujvo 1 (jbo)
 $x_1$ bangu $x_2$ fi $x_3$ gi'e se cmene zo .fransez. gi'e jai se krasi tu'a lo fasygu'e
