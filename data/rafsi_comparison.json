@@ -18,6 +18,21 @@
     "notes": "See also {ropno}, {nedlo}, {dotco}, {fraso}. Proposed rafsi: -bel-."
   },
   {
+    "word": "bofcu",
+    "lang": "en",
+    "def": "$x_1$ blows/exhales relatively high pressure of fluid/gas $x_2$ into relatively low pressure $x_3$.",
+    "experimental_rafsi": [
+      "boc"
+    ],
+    "api_rafsi": [
+      "boc"
+    ],
+    "guessed_notes_rafsi": [
+      "boc"
+    ],
+    "notes": "Synonym {tolsakci}. See also {sakci}, {bifca'e}, {flecu}, {jetce}, {sputu}, {vasxu}. Proposed rafsi: -boc-."
+  },
+  {
     "word": "cetmo",
     "lang": "en",
     "def": "$x_1$ is a demon (an evil supernatural being or mythical creature).",
@@ -66,6 +81,12 @@
     "word": "cketi",
     "lang": "en",
     "def": "$x_1$ hesitates/vacillates/is unsure about doing/being $x_2$ (ka/nu) because of $x_3$.",
+    "experimental_rafsi": [
+      "cet"
+    ],
+    "api_rafsi": [
+      "cet"
+    ],
     "guessed_notes_rafsi": [
       "cet"
     ],
@@ -112,6 +133,12 @@
     "word": "cumba",
     "lang": "en",
     "def": "$x_1$ is an arthropod of species/breed $x_2$; $x_1$ is a bug (broad sense)",
+    "experimental_rafsi": [
+      "cub"
+    ],
+    "api_rafsi": [
+      "cub"
+    ],
     "guessed_notes_rafsi": [
       "cub"
     ],
@@ -148,6 +175,12 @@
     "word": "dutso",
     "lang": "en",
     "def": "$x_1$ is clockwise/right-turn-direction of[/to] $x_2$ along/following track $x_3$ [path] in frame of reference $x_4$ (where the axis is within the region defined by the track as the boundary, as viewed from and defined by view(er) $x_4$; see notes); $x_1$ is locally to the right of $x_2$, according to $x_4$, constrained along $x_3$; $x_1$ is along a right turn from $x_2$ along path $x_3$, as viewed in frame $x_4$.",
+    "experimental_rafsi": [
+      "tso"
+    ],
+    "api_rafsi": [
+      "tso"
+    ],
     "guessed_notes_rafsi": [
       "tso"
     ],
@@ -157,6 +190,12 @@
     "word": "dzama",
     "lang": "en",
     "def": "$x1$ performs chore / menial duty / housework / errand $x2$ (nu/ka) for purpose / as obliged by $x3$.",
+    "experimental_rafsi": [
+      "zam"
+    ],
+    "api_rafsi": [
+      "zam"
+    ],
     "guessed_notes_rafsi": [
       "zam",
       "dza"
@@ -189,6 +228,12 @@
     "word": "farje",
     "lang": "en",
     "def": "$x_1$ ferments [undergoes fermentation] with fermenting agent $x_2$.",
+    "experimental_rafsi": [
+      "faj"
+    ],
+    "api_rafsi": [
+      "faj"
+    ],
     "guessed_notes_rafsi": [
       "faj"
     ],
@@ -198,6 +243,12 @@
     "word": "flipo",
     "lang": "en",
     "def": "$x_1$ reflects Filipino culture/nationality/language/geography in aspect $x_2$",
+    "experimental_rafsi": [
+      "lip"
+    ],
+    "api_rafsi": [
+      "lip"
+    ],
     "guessed_notes_rafsi": [
       "lip"
     ],
@@ -207,6 +258,12 @@
     "word": "folcu",
     "lang": "en",
     "def": "$x_1$ is a false, fake, apparent, pseudo-$x_2$ (ka); $x_1$ seems to be or do $x_2$, but in fact doesn't.",
+    "experimental_rafsi": [
+      "fol"
+    ],
+    "api_rafsi": [
+      "fol"
+    ],
     "guessed_notes_rafsi": [
       "fol"
     ],
@@ -216,6 +273,12 @@
     "word": "gajno",
     "lang": "en",
     "def": "$x_1$ represents Ghanaian culture/language/history/politics in aspect $x_2$.",
+    "experimental_rafsi": [
+      "gaj"
+    ],
+    "api_rafsi": [
+      "gaj"
+    ],
     "guessed_notes_rafsi": [
       "gaj"
     ],
@@ -253,6 +316,12 @@
     "word": "ganvi",
     "lang": "en",
     "def": "$x_1$ is the sensory media content of type/stimulating sense/containing experience information $x_2$ of recording/broadcast/media $x_3$ displayed/produced by medium/device $x_4$.",
+    "experimental_rafsi": [
+      "gav"
+    ],
+    "api_rafsi": [
+      "gav"
+    ],
     "guessed_notes_rafsi": [
       "gav"
     ],
@@ -262,6 +331,12 @@
     "word": "gelga",
     "lang": "en",
     "def": "$x_1$ is an eagle/hawk/buzzard/bird-of-prey of species $x_2$",
+    "experimental_rafsi": [
+      "geg"
+    ],
+    "api_rafsi": [
+      "geg"
+    ],
     "guessed_notes_rafsi": [
       "geg"
     ],
@@ -271,6 +346,12 @@
     "word": "gomsi",
     "lang": "en",
     "def": "$x_1$ reflects/pertains to the Mediterranean region/culture/geography/identity/[nationality] in aspect $x_2$",
+    "experimental_rafsi": [
+      "gos"
+    ],
+    "api_rafsi": [
+      "gos"
+    ],
     "guessed_notes_rafsi": [
       "gos"
     ],
@@ -340,19 +421,15 @@
     "notes": "Usually connects two sentences. \"broda .i jo'oi brode\" means roughly \"the more broda, the more brode\" (German \"je... desto\") and more precisely \"lo nu lo ni broda kei cu zenba cu nibli lo nu lo ni brode kei cu zenba\". Negating one of the components (NA jo'oi NAI) changes \"zenba\" to \"jdika\", so e.g. \"jo'oi nai\" means \"the more..., the less...\". Using SE swaps the antecedent with the consequent. While this connective usually connects sentences, it is perfectly correct to use it to connect anything that non-logical connectives can. \"mi ecre jo'oi certu\" means \"the more I practice, the more I'm skilled\". May take rafsi -jof-. See also {zmadu}, {zenba}, {banro}, {joi}."
   },
   {
-    "word": "jvarafsi",
-    "lang": "en",
-    "def": "$r_1$ is a predictable/regular affix for word/concept $r_2$, with form/properties $r_3$, in language $r_4$.",
-    "guessed_notes_rafsi": [
-      "badn",
-      "badn"
-    ],
-    "notes": "Literally 'rule affix'. In Lojban, jvarafsi are the familiar four-letter (or, more precisely, four-segment) {rafsi}, which are fully predictable in form, and of which each {gismu} has only one. For example, -badn- is the jvarafsi of {badna} 'banana', and can belong to no other word. The form of the affix -badn- may be inferred from the form of the word badna, and vice versa (if the final vowel of badna is known)."
-  },
-  {
     "word": "kazgo",
     "lang": "en",
     "def": "$x_1$ represents Kazakh culture/language/geography/history in aspect $x_2$.",
+    "experimental_rafsi": [
+      "zgo"
+    ],
+    "api_rafsi": [
+      "zgo"
+    ],
     "guessed_notes_rafsi": [
       "kaz",
       "zgo"
@@ -360,18 +437,15 @@
     "notes": "See also {turko}, {kirgo}, {turkiko}, {mongo}, {xazdo}. May take rafsi -kaz- or -zgo-."
   },
   {
-    "word": "kejgu'e",
-    "lang": "en",
-    "def": "$k_1=g_1$ is Kenya.",
-    "guessed_notes_rafsi": [
-      "kej"
-    ],
-    "notes": "The -kej- in this word is from {kenjo} and not {ckeji} (a rafsi reassign was put in place but now in the dictionary editor only official assigned rafsi take precedence). See also {kenjo}, {sunfi'o}, {friko}."
-  },
-  {
     "word": "kenjo",
     "lang": "en",
     "def": "$x_1$ represents Kenyan culture in aspect $x_2$.",
+    "experimental_rafsi": [
+      "kej"
+    ],
+    "api_rafsi": [
+      "kej"
+    ],
     "guessed_notes_rafsi": [
       "kej"
     ],
@@ -405,18 +479,15 @@
     "notes": "From -kle- (< {klesi}) and the ending of {trangeni}, {singeni}. The -geni ending is ultimately from Latin genus and its descendants (cf. English gender)."
   },
   {
-    "word": "kleinzu",
-    "lang": "en",
-    "def": "$x_1$ (mass / plurality) is a class / category / subgroup / subset including members $x_2$, with defining property $x_3$ (ka), within superset $x_4$ (mass)",
-    "guessed_notes_rafsi": [
-      "klei"
-    ],
-    "notes": "See {klesi}, {gunma}, {lanzu}. Suggested morphemes: -klei-, -leiu-"
-  },
-  {
     "word": "kongo",
     "lang": "en",
     "def": "$x_1$ represents Congolese (Republic of the Congo/Democratic Republic of the Congo) culture in aspect $x_2$.",
+    "experimental_rafsi": [
+      "kog"
+    ],
+    "api_rafsi": [
+      "kog"
+    ],
     "guessed_notes_rafsi": [
       "kog"
     ],
@@ -426,6 +497,12 @@
     "word": "kotfo",
     "lang": "en",
     "def": "$x_{1}$ is pertains to Kotava-speaking culture in aspect $x_{2}$.",
+    "experimental_rafsi": [
+      "kof"
+    ],
+    "api_rafsi": [
+      "kof"
+    ],
     "guessed_notes_rafsi": [
       "kof"
     ],
@@ -494,6 +571,12 @@
     "word": "majvu",
     "lang": "en",
     "def": "$x_1$ is a microörganism, virus, protein, spore, pathogen, or other such substance which causes or is intimately associated with disease(s)/symptoms $x_2$.",
+    "experimental_rafsi": [
+      "jvu"
+    ],
+    "api_rafsi": [
+      "jvu"
+    ],
     "guessed_notes_rafsi": [
       "jvu"
     ],
@@ -509,6 +592,21 @@
     "notes": "From -mal- ({mabla} 'bad') + pa so bi vo '1984'."
   },
   {
+    "word": "mevmi",
+    "lang": "en",
+    "def": "$x_1$ is savory/savoury/umami to observer $x_2$.",
+    "experimental_rafsi": [
+      "mev"
+    ],
+    "api_rafsi": [
+      "mev"
+    ],
+    "guessed_notes_rafsi": [
+      "mev"
+    ],
+    "notes": "See also {vrusi}, {krumami}, {titla}, {salni}, {slari}, {kurki}. Proposed rafsi: -mev-."
+  },
+  {
     "word": "nabzu",
     "lang": "en",
     "def": "$x_1$ happens now (absolute time reference).",
@@ -521,6 +619,12 @@
     "word": "neplo",
     "lang": "en",
     "def": "$x_1$ represents Nepali/Nepalese culture/language/history/geography in aspect $x_2$.",
+    "experimental_rafsi": [
+      "nep"
+    ],
+    "api_rafsi": [
+      "nep"
+    ],
     "guessed_notes_rafsi": [
       "nep"
     ],
@@ -566,6 +670,12 @@
     "word": "norgo",
     "lang": "en",
     "def": "$x_1$ reflects Norwegian culture/nationality/language in aspect $x_2$",
+    "experimental_rafsi": [
+      "nog"
+    ],
+    "api_rafsi": [
+      "nog"
+    ],
     "guessed_notes_rafsi": [
       "nog"
     ],
@@ -575,6 +685,12 @@
     "word": "nudle",
     "lang": "en",
     "def": "$x_1$ are noodles made of $x_2$",
+    "experimental_rafsi": [
+      "nud"
+    ],
+    "api_rafsi": [
+      "nud"
+    ],
     "guessed_notes_rafsi": [
       "nud"
     ],
@@ -629,6 +745,12 @@
     "word": "podjo",
     "lang": "en",
     "def": "$x_1$ represents Tibetan culture/language/history/geography in aspect $x_2$.",
+    "experimental_rafsi": [
+      "pod"
+    ],
+    "api_rafsi": [
+      "pod"
+    ],
     "guessed_notes_rafsi": [
       "pod"
     ],
@@ -642,15 +764,6 @@
       "rau"
     ],
     "notes": "Created to match the cmavo {rau}. Proposed rafsi -rau-. See also {sorni}, {banzu}, {rau}."
-  },
-  {
-    "word": "roblik",
-    "lang": "en",
-    "def": "Roblox",
-    "guessed_notes_rafsi": [
-      "blik"
-    ],
-    "notes": "The -blik- part comes from {bliku} and is a direct phono-semantic matching of the English name."
   },
   {
     "word": "roflma'o",
@@ -683,6 +796,12 @@
     "word": "sefmi",
     "lang": "en",
     "def": "$x_1$ does $x_2$ [ka with two blanks] to itself; $x_1$ is in relation $x_2$ with itself.",
+    "experimental_rafsi": [
+      "sem"
+    ],
+    "api_rafsi": [
+      "sem"
+    ],
     "guessed_notes_rafsi": [
       "sem",
       "se'i",
@@ -704,6 +823,12 @@
     "word": "sekse",
     "lang": "en",
     "def": "$x_{1}$ is the biological sex (male, female, or otherwise) of $x_{2}$.",
+    "experimental_rafsi": [
+      "sek"
+    ],
+    "api_rafsi": [
+      "sek"
+    ],
     "guessed_notes_rafsi": [
       "sek"
     ],
@@ -717,15 +842,6 @@
       "se'e"
     ],
     "notes": "Possibly synonymous to {banzu}. Proposed rafsi: -se'e- (for paralleling the other causal suffixes). See also {jalge}, {rinka}, {krinu}, {banzu}, {nibli}, {mukti}."
-  },
-  {
-    "word": "selkleigau",
-    "lang": "en",
-    "def": "$g_1$ categorises/classifies $g_2=k_2$ into group $k_1$ with defining property $k_3$.",
-    "guessed_notes_rafsi": [
-      "klei"
-    ],
-    "notes": "The -klei- is from {kleinzu}. See also {klesi}, {kleinzu}, {cmima}."
   },
   {
     "word": "semkaigau",
@@ -768,10 +884,35 @@
     "word": "tceta",
     "lang": "en",
     "def": "$x_1$ is a whale/dolphin/porpoise (order Cetacea) of species/breed $x_2$",
+    "experimental_rafsi": [
+      "cet"
+    ],
+    "api_rafsi": [
+      "cet"
+    ],
     "guessed_notes_rafsi": [
       "cet"
     ],
     "notes": "See also: {tcetace}, {delfinu}, {marsopa}, {orka}, {mabru}, {jaurxa'u}. May take rafsi -cet-."
+  },
+  {
+    "word": "tervenydza",
+    "lang": "en",
+    "def": "$x_1$ goes shopping for $x_2$ [for ex. groceries], as a chore or errand.",
+    "guessed_notes_rafsi": [
+      "bam"
+    ],
+    "notes": "= {bamdza} with unofficial -bam- for {bamri} ‘buy’. more specific form of {tervenzu'e} used specifically for the kind of shopping you have to do, like groceries"
+  },
+  {
+    "word": "tervenzu'e",
+    "lang": "en",
+    "def": "$x_1$ goes shopping for $x_2$.",
+    "guessed_notes_rafsi": [
+      "bam",
+      "dza"
+    ],
+    "notes": "= {bamzu'e} (unoff. -bam- rafsi for {bamri}). $x_2$ can be a specific thing but is usually going to be a kind (article is {lo} or {lo'e} depending on your idiolect). for ‘going shopping’ as a chore/regular task, like for groceries, you can use the more specific {tervenydza} ~ {bamdza} (-dza- here is {dzama} ‘do chore’)"
   },
   {
     "word": "tezyfrinu",
@@ -786,6 +927,12 @@
     "word": "tombo",
     "lang": "en",
     "def": "$x_1$ renounces, disavows, disclaims being or doing $x_2$.",
+    "experimental_rafsi": [
+      "to'o"
+    ],
+    "api_rafsi": [
+      "to'o"
+    ],
     "guessed_notes_rafsi": [
       "to'o"
     ],
@@ -817,15 +964,6 @@
       "vla"
     ],
     "notes": "The word {u'ivla} is itself an u'ivla, as it is an unconventional portmanteau of {u'i} and -vla- (a rafsi of {valsi}) and also a pun on the word {fu'ivla}. Another example is {u'imla}."
-  },
-  {
-    "word": "valsrvlsrvalsrvla",
-    "lang": "en",
-    "def": "$x_1$ is stage 3 fu'ivla meaning/causing $x_2$ in language $x_3$ (default Lojban) containing excessively long consonant cluster $x_4$ (quote)",
-    "guessed_notes_rafsi": [
-      "vlsr"
-    ],
-    "notes": "For further autologicality, add additional -vlsr-'s to taste."
   },
   {
     "word": "ve'irsau",
@@ -862,6 +1000,14 @@
       "vuj",
       "vu'u"
     ],
+    "experimental_rafsi": [
+      "vuj",
+      "vu'u"
+    ],
+    "api_rafsi": [
+      "vuj",
+      "vu'u"
+    ],
     "guessed_notes_rafsi": [
       "vuj"
     ],
@@ -871,6 +1017,12 @@
     "word": "zanfu",
     "lang": "en",
     "def": "$x_1$ bathes $x_2$; $x_1$ gives $x_2$ a bath, a shower.",
+    "experimental_rafsi": [
+      "zaf"
+    ],
+    "api_rafsi": [
+      "zaf"
+    ],
     "guessed_notes_rafsi": [
       "zaf"
     ],
@@ -890,6 +1042,14 @@
     "lang": "en",
     "def": "$x_1$ is counterclockwise/left-turn-direction of[/to] $x_2$ along/following track $x_3$ [path] in frame of reference $x_4$ (where the axis is within the region defined by the track as the boundary, as viewed from and defined by view(er) $x_4$; see notes); $x_1$ is locally to the left of $x_2$, according to $x_4$, constrained along $x_3$; $x_1$ is along a left turn from $x_2$ along path $x_3$, as viewed in frame $x_4$.",
     "jvotci_rafsi": [
+      "zuc",
+      "zu'a"
+    ],
+    "experimental_rafsi": [
+      "zuc",
+      "zu'a"
+    ],
+    "api_rafsi": [
       "zuc",
       "zu'a"
     ],
@@ -919,6 +1079,21 @@
     "notes": "{u'ivla} fo tu'a zo {au'unmo} joi ra'oi -mro- ne zo {morsi}"
   },
   {
+    "word": "bofcu",
+    "lang": "jbo",
+    "def": "$x_1$ sputu ja barva’u ja terje’e $x_2$ noi litki ja gapci ku’o $x_3$ ta’i lo nu $x_1$ zmadu $x_3$ lo ni danre $x_2$ .i $x_1$ to’e sakci $x_2$ $x_3$",
+    "experimental_rafsi": [
+      "boc"
+    ],
+    "api_rafsi": [
+      "boc"
+    ],
+    "guessed_notes_rafsi": [
+      "boc"
+    ],
+    "notes": "mitsmuvla zo {tolsakci} .i srana zo {sakci} .e zo {sputu} .e zo {vasxu} .e zo {bifca'e} .e zo {jetce} .e zo {flecu} .i ra’oi -boc- selti’i rafsi"
+  },
+  {
     "word": "cetrbeluga",
     "lang": "jbo",
     "def": "$x_1$ blabi tceta $x_2$ fi'o jutsi la'e zoi lu Delphinapterus leucas lu",
@@ -931,6 +1106,12 @@
     "word": "cumba",
     "lang": "jbo",
     "def": "$x_1$ narbogda’u $x_2$ fi’o jicmivlei la’e zoi lu Arthropoda lu",
+    "experimental_rafsi": [
+      "cub"
+    ],
+    "api_rafsi": [
+      "cub"
+    ],
     "guessed_notes_rafsi": [
       "cub"
     ],

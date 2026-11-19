@@ -1,0 +1,2050 @@
+[
+  {
+    "word": "bekpi",
+    "lang": "en",
+    "def": "$x_1$ is the 'back', dorsum of body $x_2$",
+    "experimental_rafsi": [
+      "bek"
+    ],
+    "api_rafsi": [
+      "bek"
+    ],
+    "notes": "Opposite of ventral part of the body. Not necessarily should be a posterior part of the body. Determined by bilateral symmetry of the body. See also {vente}, {trixe}, {cutne}, {kaubde}."
+  },
+  {
+    "word": "bofcu",
+    "lang": "en",
+    "def": "$x_1$ blows/exhales relatively high pressure of fluid/gas $x_2$ into relatively low pressure $x_3$.",
+    "experimental_rafsi": [
+      "boc"
+    ],
+    "api_rafsi": [
+      "boc"
+    ],
+    "guessed_notes_rafsi": [
+      "boc"
+    ],
+    "notes": "Synonym {tolsakci}. See also {sakci}, {bifca'e}, {flecu}, {jetce}, {sputu}, {vasxu}. Proposed rafsi: -boc-."
+  },
+  {
+    "word": "bolva",
+    "lang": "en",
+    "def": "$x_{1}$ is a bowl containing $x_{2}$, made of $x_{3}$.",
+    "experimental_rafsi": [
+      "bov"
+    ],
+    "api_rafsi": [
+      "bov"
+    ],
+    "notes": "As a part of a proposal to split {kabri} into 2 words — {kabri} is a container for liquids and {bolva} is a container for solids. Consistent with the place structure of {kabri}, even though it is redundant ({velbotsu'i}). See also {kabri}, {baktu}, {palta}, {tansi}."
+  },
+  {
+    "word": "celdi",
+    "lang": "en",
+    "def": "$x_1$ is a group of people who love each other in a sexual or non-sexual way, which includes the individuals $x_2$, $x_3$, $x_4$, $x_5$, etc., etc., etc.",
+    "jvotci_rafsi": [
+      "cle"
+    ],
+    "guessed_notes_rafsi": [
+      "cle"
+    ],
+    "notes": "The most common {celdi} is a couple, but the word also covers polyamorous collectives, polygyny, polyandry, etc. Could even cover {lanzu}. Proposed rafsi is -cle-."
+  },
+  {
+    "word": "cketi",
+    "lang": "en",
+    "def": "$x_1$ hesitates/vacillates/is unsure about doing/being $x_2$ (ka/nu) because of $x_3$.",
+    "experimental_rafsi": [
+      "cet"
+    ],
+    "api_rafsi": [
+      "cet"
+    ],
+    "guessed_notes_rafsi": [
+      "cet"
+    ],
+    "notes": "See also {zukyde'a}, {zukte}, {denpa}. Proposed short rafsi -cet-."
+  },
+  {
+    "word": "cnasi",
+    "lang": "en",
+    "def": "$x_1$ rises/ascends to $x_2$ from $x_3$ in frame of reference $x_4$.",
+    "experimental_rafsi": [
+      "nas"
+    ],
+    "api_rafsi": [
+      "nas"
+    ],
+    "notes": "Antonym of {farlu}. Having a to'e-negated term {tolfa'u} for \"rise\" was unsatisfactory, and there were no other lujvo that had the same noun places. See also {lafti}, {lafmuvgau}, {galmu'u}, {muvdu}, {grava}, {gapru}, {galtu}."
+  },
+  {
+    "word": "co'ai",
+    "lang": "en",
+    "def": "placed after a tanru with CO, following sumti return to the place structure of the left tanru unit.",
+    "jvotci_rafsi": [
+      "cox"
+    ],
+    "notes": "\"broda co brode do\" = \"broda co brode be do\", however \"broda co brode co'ai do\" = \"broda be do co brode\". Overrides the rule that sumti following a tanru with CO belong to the place structure of the right tanru unit. Scope of a single CO; \"broda co brode co brodi\" would need \"co'ai\" once to return to \"brode\" and twice to return to \"broda\". Proposed rafsi: -cox-. See also: {co}."
+  },
+  {
+    "word": "cpixa",
+    "lang": "en",
+    "def": "$x_1$ appears/emerges at location $x_2$ as observed by $x_3$.",
+    "experimental_rafsi": [
+      "cix"
+    ],
+    "api_rafsi": [
+      "cix"
+    ],
+    "notes": "See {canci}. Synonym of {tolcanci}. Proposed rafsi: -cix-"
+  },
+  {
+    "word": "cumba",
+    "lang": "en",
+    "def": "$x_1$ is an arthropod of species/breed $x_2$; $x_1$ is a bug (broad sense)",
+    "experimental_rafsi": [
+      "cub"
+    ],
+    "api_rafsi": [
+      "cub"
+    ],
+    "guessed_notes_rafsi": [
+      "cub"
+    ],
+    "notes": "For a world in which {cinki} means \"insect\" or \"hexapod\". The source words for {cinki} mean \"insect\", so I prefer narrowing its meaning and adding a new word for \"arthropod\" based on more fitting source words. Proposed rafsi: -cub-. See also {danlu}, {lokra}, {jukni}, {munpi}, {sortu'e}"
+  },
+  {
+    "word": "dau",
+    "lang": "en",
+    "def": "digit/number: hex digit A (decimal 10) [ten].",
+    "jvotci_rafsi": [
+      "duv"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "dindi",
+    "lang": "en",
+    "def": "$x_1$ is a non-binary/intersex (probably also can include: asexual, nongendered, indeterminately gendered) individual of species $x_2$ evidencing non-binary gender trait(s) $x_3$ (ka); $x_1$ is characterized by not following or fitting into some gender-binary.",
+    "jvotci_rafsi": [
+      "did"
+    ],
+    "guessed_notes_rafsi": [
+      "did"
+    ],
+    "notes": "Co-equal to {fetsi} and {nakni}. See also {fetsi}, {nakni}, {nunmu}. Proposed short rafsi: -did-."
+  },
+  {
+    "word": "dinso",
+    "lang": "en",
+    "def": "$x_1$ is a 'dinosaur' [very general: any ancient quasi-reptilian vertebrate or, possibly but probably not, modern bird] of type $x_2$ living in era $x_3$.",
+    "jvotci_rafsi": [
+      "dis"
+    ],
+    "guessed_notes_rafsi": [
+      "dis"
+    ],
+    "notes": "A gismu version of \"{dinsauru}\"; contrast with \"{rexsa}\" (in particular, this word probably would not but could refer to modern birds whereas \"{rexsa}\" can always do so without any connotation to the contrary; meanwhile, \"{rexsa}\" cannot refer to pterosaurs, ichthyosaurs, vel sim. but this word can). The use of this word is not strictly only relevant to members of clade Dinosauria, although it does include them (and, specifically, modern birds, although it connotes ancientness and extinction unless it is part of an explicitly contrary or general context); its referent might also/alternatively include pterosaurs, icthyosaurs, plesiosaurs, mosasaurs, dimetrodons, avemetatarsaliads, and perhaps even other ancient synapsids (in other words, any prehistoric quasi-reptilian vertebrate). As such, it is a qualitative word that bears no particular or strong attention or respect to genealogy, cladistics, taxology/taxonomy, or scientific/academic classification of these animals. Basically, any prehistoric animal the name of which ends in \"-saur\" can be so-described, as well as others. It probably should not reference more modern-like mammals proper. Proposed short rafsi: -dis-. See also: \"{rexsa}\", \"{ketslau}\", \"{ikfiio}\", \"{disrmuzo}\", \"{plesiio}\", {respa}, {cipni}."
+  },
+  {
+    "word": "dokcu",
+    "lang": "en",
+    "def": "$x_1$ is a document containing text (quote/du'u) $x_2$",
+    "jvotci_rafsi": [
+      "do'u"
+    ],
+    "notes": "Could be physical or electronic record. See also {cukta}, {ciska}, {uencu}.  Proposed rafsi -do'u-"
+  },
+  {
+    "word": "dolna",
+    "lang": "en",
+    "def": "$x_1$ is a (topological) hole in object $x_2$",
+    "jvotci_rafsi": [
+      "dol"
+    ],
+    "notes": "Refers to a \"hole\" in the topological sense, i.e. one which goes all the way through an object, such as a hole in a sheet of paper. For non-topological holes (ones that do not go all the way through, such as a hole in the ground), use {kevna}. See also {canko}, {kalri}, {canlu}. Proposed rafsi -dol-"
+  },
+  {
+    "word": "dutso",
+    "lang": "en",
+    "def": "$x_1$ is clockwise/right-turn-direction of[/to] $x_2$ along/following track $x_3$ [path] in frame of reference $x_4$ (where the axis is within the region defined by the track as the boundary, as viewed from and defined by view(er) $x_4$; see notes); $x_1$ is locally to the right of $x_2$, according to $x_4$, constrained along $x_3$; $x_1$ is along a right turn from $x_2$ along path $x_3$, as viewed in frame $x_4$.",
+    "experimental_rafsi": [
+      "tso"
+    ],
+    "api_rafsi": [
+      "tso"
+    ],
+    "guessed_notes_rafsi": [
+      "tso"
+    ],
+    "notes": "Angular/curling direction: clockwise. he orientation of the path determines x4 but does not factor into consideration for x3. Further glosses: clockwise, locally rightward, right-turning (with no bulk translation) in a way that would be characterized as \"negative\" by the right-hand rule (aligned with and in the direction of a basis vector, at least for a given component). x1 is left-handedly/clockwise(ly) oriented relative to x2 on/along x3 in frame of reference x4.  x1 is left-handed (one sense) from x2 [more accurately: moving from x2 to x1 requires a(n imaginary) motion that is left-handed about/along x3 as seen in frame/orientation/perspective x4]. x1 is to the path-following right of x2 (where the path is connected; as such, x1 is also be to the path-following left of x2, although there is an implication that the former is the smaller (or equal-length) path). See also: {zucna}, {du'ei} (left-handed vectorial cross product), {du'oi} (modal). Proposed short rafsi: -tso-."
+  },
+  {
+    "word": "dzama",
+    "lang": "en",
+    "def": "$x1$ performs chore / menial duty / housework / errand $x2$ (nu/ka) for purpose / as obliged by $x3$.",
+    "experimental_rafsi": [
+      "zam"
+    ],
+    "api_rafsi": [
+      "zam"
+    ],
+    "guessed_notes_rafsi": [
+      "zam",
+      "dza"
+    ],
+    "notes": "Compare with {zdagu'a}, but much broader in scope, as not limited to house work.  Includes, for example, bills and shopping.  The little tasks we do to maintain our daily lives.  x3 is the motivation for doing the chore, compare {zukte}3.  Suggested rafsi: -zam- and also proposed to steal -dza- from {da}.  See also {bilga}, {gunka}. Generated with gismu algorithm: gismu[...]score.py dzaci, kama, tcor, lata, domashnie, rutini"
+  },
+  {
+    "word": "dzodu",
+    "lang": "en",
+    "def": "$x_1$ does, to $x_2$, $x_3$ (ka); $x_1$ causes itself and $x_2$ to be in relation $x_3$",
+    "experimental_rafsi": [
+      "dzo"
+    ],
+    "api_rafsi": [
+      "dzo"
+    ],
+    "notes": "Alternative to {durzo}"
+  },
+  {
+    "word": "dzoli",
+    "lang": "en",
+    "def": "$x_1$ is recursively related to $x_2$ by applying $x_3$ (number) levels-of-recursion of the predicate-relation $x_4$ (ka with two ce'u)",
+    "jvotci_rafsi": [
+      "dzo"
+    ],
+    "guessed_notes_rafsi": [
+      "dzo",
+      "dzo"
+    ],
+    "notes": "Rafsi -dzo- (when -dzo- is a tertau then seltau corresponds to $x_4$ of {dzoli}). Synonym of {refkusi} for more convenience in making lujvo. tanru example for common usage: 'the day three days from now (tomorrow's tomorrow's tomorrow)' is '{le} {bavlamdeidzo} {be} {fi} {li} {ci}'. Cf. {krefu}, {rapli}, {dzoli}."
+  },
+  {
+    "word": "farje",
+    "lang": "en",
+    "def": "$x_1$ ferments [undergoes fermentation] with fermenting agent $x_2$.",
+    "experimental_rafsi": [
+      "faj"
+    ],
+    "api_rafsi": [
+      "faj"
+    ],
+    "guessed_notes_rafsi": [
+      "faj"
+    ],
+    "notes": "Proposed combining form -faj-. For agentive '$x_1$ ferments substance $x_2$', use {farjygau} (or even shorter, {fajgau}). This word was made to split the semantic spaces of 'ferment' ({farje}) and 'rot' ({fusra}); {kukfusra} 'delicious-rot' for 'ferment', while technically correct, is silly."
+  },
+  {
+    "word": "fei",
+    "lang": "en",
+    "def": "digit/number: hex digit B (decimal 11) [eleven].",
+    "jvotci_rafsi": [
+      "fel"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "fibra",
+    "lang": "en",
+    "def": "$x_1$ is a fiber of type/material $x_2$",
+    "experimental_rafsi": [
+      "fib"
+    ],
+    "api_rafsi": [
+      "fib"
+    ],
+    "notes": "Also see {cilta} (\"thread\")."
+  },
+  {
+    "word": "fidna",
+    "lang": "en",
+    "def": "$x_1$ pretends/feigns that $x_2$ is true in activity $x_3$; $x_1$ does $x_3$ as though $x_2$ were true",
+    "jvotci_rafsi": [
+      "fid"
+    ],
+    "notes": "See also {frati}, {stace}, {natfe}. Proposed rafsi -fid-"
+  },
+  {
+    "word": "fizbu",
+    "lang": "en",
+    "def": "$x_1$ is excited/feels excitement about $x_2$ (event/property); $x_2$ excites $x_1$",
+    "jvotci_rafsi": [
+      "zbu"
+    ],
+    "notes": "See {ue'i}, {entuzi}, {camgei}"
+  },
+  {
+    "word": "fizde",
+    "lang": "en",
+    "def": "$x_1$ awaits for $x_2$ (event) with bated breath; $x_1$ waits for the occurrence of $x_2$ excitedly/impatiently/restlessly; colloquially: $x_1$ just cannot wait for $x_2$ to happen; $x_1$ is eager for event $x_2$.",
+    "jvotci_rafsi": [
+      "fiz"
+    ],
+    "guessed_notes_rafsi": [
+      "fiz"
+    ],
+    "notes": "The colloquial definition is figurative: the waiting must and will be performed, but $x_1$ wants $x_2$ to happen as soon as possible/to just come already- for time to flow faster. This is how a child feels on Christmas Eve night for Christmas Day. This word has a positive connotation; the negative version (via \"{to'e}\") is essentially \"dread\" or \"to be/feel anxious for/about\". There should be a sense of longing (but future-oriented), intensity, and/or aching for what $x_1$ vaguely expects to happen (independent of what actually does end up happening). See also: {fizbu} (which lacks the sense of waiting), {denpa} (which lacks the sense of excitement and which has too many terbri). Proposed rafsi: \"-fiz-\"."
+  },
+  {
+    "word": "flipo",
+    "lang": "en",
+    "def": "$x_1$ reflects Filipino culture/nationality/language/geography in aspect $x_2$",
+    "experimental_rafsi": [
+      "lip"
+    ],
+    "api_rafsi": [
+      "lip"
+    ],
+    "guessed_notes_rafsi": [
+      "lip"
+    ],
+    "notes": "May take rafsi -lip-. See also: {ta'algo}, {sebvano}, {ilkano}."
+  },
+  {
+    "word": "fokma",
+    "lang": "en",
+    "def": "$x_1$ is a seal/sea lion/walrus (pinniped) of species/variety $x_2$",
+    "experimental_rafsi": [
+      "fok"
+    ],
+    "api_rafsi": [
+      "fok"
+    ],
+    "notes": "possible candidate for rafsi realignment -- {fo'a} cf. kerfo'a, denfo'a etc."
+  },
+  {
+    "word": "folcu",
+    "lang": "en",
+    "def": "$x_1$ is a false, fake, apparent, pseudo-$x_2$ (ka); $x_1$ seems to be or do $x_2$, but in fact doesn't.",
+    "experimental_rafsi": [
+      "fol"
+    ],
+    "api_rafsi": [
+      "fol"
+    ],
+    "guessed_notes_rafsi": [
+      "fol"
+    ],
+    "notes": "Combining form -fol- (for use as an analogue of *pseudo-*, as in {folske} 'pseudoscience'). See also {tcica} 'deceive, dupe', {fidna} 'pretend'. This word does *not* mean the same as {jitfa} 'logically false'."
+  },
+  {
+    "word": "ga'ei",
+    "lang": "en",
+    "def": "abstractor: sensation / qualia abstractor; $x_1$ is the sensation / qualia associated with objects with property [bridi, bound to ce'u], via sense $x_2$, as sensed by $x_3$",
+    "jvotci_rafsi": [
+      "gel"
+    ],
+    "notes": "Semantically linked to {ganseti}. {lo} {ga'ei} ({ce'u}) {xunre} = {lo} {ganseti} {be} {lo} {ka} ({ce'u}) {xunre}. Is one proposed way of dealing with abstractions of colors ({zilska}) and other \"elemental\" sense experiences. Proposed rafsi: -gel-"
+  },
+  {
+    "word": "gai",
+    "lang": "en",
+    "def": "digit/number: hex digit C (decimal 12) [twelve].",
+    "jvotci_rafsi": [
+      "gam"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "gajno",
+    "lang": "en",
+    "def": "$x_1$ represents Ghanaian culture/language/history/politics in aspect $x_2$.",
+    "experimental_rafsi": [
+      "gaj"
+    ],
+    "api_rafsi": [
+      "gaj"
+    ],
+    "guessed_notes_rafsi": [
+      "gaj"
+    ],
+    "notes": "See also {nijro}, {aknano}, {friko}. May take rafsi -gaj-."
+  },
+  {
+    "word": "ganvi",
+    "lang": "en",
+    "def": "$x_1$ is the sensory media content of type/stimulating sense/containing experience information $x_2$ of recording/broadcast/media $x_3$ displayed/produced by medium/device $x_4$.",
+    "experimental_rafsi": [
+      "gav"
+    ],
+    "api_rafsi": [
+      "gav"
+    ],
+    "guessed_notes_rafsi": [
+      "gav"
+    ],
+    "notes": "Generalizes/encompasses both of {vidvi} and {snavi} (where $x_2$ is visual/video or audio, respectively), so-called '4D' experiences (which have jostling/kinetoceptive and olfactory stimuli), the feelies from Huxley's /Brave New World/, and other stuff. See also {tivni}, {cradi}, {skina}, {zgike}. Proposed rafsi: -gav-."
+  },
+  {
+    "word": "gelga",
+    "lang": "en",
+    "def": "$x_1$ is an eagle/hawk/buzzard/bird-of-prey of species $x_2$",
+    "experimental_rafsi": [
+      "geg"
+    ],
+    "api_rafsi": [
+      "geg"
+    ],
+    "guessed_notes_rafsi": [
+      "geg"
+    ],
+    "notes": "See also {atkuuila}, {atku'ila}, {aksiptrina}, {cipnrbute'o}, {falkoni}, {opfete}, {glauka}, {malbu}, {katcpi}, {cipni}. May take rafsi -geg-."
+  },
+  {
+    "word": "germo",
+    "lang": "en",
+    "def": "$x_1$ reflects Germanic culture/language in aspect $x_2$.",
+    "jvotci_rafsi": [
+      "gem"
+    ],
+    "guessed_notes_rafsi": [
+      "gem"
+    ],
+    "notes": "Coined to resolve the ambiguity with {dotco}, which is officially overloaded for both 'German' and 'Germanic'. Proposed rafsi -gem-."
+  },
+  {
+    "word": "gomja",
+    "lang": "en",
+    "def": "$x_1$ is a gum/resin/glue of composition $x_2$; $x_1$ is gummy/chewy/glutinous",
+    "jvotci_rafsi": [
+      "gom"
+    ],
+    "notes": "See also {viknu}, {snipa}, {pruni}. Proposed rafsi -gom-"
+  },
+  {
+    "word": "gomsi",
+    "lang": "en",
+    "def": "$x_1$ reflects/pertains to the Mediterranean region/culture/geography/identity/[nationality] in aspect $x_2$",
+    "experimental_rafsi": [
+      "gos"
+    ],
+    "api_rafsi": [
+      "gos"
+    ],
+    "guessed_notes_rafsi": [
+      "gos"
+    ],
+    "notes": "See also {atlanto}. May take rafsi -gos-."
+  },
+  {
+    "word": "grava",
+    "lang": "en",
+    "def": "$x_1$ pertains/is related to/reflects (the) gravitational interaction [fundamental]/gravity in manner/with properties/in state/with realization $x_2$, coupling to $x_3$ in manner/with strength $x_4$",
+    "jvotci_rafsi": [
+      "gav"
+    ],
+    "guessed_notes_rafsi": [
+      "gav"
+    ],
+    "notes": "Proposed short rafsi: -gav-. See also: {jikfi}, {dicma}, {vubla}, {tsaba}, {xigzo}, {junta}."
+  },
+  {
+    "word": "grepu",
+    "lang": "en",
+    "def": "$x_1$ is a grape of species/variety $x_2$",
+    "experimental_rafsi": [
+      "gep"
+    ],
+    "api_rafsi": [
+      "gep"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "jau",
+    "lang": "en",
+    "def": "digit/number: hex digit D (decimal 13) [thirteen].",
+    "jvotci_rafsi": [
+      "juz"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "je'ebzi",
+    "lang": "en",
+    "def": "$x_1$ is following / subscribed to messages from $x_2$ on website / social media network $x_3$",
+    "jvotci_rafsi": [
+      "jeb"
+    ],
+    "notes": "blalalavla but with some similarity to {jersi} and {je'e}, rafsi -jeb-"
+  },
+  {
+    "word": "jvoso",
+    "lang": "en",
+    "def": "$x_1$ reflects Viossa (the conpidgin) language/culture in aspect $x_2$",
+    "jvotci_rafsi": [
+      "vos"
+    ],
+    "guessed_notes_rafsi": [
+      "vos"
+    ],
+    "notes": "Etymology: Viossa > *vjoso (turning the i into a j, as in {libjo} from Libya, or u > v in {vukro} 'Ukrainian') > jvoso (resolving the illegal cluster). Proposed rafsi -vos-. Coined by Mati and Evie."
+  },
+  {
+    "word": "kazgo",
+    "lang": "en",
+    "def": "$x_1$ represents Kazakh culture/language/geography/history in aspect $x_2$.",
+    "experimental_rafsi": [
+      "zgo"
+    ],
+    "api_rafsi": [
+      "zgo"
+    ],
+    "guessed_notes_rafsi": [
+      "kaz",
+      "zgo"
+    ],
+    "notes": "See also {turko}, {kirgo}, {turkiko}, {mongo}, {xazdo}. May take rafsi -kaz- or -zgo-."
+  },
+  {
+    "word": "ke'ai",
+    "lang": "en",
+    "def": "Toggles to no grouping",
+    "jvotci_rafsi": [
+      "ked"
+    ],
+    "guessed_notes_rafsi": [
+      "ked"
+    ],
+    "notes": "rafsi -ked- The grouping of gismu/rafsi is left ambiguous. So with a statement like: ke'ai melbi cmalu nixli ckule   or   kedmlecmaxlicu'e it is unclear whether this is referring to a (((pretty little)girls)school), (pretty(little(girls(school))), etc. Overridden by ke'ei or ke'ei'a. (Applies only to next selbri.)"
+  },
+  {
+    "word": "ke'ei",
+    "lang": "en",
+    "def": "Toggles to right grouping of tanru/lujvo.",
+    "jvotci_rafsi": [
+      "keb"
+    ],
+    "guessed_notes_rafsi": [
+      "keb"
+    ],
+    "notes": "rafsi -keb- \"ke'ei'a\" toggles back to left grouping. (Applies only to next selbri.)"
+  },
+  {
+    "word": "ke'ei'a",
+    "lang": "en",
+    "def": "Toggles to left grouping of tanru.",
+    "jvotci_rafsi": [
+      "kex"
+    ],
+    "notes": "rafsi -kex- Toggles back to left grouping after ke'ei toggles right grouping or ke'ai toggles to no grouping."
+  },
+  {
+    "word": "kekna",
+    "lang": "en",
+    "def": "$x_1$ is passively $x_2$-able (especially «se $x_2$») under conditions $x_3$; $x_1$ is such that event $x_2$ (nu) can happen to it; it is possible that $x_1$ may undergo $x_2$.",
+    "experimental_rafsi": [
+      "fe'e"
+    ],
+    "api_rafsi": [
+      "fe'e"
+    ],
+    "notes": "gismu form of {ifka'e}.  {kekna} allows the construction of ‘-able’ lujvo, when the tertau, rather than being symmetrical with the $x_1$ of the seltau, instead take a passive interpretation of the seltau.  This is useful when «selXXXYYY» is not the only good interpretation of a possible meaning for «XXXYYY»; see CLL 12.9: ‘Note that, with these lujvo, an interpretation requiring SE insertion is safe only if the alternatives are either implausible or unlikely to be needed as a lujvo. This may not always be the case, and Lojbanists should be aware of the risk of ambiguity.’"
+  },
+  {
+    "word": "kenjo",
+    "lang": "en",
+    "def": "$x_1$ represents Kenyan culture in aspect $x_2$.",
+    "experimental_rafsi": [
+      "kej"
+    ],
+    "api_rafsi": [
+      "kej"
+    ],
+    "guessed_notes_rafsi": [
+      "kej"
+    ],
+    "notes": "See also {friko}, {sunfi'o}, {indi'o}, {smalo}, {ugnada}, {tanzaina}, {sfaxili}. Proposed to steal rafsi -kej- from {ckeji}."
+  },
+  {
+    "word": "kilma",
+    "lang": "en",
+    "def": "$x_1$ is skilled at having property $x_2$ relatively to population $x_3$.",
+    "jvotci_rafsi": [
+      "kim"
+    ],
+    "guessed_notes_rafsi": [
+      "kim"
+    ],
+    "notes": "Similar to {certu}, but not as strong in meaning, not implying experthood or prowess. Proposed rafsi -kim-."
+  },
+  {
+    "word": "kirgo",
+    "lang": "en",
+    "def": "$x_1$ represents Kyrgyz/Kirghiz language/culture/geography/history in aspect $x_2$",
+    "experimental_rafsi": [
+      "kig"
+    ],
+    "api_rafsi": [
+      "kig"
+    ],
+    "notes": "See also {turko}, {kazgo}, {turkiko}, {xazdo}."
+  },
+  {
+    "word": "kligo",
+    "lang": "en",
+    "def": "$x_1$ reflects Klingon language/culture in aspect $x_2$",
+    "jvotci_rafsi": [
+      "kig"
+    ],
+    "guessed_notes_rafsi": [
+      "kig"
+    ],
+    "notes": "Proposed rafsi -kig-. Many freeword synonyms: {klingona}, {utlinani}, {utlingano}, {utlingo}, and the autogenerated ISO-code {bantuluxe}."
+  },
+  {
+    "word": "kongo",
+    "lang": "en",
+    "def": "$x_1$ represents Congolese (Republic of the Congo/Democratic Republic of the Congo) culture in aspect $x_2$.",
+    "experimental_rafsi": [
+      "kog"
+    ],
+    "api_rafsi": [
+      "kog"
+    ],
+    "guessed_notes_rafsi": [
+      "kog"
+    ],
+    "notes": "May take rafsi -kog-. See also {friko}, {karmuni}, {lingala}, {mijriko}, {nansudno}, {ugnada}, {ru'anda}, {ru'undi}, {tanzaina}."
+  },
+  {
+    "word": "korvo",
+    "lang": "en",
+    "def": "$s_1$ is a crow/raven of species $s_2$.",
+    "experimental_rafsi": [
+      "kov"
+    ],
+    "api_rafsi": [
+      "kov"
+    ],
+    "notes": "See {cipnrkorvo} for a non-experimental version of this word. See also {cipni}, {smipase}."
+  },
+  {
+    "word": "kotfo",
+    "lang": "en",
+    "def": "$x_{1}$ is pertains to Kotava-speaking culture in aspect $x_{2}$.",
+    "experimental_rafsi": [
+      "kof"
+    ],
+    "api_rafsi": [
+      "kof"
+    ],
+    "guessed_notes_rafsi": [
+      "kof"
+    ],
+    "notes": "Proposed short rafsi -kof-."
+  },
+  {
+    "word": "kroxo",
+    "lang": "en",
+    "def": "$x_1$ is the core/nub/essence/heart/true part of entity/body/building/thing $x_2$",
+    "experimental_rafsi": [
+      "kox"
+    ],
+    "api_rafsi": [
+      "kox"
+    ],
+    "notes": "Phonologically inspired from 'core', 'heart', and 心 (romaji: kokoro). See also {risna}, {midju}, {sevzi}, {jinzi}, {kernelo}."
+  },
+  {
+    "word": "lai'ai",
+    "lang": "en",
+    "def": "digit/number: hex digit F (decimal 15) [fifteen].",
+    "jvotci_rafsi": [
+      "lav"
+    ],
+    "notes": "Used as an alternative to {vai} due to unique consonant. Useful in crowded situations. Experimental rafsi: -lav-"
+  },
+  {
+    "word": "lelxe",
+    "lang": "en",
+    "def": "$x_1$ is a lily [Lilium] of species/strain $x_2$",
+    "jvotci_rafsi": [
+      "lel"
+    ],
+    "guessed_notes_rafsi": [
+      "lel"
+    ],
+    "notes": "cf. {rozgu}. -lel- is short rafsi"
+  },
+  {
+    "word": "loglo",
+    "lang": "en",
+    "def": "$x_1$ pertains to Loglan language/culture in aspect $x_2$",
+    "jvotci_rafsi": [
+      "log",
+      "glo"
+    ],
+    "guessed_notes_rafsi": [
+      "log"
+    ],
+    "notes": "Proposed rafsi -log- and -glo-"
+  },
+  {
+    "word": "lokra",
+    "lang": "en",
+    "def": "$x_1$ is a crustacean of order/family/species $x_2$",
+    "experimental_rafsi": [
+      "lok"
+    ],
+    "api_rafsi": [
+      "lok"
+    ],
+    "notes": "See also {cinki}, {jukni}, {cumba}, {cakyjukni}. Proposed rafsi: -lok-"
+  },
+  {
+    "word": "losmo",
+    "lang": "en",
+    "def": "$x_1$ reflects (ex-)Ottoman culture/language/empire in aspect $x_2$",
+    "jvotci_rafsi": [
+      "los"
+    ],
+    "guessed_notes_rafsi": [
+      "los"
+    ],
+    "notes": "Proposed rafsi -los-. An alternative to {samlu}, which has no short rafsi and doesn't end in -o like other cultural roots do. See also {turko}, and everything else linked in the {samlu} entry."
+  },
+  {
+    "word": "losxa",
+    "lang": "en",
+    "def": "$x_1$ loses prize $x_2$ to winner $x_3$ in competition $x_4$.",
+    "experimental_rafsi": [
+      "los",
+      "lo'a"
+    ],
+    "api_rafsi": [
+      "los",
+      "lo'a"
+    ],
+    "notes": "Synonyms: te {jinga}, {tolji'a}. If the frame of {jinga} is ever revised to '$x_1$ wins competition, game $x_2$', and 'win a prize' is moved over to something like {ji'acpa}, {losxa} would follow suit ('$x_1$ loses game $x_2$'), possibly with {lo'acri} for 'to lose a prize'."
+  },
+  {
+    "word": "luksi",
+    "lang": "en",
+    "def": "$x_1$ is electric [adjective] producing electric field $x_2$.",
+    "jvotci_rafsi": [
+      "luk"
+    ],
+    "guessed_notes_rafsi": [
+      "luk"
+    ],
+    "notes": "Proposed rafsi -luk-. See also {maksi}, {dikca}."
+  },
+  {
+    "word": "majvu",
+    "lang": "en",
+    "def": "$x_1$ is a microörganism, virus, protein, spore, pathogen, or other such substance which causes or is intimately associated with disease(s)/symptoms $x_2$.",
+    "experimental_rafsi": [
+      "jvu"
+    ],
+    "api_rafsi": [
+      "jvu"
+    ],
+    "guessed_notes_rafsi": [
+      "jvu"
+    ],
+    "notes": "See also: \"{bilma}\", \"{jurme}\", \"{vidru}\", \"{prejume}\". May take rafsi -jvu-."
+  },
+  {
+    "word": "mevmi",
+    "lang": "en",
+    "def": "$x_1$ is savory/savoury/umami to observer $x_2$.",
+    "experimental_rafsi": [
+      "mev"
+    ],
+    "api_rafsi": [
+      "mev"
+    ],
+    "guessed_notes_rafsi": [
+      "mev"
+    ],
+    "notes": "See also {vrusi}, {krumami}, {titla}, {salni}, {slari}, {kurki}. Proposed rafsi: -mev-."
+  },
+  {
+    "word": "mongo",
+    "lang": "en",
+    "def": "$x_1$ represents Mongol/Mongolian/Mongolic culture/language/history/geography/nationality in aspect $x_2$.",
+    "experimental_rafsi": [
+      "mog"
+    ],
+    "api_rafsi": [
+      "mog"
+    ],
+    "notes": "See also {jungo}, {altaiko}, {edvenki}."
+  },
+  {
+    "word": "moxna",
+    "lang": "en",
+    "def": "$x_1$ is not enough/an insufficient amount/too little/too few of $x_2$ by standard $x_3$.",
+    "experimental_rafsi": [
+      "mox"
+    ],
+    "api_rafsi": [
+      "mox"
+    ],
+    "notes": "{lo} {toldu'e} is the short-fall/shortcoming/shortage/what is absent of or from something by some standard; {lo} {moxna} is that which is present, even though it is not enough. In other words, moxna and toldu'e are complements of one another (such that they sum to lo {sacni}). See also: \"{toldu'e}\"; \"{dukse}\", \"{ranlu}\", \"{sacni}\"; \"{mo'anzu}\"; \"{mo'a}\"."
+  },
+  {
+    "word": "muxne",
+    "lang": "en",
+    "def": "$x_1$ is slime/mucus/ooze produced by $x_2$",
+    "jvotci_rafsi": [
+      "mux"
+    ],
+    "notes": "see also {nazbi}, {sakli}, {jduli}. Proposed rafsi -mux-"
+  },
+  {
+    "word": "nedlo",
+    "lang": "en",
+    "def": "$x_1$ pertains to Dutch/Netherlandic culture/language/ethnicity in aspect $x_2$",
+    "experimental_rafsi": [
+      "ned"
+    ],
+    "api_rafsi": [
+      "ned"
+    ],
+    "notes": "See also {ropno}, {dotco}, {germo}, {beljo}. Proposed rafsi: -ned-"
+  },
+  {
+    "word": "neplo",
+    "lang": "en",
+    "def": "$x_1$ represents Nepali/Nepalese culture/language/history/geography in aspect $x_2$.",
+    "experimental_rafsi": [
+      "nep"
+    ],
+    "api_rafsi": [
+      "nep"
+    ],
+    "guessed_notes_rafsi": [
+      "nep"
+    ],
+    "notes": "See also {xundo}, {xindo}, {podjo}, {srito}, {xazdo}. May take rafsi -nep-."
+  },
+  {
+    "word": "nicfa",
+    "lang": "en",
+    "def": "$x_1$ (vector) is the displacement of $x_2$ (object/point) relative to $x_3$ (object/point; contextless default: origin) in coordinate system/frame of reference/as measured by $x_4$ according to definition/standard/(meta)physics $x_5$",
+    "jvotci_rafsi": [
+      "nif"
+    ],
+    "guessed_notes_rafsi": [
+      "nif"
+    ],
+    "notes": "x1 is (four-)vector-valued; it is a function that maps to a tensor (probably a vector or scalar) to a (four-)vector. Units are handled in x1, which will be a (four-)vector of {mitre} or the like. Time of measurement is just «ca» or the argument of the function(s) in x1, or can be defined instantaneously by x4. Proposed short rafsi: -nif-. See also: {nifkemtemsalri}."
+  },
+  {
+    "word": "nijro",
+    "lang": "en",
+    "def": "$x_1$ represents Nigerian culture/language/geography in aspect $x_2$",
+    "experimental_rafsi": [
+      "nij"
+    ],
+    "api_rafsi": [
+      "nij"
+    ],
+    "notes": "See also {gajno}, {friko}, {tcadina}, {ni'ejro}. Proposed rafsi: -nij-"
+  },
+  {
+    "word": "nonka",
+    "lang": "en",
+    "def": "$x_1$ is alone in event/state/action $x_2$",
+    "jvotci_rafsi": [
+      "nok"
+    ],
+    "notes": "gismu form of {nonseka}. Experimental rafsi: -nok-"
+  },
+  {
+    "word": "norgo",
+    "lang": "en",
+    "def": "$x_1$ reflects Norwegian culture/nationality/language in aspect $x_2$",
+    "experimental_rafsi": [
+      "nog"
+    ],
+    "api_rafsi": [
+      "nog"
+    ],
+    "guessed_notes_rafsi": [
+      "nog"
+    ],
+    "notes": "Experimental gismu. May take rafsi -nog-."
+  },
+  {
+    "word": "nudle",
+    "lang": "en",
+    "def": "$x_1$ are noodles made of $x_2$",
+    "experimental_rafsi": [
+      "nud"
+    ],
+    "api_rafsi": [
+      "nud"
+    ],
+    "guessed_notes_rafsi": [
+      "nud"
+    ],
+    "notes": "May take rafsi -nud-. Also {nanba} {skori}"
+  },
+  {
+    "word": "pegva",
+    "lang": "en",
+    "def": "$x_1$ is an example of a Parsing Expression Grammar (PEG) and it has implementation $x_2$.",
+    "jvotci_rafsi": [
+      "peg"
+    ],
+    "guessed_notes_rafsi": [
+      "peg"
+    ],
+    "notes": "Proposed cmarafsi: \"-peg-\"."
+  },
+  {
+    "word": "pekni",
+    "lang": "en",
+    "def": "$x_1$ is cheap/inexpensive/affordable to $x_2$ by standard $x_3$.",
+    "experimental_rafsi": [
+      "pek"
+    ],
+    "api_rafsi": [
+      "pek"
+    ],
+    "notes": "= {tolkargu}. Does not have the negative connotations of English \"cheap\" (that is, this does not mean \"shoddy\")."
+  },
+  {
+    "word": "ploxa",
+    "lang": "en",
+    "def": "$x_1$ is bad, unskilled, inept, incompetent at doing $x_2$.",
+    "experimental_rafsi": [
+      "lox"
+    ],
+    "api_rafsi": [
+      "lox"
+    ],
+    "notes": "Antonym: {kilma} (or {certu}, if you don't distinguish {certu} from {kilma}). = {tolcre}, {tolkilma}."
+  },
+  {
+    "word": "podjo",
+    "lang": "en",
+    "def": "$x_1$ represents Tibetan culture/language/history/geography in aspect $x_2$.",
+    "experimental_rafsi": [
+      "pod"
+    ],
+    "api_rafsi": [
+      "pod"
+    ],
+    "guessed_notes_rafsi": [
+      "pod"
+    ],
+    "notes": "See also {jungo}. May take rafsi -pod-."
+  },
+  {
+    "word": "proga",
+    "lang": "en",
+    "def": "$x_1$ is a program, computer application for doing $x_2$ (clause)",
+    "jvotci_rafsi": [
+      "pog"
+    ],
+    "notes": "See also {skami}, {tutci}. Proposed rafsi -pog-"
+  },
+  {
+    "word": "pupsu",
+    "lang": "en",
+    "def": "$x_1$ is a waterfall (geological and hydrological, semi-permanent feature) with source/flowing fluid $x_2$ (fluid need not be water), with rock/terrain characteristics/grade (slope)/features $x_3$ in potential (gravitational well/field) $x_4$; mass/quantity of fluid x2 flows over feature x3 so as to fall /tumble down it (continuously)",
+    "jvotci_rafsi": [
+      "pup"
+    ],
+    "guessed_notes_rafsi": [
+      "pup"
+    ],
+    "notes": "Despite the gloss, the waterfall need not constitute falling water specifically, just a falling-tumbling fluid. x3 might be (but is not necessarily strictly) a terrain feature underlying the flow of the fluid. Proposed short rafsi: -pup-. Confer: {falri'e}, {jacfa'u}, {jacfalstu}."
+  },
+  {
+    "word": "purba",
+    "lang": "en",
+    "def": "$x_1$ is the previous instance of $x_2$ (ka)",
+    "experimental_rafsi": [
+      "pub"
+    ],
+    "api_rafsi": [
+      "pub"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "rexsa",
+    "lang": "en",
+    "def": "$x_1$ is a dinosaur [specific: only clade Dinosauria] of type $x_2$ living in era $x_3$.",
+    "jvotci_rafsi": [
+      "rex"
+    ],
+    "notes": "A gismu version of {dinsauru}; contrast with {dinso}; ignoring connotations relevant to modern birds, the set of rexsa is a strict and nonempty subset of the set of dinso. Includes modern birds; there is no connotation to the contrary in general. Proposed short rafsi: -rex-. Preferred to {reksa} (for the sake of short rafsi and etymology). See also: {ketslau}."
+  },
+  {
+    "word": "ronci",
+    "lang": "en",
+    "def": "$x_1$ is $10^{(-27)}$ of $x_2$ in dimension/aspect $x_3$ (default is units).",
+    "jvotci_rafsi": [
+      "roc"
+    ],
+    "guessed_notes_rafsi": [
+      "roc"
+    ],
+    "notes": "Alternative to \"{ronti}\"; see comment section there. Proposed {cmarafsi}: \"-roc-\". See also: \"{ronro}\"."
+  },
+  {
+    "word": "sa",
+    "lang": "en",
+    "def": "erase complete or partial utterance; next word shows how much erasing to do.",
+    "jvotci_rafsi": [
+      "saf"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "sefmi",
+    "lang": "en",
+    "def": "$x_1$ does $x_2$ [ka with two blanks] to itself; $x_1$ is in relation $x_2$ with itself.",
+    "experimental_rafsi": [
+      "sem"
+    ],
+    "api_rafsi": [
+      "sem"
+    ],
+    "guessed_notes_rafsi": [
+      "sem",
+      "se'i",
+      "sim",
+      "si'u"
+    ],
+    "notes": "An alternative form of {sefsi} so it can take up the combining form *-sem-*, alongside the *-se'i-* this word already has unofficially (compare {simxu}, with both *-sim-* and *-si'u-*). *semlu'i* or *lumse'i* 'to wash oneself, take a bath'; *spose'i* 'self-destruct'..."
+  },
+  {
+    "word": "sekse",
+    "lang": "en",
+    "def": "$x_{1}$ is the biological sex (male, female, or otherwise) of $x_{2}$.",
+    "experimental_rafsi": [
+      "sek"
+    ],
+    "api_rafsi": [
+      "sek"
+    ],
+    "guessed_notes_rafsi": [
+      "sek"
+    ],
+    "notes": "Not to be confused with \"sex act\"/\"mating behavior\" ({gletu}) or \"gender\" ({jenri} / {se} {klegeni}). Experimental rafsi -sek-."
+  },
+  {
+    "word": "sfopu",
+    "lang": "en",
+    "def": "$x_1$ is borked/borken and can no longer perform function $x_2$",
+    "jvotci_rafsi": [
+      "fop",
+      "fo'u"
+    ],
+    "notes": "see also {spofu}"
+  },
+  {
+    "word": "si",
+    "lang": "en",
+    "def": "erase the last Lojban word, treating non-Lojban text as a single word.",
+    "jvotci_rafsi": [
+      "sif"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "so'y",
+    "lang": "en",
+    "def": "number/quantifier: almost none.",
+    "experimental_rafsi": [
+      "sox"
+    ],
+    "api_rafsi": [
+      "sox"
+    ],
+    "notes": "Opposite of {so'a}. See also {so'u}."
+  },
+  {
+    "word": "su",
+    "lang": "en",
+    "def": "erase to start of discourse or text; drop subject or start over.",
+    "jvotci_rafsi": [
+      "suf"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "su'ei",
+    "lang": "en",
+    "def": "shows that the first two places have a reciprocal relation",
+    "jvotci_rafsi": [
+      "sem"
+    ],
+    "guessed_notes_rafsi": [
+      "sem"
+    ],
+    "notes": "'mi do su'ei damba' is the same as 'mi do se xi vei pa .e re damba' and means \"We fight with each other\". Proposed rafsi: -sem-."
+  },
+  {
+    "word": "supso",
+    "lang": "en",
+    "def": "$x_1$ is a/the nipple/papilla [body-part] of $x_2$.",
+    "jvotci_rafsi": [
+      "sus"
+    ],
+    "guessed_notes_rafsi": [
+      "sus"
+    ],
+    "notes": "Suggested {cmarafsi}: -sus-. Synonym: {tatyji'o}. For 'breast', see {tatru}."
+  },
+  {
+    "word": "tau'u",
+    "lang": "en",
+    "def": "digit/number: tau (denoted \"τ\": approximately 6.2831...). The constant defined by the ratio of the circumference to the radius of all circles (default: in Euclidean geometry).",
+    "jvotci_rafsi": [
+      "tux"
+    ],
+    "notes": "Defaults to Euclidean geometric case (with the 2-norm). Context or explicit specification of overriding this default or of a different geometry can alter its value. See also: \"{pai}\", \"{pai'i}\". Proposed (experimental) {cmarafsi}: \"-tux-\"."
+  },
+  {
+    "word": "tceta",
+    "lang": "en",
+    "def": "$x_1$ is a whale/dolphin/porpoise (order Cetacea) of species/breed $x_2$",
+    "experimental_rafsi": [
+      "cet"
+    ],
+    "api_rafsi": [
+      "cet"
+    ],
+    "guessed_notes_rafsi": [
+      "cet"
+    ],
+    "notes": "See also: {tcetace}, {delfinu}, {marsopa}, {orka}, {mabru}, {jaurxa'u}. May take rafsi -cet-."
+  },
+  {
+    "word": "tende",
+    "lang": "en",
+    "def": "$x_1$ (entity) tends, has tendency to $x_2$ (property of $x_1$)",
+    "jvotci_rafsi": [
+      "te'e"
+    ],
+    "notes": "See {dikni}, {lakne}. Proposed rafsi: -te'e-"
+  },
+  {
+    "word": "to'ai",
+    "lang": "en",
+    "def": "conversion: move/promote ['drag-and-drop'] 3rd place to 1st position. Everything else stays in the same order.",
+    "jvotci_rafsi": [
+      "toz"
+    ],
+    "guessed_notes_rafsi": [
+      "toz"
+    ],
+    "notes": "Before: x1 x2 x3 x4 x5, after: x3 x1 x2 x4 x5. Has the same effect as \"te se\". Proposed rafsi: -toz-. See also {vo'ai}, {xo'ai}."
+  },
+  {
+    "word": "tokpo",
+    "lang": "en",
+    "def": "$x_1$ reflects Toki Ponan/Tokiponaic/Toki Pona culture/language/community in aspect $x_2$",
+    "jvotci_rafsi": [
+      "top"
+    ],
+    "notes": "Proposed rafsi: -top-"
+  },
+  {
+    "word": "tombo",
+    "lang": "en",
+    "def": "$x_1$ renounces, disavows, disclaims being or doing $x_2$.",
+    "experimental_rafsi": [
+      "to'o"
+    ],
+    "api_rafsi": [
+      "to'o"
+    ],
+    "guessed_notes_rafsi": [
+      "to'o"
+    ],
+    "notes": "the second slot is a property, but can be raised with {tu'a} for concrete things. combining form -to'o-, especially useful for 'divorce', 'have a falling out with', 'disown'... ({speto'o}, {pedyto'o}...)"
+  },
+  {
+    "word": "tonzo",
+    "lang": "en",
+    "def": "$x_1$ reflects Toaq language/culture in aspect $x_2$",
+    "jvotci_rafsi": [
+      "to'o"
+    ],
+    "guessed_notes_rafsi": [
+      "to'o"
+    ],
+    "notes": "Proposed rafsi -to'o-. Synonym: {to'anzu}. See also {to'anbau} (= {to'orbau} ~ {tonzybau})."
+  },
+  {
+    "word": "tuvju",
+    "lang": "en",
+    "def": "$x_1$ is native/indigenous/aboriginal/autochthonous/endemic to $x_2$ in property $x_3$ (ka).",
+    "experimental_rafsi": [
+      "tuv"
+    ],
+    "api_rafsi": [
+      "tuv"
+    ],
+    "notes": "Can refer to indigenous people/cultures which were the first to inhabit an area, or to native/endemic species. Near opposite of {fange} which the argument structure was based on. See also {fange}, {rarna}, {krasi}."
+  },
+  {
+    "word": "vai",
+    "lang": "en",
+    "def": "digit/number: hex digit F (decimal 15) [fifteen].",
+    "jvotci_rafsi": [
+      "vav"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "vente",
+    "lang": "en",
+    "def": "$x_1$ is the ventral part of body $x_2$",
+    "experimental_rafsi": [
+      "vet"
+    ],
+    "api_rafsi": [
+      "vet"
+    ],
+    "notes": "Opposite of dorsum. Not necessarily should be the frontal part of the body. See also {bekpi}, {betfu}, {flira}, {cutne}, {kaubde}."
+  },
+  {
+    "word": "venzi",
+    "lang": "en",
+    "def": "${x_1}$ is a text about ${x_2}$.",
+    "experimental_rafsi": [
+      "vez"
+    ],
+    "api_rafsi": [
+      "vez"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "vetno",
+    "lang": "en",
+    "def": "$x_1$ represents Vietnamese culture/language/history/nationality in aspect $x_2$",
+    "experimental_rafsi": [
+      "ve'o"
+    ],
+    "api_rafsi": [
+      "ve'o"
+    ],
+    "notes": "See also {xazdo}, {nanxazo}, {jungo}, {laufso}, {kexmairo}."
+  },
+  {
+    "word": "vo'a",
+    "lang": "en",
+    "def": "pro-sumti: repeats 1st place of main bridi of this sentence.",
+    "jvotci_rafsi": [
+      "vob"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "vo'ai",
+    "lang": "en",
+    "def": "conversion: move/promote 4th place to 1st position. Everything else stays in the same order.",
+    "jvotci_rafsi": [
+      "voz"
+    ],
+    "guessed_notes_rafsi": [
+      "voz"
+    ],
+    "notes": "Before: x1 x2 x3 x4 x5, after: x4 x1 x2 x3 x5. Has the same effect as \"ve te se\". Proposed rafsi: -voz-. See also {to'ai}, {xo'ai}."
+  },
+  {
+    "word": "volve",
+    "lang": "en",
+    "def": "$x_1$ returns to $x_2$ from $x_3$; $x_1$ moves/gives back to $x_2$ from $x_3$.",
+    "experimental_rafsi": [
+      "vov"
+    ],
+    "api_rafsi": [
+      "vov"
+    ],
+    "notes": "x1 goes back/reverts/retreats; (x2 may be a location or a person or an event/situation; the latter may also be expressed with {krefu} or {rapli} and a causative like {rinka}/{rikygau}). See also {benji}, {krefu}, {rapli}, {rinka}. For 'return something to something' use {volvygau} or {xruti}."
+  },
+  {
+    "word": "vubla",
+    "lang": "en",
+    "def": "$x1$ pertains/is related to/reflects (the) weak nuclear force [fundamental interaction] in manner/with properties/in state/with realization $x2$, coupling to $x3$ in manner/with strength $x4$",
+    "jvotci_rafsi": [
+      "vul"
+    ],
+    "guessed_notes_rafsi": [
+      "vul"
+    ],
+    "notes": "Also: possibly radioactive/nuclear/atomic decay/emission/fission (especially in connection with {dirce}). Proposed short rafsi: -vul-. See also: {jikfi}, {tsaba}, {dicma}, {grava}, {xigzo}"
+  },
+  {
+    "word": "xe'e",
+    "lang": "en",
+    "def": "digit/number: any/non-specific referent; modifies quantifier to indicate that it is not important what the specific members of the referential set are",
+    "experimental_rafsi": [
+      "xe'e"
+    ],
+    "api_rafsi": [
+      "xe'e"
+    ],
+    "notes": "Note: {ro} is preferred if you are merely saying that the predicate is true for all referents (\"Anyone can do this\"), rather than saying something like \"Choose any two apples\". // (xe'e pa prenu) = \"any one person / one non-specific person\", ({xe'enai} pa prenu) = \"one specific person\". See {itca}, {steci}, {su'anai}, {su'ero}, {te'i'o}"
+  },
+  {
+    "word": "xekce",
+    "lang": "en",
+    "def": "$x_1$ acts Lojbanically cruel/pedantic toward $x_2$ in manner $x_3$ (ka)",
+    "jvotci_rafsi": [
+      "xec",
+      "xe'e"
+    ],
+    "notes": "Refers to a particular, infamous cultural phenomenon in the Lojban community wherein many conversations between speakers in or tangential to Lojban tend to very quickly devolve into an argument over grammar, semantics, or usage, with the result that it becomes difficult if not impossible to hold an ordinary conversation in the language on any subject in forums where this behavior is not explicitly discouraged. Originally a clipping of {xekcedipasopa}, i.e. \"XKCD #191,\" in which R. Munroe observes that Lojban's utility as a means of expression is severely hampered by the fact that speaking it requires you to interact with \"the kind of people who learn Lojban.\" Proposed rafsi -xec- and -xe'e-"
+  },
+  {
+    "word": "xelfo",
+    "lang": "en",
+    "def": "$x_1$ represents Swiss culture/nationality in aspect $x_2$.",
+    "experimental_rafsi": [
+      "xef"
+    ],
+    "api_rafsi": [
+      "xef"
+    ],
+    "notes": "See also {xelveto}, {xelvetik}, {dotco}, {fraso}, {itlo}, {talno}, {ropno}."
+  },
+  {
+    "word": "xi",
+    "lang": "en",
+    "def": "subscript; attaches a numer of letteral string following as a subscript onto grammar structures",
+    "jvotci_rafsi": [
+      "xix"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "xigzo",
+    "lang": "en",
+    "def": "$x_1$ pertains/is related to/reflects the 'Higgs' mechanism in manner/with properties/in state/with realization $x_2$, coupling to $x_3$ in manner/with strength $x_4$",
+    "jvotci_rafsi": [
+      "xig"
+    ],
+    "notes": "The quality of being in the antiparticle/particle realization (for arbitrarily chosen realization being labelled \"particle\") can be specified in x2. Neither the gismu nor the definition is intended to be other than neutral with respect to those who have contributed significantly in investigations concerning this aspect of nature. Proposed short rafsi: -xig-. See also: {jikfi},{tsaba}, {dicma}, {vubla}, {grava}, {kantu}, {kantrbocuni}."
+  },
+  {
+    "word": "xilva",
+    "lang": "en",
+    "def": "$x_1$ heals/recovers from $x_2$",
+    "jvotci_rafsi": [
+      "xiv"
+    ],
+    "notes": "See also {bilma}, {kanro}, {mikce}. Proposed rafsi -xiv-"
+  },
+  {
+    "word": "xo'ai",
+    "lang": "en",
+    "def": "conversion: move/promote 5th place to 1st position. Everything else stays in the same order.",
+    "jvotci_rafsi": [
+      "xoz"
+    ],
+    "notes": "Before: x1 x2 x3 x4 x5, after: x5 x1 x2 x3 x4. Has the same effect as \"xe ve te se\". Proposed rafsi: -xoz- See also {to'ai}, {vo'ai}."
+  },
+  {
+    "word": "xo'e",
+    "lang": "en",
+    "def": "elliptical/unspecified number.",
+    "experimental_rafsi": [
+      "xo'e"
+    ],
+    "api_rafsi": [
+      "xo'e"
+    ],
+    "notes": "See also {no'o}, {tu'o}, {xo}, {zo'e}, {co'e}, and {do'e}."
+  },
+  {
+    "word": "xo'ei",
+    "lang": "en",
+    "def": "unary mekso operator: produces a string of n consecutive \"xo'e\"'s, treated as digits (concatenated into a single string of digits)",
+    "jvotci_rafsi": [
+      "xon"
+    ],
+    "notes": "n can be any nonnegative integer, (countable) infinity, or vague (in which case it could mean a nonnegative integer or (countable) infinity). The default value of n is vague/elliptical, thus transforming this word into a 0-ary operator. The output is a string of digits, not a number; thus, it automatically attaches to a string of PA's if immediately preceding this word; following digits must be concatenated on; it might be necessary to convert this string into a number (especially if it is isolated and/or is being acted upon an operator that is defined as desired for numbers but not for digits or strings), but the conversion may be automatic according to the grammar (at least in some contexts). {xo'e} is considered to represent exactly one 'digit' (really: PA member) in the given base until it is converted into a number. Since {pi} belongs to PA, technically at least zero {xo'e}'s can actually be meant to be radix point(s); at most, the total allowable number of radix points in a digit string, less the number of explicitly mentioned {pi}'s that occur therein (within the macrodigit), is the number of {pi}'s that can be referenced elliptically by this means. {ma'u} and {ni'u} are possible references for microdigits where allowed by the base.  This word 'knows where it lives', meaning that it will only produce digit strings that are composed of PA's that are allowed by the base and notation given the rest of the context, which form allowed macrodigits, and which will represent part of a context-allowed number. Proposed rafsi: \"-xon-\", where the default case (n is vague) is assumed (thus, as a rafsi, \"-xon-\" represents any number that is expressible in the base by a string of concatenated digits and radix point(s) and which makes sense/satisfies implicit conditions placed upon it (such as signum, or being integer, etc.); this meaning is usually described by using variables \"n\" or \"x\" in English, such as in: \"n-ary\", \"n-many\", \"x-meter-long\", etc.)."
+  },
+  {
+    "word": "xudvu",
+    "lang": "en",
+    "def": "$x_1$ is an aldehyde related to chemical $x_2$",
+    "jvotci_rafsi": [
+      "xu'u"
+    ],
+    "notes": "Rafsi -xu'u-."
+  },
+  {
+    "word": "xulta",
+    "lang": "en",
+    "def": "$x_1$ is beyond/beside/abstract/meta (older sense) to $x_2$ so as to be an abstraction thereof/external thereto, being so beyond/abstract in property/aspect $x_3$, and having features $x_4$, governed by/considered in system/considerations/epistemology/theory $x_5$; x1 is conceptually beyond/external to/higher up than $x_2$ (in, for example, existential or consideration precedence)",
+    "jvotci_rafsi": [
+      "xut"
+    ],
+    "notes": "x1 need not be an abstraction *of* x2, but must be abstract *to* it.  The word \"metaphysics\" could be translated with/using this word. All meta things (in the sense of {cmeta}) are necessarily xulta, but the converse is not true; may also include all things that are {sucta}. This word is different from {sucta} in that no concept or properties need to be generalized/simplified/idealized/abstracted from x2 in order to produce x1 (by some rules); x1 is just an object/concept/system/etc. that exists beyond/external to x2 (in some \"higher plane\", so to speak). Do not confuse with: {xutla}. Proposed short rafsi: -xut-. See also: {cmeta}, {sucta}."
+  },
+  {
+    "word": "xundo",
+    "lang": "en",
+    "def": "$x_1$ represents Hindu religion in aspect $x_2$.",
+    "experimental_rafsi": [
+      "xud"
+    ],
+    "api_rafsi": [
+      "xud"
+    ],
+    "notes": "Not to be confused with {xindo} meaning \"Hindi\" as in the language. See also {srito}, {budjo}, {indo}, {tamlo}, {neplo}, {bindo}, {xusto}."
+  },
+  {
+    "word": "zai'e",
+    "lang": "en",
+    "def": "jargon word indicator; indicates next word is a jargon word",
+    "jvotci_rafsi": [
+      "zam"
+    ],
+    "guessed_notes_rafsi": [
+      "zam"
+    ],
+    "notes": "Jargon words are to have a single, defined, specialized meaning within one particular narrow context (e.g. a game, field of study, or industry), but may also be assigned to other meanings in other contexts. // Proposed rafsi: -zam-. Afterthought variant: {zi'ai}  // Jargonic context, if needed, may be explicated using tanru, including with {bo'ei} / {me} {la}...{ku} clauses, or even defined with a specific meaning using the assigned rafsi e.g. {samyzamsmacu} or {gugyl zei zamgri}"
+  },
+  {
+    "word": "zanfu",
+    "lang": "en",
+    "def": "$x_1$ bathes $x_2$; $x_1$ gives $x_2$ a bath, a shower.",
+    "experimental_rafsi": [
+      "zaf"
+    ],
+    "api_rafsi": [
+      "zaf"
+    ],
+    "guessed_notes_rafsi": [
+      "zaf"
+    ],
+    "notes": "Proposed combining form -zaf-. For intransitive 'take a bath, shower', use {zafse'i}. → {zafta'e} 'bathtub', {zafnalfo} 'shower head'."
+  },
+  {
+    "word": "zei'e",
+    "lang": "en",
+    "def": "marks a construct as used for its form only, not its meaning.",
+    "jvotci_rafsi": [
+      "zex"
+    ],
+    "notes": "While a word like \"tanru'i\" must always mean \"tsani zei pruxi\", using {zei'e} overrides that; \"zei'e tanru'i\" does not necessarily mean that, it could mean \"tanru u'i\". Proposed rafsi: -zex-."
+  },
+  {
+    "word": "zei'o",
+    "lang": "en",
+    "def": "Delete all sumti slots of the immediately preceding word which are not explicitly filled excepting the first n (specified by subscript; contextless default: n=0).",
+    "jvotci_rafsi": [
+      "zes"
+    ],
+    "guessed_notes_rafsi": [
+      "zes"
+    ],
+    "notes": "Use SE in order to reorder the sumti slots. Typically, the word in question should be a non-cmavo brivla, but this is not always the case. When used as a rafsi, it modifies the last veljvo and deletes all except the first $n$ (subscripted) sumti slots (regardless of any inferred relations between them and the sumti slots of other companion veljvo,  or of any implied filling (unless such is actually explicit), which otherwise would or could exist); in rafsi form, the subscript is implied to be 1 (meaning that all except the first unfilled sumti slot is deleted) unless explicitly specified otherwise, else veljvo structure no longer makes much sense; the subscript marker \"{xi}\" (proposed rafsi: \"-xix-\") is required for explicit specification of the subscript unless there is a veljvo bracket or tanru-grouping modifier (such as  \"{ke'e}\") which makes such interpretation the only possible option from a syntactic, semantic, AND practical standpoint. Proposed rafsi: \"-zes-\" (because the last letteral for it should be able to cluster tightly with \"-xix-\")."
+  },
+  {
+    "word": "zevla",
+    "lang": "en",
+    "def": "$x_1$ is a zi'evla-form word meaning $x_2$ (in Lojban); $x_1$ is morphologically a zi'evla",
+    "jvotci_rafsi": [
+      "zve"
+    ],
+    "guessed_notes_rafsi": [
+      "zve"
+    ],
+    "notes": "Synonymous to \"{zi'evla}\". Proposed {cmarafsi}: \"-zve-\"."
+  },
+  {
+    "word": "zmico",
+    "lang": "en",
+    "def": "$x_1$ belongs to a particular class of cmavo concerned with terbri default specifications and values; $x_1$ is such a default-concerned cmavo with function/definition $x_2$ that works at level/with construct-orientation $x_3$ and with discourse duration $x_4$, in language $x_5$",
+    "jvotci_rafsi": [
+      "zic"
+    ],
+    "guessed_notes_rafsi": [
+      "zic"
+    ],
+    "notes": "This class of cmavo includes but is not limited to default specification modifiers as well as default-value-referencing pro-sumti; it is a subset of the set of all cmavo. \"Class\" in the definition does not necessarily mean {selma'o}. Proposed short rafsi: -zic-. For \"default specification modifer\" use {gafyzmico}; for \"default-value-referencing pro-sumti\" use {sumyzmico} or {zicysu'i}."
+  },
+  {
+    "word": "zobri",
+    "lang": "en",
+    "def": "$x_1$ is a laborer employed or otherwise engaged to perform function $x_2$ (ka); $x_1$'s occupation is $x_2$",
+    "experimental_rafsi": [
+      "zob",
+      "zoi"
+    ],
+    "api_rafsi": [
+      "zob",
+      "zoi"
+    ],
+    "notes": "utility gismu for creating compounds to describe professions; \"-er\""
+  },
+  {
+    "word": "zurja",
+    "lang": "en",
+    "def": "$x_1$ persuades/convinces $x_2$ to do/be $x_3$ (event/property) with action $x_4$",
+    "jvotci_rafsi": [
+      "zuj"
+    ],
+    "notes": "cf. {zu'erdjigau}. For \"coerce,\" see {bapyzurja}. Proposed rafsi -zuj-"
+  },
+  {
+    "word": "bofcu",
+    "lang": "en-simple",
+    "def": "$x_1$ exhales $x_2$ on $x_3$",
+    "experimental_rafsi": [
+      "boc"
+    ],
+    "api_rafsi": [
+      "boc"
+    ],
+    "notes": "See {tolsakci}, {sakci}, {bifca'e}, {flecu}, {jetce}, {sputu}, {vasxu}"
+  },
+  {
+    "word": "brode",
+    "lang": "en-simple",
+    "def": "$x_1$ is the predicate variable 2",
+    "jvotci_rafsi": [
+      "bo'e"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "corci",
+    "lang": "en-simple",
+    "def": "$x_1$ is body language expressing $x_2$ (abstraction) using body parts $x_3$ in motion $x_4$",
+    "jvotci_rafsi": [
+      "coc"
+    ],
+    "notes": "Proposed morpheme: -coc-"
+  },
+  {
+    "word": "cumba",
+    "lang": "en-simple",
+    "def": "$x_1$ is an arthropod of type $x_2$",
+    "experimental_rafsi": [
+      "cub"
+    ],
+    "api_rafsi": [
+      "cub"
+    ],
+    "notes": "See {cinki}, {danlu}, {jukni}, {lokra}, {munpi}"
+  },
+  {
+    "word": "ditcu",
+    "lang": "en-simple",
+    "def": "$x_1$ is the time-duration/period of event $x_2$.",
+    "jvotci_rafsi": [
+      "dit"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "kibro",
+    "lang": "en-simple",
+    "def": "$x_1$ pertains to the internet in aspect $x_2$.",
+    "jvotci_rafsi": [
+      "kib"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "lelxe",
+    "lang": "en-simple",
+    "def": "$x_1$ is a lily of species/strain $x_2$",
+    "jvotci_rafsi": [
+      "lel"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "loglo",
+    "lang": "en-simple",
+    "def": "$x_1$ pertains to Loglan language/culture in aspect $x_2$",
+    "jvotci_rafsi": [
+      "log",
+      "glo"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "lokra",
+    "lang": "en-simple",
+    "def": "$x_1$ is a crustacean of type $x_2$",
+    "experimental_rafsi": [
+      "lok"
+    ],
+    "api_rafsi": [
+      "lok"
+    ],
+    "notes": "See {cumba}, {cinki}, {jukni}, {cakyjukni}."
+  },
+  {
+    "word": "vedli",
+    "lang": "en-simple",
+    "def": "$x_1$ remembers experience $x_2$ (li'i)",
+    "jvotci_rafsi": [
+      "ve'i"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "zucna",
+    "lang": "en-simple",
+    "def": "$x_1$ is counterclockwise / left-turn-direction of/to $x_2$ along/following track $x_3$ [path] in frame of reference $x_4$.",
+    "jvotci_rafsi": [
+      "zuc",
+      "zu'a"
+    ],
+    "notes": "See also {dutso} (clockwise)."
+  },
+  {
+    "word": "bekpi",
+    "lang": "jbo",
+    "def": "$x_1$ pagbu lo kaubde be $x_2$ gi’e trixe lo se go’i ca lo nu sraji kei gi’e bo cpana lo se go’i ca lo nu pinta .i $x_1$ to’e vente",
+    "experimental_rafsi": [
+      "bek"
+    ],
+    "api_rafsi": [
+      "bek"
+    ],
+    "notes": "srana zo {trixe} .e zo {vente} .e zo {cutne} .e zo {kaubde}"
+  },
+  {
+    "word": "bofcu",
+    "lang": "jbo",
+    "def": "$x_1$ sputu ja barva’u ja terje’e $x_2$ noi litki ja gapci ku’o $x_3$ ta’i lo nu $x_1$ zmadu $x_3$ lo ni danre $x_2$ .i $x_1$ to’e sakci $x_2$ $x_3$",
+    "experimental_rafsi": [
+      "boc"
+    ],
+    "api_rafsi": [
+      "boc"
+    ],
+    "guessed_notes_rafsi": [
+      "boc"
+    ],
+    "notes": "mitsmuvla zo {tolsakci} .i srana zo {sakci} .e zo {sputu} .e zo {vasxu} .e zo {bifca'e} .e zo {jetce} .e zo {flecu} .i ra’oi -boc- selti’i rafsi"
+  },
+  {
+    "word": "brode",
+    "lang": "jbo",
+    "def": "remoi brika'i .i ka'e se snigau sepi'o zo cei",
+    "jvotci_rafsi": [
+      "bo'e"
+    ],
+    "notes": "{snigau} {brika'i}"
+  },
+  {
+    "word": "celdi",
+    "lang": "jbo",
+    "def": "$x_1$ gunma lo prenu poi simxu lo ka ce'u ce'u cinse ja nalcinse prami ku'o po'u $x_2$ je $x_3$ je $x_4$ je $x_5$ li'o li'o li'o",
+    "jvotci_rafsi": [
+      "cle"
+    ],
+    "notes": ".i mu'a loi pamsi'u cu celdi .i lo jai cafne traji celdi cu se re mei .i ra'oi cle rafsi"
+  },
+  {
+    "word": "cnasi",
+    "lang": "jbo",
+    "def": "$x_1$ galtu muvdu $x_2$ $x_3$ ma'i $x_4$ noi grava",
+    "experimental_rafsi": [
+      "nas"
+    ],
+    "api_rafsi": [
+      "nas"
+    ],
+    "notes": "smudukti zo {farlu} .i lo nu .avju lo nafyvla be pau zo to'e be'o goi zoi {tolfa'u} cu na mansa .ije no lujvo cu se tersu'i lo mintu .i srana zo {lafti} .e zo {lafmuvgau} .e zo {galmu'u} .e zo {muvdu} .e zo {grava} .e zo {gapru} .e zo {galtu}"
+  },
+  {
+    "word": "corci",
+    "lang": "jbo",
+    "def": "$x_1$ asna lo se pagbu be $x_3$ ku $x_4$ gi'e ve smusku $x_2$",
+    "jvotci_rafsi": [
+      "coc"
+    ],
+    "notes": "srana fa zo {asna} je zo {smusku}"
+  },
+  {
+    "word": "cumba",
+    "lang": "jbo",
+    "def": "$x_1$ narbogda’u $x_2$ fi’o jicmivlei la’e zoi lu Arthropoda lu",
+    "experimental_rafsi": [
+      "cub"
+    ],
+    "api_rafsi": [
+      "cub"
+    ],
+    "guessed_notes_rafsi": [
+      "cub"
+    ],
+    "notes": "va'o lo su'u zo {cinki} cu valsi la'e zo'oi Insecta .a zo'oi Hexapoda .i lo kravla be zo {cinki} cu valsi la'e zo'oi Insecta .i seki'u bo stidi lo nu jdikygau le go'i lo smuni gi'e jmina lo drata valsi be la'e zo'oi Arthropoda ji'u lo matmau valsi .i ra'oi -cub- cu selstidi rafsi .i srana zo {danlu} .e zo {jukni} .e zo {lokra} .e zo {munpi} .e zo {sortu'e} .e zo {narbogda'u}"
+  },
+  {
+    "word": "dau",
+    "lang": "jbo",
+    "def": "saclu li pano li paxa",
+    "jvotci_rafsi": [
+      "duv"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "ditcu",
+    "lang": "jbo",
+    "def": "$x_1$ temci lo nu $x_2$ cfari ku lo nu $x_2$ tolcfa",
+    "jvotci_rafsi": [
+      "dit"
+    ],
+    "notes": "srana fa zo {temci}"
+  },
+  {
+    "word": "fei",
+    "lang": "jbo",
+    "def": "saclu li papa li paxa",
+    "jvotci_rafsi": [
+      "fel"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "fizbu",
+    "lang": "jbo",
+    "def": "$x_1$ ue'inmo $x_2$",
+    "jvotci_rafsi": [
+      "zbu"
+    ],
+    "notes": ".i {ue'inmo}"
+  },
+  {
+    "word": "fizde",
+    "lang": "jbo",
+    "def": "$x_1$ ri'enai fu'inai denpa je fizbu $x_2$",
+    "jvotci_rafsi": [
+      "fiz"
+    ],
+    "notes": ".i srana zo {fizbu}"
+  },
+  {
+    "word": "gai",
+    "lang": "jbo",
+    "def": "saclu li pare li paxa",
+    "jvotci_rafsi": [
+      "gam"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "ganvi",
+    "lang": "jbo",
+    "def": "$x_1$ se tivni ja se cradi ja se gubyternoi te datni fi $x_2$ sepau $x_3$ fi’o ve tivni ja ve cradi ja ve gubyternoi $x_4$",
+    "experimental_rafsi": [
+      "gav"
+    ],
+    "api_rafsi": [
+      "gav"
+    ],
+    "notes": "se menre lo {vidvi} fa’u lo {snavi} to (la’e $x_2$ cu jvinu fa’u sance) toi jo’u lo vi’emde ju’anai selfri to (noi rinka lo nu palpi je sumne) toi jo’u la’e zo’oi «feelies» pe la’e zoi lu «New Brave World» lu jo’u lo drata .i srana zo {tivni} .e zo {cradi} .e zo {skina} .e zo {zgike}"
+  },
+  {
+    "word": "jau",
+    "lang": "jbo",
+    "def": "saclu li paci li paxa",
+    "jvotci_rafsi": [
+      "juz"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "je'i",
+    "lang": "jbo",
+    "def": "preti le du'u makau logji jonma'o zo ja le li'erla'i ke tanru pagbu le se li'erla'i ke tanru pagbu",
+    "experimental_rafsi": [
+      "jej"
+    ],
+    "api_rafsi": [
+      "jej"
+    ],
+    "notes": "{tanru} {logji} {jonma'o} {preti}"
+  },
+  {
+    "word": "jidge",
+    "lang": "jbo",
+    "def": "$x_1$ se gaurtcini fi $x_2$ va'o $x_3$",
+    "jvotci_rafsi": [
+      "jid"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "jonse",
+    "lang": "jbo",
+    "def": "$x_1$ nerkla ja darca ja pencu ja cpacu ja jgari ja penmi ja tavla ja tcidu ja pilno ja me'au lo simsa $x_2$ tezu'e $x_3$",
+    "jvotci_rafsi": [
+      "jos"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "jvoso",
+    "lang": "jbo",
+    "def": "$x_1$ ckini lo kulnu ja bangu ja cecmu pe la viiosas (to la'o vy Viossa vy toi)",
+    "jvotci_rafsi": [
+      "vos"
+    ],
+    "guessed_notes_rafsi": [
+      "vos"
+    ],
+    "notes": "ra'oi -vos- rafsi .i le vi valsi se finti la tcima je la evis"
+  },
+  {
+    "word": "ke'ai",
+    "lang": "jbo",
+    "def": "frica binxo lo nalgrici'e pe tanru ja lujvo",
+    "jvotci_rafsi": [
+      "ked"
+    ],
+    "notes": "zo ke'ai se rafsi la ked. .i lo grici'e pe gismu ja rafsi cu smuvrici .i lu ke'ai melbi cmalu nixli ckule li'u .a zo kedmlecmaxlicu'e cu se cumsmu lo'u to melbi cmalu to nixli to ckule toi toi toi le'u .a lo'u to melbi to cmalu to nixli to ckule toi toi toi toi le'u fi'o ranji .i sisti fa zo ke'ei .a zo ke'ei'a .i fi zo ke'ei binxo fa lo lamselbri"
+  },
+  {
+    "word": "ke'ei",
+    "lang": "jbo",
+    "def": "frica binxo lo pritugrici'e pe tanru ja lujvo",
+    "jvotci_rafsi": [
+      "keb"
+    ],
+    "notes": "zo ke'ei se rafsi la keb. .i zo ke'ei'a xruti ke frica binxo lo zulgrici'e .i fi zo ke'ei binxo fa lo lamselbri"
+  },
+  {
+    "word": "ke'ei'a",
+    "lang": "jbo",
+    "def": "frica binxo lo zulgrici'e pe tanru ja lujvo",
+    "jvotci_rafsi": [
+      "kex"
+    ],
+    "notes": "zo ke'ei'a se rafsi la kex. .i xruti frica binxo to balvi lo be zo ke'ei frica binxo lo prutigrici'e .ija balvi lo be zo ke'ai frica binxo lo nalgrici'e toi"
+  },
+  {
+    "word": "loglo",
+    "lang": "jbo",
+    "def": "$x_1$ ckini lo kulnu ja bangu ja cecmu pe la .loglan. x2",
+    "jvotci_rafsi": [
+      "log",
+      "glo"
+    ],
+    "notes": "{ckini}; {kulnu}; {bangu}; {cecmu}"
+  },
+  {
+    "word": "lokra",
+    "lang": "jbo",
+    "def": "$x_1$ cumba ja artropoda $x_2$ fi'o vipsi jicmivlei la'e zoi ly. Crustacea ly.",
+    "experimental_rafsi": [
+      "lok"
+    ],
+    "api_rafsi": [
+      "lok"
+    ],
+    "notes": "srana zo {cinki} .e zo {jukni} .e zo {cumba} .e zo {cakyjukni} .i selti'i rafsi fa ra'oi -lok-"
+  },
+  {
+    "word": "mu'umgu",
+    "lang": "jbo",
+    "def": "$x_1$ finti $x_2$ lo nu $x_3$ tcaci $x_4$",
+    "jvotci_rafsi": [
+      "mug"
+    ],
+    "guessed_notes_rafsi": [
+      "mug"
+    ],
+    "notes": "lo'e se mu'umgu cu valsi .i lo'e mu'umgu cu krici lo du'u lo da'i nu lo se mu'umgu cu zasti cu zmadu lo da'i nu lo se mu'umgu cu na'e zasti kei lo ka lo noi lo mu'umgu cu djica ke'a ku'o nu lo te mu'umgu cu tcaci lo ve mu'umgu cu lakne ce'u .i zo mu'umgu cu se'o sezysarxe se mu'umgu la .telselkik. lo nu mu'umgu kei loi jbopre .i ra'oi -mug- rafsi ca'e zo mu'umgu"
+  },
+  {
+    "word": "nonka",
+    "lang": "jbo",
+    "def": "$x_1$ na'e se kansa da $x_2$",
+    "jvotci_rafsi": [
+      "nok"
+    ],
+    "notes": "ti gismu gi'e smudu'i zo {nonseka} .i ra'oi nok tolcatni rafsi ti"
+  },
+  {
+    "word": "pombo",
+    "lang": "jbo",
+    "def": "lo klesi be $x_3$ bei $x_2$ cu pamei $x_1$",
+    "jvotci_rafsi": [
+      "pom"
+    ],
+    "notes": "$x_1$ se {steci} $x_2$ $x_3$ .i ji'a srana zo {klesi} .e zo {rirci} .e zo {fadni} .e zo {mupli} .e zo {kampu} .e zo {pamei}"
+  },
+  {
+    "word": "sa",
+    "lang": "jbo",
+    "def": "vimcu pisu'o le li'erla'i se cusku .i le se li'erla'i valsi cu jarco le du'u vimcu pixokau le se cusku",
+    "jvotci_rafsi": [
+      "saf"
+    ],
+    "notes": "{selsku} {vimcu}; {si}; {su}"
+  },
+  {
+    "word": "si",
+    "lang": "jbo",
+    "def": "vimcu le pa li'erla'i valsi",
+    "jvotci_rafsi": [
+      "sif"
+    ],
+    "notes": "{valsi} {vimcu}; {sa}; {su}"
+  },
+  {
+    "word": "su",
+    "lang": "jbo",
+    "def": "vimcu piro le ba'o se cusku .i cnino casnu gi'a za'ure'u co'a casnu",
+    "jvotci_rafsi": [
+      "suf"
+    ],
+    "notes": "{selsnu} {vimcu}; {si}; {su}"
+  },
+  {
+    "word": "su'ei",
+    "lang": "jbo",
+    "def": "se xi vei pa .e re",
+    "jvotci_rafsi": [
+      "sem"
+    ],
+    "notes": "stidi tu'a ra'oi -sem-"
+  },
+  {
+    "word": "tau'u",
+    "lang": "jbo",
+    "def": "namcu fa li re pi'i pai, no'u li ji'i xa pi re bi ci pa, noi parbi lo se klani be lo korbi be lo cukla lo se klani be lo mijdi'esirji be cy",
+    "jvotci_rafsi": [
+      "tux"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "tceta",
+    "lang": "jbo",
+    "def": "$x_1$ jaurxa'u mabru $x_2$ fi'o veljutsi la'e zoi lu Cetacea lu",
+    "experimental_rafsi": [
+      "cet"
+    ],
+    "api_rafsi": [
+      "cet"
+    ],
+    "notes": "srana zo {tcetace} .e zo {delfinu} .e zo {marsopa} .e zo {orka} .e zo {mabru} .e zo {jaurxa'u} .i ka'e rafsi cpacu ra'oi -cet-"
+  },
+  {
+    "word": "tende",
+    "lang": "jbo",
+    "def": "$x_1$ zukte ja ckaji $x_2$ va'o lo nu no da fanta lo nu $x_1$ zukte ja ckaji $x_2$",
+    "jvotci_rafsi": [
+      "te'e"
+    ],
+    "notes": "{zukte}; {ckaji}; {fanta}"
+  },
+  {
+    "word": "va'arga",
+    "lang": "jbo",
+    "def": "$x_1$ pluja .i je ku'i $x_2$ ka'e pilno $x_3$ noi slabu vo'a ku'o lo nu sapygau lo go'i lo se go'i",
+    "jvotci_rafsi": [
+      "va'a"
+    ],
+    "guessed_notes_rafsi": [
+      "va'a"
+    ],
+    "notes": "ra'oi -va'a- rafsi zo va'arga"
+  },
+  {
+    "word": "vai",
+    "lang": "jbo",
+    "def": "saclu li pamu li paxa",
+    "jvotci_rafsi": [
+      "vav"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "vo'a",
+    "lang": "jbo",
+    "def": "simka'i le nei",
+    "jvotci_rafsi": [
+      "vob"
+    ],
+    "notes": "{nei}"
+  },
+  {
+    "word": "vujnu",
+    "lang": "jbo",
+    "def": "nu'a vu'u .i $x_1$ se sumji $x_2$ $x_3$ $x_4$ li'o .i pe'a zi'o vimcu $x_3$ jo'u $x_4$ li'o $x_2$ $x_1$",
+    "jvotci_rafsi": [
+      "vuj",
+      "vu'u"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "xe'e",
+    "lang": "jbo",
+    "def": "tcita le se cusku lo du'u la'e ri na'e itca",
+    "experimental_rafsi": [
+      "xe'e"
+    ],
+    "api_rafsi": [
+      "xe'e"
+    ],
+    "notes": "srana fa zo {itca} jo'u zo {steci} jo'u lu {su'anai} li'u"
+  },
+  {
+    "word": "xei",
+    "lang": "jbo",
+    "def": "saclu li pavo li paxa",
+    "jvotci_rafsi": [
+      "xem"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "xi",
+    "lang": "jbo",
+    "def": "te jorne lo namcu ja lerpoi le li'erla'i terge'a",
+    "jvotci_rafsi": [
+      "xix"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "xo'e",
+    "lang": "jbo",
+    "def": "zo'e ze'ei pa",
+    "experimental_rafsi": [
+      "xo'e"
+    ],
+    "api_rafsi": [
+      "xo'e"
+    ],
+    "notes": "namcu .i se zilkancu zo'e to ko karbi ti zo {no'o} .e zo {zo'e} .e zo {tu'o} .e zo {xo} .e zo {co'e} .e zo {do'e} toi"
+  },
+  {
+    "word": "zandi",
+    "lang": "jbo",
+    "def": "$x_1$ toljinsa ri'a lonu $x_2$ zvati le sefta be $x_1$ keiku fi'o te karbi $x_3$",
+    "jvotci_rafsi": [
+      "zad"
+    ],
+    "notes": ""
+  },
+  {
+    "word": "zviki",
+    "lang": "jbo",
+    "def": "$x_1$ finti fo $x_4$ fe $x_2$ noi ke'a kosmu $x_3$ gi'e cnino jenai pu se kanpe lo poi'i finti ja pilno $x_3$",
+    "jvotci_rafsi": [
+      "zvi"
+    ],
+    "notes": ""
+  }
+]

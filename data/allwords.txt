@@ -112,8 +112,6 @@ en ai'ai
 en ai'ei
 en ai'i
 en ai'y
-en aicti
-en aictygu'e
 en aicu'i
 en aidji
 en aigne
@@ -123,7 +121,10 @@ en ainmara
 en ainmu
 en aipei
 en aiste
+en aitci
 en aitco
+en aitcygu'e
+en aitcyxrebau
 en aitxero
 en aizdo
 en akcento
@@ -8643,6 +8644,8 @@ en bi'u
 en bi'umra
 en bi'unai
 en bickek
+en bicmamjdu
+en bicmamta
 en bicrbombu
 en bicrvespa
 en bicrvespula
@@ -8794,6 +8797,7 @@ en bivyplin
 en bivyplini
 en bivysamka'u
 en bivysamsle
+en bivysfetai
 en bixma'u
 en bixska
 en bixycinki
@@ -9460,6 +9464,7 @@ en cantu'a
 en cantybargau
 en canxada
 en canxais
+en capcau
 en capcni
 en capfra
 en capli'u
@@ -9698,6 +9703,7 @@ en ci'ajbu
 en ci'angu
 en ci'anti
 en ci'arfi'i
+en ci'arlarcu
 en ci'arse'u
 en ci'artadji
 en ci'artai
@@ -11366,6 +11372,7 @@ en dektuplokra
 en dektyki'o
 en dekydje
 en dekydugri
+en dekyjgatai
 en dekykemymecnontenfa
 en dekyki'o
 en dekyki'ogra
@@ -11987,6 +11994,7 @@ en dutsinso
 en dutso
 en dutydikca
 en dutyku'arka
+en duvjgatai
 en duvma'i
 en dy
 en dy zei sance
@@ -12120,7 +12128,6 @@ en einvi
 en eipei
 en eiste
 en eixli
-en ejliio
 en ek zei uanta
 en ekar bu
 en ekcala
@@ -12141,6 +12148,7 @@ en eldicka'u
 en elei'anor
 en elfe
 en eljbi
+en eljiio
 en elkaici
 en elkoptero
 en elniniio
@@ -12219,7 +12227,9 @@ en ertu
 en erve
 en erveperdu
 en ervinda
+en ervydzama
 en ervyste
+en ervyzu'e
 en erzani
 en esfatni
 en eska
@@ -12629,6 +12639,7 @@ en fi'inmo
 en fi'o
 en fi'oi
 en fi'orberxamsi
+en fi'orjoironmelmybifce
 en fi'orjoizdo
 en fi'orlabno
 en fi'ormantodi
@@ -13135,6 +13146,7 @@ en gambiia
 en gamdegi
 en gamgata
 en gamseti'yra'a
+en gamsfetai
 en gamyma'i
 en gamymei
 en ganai
@@ -14665,6 +14677,7 @@ en jbovlazbakemsedycro
 en jbovoinci
 en jboxelmri
 en jbozi'u
+en jboziva
 en jbuboikei
 en jbuselkei
 en jbusfe
@@ -14970,6 +14983,7 @@ en jicyjutsi'o
 en jicymivykle
 en jidge
 en jidmoi
+en jidycru
 en jidyfli
 en jifkemlojvro
 en jifkri
@@ -15442,6 +15456,7 @@ en jutmitcti
 en jutmupli
 en jutsi
 en jutske
+en jutxre
 en juxre
 en juxres
 en juxyjicla
@@ -15868,6 +15883,7 @@ en kargau
 en kargu
 en karkade
 en karkaju
+en karkalpako
 en karki
 en karkino
 en karli
@@ -16009,7 +16025,6 @@ en keirmu'u
 en keirta'o
 en keitci
 en keizdi
-en kejgu'e
 en kekna
 en kekti
 en kelbe'e
@@ -16047,6 +16062,7 @@ en kemjbosely'ircykepsamborxrakibmo'isro
 en kemnilzilcmikezrai
 en kenjisefa
 en kenjo
+en kenjygu'e
 en kenka
 en kenmige
 en kenmono
@@ -16445,6 +16461,7 @@ en kolon bu
 en kolonel
 en kolsupare
 en komcu
+en komcuri
 en komitcidus
 en komka'a
 en komnicygau
@@ -16472,6 +16489,7 @@ en kongo
 en kongoti
 en konjaku
 en konju
+en konkani
 en konkatena
 en konku'u
 en konkuri
@@ -16665,6 +16683,7 @@ en ku'e'a
 en ku'e'i
 en ku'e'u
 en ku'ei
+en ku'enja
 en ku'erda'o
 en ku'i
 en ku'i'a
@@ -16809,6 +16828,7 @@ en kurkucydakfu
 en kurkuli
 en kurkuma
 en kurkycakla
+en kurmla'utclu
 en kurmo'a
 en kursive
 en kurtenfa
@@ -17714,6 +17734,7 @@ en mairka'u
 en mairza'i
 en maisru
 en maitneri
+en maitxili
 en maixra
 en majbe
 en majbi'o
@@ -18153,6 +18174,7 @@ en metro
 en metromynilys
 en metxani
 en mevmi
+en mevmytsapi
 en mexno
 en mexri'osanso
 en mexru'u
@@ -18276,6 +18298,7 @@ en minde
 en mindy'utka
 en minguuo
 en minji
+en minkabau
 en minle'u
 en minli
 en minlytolcacra
@@ -18873,6 +18896,7 @@ en na
 en na'a
 en na'a'u
 en na'acto
+en na'adje
 en na'ai
 en na'akti
 en na'aktigau
@@ -18880,6 +18904,7 @@ en na'arba'onunsla
 en na'arcartu
 en na'arctodetri
 en na'ardeidetri
+en na'ardetke'u
 en na'ardetri
 en na'arjefydetri
 en na'arkagnoi
@@ -19922,6 +19947,7 @@ en o'i
 en o'inai
 en o'o
 en o'ocu'i
+en o'odma
 en o'onai
 en o'u
 en o'ucu'i
@@ -20049,6 +20075,7 @@ en pa'a
 en pa'adri
 en pa'ai
 en pa'aku
+en pa'aldi
 en pa'arbau
 en pa'arcau
 en pa'arpei
@@ -20187,6 +20214,7 @@ en panjyzme
 en panka
 en pankeka
 en panlo
+en panmle
 en pano
 en panoki'oki'o
 en panomei
@@ -20347,6 +20375,7 @@ en pavyselji'o
 en pavyseljirna
 en pavyskojmavra
 en pavyslakycmavy'inda
+en pavyslakyma'o'y'inda
 en pavysletarbi
 en pavysmi
 en pavysmu
@@ -21564,6 +21593,7 @@ en relcuktai
 en relcupyjge
 en reldarvistci
 en reldei
+en reldeksfetai
 en reldekto
 en reldicyjipypau
 en reldilcymu'o
@@ -26679,6 +26709,7 @@ en teme'a
 en teme'e
 en temfa'o
 en temfesti
+en temfle
 en temge'a
 en temjudri
 en temkluza
@@ -26929,6 +26960,7 @@ en terdu'a
 en terdu'e
 en terdu'i
 en terdu'o
+en terdudzai
 en terdugri
 en terdukti
 en terdunja
@@ -27444,6 +27476,8 @@ en tervencpe
 en tervenfu
 en tervensa
 en tervenste
+en tervenydza
+en tervenzu'e
 en tervi'a
 en tervi'e
 en tervi'i
@@ -27774,6 +27808,7 @@ en toi'u
 en toirca'a
 en toisti
 en tokmeki
+en tokne
 en toknoma
 en toknu
 en tokpisina
@@ -28458,6 +28493,7 @@ en uenzi
 en uepei
 en uerna
 en uespi
+en uetce
 en uftu
 en ugnada
 en ui
@@ -29382,6 +29418,7 @@ en vonseldansu
 en vonselmla
 en vonseltu'e
 en vonserakto
+en vonsfetai
 en vonskosa'e
 en vonvanbi
 en vonvanci
@@ -29483,6 +29520,7 @@ en vy'y
 en vy'ybu
 en vy.bu
 en vybu
+en x
 en xa
 en xa zei sumtika
 en xa zei zgabube
@@ -30008,6 +30046,7 @@ en xirdegmei
 en xirdegna'u
 en xirfi'e
 en xirgana
+en xirjolxasli
 en xirkaba
 en xirkla
 en xirma
@@ -30974,6 +31013,7 @@ en zurja
 en zutse
 en zva'ati
 en zvabi'i
+en zvacanja
 en zvacpe
 en zvada'o
 en zvafa'i
@@ -35872,6 +35912,7 @@ jbo selfa'a
 jbo selfa'agau
 jbo selfa'o
 jbo selfargau
+jbo selfu
 jbo selguskandi
 jbo seljmimu'o
 jbo selke'a
@@ -35908,6 +35949,7 @@ jbo semkaigau
 jbo semnei
 jbo sempa'i
 jbo sempe'o
+jbo semto
 jbo semxei
 jbo senci
 jbo senki'u
@@ -35936,8 +35978,10 @@ jbo sezyskinoi
 jbo sezyskivla
 jbo sezyxru
 jbo sfane'u
+jbo sfani
 jbo sfasa
 jbo sfofa
+jbo sfubu
 jbo si
 jbo si'a
 jbo si'abzu
@@ -35957,14 +36001,18 @@ jbo si'u
 jbo si'u'i
 jbo sibykansa
 jbo siclu
+jbo sicni
 jbo sicpi
 jbo sicybi'e
 jbo sidbo
 jbo sidju
 jbo sidla
 jbo sidysmu
+jbo sigja
 jbo sijli'u
 jbo sijypi'e
+jbo silka
+jbo silna
 jbo silnycpina
 jbo silvusi
 jbo simbasti
@@ -36002,6 +36050,7 @@ jbo sivni
 jbo sivykarni
 jbo sivypalku
 jbo skacau
+jbo skaci
 jbo skaja'o
 jbo skami
 jbo skapi
@@ -36011,9 +36060,12 @@ jbo skeku'a
 jbo skestu
 jbo skicu
 jbo skicu zei uidje
+jbo skiji
 jbo skina
 jbo skli'iparte
 jbo skogarce'a
+jbo skori
+jbo skoto
 jbo skuba'u
 jbo skubancu
 jbo skudji
@@ -36023,13 +36075,20 @@ jbo skuro
 jbo skuspu
 jbo slabu
 jbo sladu'a
+jbo slaka
 jbo slaka bu
+jbo slami
 jbo slamycarvi
+jbo slanu
 jbo slari
 jbo slasi
 jbo slasylta
 jbo sligu
 jbo slilu
+jbo sliri
+jbo slovo
+jbo sluji
+jbo sluni
 jbo smadi
 jbo smaji
 jbo smani
