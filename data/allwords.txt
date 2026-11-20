@@ -10105,7 +10105,6 @@ en ckemono
 en ckenderu
 en ckeriiu
 en cketake
-en cketi
 en ckikindelai
 en ckikindelidai
 en ckiku
@@ -15705,6 +15704,7 @@ en kalke'a
 en kalke'asrumu'a
 en kalko
 en kalkumi
+en kalma
 en kalmari
 en kalmebykre
 en kalmu'a
@@ -33024,7 +33024,6 @@ jbo ckankuua
 jbo ckape
 jbo ckasu
 jbo ckeji
-jbo cketi
 jbo ckiku
 jbo ckilu
 jbo ckini

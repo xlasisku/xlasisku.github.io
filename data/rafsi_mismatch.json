@@ -51,21 +51,6 @@
     "notes": "The most common {celdi} is a couple, but the word also covers polyamorous collectives, polygyny, polyandry, etc. Could even cover {lanzu}. Proposed rafsi is -cle-."
   },
   {
-    "word": "cketi",
-    "lang": "en",
-    "def": "$x_1$ hesitates/vacillates/is unsure about doing/being $x_2$ (ka/nu) because of $x_3$.",
-    "experimental_rafsi": [
-      "cet"
-    ],
-    "api_rafsi": [
-      "cet"
-    ],
-    "guessed_notes_rafsi": [
-      "cet"
-    ],
-    "notes": "See also {zukyde'a}, {zukte}, {denpa}. Proposed short rafsi -cet-."
-  },
-  {
     "word": "cnasi",
     "lang": "en",
     "def": "$x_1$ rises/ascends to $x_2$ from $x_3$ in frame of reference $x_4$.",
@@ -215,7 +200,6 @@
       "dzo"
     ],
     "guessed_notes_rafsi": [
-      "dzo",
       "dzo"
     ],
     "notes": "Rafsi -dzo- (when -dzo- is a tertau then seltau corresponds to $x_4$ of {dzoli}). Synonym of {refkusi} for more convenience in making lujvo. tanru example for common usage: 'the day three days from now (tomorrow's tomorrow's tomorrow)' is '{le} {bavlamdeidzo} {be} {fi} {li} {ci}'. Cf. {krefu}, {rapli}, {dzoli}."

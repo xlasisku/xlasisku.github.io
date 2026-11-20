@@ -1,14 +1,5 @@
 [
   {
-    "word": "bekybo'u",
-    "lang": "en",
-    "def": "$x_1$ is a vertebra / backbone of $x_2$",
-    "guessed_notes_rafsi": [
-      "bek"
-    ],
-    "notes": "Uses the rafsi -bek- for {bekpi}"
-  },
-  {
     "word": "beljo",
     "lang": "en",
     "def": "$x_1$ represents Belgian/Flemish culture/nationality/language in aspect $x_2$.",
@@ -58,57 +49,6 @@
       "cet"
     ],
     "notes": "The rafsi -cet- is from {tceta}; see also {cetrbeluga}, {tcetace}, {mabru}."
-  },
-  {
-    "word": "cidytsecorci",
-    "lang": "en",
-    "def": "$x_1$ kneels/genuflects with meaning $x_2$ on surface $x_3$ on/with limb(s) $x_4$ of body $x_5$.",
-    "guessed_notes_rafsi": [
-      "coc"
-    ],
-    "notes": "Usually implies obeisance, homage, devotion, loyalty, obedience, subservience, vulnerability, or some other form of inferiority or trust. Specify the recipient of said inferiority or trust expression via/in $x_2$. Mere \"{cidytse}\" is an action which may not convey any semantic information; cidytsecorci refers to a strict/proper subset of actions which are cidytse. This word uses experimental rafsi \"-coc-\", which has been proposed to be assigned to experimental gismu \"{corci}\". This word is, for now, equivalent to \"{cocyborcidytse}\", mostly because .krtisfranks. cannot semantically distinguish between \"a kneeling-type-of semantic-gesture\" and \"a semantic-gesture-type-of kneeling\"."
-  },
-  {
-    "word": "cimjvo",
-    "lang": "en",
-    "def": "$l_1$ is an implicitly metaphorical lujvo with meaning $l_2$ and arguments $l_3$ built from metaphor $l_4$.",
-    "guessed_notes_rafsi": [
-      "pev"
-    ],
-    "notes": "Used to refer to metaphorical lujvo that do not contain any -pev- rafsi (for “{pe'a}”). The word “{cimjvo}” is itself an example of cimjvo. Synonym of “cimjvo” with explicit metaphor: “{pevycimjvo}”."
-  },
-  {
-    "word": "cketi",
-    "lang": "en",
-    "def": "$x_1$ hesitates/vacillates/is unsure about doing/being $x_2$ (ka/nu) because of $x_3$.",
-    "experimental_rafsi": [
-      "cet"
-    ],
-    "api_rafsi": [
-      "cet"
-    ],
-    "guessed_notes_rafsi": [
-      "cet"
-    ],
-    "notes": "See also {zukyde'a}, {zukte}, {denpa}. Proposed short rafsi -cet-."
-  },
-  {
-    "word": "cmazve",
-    "lang": "en",
-    "def": "$x_1$ is a small zevla meaning $x_2$.",
-    "guessed_notes_rafsi": [
-      "zve"
-    ],
-    "notes": "This word uses the experimental rafsi \"-zve-\" for the experimental gismu \"{zevla}\". This word is mostly intended for {zevla} which imitate {gismu}, such as \"{raunte} for \"{ronte}\" or hypothetical \"{gro'oxe}\", perhaps \"{xlei'eva}\", etc. The boundaries of this category are fuzzy."
-  },
-  {
-    "word": "cocyborcidytse",
-    "lang": "en",
-    "def": "$x_1$ kneels/genuflects with meaning $x_2$ on surface $x_3$ on/with limb(s) $x_4$ of body $x_5$.",
-    "guessed_notes_rafsi": [
-      "coc"
-    ],
-    "notes": "Usually implies obeisance, homage, devotion, loyalty, obedience, subservience, vulnerability, or some other form of inferiority or trust. Specify the recipient of said inferiority or trust expression via/in $x_2$. Mere \"{cidytse}\" is an action which may not convey any semantic information. This word uses experimental rafsi \"-coc-\", which has been proposed to be assigned to experimental gismu \"{corci}\". This word is, for now, equivalent to \"{cidytsecorci}\", mostly because .krtisfranks. cannot semantically distinguish between \"a kneeling-type-of semantic-gesture\" and \"a semantic-gesture-type-of kneeling\"."
   },
   {
     "word": "ctera",
@@ -203,28 +143,6 @@
     "notes": "Compare with {zdagu'a}, but much broader in scope, as not limited to house work.  Includes, for example, bills and shopping.  The little tasks we do to maintain our daily lives.  x3 is the motivation for doing the chore, compare {zukte}3.  Suggested rafsi: -zam- and also proposed to steal -dza- from {da}.  See also {bilga}, {gunka}. Generated with gismu algorithm: gismu[...]score.py dzaci, kama, tcor, lata, domashnie, rutini"
   },
   {
-    "word": "dzibekslu",
-    "lang": "en",
-    "def": "$x_1$ is the lats (lower back muscles) of $x_2$",
-    "guessed_notes_rafsi": [
-      "bek"
-    ],
-    "notes": "The rafsi -bek- is used for {bekpi}"
-  },
-  {
-    "word": "dzoli",
-    "lang": "en",
-    "def": "$x_1$ is recursively related to $x_2$ by applying $x_3$ (number) levels-of-recursion of the predicate-relation $x_4$ (ka with two ce'u)",
-    "jvotci_rafsi": [
-      "dzo"
-    ],
-    "guessed_notes_rafsi": [
-      "dzo",
-      "dzo"
-    ],
-    "notes": "Rafsi -dzo- (when -dzo- is a tertau then seltau corresponds to $x_4$ of {dzoli}). Synonym of {refkusi} for more convenience in making lujvo. tanru example for common usage: 'the day three days from now (tomorrow's tomorrow's tomorrow)' is '{le} {bavlamdeidzo} {be} {fi} {li} {ci}'. Cf. {krefu}, {rapli}, {dzoli}."
-  },
-  {
     "word": "farje",
     "lang": "en",
     "def": "$x_1$ ferments [undergoes fermentation] with fermenting agent $x_2$.",
@@ -283,15 +201,6 @@
       "gaj"
     ],
     "notes": "See also {nijro}, {aknano}, {friko}. May take rafsi -gaj-."
-  },
-  {
-    "word": "galbekslu",
-    "lang": "en",
-    "def": "$x_1$ is the traps (upper back muscles) of $x_2$",
-    "guessed_notes_rafsi": [
-      "bek"
-    ],
-    "notes": "The rafsi -bek- is used for {bekpi}"
   },
   {
     "word": "gamdegi",
@@ -356,24 +265,6 @@
       "gos"
     ],
     "notes": "See also {atlanto}. May take rafsi -gos-."
-  },
-  {
-    "word": "gosxamsi",
-    "lang": "en",
-    "def": "$x_1$ is the Mediterranean Sea.",
-    "guessed_notes_rafsi": [
-      "gos"
-    ],
-    "notes": "Rafsi -gos- is for {gomsi}, see also {xamsi}, {ropno}, {friko}, {xazdo}."
-  },
-  {
-    "word": "itkygau",
-    "lang": "en",
-    "def": "$x_1$ turns off/deactivates $x_2$",
-    "guessed_notes_rafsi": [
-      "gau"
-    ],
-    "notes": "Counterpart to {aktygau}, a \"de-freeword-ification\" of {aktigau}. Synonym: {na'aktigau} (pseudo-compound), or {na'aktygau} (actual compound from na'akti -y- -gau-, na'akti being a synonym of itka)."
   },
   {
     "word": "jbamora",
@@ -461,15 +352,6 @@
     "notes": "Cf. {titnanba}, {jupypesxu}, {rutytisna}. May take rafsi -kek-."
   },
   {
-    "word": "kigygu'e",
-    "lang": "en",
-    "def": "$k_1=g_1$ is Kyrgyzstan.",
-    "guessed_notes_rafsi": [
-      "kig"
-    ],
-    "notes": "Uses experimental -kig- of {kirgo}. See also {gugde}, {xazdo}."
-  },
-  {
     "word": "klegeni",
     "lang": "en",
     "def": "$x_1$ has $x_2$ (ka) as their gender; $x_1$ identifies as gender $x_2$.",
@@ -509,16 +391,6 @@
     "notes": "Proposed short rafsi -kof-."
   },
   {
-    "word": "la ma'a melbau",
-    "lang": "en",
-    "def": "our beautiful language (a nickname for Lojban)",
-    "guessed_notes_rafsi": [
-      "mel",
-      "mle"
-    ],
-    "notes": "always *-mel-* (and not *-mle-*) in this set phrase. see also {la mensi bangu} 'the sister language' (i.e. Loglan). like *la Lingvo Internacia* in Esperanto."
-  },
-  {
     "word": "lesrplatono",
     "lang": "en",
     "def": "$x_1$ is Platonic/a Platonistic ideal/philosophy about topic $x_2$ characterized by thoughts/ideals $x_3$ and methodology $x_4$, according to thinker/user/standard $x_5$",
@@ -548,15 +420,6 @@
       "log"
     ],
     "notes": "Proposed rafsi -log- and -glo-"
-  },
-  {
-    "word": "lokma'i",
-    "lang": "en",
-    "def": "$x_1$ is July of year $x_2$ in calendar $x_3$.",
-    "guessed_notes_rafsi": [
-      "lok"
-    ],
-    "notes": "Alternative to {mlajukma'i}. Uses experimental rafsi -lok- of {lokra}. See also: {lokra}, {mlajukma'i}, {nanca}."
   },
   {
     "word": "maftaroko",
@@ -631,42 +494,6 @@
     "notes": "See also {xundo}, {xindo}, {podjo}, {srito}, {xazdo}. May take rafsi -nep-."
   },
   {
-    "word": "nifkemtemsalryke'ecusna",
-    "lang": "en",
-    "def": "$x_1$ (scalar-valued) is the magnitude of the vector of the differintegral (with respect to time) of order $x_2$ of the displacement of $x_3$ (object/point) relative to $x_4$ (object/point/frame of reference; contextless default: origin) in coordinate system/frame of reference/as measured by $x_5$ according to definition/standard/(meta)physics $x_6$, where the differintegral is taken with starting point $x_7$, in metric/by definition $x_8$",
-    "guessed_notes_rafsi": [
-      "nif"
-    ],
-    "notes": "This word uses three experimental gismu (with one experimental short cmavo for one of these): {nicfa} (-nif-), {salri}, {cusna}."
-  },
-  {
-    "word": "nijgu'e",
-    "lang": "en",
-    "def": "$n_1=g_1$ is Nigeria.",
-    "guessed_notes_rafsi": [
-      "nij"
-    ],
-    "notes": "Uses experimental -nij- of {nijro}. See also {nijro}, {friko}, {gugde}."
-  },
-  {
-    "word": "noltrututra",
-    "lang": "en",
-    "def": "$x_1$ is a monarchal territory/noble territory/regency (territory)/kingdom (territory)/queendom (territory) of ruler $x_2$",
-    "guessed_notes_rafsi": [
-      "rai"
-    ],
-    "notes": "Synonym of {nolraitrututra}, with the -rai- dropped for brevity. See also {noltru}, {nolraitru}, {nobli}, {turni}, {tutra}."
-  },
-  {
-    "word": "nondi'a",
-    "lang": "en",
-    "def": "$x_1$ is available for free/without cost to $x_2$.",
-    "guessed_notes_rafsi": [
-      "sel"
-    ],
-    "notes": "Shorter form of {nonseldi'a}; the -sel- can be safely removed, as a \"jdima be noda\" interpretation isn't very useful, so this \"has to\" be \"se jdima be noda\"."
-  },
-  {
     "word": "norgo",
     "lang": "en",
     "def": "$x_1$ reflects Norwegian culture/nationality/language in aspect $x_2$",
@@ -715,33 +542,6 @@
     "notes": "I would have done \"pargo\" for this, but the rafsi was worth it. Proposed rafsi -gro-."
   },
   {
-    "word": "pevycimjvo",
-    "lang": "en",
-    "def": "$l_1$ is an implicitly metaphorical lujvo with meaning $l_2$ and arguments $l_3$ built from metaphor $l_4$.",
-    "guessed_notes_rafsi": [
-      "pev"
-    ],
-    "notes": "Used to refer to metaphorical lujvo that do not contain any -pev- rafsi (for “{pe'a}”). The word “{cimjvo}” is an example of such a lujvo and synonymous to pevycimjvo."
-  },
-  {
-    "word": "plife'e",
-    "lang": "en",
-    "def": "$x_1=p_2$ is available to $x_2=p_1$ for purpose / end $x_3=p_3$; $x_2$ using $x_1$ is a possibility under conditions $x_4=i_3$.",
-    "guessed_notes_rafsi": [
-      "fe'e"
-    ],
-    "notes": "See also: {selplicu'i} (available), {selcu'acu'i} (option), {selplifrika'e} (usable), {ifka'e}.  «-fe'e-» is an experimental rafsi for {ifka'e}."
-  },
-  {
-    "word": "plipovypo'e",
-    "lang": "en",
-    "def": "$x_1$ possess/is permitted only the right to use $x_2$ (and possibly physically possess $x_2$ as well) under law $x_3$",
-    "guessed_notes_rafsi": [
-      "pov"
-    ],
-    "notes": "This word is useful for ownership of a movie, or a rented house, or a do at work/school, among other things; one does not really own theset things, only the right to use them. One may or may not have the object in one's physical or immediate possession; the concept of what constitutes \"having in one's physical possession\" is left semantically ambiguous. Permanence of this status or authority over it is not specified. This word uses the experimental rafsi \"-pov-\" for the word {po'o}."
-  },
-  {
     "word": "podjo",
     "lang": "en",
     "def": "$x_1$ represents Tibetan culture/language/history/geography in aspect $x_2$.",
@@ -782,15 +582,6 @@
       "ro'e"
     ],
     "notes": "(Updated for 2022-11-18: This word is now in conflict with \"{ronti}\", although this word was created on or around 2014-06-27 and thus might have precedence; see \"{raunte}\"). This word is the gismu version of: \"{ratcnrodentia}\", \"{rontnrodentia}\". Meant for any rodent in general (more general than \"{ratcu}\", \"{smacu}\"). Semantic broadening may allow for any 'small, scurrying mammal' to be so named (such as lagomorphs; such description should be avoided in technical contexts and is not necessarily disparaging (unlike in English)). For the subjective generalization of concept to any 'small scurrying mammal' made explicit, unambiguous, and clear, use: \"{rontysmimabru}\". See also {mabru}, {egnama}, {ratcu}, {smacu}, {sinjabu}, {kunduzi}, {istriku}, {kricetu}, {dalsauia}, {tciuiro}. May take rafsi -ro'e-."
-  },
-  {
-    "word": "samyzamsmacu",
-    "lang": "en",
-    "def": "$x_1$ is a computer mouse (physical object)",
-    "guessed_notes_rafsi": [
-      "zam"
-    ],
-    "notes": "Defined to demonstrate use of -zam-, rafsi of {zai'e}; the existing synonyms {pevysmacu} and {sma'acu} are probably much more convenient for actual use however."
   },
   {
     "word": "sefmi",
@@ -835,29 +626,10 @@
     "notes": "Not to be confused with \"sex act\"/\"mating behavior\" ({gletu}) or \"gender\" ({jenri} / {se} {klegeni}). Experimental rafsi -sek-."
   },
   {
-    "word": "selja'e",
-    "lang": "en",
-    "def": "$x_1$ (event) results in $x_2$ (event)",
-    "guessed_notes_rafsi": [
-      "se'e"
-    ],
-    "notes": "Possibly synonymous to {banzu}. Proposed rafsi: -se'e- (for paralleling the other causal suffixes). See also {jalge}, {rinka}, {krinu}, {banzu}, {nibli}, {mukti}."
-  },
-  {
-    "word": "semkaigau",
-    "lang": "en",
-    "def": "$x_1$ causes itself to have property $x_2$",
-    "guessed_notes_rafsi": [
-      "sem"
-    ],
-    "notes": "Uses rafsi -sem- for {sefmi} (reflexive). For causing onself to be in a relation, see {dzodu}. For goal-oriented action, see {zukte}. For affecting a third party, see {kairgau}, {bixygau}, {galfi}, {ki'irgau}."
-  },
-  {
     "word": "smela",
     "lang": "en",
     "def": "$x_1$ is a plum/peach/cherry/apricot/almond/sloe [fruit] (genus Prunus) of species/variety $x_2$",
     "guessed_notes_rafsi": [
-      "mel",
       "mel"
     ],
     "notes": "{zirsmela} for plum, {xunsmela} for cherry, {najysmela} for peach, {pelsmela} for apricot, {ri'orsmela} for almond, {blasmela} for sloe. Cf. {rutrprunu}, {ricrprunu}, {flaume}, {persika}, {rutrceraso}, {birkoku}, {frambesi}, {fragari}, {plise}, {perli}, {rozgu}. Might take rafsi -mel- from {melbi} since -mel- is seldom used in practice."
@@ -896,34 +668,6 @@
     "notes": "See also: {tcetace}, {delfinu}, {marsopa}, {orka}, {mabru}, {jaurxa'u}. May take rafsi -cet-."
   },
   {
-    "word": "tervenydza",
-    "lang": "en",
-    "def": "$x_1$ goes shopping for $x_2$ [for ex. groceries], as a chore or errand.",
-    "guessed_notes_rafsi": [
-      "bam"
-    ],
-    "notes": "= {bamdza} with unofficial -bam- for {bamri} ‘buy’. more specific form of {tervenzu'e} used specifically for the kind of shopping you have to do, like groceries"
-  },
-  {
-    "word": "tervenzu'e",
-    "lang": "en",
-    "def": "$x_1$ goes shopping for $x_2$.",
-    "guessed_notes_rafsi": [
-      "bam",
-      "dza"
-    ],
-    "notes": "= {bamzu'e} (unoff. -bam- rafsi for {bamri}). $x_2$ can be a specific thing but is usually going to be a kind (article is {lo} or {lo'e} depending on your idiolect). for ‘going shopping’ as a chore/regular task, like for groceries, you can use the more specific {tervenydza} ~ {bamdza} (-dza- here is {dzama} ‘do chore’)"
-  },
-  {
-    "word": "tezyfrinu",
-    "lang": "en",
-    "def": "$x_1$  is a fraction with $x_2$ divided by e (natural exponential base)",
-    "guessed_notes_rafsi": [
-      "tez"
-    ],
-    "notes": "Experimental rafsi \"-tez- (for  {te'o}) is used."
-  },
-  {
     "word": "tombo",
     "lang": "en",
     "def": "$x_1$ renounces, disavows, disclaims being or doing $x_2$.",
@@ -939,24 +683,6 @@
     "notes": "the second slot is a property, but can be raised with {tu'a} for concrete things. combining form -to'o-, especially useful for 'divorce', 'have a falling out with', 'disown'... ({speto'o}, {pedyto'o}...)"
   },
   {
-    "word": "tosymabru",
-    "lang": "en",
-    "def": "$x_1$ is a non-binary mammal of species/breed $x_2$.",
-    "guessed_notes_rafsi": [
-      "tos"
-    ],
-    "notes": "{u'ivla}; gave the name of the tosmabru test. The affix -tos- did not exist when the concept was created but is now an experimental rafsi for {tonsi}."
-  },
-  {
-    "word": "tradzo",
-    "lang": "en",
-    "def": "$x_1$ treats $x_2$ in way $x_3$; $x_1$ behaves toward $x_2$ by doing $x_3$ to them (ka with two blanks).",
-    "guessed_notes_rafsi": [
-      "dzo"
-    ],
-    "notes": "*-dzo-* here stands for {dzodu}. Synonym: {traki'i}."
-  },
-  {
     "word": "u'ivla",
     "lang": "en",
     "def": "$x_1$ is a word meaning $x_2$ in language $x_3$ and silly/funny/clever for reason $x_4$ (usually etymological).",
@@ -964,24 +690,6 @@
       "vla"
     ],
     "notes": "The word {u'ivla} is itself an u'ivla, as it is an unconventional portmanteau of {u'i} and -vla- (a rafsi of {valsi}) and also a pun on the word {fu'ivla}. Another example is {u'imla}."
-  },
-  {
-    "word": "ve'irsau",
-    "lang": "en",
-    "def": "$x_1$ is familiar to the memories of $x_2$ in feature $x_3$ (ka) and by standard $x_4$; $x_2$ knows/is familiar with/has lived memory of $x_2$.",
-    "guessed_notes_rafsi": [
-      "ve'i"
-    ],
-    "notes": "For example: A person may know/have known/remember their grandparents, even if the latter are dead. The general emphasis is that the familiarity was gained in and might be applicable to only/primarily the past, or might strictly belong to the past/memory. Considering that events end and people change or die, it is hard to say that something which belongs strictly to the past or which may have evolved beyond recognition in some respects remains presently 'familiar' ({slabu}), even if it was experienced formerly. This word uses the proposed/experimental rafsi '-ve'i-' of the experimental gismu \"{vedli}\"; it also relies on \"slabu\" taking a greater connotation of familiarity/'knowledge' (in the Spanish \"conocer\" sense) due to the introduction of the experimental gismu \"{laldo}\" for other meanings of \"old\"."
-  },
-  {
-    "word": "vonrafpemjvo",
-    "lang": "en",
-    "def": "$x_1$ is a Lojban compound-word idiom made of four combining forms (rafsi); $x_1$ is a \"Lojbanic chengyu/yojijukugo\".",
-    "guessed_notes_rafsi": [
-      "pem"
-    ],
-    "notes": "{vonrafpemjvo} are Lojban words that imitate the structure of Chinese/Japanese/Korean four-character proverbs. The \"ideal\" short form is four rafsi, with no epenthetic r's, n's, or y's. Examples of these include {dekpredekpu'a}, {zditeitortei}, {gekfegdripu'a}, and except for the fact that it is literal and not poetic ({pemci} → -pem-), the word {vonrafpemjvo} itself."
   },
   {
     "word": "vonserakto",
@@ -1061,15 +769,6 @@
     "notes": "Angular/curling direction: counterclockwise. The orientation of the path determines x4 but does not factor into consideration for x3. Further glosses: counterclockwise, locally leftward, left-turning (with no bulk translation) in a way that would be characterized as \"positive\" by the right-hand rule (aligned with and in the direction of a basis vector, at least for a given component). x1 is right-handedly/counterclockwise(ly) oriented relative to x2 on/along x3 in frame of reference x4  x1 is right-handed (one sense) from x2 [more accurately: moving from x2 to x1 requires a(n imaginary) motion that is right-handed along x3 as seen in frame/orientation/perspective x4]. x1 is to the path-following left of x2 (where the path is connected; as such, x1 is also be to the path-following right of x2, although there is an implication that the former is the smaller (or equal-length) path). See also: {dutso}, {za'ei} (vectorial cross product), {zu'au} (modal). Proposed short rafsi: -zuc-, -zu'a-. (If “zn” ever becomes a permissible initial consonant pair, krtisfranks proposes that “-zna-” become a rafsi of this word- it makes {zucna} and {dutso} more parallel in lujvo formation, and he is of the opinion that this word is useful and basic enough to warrant such a prized rafsi assignment; after this addition, the current two rafsi proposals can be done away with, reassigned, maintained, vel sim. as desired by the community at the time. In particular, he recognizes that “-zu’a-” might be confusing as a rafsi for this word while being a modal cmavo for {zunle}; but he does believe that this word deserves a vowel-final short rafsi.)"
   },
   {
-    "word": "zumji'ezvi",
-    "lang": "en",
-    "def": "$x_1$ creates life hack $x_2$ for situation $x_3$, inspired by $x_4$.",
-    "guessed_notes_rafsi": [
-      "zvi"
-    ],
-    "notes": "Uses experimental rafsi -zvi- of {zviki}. See also {zviki}, {zumji'e}."
-  },
-  {
     "word": "au'unmro",
     "lang": "jbo",
     "def": "$x_1$ tcetce au'unmo $x_2$ ja'e lo nu vo'a morsi pe'a",
@@ -1144,25 +843,6 @@
       "ge'o"
     ],
     "notes": "The second slot is relatively vague and may be either an action or a thing. Combining forms *-gem-* and *-ge'o-*, the last one being a proposed steal from the cultural word {gento}. This word was mostly made for easier compounding in the names of games (-selkei and -kelci'e are often quite long when attached to a base that is already two morphemes), but it also serves to distinguish playing a game, {gemzu'e}, from just generally \"playing\" ({kelci}), which can be done with for example a toy ({keitci}). {samgemjo} 'computer game' [shorter *samge'o* with proposed affix], {cungemjo} ~ {cunge'o} 'game of chance', {gemkubli} 'dice'..."
-  },
-  {
-    "word": "la ma'a melbau",
-    "lang": "jbo",
-    "def": "datcme le jbobau",
-    "guessed_notes_rafsi": [
-      "mel",
-      "mle"
-    ],
-    "notes": ".i tcaci fa lo nu pilno ra'oi *-mel-* jenai ra'oi *-mle-* le ti jufpau .i .e'u datca lu {la mensi bangu} li'u (to le logbau toi)"
-  },
-  {
-    "word": "mazmoi",
-    "lang": "jbo",
-    "def": "$x_1$ se ponse ma $x_3$ fi'o selcmi $x_2$ to (preti lo ponse) toi",
-    "guessed_notes_rafsi": [
-      "maz"
-    ],
-    "notes": "ra'oi -maz- cu za'envla rafsi zo {ma} .i srana zo {moi}"
   },
   {
     "word": "sefmi",

@@ -49084,11 +49084,6 @@ $x_1$ is a cetacean of species/breed $x_2$
 -n
 Superset of {balnema}, {delfinu}. Synonym: {tcetace}, {tceta}.
 ---
-cketi gismu [-cet-] -1 (en)
-$x_1$ hesitates/vacillates/is unsure about doing/being $x_2$ (ka/nu) because of $x_3$.
--n
-See also {zukyde'a}, {zukte}, {denpa}. Proposed short rafsi -cet-.
----
 ckikindelai fu'ivla 1 (en)
 $x_1$ is a tiger beetle (subfamily Cicindelinae) of species/breed $x_2$.
 -n
@@ -73480,6 +73475,11 @@ kalkumi fu'ivla 1 (en)
 $x_1$ is calcium (chemical element Ca).
 -n
 Transcription with hard -c- (as opposed to *kalcumi) to avoid an embarrassing similarity with {kalci} 'poop'. Syn.: {bogjinme} (lit. 'bone-metal').
+---
+kalma gismu 1 (en)
+$x_1$ is a squid of taxon $x_2$.
+-n
+split from {jaktu} [which should be just 'octopus'] because while grouping octopuses, squids and nautiluses might seem sensical from a taxonomic standpoint, the realm of gismu belongs to folk taxonomy. something like 'decapod' should probably be a zi'evla. | see {jaktu} 'octopus' {luska} 'mollusk' {naftilo} 'nautilus'
 ---
 kalmari fu'ivla 1 (en)
 $x_1$ is a squid/cuttlefish of species $x_2$.
@@ -143975,11 +143975,6 @@ ckeji gismu [-kej-cke-] 1 (jbo)
 $x_1$ cinmo lo ka burna ja na'e se pluka lo nu $x_1$ zukte ja ckaji $x_2$ .i $x_1$ to'e jgira $x_2$
 -n
 {cinmo}; {burna}; {pluka}; {zukte}; {ckaji}; {jgira}
----
-cketi gismu -1 (jbo)
-$x_1$ na'e birti le ka ce'u ckaji ja zukte $x_2$ kei ki'u $x_3$
--n
-srana fa zo {zukyde'a} .e zo {zukte} .e zo {denpa}
 ---
 ckiku gismu [-kik-] 1 (jbo)
 $x_1$ tutci lo ka mapti $x_2$ noi stela ku'o gi'e ga'orgau gi'a kargau lo se stela be $x_2$

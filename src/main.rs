@@ -77,11 +77,15 @@ static SHORT_RAFSI: LazyLock<Regex> = LazyLock::new(|| {
 });
 
 fn extract_notes_rafsi(notes: &str) -> Vec<String> {
-    NOTES_RAFSI
-        .captures_iter(notes)
-        .map(|capture| capture[1].to_string())
-        .filter(|rafsi| SHORT_RAFSI.is_match(rafsi))
-        .collect()
+    let mut found = Vec::<String>::new();
+    for capture in NOTES_RAFSI.captures_iter(notes) {
+        let rafsi = &capture[1];
+        // a note can mention the same rafsi more than once
+        if SHORT_RAFSI.is_match(rafsi) && !found.iter().any(|r| r == rafsi) {
+            found.push(rafsi.to_string());
+        }
+    }
+    found
 }
 
 fn wants_rafsi(pos: &str) -> bool {
@@ -375,12 +379,15 @@ fn apply_rafsi(words: &mut [Entry], rafsi: &RafsiById) {
     }
 }
 
-/// Words whose notes mention a rafsi that jvotci doesn't know about.
+/// gismu/cmavo/fu'ivla whose notes mention a rafsi that jvotci doesn't know
+/// about.
 fn write_rafsi_comparison(words: &[Entry]) -> Result<()> {
     let comparison = words
         .iter()
         .filter(|word| {
-            !word.guessed_notes_rafsi.is_empty() && word.jvotci_rafsi != word.guessed_notes_rafsi
+            wants_rafsi(&word.pos)
+                && !word.guessed_notes_rafsi.is_empty()
+                && word.jvotci_rafsi != word.guessed_notes_rafsi
         })
         .map(RafsiComparison::from)
         .collect::<Vec<_>>();
