@@ -80,6 +80,7 @@ en abvele
 en abvorci
 en abvroi
 en abycyd
+en abygyd
 en abyvyg
 en acaman
 en aclotlu
@@ -128,6 +129,7 @@ en aitcyxrebau
 en aitxero
 en aizdo
 en akcento
+en akcipi
 en akcne
 en akcoloti
 en akcolto
@@ -337,6 +339,7 @@ en atcu
 en atfau'u
 en atinas
 en atkaciia
+en atku
 en atku'ila
 en atkuuila
 en atlantik. zei braxamsi
@@ -25017,6 +25020,7 @@ en slokirpini
 en slorave
 en slosi'i
 en sloska
+en sloska'atku
 en sloskatku'ila
 en sloskatkuuila
 en slovako
@@ -29808,6 +29812,7 @@ en xastorka
 en xastsiiu
 en xasxelkla
 en xasxi
+en xasy'atku
 en xasy'atku'ila
 en xasy'atkuuila
 en xasycakrespa

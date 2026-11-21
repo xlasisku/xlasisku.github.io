@@ -373,7 +373,7 @@
     "guessed_notes_rafsi": [
       "geg"
     ],
-    "notes": "See also {atkuuila}, {atku'ila}, {aksiptrina}, {cipnrbute'o}, {falkoni}, {opfete}, {glauka}, {malbu}, {katcpi}, {cipni}. May take rafsi -geg-."
+    "notes": "See also {atku}, {atkuuila}, {atku'ila}, {akcipi}, {aksiptrina}, {cipnrbute'o}, {falkoni}, {opfete}, {glauka}, {malbu}, {katcpi}, {cipni}. May take rafsi -geg-."
   },
   {
     "word": "germo",
@@ -1734,6 +1734,18 @@
       "gav"
     ],
     "notes": "se menre lo {vidvi} fa’u lo {snavi} to (la’e $x_2$ cu jvinu fa’u sance) toi jo’u lo vi’emde ju’anai selfri to (noi rinka lo nu palpi je sumne) toi jo’u la’e zo’oi «feelies» pe la’e zoi lu «New Brave World» lu jo’u lo drata .i srana zo {tivni} .e zo {cradi} .e zo {skina} .e zo {zgike}"
+  },
+  {
+    "word": "gelga",
+    "lang": "jbo",
+    "def": "$x_1$ cipni $x_2$ gi'e recycti gi'e ta'e kalte lo selcti noi na'o drata bogda'u gi'a furyre'u",
+    "experimental_rafsi": [
+      "geg"
+    ],
+    "api_rafsi": [
+      "geg"
+    ],
+    "notes": "srana zo {atku} .e zo {atkuuila} .e zo {atku'ila} .e zo {akcipi} .e zo {aksiptrina} .e zo {cipnrbute'o} .e zo {falkoni} .e zo {opfete} .e zo {malbu} .e zo {glauka} .e zo {katcpi} .e zo {cipni}"
   },
   {
     "word": "jau",

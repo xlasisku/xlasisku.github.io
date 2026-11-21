@@ -357,12 +357,17 @@ This would, for example, pertain (in the $x_1$ and $x_3$ slots) to two maternal 
 abycyd cmevla 1 (en)
 Nickname for Lojban Latin alphabet
 -n
-Inspired by many languages that have terms for "alphabet" that come from the first letters in alphabetical order. See also {abu}, {by}, {cy}, {dy}, {abyvyg}, {pytykyf}.
+Inspired by many languages that have terms for "alphabet" that come from the first letters in alphabetical order. See also {abu}, {by}, {cy}, {dy}, {abygyd}, {abyvyg}, {pytykyf}.
+---
+abygyd cmevla 1 (en)
+Nickname for Lojban Greek alphabet
+-n
+Inspired by many languages that have terms for "alphabet" that come from the first letters in alphabetical order. See also {abu}, {by}, {gy}, {dy}, {abycyd}, {abyvyg}, {pytykyf}.
 ---
 abyvyg cmevla 1 (en)
 Nickname for Lojban Cyrillic alphabet
 -n
-Inspired by many languages whose term for "alphabet" come from the first letters of the alphabetical order. See also {abu}, {by}, {vy}, {gy}, {abycyd}, {pytykyf}.
+Inspired by many languages whose term for "alphabet" come from the first letters of the alphabetical order. See also {abu}, {by}, {vy}, {gy}, {abycyd}, {abygyd}, {pytykyf}.
 ---
 acaman cmevla 2 (en)
 Asha'man (rank/organization)
@@ -578,6 +583,11 @@ akcento fu'ivla -1 (en)
 $x_1$ is a stress on syllable/phoneme $x_2$ of word/phrase/bridi/sentence $x_3$
 -n
 See also {se} {basna} {slaka}
+---
+akcipi fu'ivla 1 (en)
+$x_1$ is a hawk of species/breed $x_2$.
+-n
+Short alternative to {aksiptrina}. See also {atku}, {gelga}, {katcpi}, {cipni}.
 ---
 akcne fu'ivla 1 (en)
 $x_1$ is the action (physics quantity) of system $x_2$ during the course of evolution/history/over path/within spacetime region $x_3$ under conditions $x_4$
@@ -1484,15 +1494,20 @@ Athens
 atkaciia fu'ivla 1 (en)
 $s_1$ is an acacia/thorntree/whistling thorn/wattle (genus Acacia) of species/cultivar $s_2$.
 ---
-atku'ila fu'ivla 3 (en)
-$x_1$ is an eagle of type/species $x_2$
--n
-Cf. {cipni}, {atkuuila}, {gelga}.
----
-atkuuila fu'ivla 3 (en)
+atku fu'ivla 1 (en)
 $x_1$ is an eagle of species/breed $x_2$.
 -n
-Cf. {cipni}, {atku'ila}, {gelga}.
+Short form of {atkuuila} and {atku'ila}, useful especially if one is unable to decide between these forms. See also {akcipi}, {gelga}, {katcpi}, {cipni}.
+---
+atku'ila fu'ivla 2 (en)
+$x_1$ is an eagle of type/species $x_2$
+-n
+Cf. {cipni}, {atkuuila}, {atku}, {gelga}.
+---
+atkuuila fu'ivla 2 (en)
+$x_1$ is an eagle of species/breed $x_2$.
+-n
+Cf. {cipni}, {atku}, {atku'ila}, {gelga}.
 ---
 atlantik_zei_braxamsi zei-lujvo 1 (en)
 $x_1$ is the Atlantic Ocean
@@ -62655,12 +62670,12 @@ Same as {gerzda}. Mentioned in cll 1.1 §4.13.
 gegrkara fu'ivla 1 (en)
 $x_1$ is a caracara (type of falcon) of species/breed $x_2$.
 -n
-See also {gelga}, {aksiptrina}, {falkoni}.
+See also {gelga}, {akcipi}, {aksiptrina}, {falkoni}.
 ---
 gegrkirku fu'ivla 1 (en)
 $x_1$ is a harrier (bird of genus Circus) of species/breed $x_2$.
 -n
-See also {aksiptrina}, {gelga}.
+See also {akcipi}, {aksiptrina}, {gelga}.
 ---
 gei cmavo VUhU2 100000 (en)
 trinary mathematical operator: order of magnitude/value/base; [b * (c to the a power)].
@@ -62756,7 +62771,7 @@ $x_{1}$ is a superlative with range limited by extreme $x_{2}$ with object of ha
 gelga gismu [-geg-] 3 (en)
 $x_1$ is an eagle/hawk/buzzard/bird-of-prey of species $x_2$
 -n
-See also {atkuuila}, {atku'ila}, {aksiptrina}, {cipnrbute'o}, {falkoni}, {opfete}, {glauka}, {malbu}, {katcpi}, {cipni}. May take rafsi -geg-.
+See also {atku}, {atkuuila}, {atku'ila}, {akcipi}, {aksiptrina}, {cipnrbute'o}, {falkoni}, {opfete}, {glauka}, {malbu}, {katcpi}, {cipni}. May take rafsi -geg-.
 ---
 gendra lujvo 2 (en)
 $d_1$ is grammatically correct in situation $d_3$ according to grammar $d_4=g_1$.
@@ -73476,7 +73491,7 @@ $x_1$ is calcium (chemical element Ca).
 -n
 Transcription with hard -c- (as opposed to *kalcumi) to avoid an embarrassing similarity with {kalci} 'poop'. Syn.: {bogjinme} (lit. 'bone-metal').
 ---
-kalma gismu 1 (en)
+kalma gismu 0 (en)
 $x_1$ is a squid of taxon $x_2$.
 -n
 split from {jaktu} [which should be just 'octopus'] because while grouping octopuses, squids and nautiluses might seem sensical from a taxonomic standpoint, the realm of gismu belongs to folk taxonomy. something like 'decapod' should probably be a zi'evla. | see {jaktu} 'octopus' {luska} 'mollusk' {naftilo} 'nautilus'
@@ -74496,10 +74511,10 @@ $x_1$ predates/preys upon/is a predator of another which  predates/preys upon/is
 -n
 Metapredator.
 ---
-katcpi lujvo 6 (en)
+katcpi lujvo 5 (en)
 $x_1$ is a raptor/bird of prey of species/variety $x_2$
 -n
-See also {cipni}, {gelga}, {atkuuila}, {atku'ila}, {aksiptrina}, {glauka}, {malbu}, {opfete}.
+See also {cipni}, {gelga}, {atku}, {atkuuila}, {atku'ila}, {akcipi}, {aksiptrina}, {glauka}, {malbu}, {opfete}.
 ---
 katcti lujvo 2 (en)
 $k_1=c_1$ is a predator that hunts and feeds on prey $k_2=c_2$.
@@ -77392,7 +77407,7 @@ See also {bisycmaplini}, where x5 is the ice.
 kreserela fu'ivla 1 (en)
 $x_1$ is a kestrel (type of falcon) of species/breed $x_2$.
 -n
-See also {falkoni}, {aksiptrina}, {gelga}, {cipni}.
+See also {falkoni}, {akcipi}, {aksiptrina}, {gelga}, {cipni}.
 ---
 kresi'e lujvo 1 (en)
 $s_1$ is dandruff on the head of $k_2$.
@@ -97516,7 +97531,7 @@ Tibet.
 pytykyf cmevla 1 (en)
 Nickname for Lojban Zbalermorna alphabet
 -n
-Inspired by many languages whose term for "alphabet" come from the first letters of the alphabetical order. See also {py}, {ty}, {ky}, {fy}, {abycyd}, {abyvyg}.
+Inspired by many languages whose term for "alphabet" come from the first letters of the alphabetical order. See also {py}, {ty}, {ky}, {fy}, {abycyd}, {abygyd}, {abyvyg}.
 ---
 ra cmavo KOhA5 100000 (en)
 pro-sumti: a recent sumti before the last one, as determined by back-counting rules.
@@ -112209,15 +112224,20 @@ $x_1$ = $s_1$ is golden/gold-colored when viewed/perceived by $x_2$ = $s_3$ unde
 -n
 Cf. {solji}, {skari}, {rijyska}, {ransyska}.
 ---
+sloska'atku fu'ivla 1 (en)
+$x_1$ is a golden eagle (Aquila chrysaetos) of subspecies/breed $x_2$.
+-n
+See also {sloska}, {atku}, {atkuuila}, {atku'ila}.
+---
 sloskatku'ila fu'ivla 1 (en)
 $x_1$ is a golden eagle (Aquila chrysaetos) of species/breed $x_2$.
 -n
-See also {sloska}, {atkuuila}, {atku'ila}.
+See also {sloska}, {atkuuila}, {atku'ila}, {atku}.
 ---
 sloskatkuuila fu'ivla 1 (en)
 $x_1$ is a golden eagle (Aquila chrysaetos) of species/breed $x_2$.
 -n
-See also {sloska}, {atkuuila}, {atku'ila}.
+See also {sloska}, {atkuuila}, {atku'ila}, {atku}.
 ---
 slovako fu'ivla 1 (en)
 $x_1$ reflects Slovak culture in aspect $x_2$
@@ -131734,15 +131754,20 @@ $x_{1}$ is a transportation means  with destination $x_{2}$ with starting point 
 xasxi gismu 0 (en)
 $x_{1}$ is a quantity of/contains/is made of hassium (Hs; Latin hassium; atomic number 108).
 ---
+xasy'atku lujvo 1 (en)
+$x_1$ is a sea eagle (Haliaeetinae) of species/breed $x_2$.
+-n
+See also {atku}, {atku'ila}, {atkuuila}.
+---
 xasy'atku'ila lujvo 1 (en)
 $x_1$ is a sea eagle (Haliaeetinae) of species/breed $x_2$.
 -n
-See also {atkuuila}, {atku'ila}.
+See also {atkuuila}, {atku'ila}, {atku}.
 ---
 xasy'atkuuila lujvo 1 (en)
 $x_1$ is a sea eagle (Haliaeetinae) of species/breed $x_2$.
 -n
-See also {atkuuila}, {atku'ila}.
+See also {atkuuila}, {atku'ila}, {atku}.
 ---
 xasycakrespa lujvo 2 (en)
 $x_1$ is a sea turtle of species $x_2$.
@@ -136519,7 +136544,7 @@ $x_1$ hires $x_2$ to perform function/occupation $x_3$
 -n
 see also {zobdzo} ("employ")
 ---
-zobri gismu [-zob-zoi-] 1 (en)
+zobri gismu [-zob-zoi-] 2 (en)
 $x_1$ is a laborer employed or otherwise engaged to perform function $x_2$ (ka); $x_1$'s occupation is $x_2$
 -n
 utility gismu for creating compounds to describe professions; "-er"
@@ -147185,10 +147210,10 @@ $x_1$ zmadu $x_2$ lo ka gleki $x_3$ kei $x_4$
 -n
 lo dei valsi cu se liste la jbovlaste mu'i lo nu vo'a se mupli lo pagbu be la'o gy.CLL.gy.
 ---
-gelga gismu 1 (jbo)
+gelga gismu [-geg-] 1 (jbo)
 $x_1$ cipni $x_2$ gi'e recycti gi'e ta'e kalte lo selcti noi na'o drata bogda'u gi'a furyre'u
 -n
-srana zo {atkuuila} .e zo {atku'ila} .e zo {aksiptrina} .e zo {cipnrbute'o} .e zo {falkoni} .e zo {opfete} .e zo {malbu} .e zo {glauka} .e zo {katcpi} .e zo {cipni}
+srana zo {atku} .e zo {atkuuila} .e zo {atku'ila} .e zo {akcipi} .e zo {aksiptrina} .e zo {cipnrbute'o} .e zo {falkoni} .e zo {opfete} .e zo {malbu} .e zo {glauka} .e zo {katcpi} .e zo {cipni}
 ---
 gelsevu fu'ivla 3 (jbo)
 $x_1$ ru'i terzukcau gi'e cinmo lo ka poi'i ro lo simlu be lo ka ke'a ce'u zukte cu se zmiku ke'a
